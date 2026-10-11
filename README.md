@@ -20,6 +20,7 @@ VRChat / Naturlin 系プロジェクトの、エラー修正・設計・検証�
 - [docs/project-context](docs/project-context/): プロジェクト固有の基準と前提
 - [docs/validation](docs/validation/): 検証段階と証拠の分類
 - [docs/external-references](docs/external-references/): 公開リポジトリ・資料の出典、ライセンス、評価
+- [docs/external-references/reference-links.md](docs/external-references/reference-links.md): 目的別の参考URL一覧
 - [.github/ISSUE_TEMPLATE](.github/ISSUE_TEMPLATE/): エラー報告・設計議論の入力テンプレート
 
 ## 基本ワークフロー
