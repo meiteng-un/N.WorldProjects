@@ -1,4 +1,6 @@
 # N.IntegratedMenu 完成と橋渡し計画
+
+> 最新設計変更: [12層＋シームレス探索](seamless-world-layout.md)を優先。MAPは通常ワープではなく現在地・探索情報・物理経路案内へ。既存Teleport依存を接続しただけで完成とはしない。
 2026-10-12。初期解析を元にした提案。今回の実装済み事項ではない。
 関連: [現行解析](integrated-menu-analysis-2026-10-12.md)、[ギミック分類](../systems/n-gimmick-catalog.md)、[世界観](../project-context/worldbuilding.md)。
 
@@ -14,7 +16,7 @@
 | 優先 | 作業 | 受入条件 |
 |---|---|---|
 | P0 | live参照表/入力イベント表を抽出し、全9ページの契約を確認 | 同名Manager・inactive/EditorOnly・空event・配列不整合が見える。MAP/SPECIALの実接続先特定 |
-| P0 | MAPの旧WIM依存と必須overlayを解決 | 権限ありのみ移動、拒否/未準備が見える。ビルド除外されるオブジェクトへの依存なし |
+| P0 | MAPの旧WIM依存と必須overlayを解決 | 現在地/探索/物理経路が表示される。権限制限と未準備が見える。通常ワープとビルド除外オブジェクトへの依存を残さない |
 | P0 | Pointer/FollowerのDesktop/VR一連操作 | Main/SubUI、Grab/Resize/Dock/長押し/二重tap/入力focusが単発で成立 |
 | P1 | Inventory/装備/Shop/Craft/通貨のtransactionと復元 | 不足/上限/連打/再入室/売却削除で数量・残高・補正整合 |
 | P1 | Farmer→資源消費→収穫→Inventory→料理 | 種/肥料等は成功時のみ消費、収穫品品質の保存方針確定、二重収穫なし |
@@ -44,3 +46,5 @@
 ## 作業分担と消費
 Codex司令塔が接続契約と実装/Unity操作を管理。Web側は今回世界観→UIの短い提案を担当し回答確認済み。役割数に合わせて全モデルを常時起動しない。コード担当を追加する場合は1接続先と該当ファイル/受入条件だけを渡す。
 今回はサブエージェントなし、ドキュメントのみで追加コンパイルなし。Web利用とCodex利用を合算した正確なトークン数は取得していない。
+
+
