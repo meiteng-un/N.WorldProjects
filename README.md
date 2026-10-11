@@ -50,3 +50,8 @@ VRChat / Naturlin 系プロジェクトの、エラー修正・設計・検証�
 - [N系ギミック群の役割・互換性・関連性](docs/systems/n-gimmick-catalog.md)
 - [N.IntegratedMenuの担当・入力・接続・未確認事項](docs/design/integrated-menu-analysis-2026-10-12.md)
 - [完成条件・橋渡し実装順・受入試験](docs/design/integrated-menu-completion-plan.md)
+
+## N.Assets 全種解析とシームレス構成
+- [全種解析・217 C#索引](docs/systems/n-assets-analysis-2026-10-12.md)
+- [関連アセット索引](docs/systems/n-assets-asset-index.md)
+- [12層＋探索フィールドと購入アセット接続案](docs/design/seamless-world-layout.md)
