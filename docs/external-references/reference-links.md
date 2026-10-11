@@ -91,3 +91,9 @@ YouTubeは、チャンネル、公開日、該当タイムスタンプ、説明�
 - 画像解析・画像生成・適した長時間の調査はサイドパネルのChatGPT.comプロジェクト「N.WorldProjects Codex x ChatGPT-Web」を使う。必要なURL・問い・制約だけを渡し、結果を短い参照メモに戻す。アクセス不能なら未確認として報告する。
 - 動画は実際に確認できた区間・タイムスタンプを記録し、見ていない挙動を推測で断定しない。参考元のコード・画像・動画は権利確認なしに転載しない。
 - 実装は別途依頼の範囲で行い、Unity/UdonSharp・Desktop/VR入力・同期・性能を検証する。この一覧追加だけではコード変更・Skillsインストール・定期監視を行わない。
+
+## 屋上使用アセット（ユーザー指定・2026-10-12）
+
+- [R階の建築・空間構成に使用] [Abstract:Echo — QuickBrown Design Studio](https://lura.booth.pm/items/4490469) — 商品名/説明を確認。Coast Dark Pack/Full Packとの拡張構成の案内あり。所持版・導入状態・個別ギミックは未確認。
+- [R階の建築・空間構成に使用] [Abstract:Coast — QuickBrown Design Studio](https://lura.booth.pm/items/3675835) — 商品名確認。Echoとの具体的な部品配置は未指定。
+用途と接続案は[階用途表](../design/seamless-world-layout.md)。商品アセット本体は転載しない。ページの規約表記と購入版に付属する規約を実際の改造前に照合する。
