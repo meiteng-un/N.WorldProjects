@@ -25,9 +25,22 @@
 
 - [VRChat Worldのビルドサイズ最適化] [VRCWorldBuildOptimizer](https://github.com/kuzuki-y/VRCWorldBuildOptimizer) — MIT。Texture、Mesh、Audio、Reflection Probe、Fontの最適化とBackup/Restoreの設計を比較する。
 
+## X・投稿・速報情報
+
+X投稿は、投稿だけでなく引用元・スレッド・公式リポジトリまで確認できた場合に登録します。
+
+- 追加候補は [X・YouTube参照記録テンプレート](social-video-reference-template.md) で記録してから一覧へ移す。
+
+## YouTube・動画解説
+
+YouTubeは、チャンネル、公開日、該当タイムスタンプ、説明欄の出典を確認できた動画を登録します。
+
+- 動画の主張と公式ドキュメント・リポジトリで確認した事実を分けて記録する。
+- 長い字幕や台本は転載せず、必要箇所を要約する。
+
 ## 利用時の注意
 
-- 参考URLの内容は取得時点の情報であり、SDK、Unity、VRChatの更新で変わる可能性がある。
+- 参考URLの内容は取得時点の情報であり、SDK、Unity、VRChat、投稿者の更新で変わる可能性がある。
 - 外部コードをそのままN.Worldsへコピーせず、まず設計・依存・入力・同期・性能・ライセンスを比較する。
 - M3E4Unityの評価計画は [こちら](../design/m3e4unity-ui-evaluation.md)。
 - 検証結果は [Evidence Levels](../validation/evidence-levels.md) に沿って記録する。
