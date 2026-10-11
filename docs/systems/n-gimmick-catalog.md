@@ -1,4 +1,6 @@
 # N系ギミック群: 役割・関連性・互換性
+
+> 全種調査追記: [全種解析](n-assets-analysis-2026-10-12.md)、[全217C#索引](n-assets-script-index.md)、[60 asmdef/47 Prefab/11 Shader等](n-assets-asset-index.md)。Editor専用N.Inspectorを含め34分類。以下の初期概要は、この追記と全種解析を優先して読む。
 2026-10-12 初期カタログ。対象はAssets/N.Assets/N.Script配下の分類と、メニューから直接使う既知の外部配置品。
 「主要コード確認」は参照/API/処理を対象確認したもの。「概要」はファイル/宣言/設定からの初期分類であり全実装解析済みではない。いずれも実機互換性保証ではない。
 
@@ -27,9 +29,9 @@
 | N.BoothPoster | BOOTHアイテム/URLポスター | URL取得/信頼設定、経済UIとは別 |
 | N.Border | 境界とgroup制御 | Authority/接触入力、境界と扉の役割を分離 |
 | N.CalibrationSystem | MMD/モデル基準位置・向き・高さ校正 | animatedRoot等。メニュー入力校正とは別 |
-| N.DriftCorrection | 中立姿勢/ドリフト補正 | 対象と入力源を確認、実デバイス検証未了 |
+| N.DriftCorrection | 入力軸の中立値/deadzone/平滑化・ドリフト補正 | 対象と入力源を確認、実デバイス検証未了 |
 | N.CocktailLiquidSystem | CocktailInfoから液体表現へのbridge | 元Cocktail系と混合飲料系の型/効果整合 |
-| N.MixedDrinksSystem | 混合飲料系（クラス存在確認） | 詳細未解析。調理/Status/液体表現の担当確認 |
+| N.MixedDrinksSystem | 混合飲料系（クラス存在確認） | runtimeはingredientRoot/recipeRoot/recipeDropdown参照とgetter。制作・消費・効果の橋渡しは未完成 |
 | N.Console | コマンド、権限ログイン、通貨/ギミック拡張 | 管理者用。ユーザー向けSPECIALと権限分離 |
 | N.DebugVisualization | Collider/Contact/Audio/Light等可視化 | PlayMode/debug限定と権限、通常描画負荷 |
 | N.DoorSystem | 物理/teleport扉、handle/PhysBone、カード/認証 | Authority、Welcome identity。VR/Desktop別経路 |
@@ -41,6 +43,9 @@
 | N.VirtualInput | Contact/PhysBone・ジェスチャー/スワイプ推定 | Pointer/Followerとの入力優先とfocus |
 | N.WaterRippleSystem | 水面波紋/浮力Pickup | Swim、物理/共有Owner、PC/Android描画 |
 | N.WelcomeSystem | WelcomeとIdentity Card bridge | Authority/Doorのidentity発行・登録と接続 |
+
+## Editor共通基盤
+N.Inspector（3ファイル）はInspector Base/SceneCache/Validation。Runtimeではなく設定・参照補完・検証担当。
 
 ## N.Script外にある関連品
 - N.AuthorityLevelManager: QuickBrown/LuminousHotel/Room702_SimpleRoom/.../RoomOwner/SCRIPT下。ShellはconsoleLookupUserName→ResolveConsoleAuthorityLevel→consoleResolvedAuthorityLevelの契約を利用。用途ごとのManager/roomを参照で特定する。
@@ -58,3 +63,5 @@
 5. UIはchange通知で更新し、窓ごとに在庫/決済ロジックを複製しない。
 6. Legacy Inventory保存からの移行、17枠装備、農作物個体品質などの変更はversion化と旧保存fallbackを先に決める。
 7. VR/Desktop、複数ユーザー、PC/Android、再入室/Owner退出、Prefab/Scene保存はそれぞれ別の互換性試験。
+
+
