@@ -1,0 +1,874 @@
+{
+  "date": "2026-10-12",
+  "scope": "Assets/N.Assets",
+  "files": [
+    {
+      "Path": "Assets/N.Assets/Editor/N.AdvancedWorldSettings/NAdvancedWorldSettingsEditor.cs",
+      "Hash": "C5CB0AB709B0CEB28F5B25FEF6A1C78A57516BCF1F8999274ED942A95D8106BD"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.AvatarNow/NAvatarNowEditors.cs",
+      "Hash": "91883AEB3D2C8628C457C71D92A47E44B60D8607ED31C705533A208E27983B96"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.AvatarNow/NAvatarNowSceneMigration.cs",
+      "Hash": "6D6FFE4F52D1F56853C186ACBC2BC70DD09E123DA57696FC29C8217AE1241AB8"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.BoothPoster/NBoothPosterAssetBuilder.cs",
+      "Hash": "294130AE34C14201BFB14CB99897F513EFEC739D108139AE1CF63A138E465401"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.BoothPoster/NBoothPosterEditors.cs",
+      "Hash": "A2B9A2261863AE6A93C5B634EF5DE015A69FB5C23BAA30C6F765BB5F174D1C11"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.BoothPoster/NBoothPosterInteractionBuilder.cs",
+      "Hash": "829C8F62C068098EC93BFAF9E909D970C26613A4A53F66DF260317534575FE58"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.BoothPoster/NBoothPosterMigration.cs",
+      "Hash": "3A74E404D2D4913326583DAF57129558CCA337A14C0D733DD4D6BFCEF67445D2"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Border/NBorderAssetBuilder.cs",
+      "Hash": "928FA3AB726ECB08767697CE15E5432D1CDADF0515E04E69130072B6A3DDD7F1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Border/NBorderEditor.cs",
+      "Hash": "D23D895D117D18640274BB5EADC43E1F7A213FFA78B8981DDDCF8ADEA5BBE6F3"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Border/NBorderManagerEditor.cs",
+      "Hash": "4B8EF9259762C167F0C86BA6B7BE16DD7C83745A9F793F249A0E8594CBE79BE5"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Border/NBorderShaderGUI.cs",
+      "Hash": "5EEB12D35B498844F579ED5A5B5D8BD48C91FE024D0260FF02E244B31CB95EDB"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.CocktailLiquidSystem/NCocktailLiquidShapeBaker.cs",
+      "Hash": "44C5EF90AFC50220714AEC6ECE5CF1C2A73E10BA70D4273861CCAADCDF109031"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Console/NConsoleAssetBuilder.cs",
+      "Hash": "47A4AFFBAA1060558D3F0E8BE419EDE53FC1C34E84F368E10DD73E55F0B021A2"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Console/NConsoleEditor.cs",
+      "Hash": "87DB786482C5BA517A3C7B74AEB50BA60E868CDB5ECDDCD0D7E9B175EA02DAB7"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DebugVisualization/NDebugVisualizationAssetBuilder.cs",
+      "Hash": "9ABB32C108BCD7D841591BC15D9C90949126053393EB6CE8AA9EF2757D29825D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DebugVisualization/NDebugVisualizationBakeUtility.cs",
+      "Hash": "8ACAD4CA1686D9A53F24CB4F12F361CB1919F5F5FFCED7832D1B3BC4B35B9A90"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DebugVisualization/NDebugVisualizationEditorBase.cs",
+      "Hash": "DCB5A52C7A502B60CF57117BC9A1556EA37C5B5CAC662725C1FF79DF011DD2CA"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DebugVisualization/NDebugVisualizationManagerEditor.cs",
+      "Hash": "2F7886F2C7F6A3BB956A5F1E4B52B5D7D7E6779128B433947F9CDC9D82E3A0F8"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DoorSystem/NDoorPhysBoneSetupUtility.cs",
+      "Hash": "4F53CD7C69079777BFFEB0798229D81811F01B27C49CC4E66D86709EE29F546C"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DoorSystem/NDoorSystemEditor.cs",
+      "Hash": "F80A3E61BC80BE3BC951C3B530D0605751117E585EF3487F484FBB320C27B7F6"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectDependencyEditors.cs",
+      "Hash": "23018FBF9A22B37E2FC2168D46F5FA590BDCB6C2062CC2932A00244DE70D63B0"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectEditor.cs",
+      "Hash": "F5D59DC4897176E758D9DA361AE35F86FAB2BFA900A6E85B6C3B7B343D8728DD"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectEditorBase.cs",
+      "Hash": "BF3D9AC3B514242E6F8108D98BB68AD4B42B8EB27131A6F14E0E60C1050C4F75"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectManagerEditor.cs",
+      "Hash": "E5B63BCD28A6B0CC948C7DD98700BDE868085A40420A027A0629B447C6AAD697"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectMigrationUtility.cs",
+      "Hash": "C4C7348EFE0B426485EAF1CFBA894EB287B3692AD6AD05C9D2118C69DFEECEDB"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectPrefabBuilder.cs",
+      "Hash": "F1466A69D0DBCF0F103917A2FA0D4A9A4CA341A8496D151D19574F8651CB3492"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicObject/NDynamicObjectSnapPointEditor.cs",
+      "Hash": "1F03BB175E11D2AC5A20AF551A1C5C57F1691ED857AC60609DBB13AF55E69BEF"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicYamaPlayer/NDynamicYamaPlayerManagerEditor.cs",
+      "Hash": "23A2BA20FD64EC200104DC87AD3EBB5CC5FB7C0DFAF5A00561845816E63CB78D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.DynamicYamaPlayer/NDynamicYamaPlayerPrefabBuilder.cs",
+      "Hash": "071774BE1BBF3C69CAD936FD49A262067E70F034F0E631C1DE0BF07EE0491F3E"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.ElevatorSystem/NElevatorButtonEditor.cs",
+      "Hash": "DE2F51FD27D048E24F78494E4D0B28EC15FD6D821B8048BFEBC06433FB28B2D5"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.ElevatorSystem/NElevatorEditorBase.cs",
+      "Hash": "DBCC700664183962F5671D7987F574F4513930F8DCE6E7B4030AC8AE5541CC87"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.ElevatorSystem/NElevatorHotelSetup.cs",
+      "Hash": "7E5BB9A58160E62F0AD42D2205ACDC604C446EE78E7904F03AEA7B9AB891BADA"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.ElevatorSystem/NElevatorPrefabBuilder.cs",
+      "Hash": "EB278C4EDCB715243DDEFAD59C8664A3421EC73CC2F335A15FFC83538EBDE9F0"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.ElevatorSystem/NElevatorSystemEditor.cs",
+      "Hash": "768856A8F2A8C879A06852D76C07FD6F436DAA6F8A6EA3906A9AB50B27259E24"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.FlyingSystem/NFlyingSystemEditor.cs",
+      "Hash": "67D265937309DE02779AB9269BBA5A3C7022195E1938B5D394F8DBE3B4BC1DFA"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.FlyingSystem/NFlyingSystemPrefabBuilder.cs",
+      "Hash": "AB02CB45F380F8EFAF05C084F3C2E2DABA44D2AA6235E01468D8AD662F69D2E1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inspector/NInspectorEditorBase.cs",
+      "Hash": "4356415EF816645A2B8A7F0D5C2D3F2FB98D50079B37482FFD68C097D6A7774F"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inspector/NInspectorSceneCache.cs",
+      "Hash": "4F0D28C28150B745FC398B3CD484D255FA39306BEAAC3A5B19B05327028DB3EF"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inspector/NInspectorValidation.cs",
+      "Hash": "5C2AA7893E2979D966CB9A75C4B358AB0FBA1A4E6224DBB50C7119A6154CC202"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryEditorBase.cs",
+      "Hash": "AFF0C0516D27206364FAE9B959AF9C8DAA7991D60AFF78470D83B9949B1F1044"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryInserterEditor.cs",
+      "Hash": "B7AB952AD0A955D2C806476F3867D25FC48394DBAF33564684FCBAFD949E50F1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryManagerEditor.cs",
+      "Hash": "310B39AD087C0AC22BAB4516FC138E3E1CAC7D7C845A7E119F0DA7086D2BBA59"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryPrefabBuilder.cs",
+      "Hash": "3778EBD17934CB94019BF7EC209D39CFC5F8F5ADB424D7216385E3AC14E953CB"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryTestSceneSetup.cs",
+      "Hash": "6033290C166BEF6501C0BB57D30EC65F839A883C9DB5366A5B867FB36D759578"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.Inventory/NInventoryWithdrawButtonEditor.cs",
+      "Hash": "6D3CD61A3ABBD1191A16DDBA75192DD8DBBF04414A7A9A3CC6D76A386D15A55D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.MixedDrinksSystem/NMixedDrinksRecipeEditorWindow.cs",
+      "Hash": "1AD0A55C5E54986A443DC79BAAB25A9175D35086A1396771CE3E9C13CE09C1AA"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.MixedDrinksSystem/NMixedDrinksSystemEditor.cs",
+      "Hash": "96FF4A1A614D1B19998E3B8C459228E75767A0CC6E81AEE39BB36FABE375DE15"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.MixedDrinksSystem/NMixedDrinksSystemPrefabBuilder.cs",
+      "Hash": "021A13DC78D36F37D88356F4AFC181C650DA6766EA630FE824B1411C1180EF18"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.MovementSystem/NMovementSystemEditor.cs",
+      "Hash": "8D909611F7A003ACDF4E488B887B6CBFA4F4EA1CDA580446D89C54D7B95D980B"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.MovementSystem/NMovementSystemPrefabBuilder.cs",
+      "Hash": "016DAA4D95472522937860FC47331295BC5E2A7BDAF994D437067B6860F8262C"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SecuritySystem/NSecurityObjectGuardEditor.cs",
+      "Hash": "6C85DD07959CCE3C1D701B477E186874ED56F0EAE12BD1D01D1589E52286FB82"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SecuritySystem/NSecuritySystemAssetBuilder.cs",
+      "Hash": "04C2E4E497A9367E8EE5015452B1DC29155BA47DEA9EE1E44160AF24C545D4F2"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SecuritySystem/NSecuritySystemEditor.cs",
+      "Hash": "32E888F6F620D19A7A865E4C41B691A626418CBA7F10C099027B66C6AE4D5FB1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SecuritySystem/NSecuritySystemEditors.cs",
+      "Hash": "05569717D093E8B997B0E4857DB958E45208ECAE5B62F58CD2AE43BA4EAF0940"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SecuritySystem/NSecurityZoneEditor.cs",
+      "Hash": "42F595E85011C54F49A09608107B9C71877BFEF369C2FA1E5201998A18DB7F63"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.StatusSystem/NStatusSystemEditor.cs",
+      "Hash": "CA36457DA76E1DE41980AF71F3A0F3EF28DD426F7AC05B817BABB2BE561AD92B"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.StatusSystem/NStatusSystemPrefabBuilder.cs",
+      "Hash": "ABA2B5326DEBD4D99A7B3D147BD09A87878FA2479785B2EBAA7E0CB72DDB92F1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SwimSystem/NSwimSystemEditor.cs",
+      "Hash": "7F4D9FE59D0A461EC10E33AA441900EE4CEBB47641F59B1A208273FCA28365EC"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.SwimSystem/NSwimSystemPrefabBuilder.cs",
+      "Hash": "B556DC14F45F6B32BB9BF53E8D72AF224E3B296A56DE57326527D9A6F72AA5FF"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.TouchPanelUI/NTouchPanelAssetBuilder.cs",
+      "Hash": "9EC37177F0C6294D82C622E0077452BA3196E89E3D6F71588788A6F43A46F7A8"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.TouchPanelUI/NTouchPanelButtonEditor.cs",
+      "Hash": "C053AF3E6AF0C3153B36D8DF10510276C4FD6F28DD64E78C807D345169C7B684"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.UdonChipsExchangeSystem/NUdonChipsExchangeEditors.cs",
+      "Hash": "492780CEEC4E665C0F8E255D335C5DCF6086AB35A13895CCD604236AA6D199A2"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.UdonChipsExchangeSystem/NUdonChipsExchangePrefabBuilder.cs",
+      "Hash": "4DF5F95531525525FCE4317C27160C5E4843B27F6E72D355A8D67A6B1238B91D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.UdonGameChips/NUdonGameChipsEditor.cs",
+      "Hash": "64B9F05C884381946F76389F82C12075924151B8A503317050EC097748061342"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.UdonGameChips/NUdonGameChipsPrefabBuilder.cs",
+      "Hash": "E5406C729CB4E8B9F8C42111298C6F39FC885B500CE90D3A0308C1848D3C3824"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VehicleManager/NVehicleManagerEditor.cs",
+      "Hash": "7EFCCD82F524D954E71229B12D511636A44E5D187398E1C03B4EC12B3D370204"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VirtualInput/NVirtualInputAssetBuilder.cs",
+      "Hash": "AEDC555EAFADC6A2E43EE305777DF549014D4641B609111649D2928D2310412C"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VirtualInput/NVirtualInputContactGateEditor.cs",
+      "Hash": "1D3CEFACBB1D9DB1E7B3C0E1BBFB4A99DE13AA55408A75306FC0D751E15056D9"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VirtualInput/NVirtualInputEditorBase.cs",
+      "Hash": "59C3C674283B8CBD5DEEE9281630710E1137401D6BE0562CDBBD49272D8AB258"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VirtualInput/NVirtualInputManagerEditor.cs",
+      "Hash": "4D859AD30C0A81C80FBFF629B12ACDC5C6A2BC3B807EA37D9593EFF12232C1DF"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.VirtualInput/NVirtualInputPhysBoneGateEditor.cs",
+      "Hash": "F61B8DE392625DA904C3BF42F370B4BB82879FC51076B0B2D1A0453077A474C7"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WaterRippleSystem/NWaterBuoyantPickupEditor.cs",
+      "Hash": "0897BAA62E10FF02A7F03B4D7006EBC95DA579D23CBC36B54469C093E183E917"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WaterRippleSystem/NWaterRippleControllerEditor.cs",
+      "Hash": "A4F056A3C3F1A2E01ABC4E5EA3D2B49B64544995728F7A4F0868E3E9304E9026"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WeaponsManager/NWeaponsManagerEditor.cs",
+      "Hash": "FABA9568621599630D6730371F6B4BD2C42B3546F17682E69EE8250374E2DDF2"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WeaponsManager/NWeaponStateEditor.cs",
+      "Hash": "FC65459417AAC69291109D13880D2986DC44551E12665E2EF917D2CA0A6B34C6"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WelcomeSystem/NWelcomeWindowSceneSetup.cs",
+      "Hash": "C48E2777EB790B3B0205980F12321E918CFE495657F696B38B8EF3CC69BCEC66"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NIntegratedMenuExperienceBuilder.cs",
+      "Hash": "A4E8677A9F2C976DFF6995249D1FB92A1CB6D7A18470F4EF4782525F7BE8E43D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NIntegratedMenuOptimizer.cs",
+      "Hash": "3F25571E8A02BC763ACE10963949FD9EC1EEBC6BDB876C21746BFFBD3EEA1A9E"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMCatalogPageInspector.cs",
+      "Hash": "26D0AB1CAE764617C941824E017E371A3C80525541E2C43B91DCDB6D31DBFD78"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMExtensionsEditor.cs",
+      "Hash": "65468FBFB90D8A7739720B6C621153CC7DACE947F45C9B25D1E5DB770705AA61"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMExtensionsPrefabBuilder.cs",
+      "Hash": "939A1357233D7913B8923A1A6EDB391C283E931DB45E937D94E093B39C8F7B5D"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMInventoryAutoSetup.cs",
+      "Hash": "666FFC66A5AC4F26E0D35EE823205D7246DA71330E083F6FF98D4102B6B40DA1"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMMenuEditors.cs",
+      "Hash": "780D440E87B55DCC11B35E784221B687C40E6BF7E244D83A64D6EA83E9BA6BD4"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMMenuPageEditors.cs",
+      "Hash": "AA7A14FFCD8D40366FD7F89BA734B10F430D8F0A59B4EA7777105EC639D3AD41"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMMenuPrefabBuilder.cs",
+      "Hash": "617E2CBECF1F9EF415132D132B3096DB9F383705EE0F47D35C28AD11D5FFD0C8"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMMenuReferenceBinder.cs",
+      "Hash": "270F46CA53DE542AE56014FC512EA4AAB598FEC437CADD1E4228E7FCEBDB5EB5"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMMenuValidation.cs",
+      "Hash": "F39FE08BE67E7EB8274A48604884325BE1FC3B86368DC4C4C29320BEEFBCCBED"
+    },
+    {
+      "Path": "Assets/N.Assets/Editor/N.WIMExtensions/NWIMTMPSubMeshHierarchyCleaner.cs",
+      "Hash": "93A0DA0C90046B6E880D5B47E0837150FA730B71CA35A89628BCD51B3DED17DF"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AdvancedWorldSettings/NAdvancedWorldSettings.cs",
+      "Hash": "51E1794187DACE879BECA6DBAA6B60E0314DE0CE2EBD5860D3AF5E5FFC874270"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Core/Decoders/NSelectorDecoder.cs",
+      "Hash": "9BB40B99DC67DAC70ABC38903DED79194B3FA06AFD50379957F4F883122CC6EB"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Core/Decoders/NThumbnailDecoder.cs",
+      "Hash": "02CFD028A35A19D6CE043A1EA958DD6EC1AF90F824AD69D2CC7E165E225F57AC"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Core/Loading/NLoadingManeger.cs",
+      "Hash": "3D2195F78332C7335C19BC22051E9EB8C1AA52F34631D82BEC21E5957FB66CFE"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Core/NAvatarNow.cs",
+      "Hash": "1E903DFF292900DFDFFDE6F3DEE8A9F41233777CD271374C25C6D2B5D3029D8E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/AvatarSelector.cs",
+      "Hash": "F8FF322F4F349ECA4A17E18F4604DFCEEBF1AF26134459CD1C8E7278C79F7E31"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/Button/AllowButton.cs",
+      "Hash": "10F773D41B124268CF152228916B7DDDA00998BBDF30F9DAD9E2D46E4F12D439"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/Button/EventButton.cs",
+      "Hash": "EFD7D07BCFD506D72944E9EA389363B5FF388260DA79927C68D0183703026E0E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/Button/ShowSelectorUiButton.cs",
+      "Hash": "90CBE4BE620AE7C480750F615C8151428942FF00B12D57A4CFA50CF5B9BC8320"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/Common/SwitchDebug.cs",
+      "Hash": "9F4F02F1286BE2ED1D78A7A7AFD671DCA765B852E0EED2A9DD8462E85C1B9C2C"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarSelector/Script/Common/ThumbnailButton.cs",
+      "Hash": "A4605480264E138CC512F0D2680842FD7609B67167B2D03D14E3CACC491B883E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/AvatarViewer/Script/AvatarViewer.cs",
+      "Hash": "084C48DD8E780F60EA2EB7CE555AAEEB3D531253EE72CF3631B79D4437246793"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/AvatarNow.cs",
+      "Hash": "BA28CF427830D36E20D9B632EFEABA6F8FAFFE55E5EB4271A4F433C97833016B"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/LoadingManager/LoadingManeger.cs",
+      "Hash": "74F099B2EC875CD448F6144D443FA5A077235BC1891E6A1C304C53CF0A45F1A7"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/LoadingManager/LoadingManegerCallBack.cs",
+      "Hash": "0BFC862F9BCDC974EAA1121CC1FEBBF58F5A3CB8FDA11A7716281C05511F43AD"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/SelectorDecoder/SelectorDecoder.cs",
+      "Hash": "BE3EDD2CF97E427F61AA6B9D7B06B31E68A439ADBD3D26A4B3928BD33AE1E187"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/SelectorDecoder/Type/AvatarInfo.cs",
+      "Hash": "0D1715F670CCE7852B7A2185FC5B88F235138AC19B2C8A8CABF738037085BDFA"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/SelectorDecoder/Type/EventInfo.cs",
+      "Hash": "CE5206E907BDA734D191F9D5B446AE6B18369FA7B078BA14C1823C38ECE1ACCB"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/SelectorDecoder/Type/SelectorInfo.cs",
+      "Hash": "B9248489C7BD0ADB6A3173CCB78E363D5184AA021BBBAFC672C6EECDBEB51F89"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/ThumbnailDecoder/ThumbnailDecoder.cs",
+      "Hash": "39D3BE2D67A29FBDC90E637BBE0866DD7B4E2F05B699327CB1CA283037924651"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/ThumbnailDecoder/Type/ThumbnailBuff.cs",
+      "Hash": "198B9A7D9B75E5ABABE1D251A8C776A5BFC6EA8632EED765790A4F5C24C5EEEE"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/ThumbnailDecoder/Type/ThumbnailData.cs",
+      "Hash": "5CBE635F957367480308AB47349D6C8E9CD43F7C31F3ACDB2D71F378D90EB6A4"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Core/ThumbnailDecoder/Type/ThumbnailInfo.cs",
+      "Hash": "53DD54ABD310FA90C635836C751DF198CDE7AD3B044CE03CFA2251B1BE176EFC"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/Dependency/Decoder/Other/Sound/AudioControl.cs",
+      "Hash": "042E5614CD773BF65487BDCD9CD688D1BC41DC3653EC2A6CB939AC4A79B25EB9"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NAllowButton.cs",
+      "Hash": "00C184AC38278753CEC0457DBDF2FD2DD4CAADA64EAEFF7053E798E1EFC3ACFF"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NAudioControl.cs",
+      "Hash": "E9DA3F02F59F03CB93A2A108C3CDFABFA8B23895BD1D8208282EB451F51731A2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NAvatarSelector.cs",
+      "Hash": "B6BB5C176579558F4249AC3F5439971291D87563EC5286951021D8F1A3B0EB69"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NEventButton.cs",
+      "Hash": "41CF830B52E0233F859D60CA88F52BB332A1911C27B6621F403AFFD89465A0A2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NShowSelectorUiButton.cs",
+      "Hash": "CA353CD759F352E756163256FF768B6272C8953FEF5C3D655477C7B87A91A3B4"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.AvatarNow/UI/NThumbnailButton.cs",
+      "Hash": "928AC005A0E776ECFA944AB42A3E8DF7CAA88B210C57B6E960F38408A7500335"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NBoothCategoryButton.cs",
+      "Hash": "45E6D7484197E04431B5D5F99DE5B40054528B49A7AFB180DFD552E9FEA9AF22"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NBoothItem.cs",
+      "Hash": "CD46DCF95A2BE8FC8148EAF069D39413585851C23822641E6EC12E076CFCA163"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NBoothItemContainer.cs",
+      "Hash": "96082313A95EF2F1F3D57682F7A0E23718FADE665141BDC63B68C634C2EB234F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NBoothPoster.cs",
+      "Hash": "7D9E4E2B30268D3060F349019718557EFE8AED8F42BD55DB24AE5CD494E0B289"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NBoothPosterEnums.cs",
+      "Hash": "029D73FF5D0D2CEEDA30EBBD144131530393DE4A0D7033DB31E8879C2594133A"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NGetBoothItems.cs",
+      "Hash": "9BF6D23705E2F4BAFF17C8E54A8BDFC059115D21A0FE62BA9744976B92CBB46A"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NGetBoothItemsEntry.cs",
+      "Hash": "29788E4CAC403BFDC79B9C70E8C5A4106252D750A6BA7066E488F005F9DCAA17"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NGetBoothItemsImage.cs",
+      "Hash": "778830DDC86F8E0750FB669000EBC3279D130D66323F6B7F125FB23EA1173B50"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NGetBoothItemsRequest.cs",
+      "Hash": "02F07120718AC49F748049E5981B23CFC2D012A2C2A146180EB640555F2B9B52"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NServerErrorWindow.cs",
+      "Hash": "2AB9EC9B8550AB564B5343D0375350F11DD038E85CFCE839E3777A5A7B31A463"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NTagCenterWidth.cs",
+      "Hash": "3559F27600DDA681977E97C4030C31FC6C8E5641AB48F88994A22AE51C6E018E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NTagRightXPosition.cs",
+      "Hash": "88CA497A93C5049F55F0E592F66CAC4491A7EFB4D441477335D7218C6FEEE22B"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NUntrustedUrlsWindow.cs",
+      "Hash": "58E00ABF1A024B9F460FF02A3BB527D7BAA09CD909C4F11355F6BC8BC994C188"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.BoothPoster/NUrlWindow.cs",
+      "Hash": "354CDE51E6BAFE71E7D50A9406BA636EB3C928045F25653D5D6D600C33E14843"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Border/NBorder.cs",
+      "Hash": "C273E4A318138DF3926D4BB0DA581255732147EC225E6BEB5F404AB2459AEB7E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Border/NBorderManager.cs",
+      "Hash": "667C5BE3812BD58023F48C5C3E724078E9BEC07DCC006BD87A6CBDB44687776B"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.CalibrationSystem/Editor/NCalibrationSystemEditor.cs",
+      "Hash": "7A2AAAA7FD6EE3A9D747DA50C115917E6729B857E4FE0EE836A4A3B8E556A6C1"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.CalibrationSystem/Runtime/NCalibrationSystem.cs",
+      "Hash": "FE55B39E85F45C43655FEC9F19D37A9C26047ED27FA589DB4E78112C976C2972"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.CocktailLiquidSystem/NCocktailLiquidBridge.cs",
+      "Hash": "4D7DFFA756A6965CF5E7A52DE197DB542B90BAA21627968794FCE221FC447C03"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Console/NConsole.cs",
+      "Hash": "5BBEC14B2503461DA31F392813F94A0F21DCACF9099D844ABC123281549835FF"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DebugVisualization/NDebugVisualizationManager.cs",
+      "Hash": "CEF258AE8129039D7D100F88434FCE0590A8A0A2E22D0BFF3438CFFC35495A12"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorAuthZone.cs",
+      "Hash": "C63ACE4ECA325980A99FBB94178B50E498FFA5B09AD8D67417AF15C779E4F2B9"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorCardKey.cs",
+      "Hash": "8A1BB6445D7E10AF333CC0BD11672F05916A02C772DDE8E6C3E495263E120949"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorHandleInput.cs",
+      "Hash": "E516BF50BD52A18A5DC742486C05A38D53D48F77696B0D3B5113B40116311B87"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorModeSwitch.cs",
+      "Hash": "CAB802E8EE30FFFAEEF79154C6AA3BE4B6566A17091F593F60648CCCE9ED6D32"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorPhysBoneHandleInput.cs",
+      "Hash": "C92F67653A7FDA077511DCADBB06A8B7A7B2DE8542AFF580581927CCF84CC8B2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorSystem.cs",
+      "Hash": "3278918857380C1EAFA4E4E53AC6C9212F6285DE5C7F55E321BE0CD969E06A8B"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DoorSystem/NDoorTeleportInput.cs",
+      "Hash": "528FD6F1D4DA44B7CE1D47EFC66F8D4AF0E110B199AA5BB8CB1D87EDCCDDC882"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DriftCorrection/Editor/NDriftCorrectionEditor.cs",
+      "Hash": "B559D999B199AFAF536CF7DEC096B740002FA5EF34F19689E22CD4C9F7E5F2BD"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DriftCorrection/Runtime/NDriftCorrection.cs",
+      "Hash": "1AE298DE1FF49D6EB4C35E30FDEA7418B34059D0E794F2EEF6A98DB60262696E"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs",
+      "Hash": "1B196AF2E8A2D02A19C57A14A0C35AAD71F2A4930D51D77E06BA922B808B8A09"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObjectManager.cs",
+      "Hash": "0695C9B45717CEA8A4018D4F3EB0AF9132B2072B0E1D2BEDD98C7131273D6962"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObjectPaymentTerminal.cs",
+      "Hash": "70A28A23468194E5A0FC95953FD366A4E7963442887FDF914EEC8F779C720749"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObjectSnapPoint.cs",
+      "Hash": "7F2F3D72FB2AA63B41165291DF87A0DCE895C0A92BCE1C19E616E769731A2B48"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.DynamicYamaPlayer/NDynamicYamaPlayerManager.cs",
+      "Hash": "9CED50F1282A5D35BD63AD878ABEBB7AC86BCA692D54EF6B3A862D5BD04515E2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.ElevatorSystem/NElevatorButton.cs",
+      "Hash": "24BA2938F9B6C6290FBE301C4A46C0A6AE0D3020D0B531D33CDC7977A3CF8D91"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.ElevatorSystem/NElevatorSystem.cs",
+      "Hash": "9C39AD8483B27064FB9B657430587DE0CD4509FCE7E94269FF00F9262F386AFE"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.FarmerSimulation/Editor/NFarmerSimulationPlotEditor.cs",
+      "Hash": "A566BCB674981F19CF62BF3E611FA8231583889C48F0AFEB769C6560D2225EC1"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.FarmerSimulation/Runtime/NFarmerCropTraits.cs",
+      "Hash": "0BDB8AE7EE8667DC069090B90ACE67CFE28C9954CF92884E8114B4621E15AE36"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.FarmerSimulation/Runtime/NFarmerSimulationPlot.cs",
+      "Hash": "E27391BDF2FAC1614FFDBEB7FE6CF33B5451960948E8EE5293BE2ED8C3F3BC18"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.FlyingSystem/NFlyingSystem.cs",
+      "Hash": "8D2192E2B367687347FBC2FE2562FEA9198817A99E8422B08264C1F3A6EC0987"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Editor/NGimmickTransformationAssetBuilder.cs",
+      "Hash": "892455A11FA79C0FF7C176A9A95B1CC35CB0BD1B6C8D5C73B3523761570FA987"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Editor/NGimmickTransformationWindow.cs",
+      "Hash": "D56AD6F3BF2A0B3D0EA378FE24FCF17438D82795F0E943D1F93004B0E23A4EB9"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Editor/NWorldAnimatorControlEditors.cs",
+      "Hash": "A6A18A331EFE19B0FF2DCBB0F914E4834F278D35D1DDFFD1B731282B412CBFD0"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Editor/NWorldGimmickToggleEditor.cs",
+      "Hash": "3EC89B3679C70E0DEE5DAF1CF9E49DAB7B29979794EF67439F4E5EE95DE32351"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldAnimatorMenuButton.cs",
+      "Hash": "94EA934310F1783DE7173FD914A0B568D2E713B907B5A047EC3D957A42C24CB9"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldAnimatorParameterManager.cs",
+      "Hash": "14FFBC39963EFE056584F38CAC1FD44725123A9568E9DF018CDC38D8BDF928B8"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldContactAnimatorBridge.cs",
+      "Hash": "6E28FF35BE639E7B4E4D1C1426BD5663BA984052116FD1DD2C5E1259ECF14CCD"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldDamageReceiver.cs",
+      "Hash": "C37171960F0E1DBD2080061F11927CC4BA78F879D8BE956BE5694D34D2EFFBA5"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldGimmickToggle.cs",
+      "Hash": "3CF154A69D6D6552481DF858D34BD18177A0886EBB0E524D75D6F7E9FB000B35"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldWeaponContactAction.cs",
+      "Hash": "BC2663761A0096987A0BB8BBA151C590DC1881C3EFA1F091071F39DFB2A1791F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldWeaponController.cs",
+      "Hash": "954F374824A629FC8D1A857C8FC7169BAE0E435CF366063A725F8FB6123842D2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.GimmickTransformationSystem/NWorldWeaponPhysBoneAnimatorBridge.cs",
+      "Hash": "5EBE7F6EA17595AD82973FC976E40B637034AAACBAA29FEC9387DD3653147641"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Inventory/NInventoryInserter.cs",
+      "Hash": "1E6EFD2EB66D3172A655A51F34B29B35F5BC7FD1B592F232C7F3AB0AE5F44DB2"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs",
+      "Hash": "DA06E3D0989381C430E5BFFE2C5CAAC96466B29D7058D804BDDDE45E46ED98CE"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Inventory/NInventoryStatusTestItem.cs",
+      "Hash": "FA72A6C1ACB9F421555C2F829DDEC3B5078F55E01429CBD98FACFD8AA13178B7"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.Inventory/NInventoryWithdrawButton.cs",
+      "Hash": "982457D9A981FFEEB20488EB704F076E191EC3A511D76FD94C8D5661F6750FF4"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.MainMenu/NIntegratedMenuPointer.cs",
+      "Hash": "45995FE773321E8B7DE3FB145A1EDA080BFFFB63CA22DA42A36E50C1C5C6BC94"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.MainMenu/NMainMenuFollower.cs",
+      "Hash": "738B0B5C8DF3A093BEB179BCC339942DC6C3EB16DAE7E8C1495CE1AC3E6DEB0C"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.MixedDrinksSystem/Runtime/NMixedDrinksSystem.cs",
+      "Hash": "FDB7E0C526F3EA2700E5BF8E06A7C4D28076190C0C0D479FC80AA3947431AEC6"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.MovementSystem/NMovementSystem.cs",
+      "Hash": "9566A72151349ECA077F605BB0508B6D32F56BBE529EB0E2444FE7F78E4873C4"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.PetSimulator/Editor/NPetSimulatorAgentEditor.cs",
+      "Hash": "383F4DC799B51FA622FB2A96B4815327D917D3719D7CDEF7B438C2FCB32E97ED"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.PetSimulator/Runtime/NPetSimulatorAgent.cs",
+      "Hash": "50CD03C926E7E01180FE723E58E9C3322B59CF9D4F04DD2472E2EE423F975DD0"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.SecuritySystem/NSecurityObjectGuard.cs",
+      "Hash": "CDB2D77735A1E53B1B675B25A86639111E3F4501CC9AEAC00E9AEFA9C49C5C84"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.SecuritySystem/NSecuritySystem.cs",
+      "Hash": "8E976617E5FD8D61EC4D7EF7CD1B4911F4BCFFB5E381D1D5BBE458043C0D607A"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.SecuritySystem/NSecurityZone.cs",
+      "Hash": "1456AA6859CB320026BFC5AA5A823876619D421840E1214CBAB8510408A759C1"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.StatusSystem/NStatusSystem.cs",
+      "Hash": "BEF03E6A4B9DE608C2C2401ABF770A3CD38C14EDCA5BA6F61DADCD1C4A72FF12"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.SwimSystem/NSwimSystem.cs",
+      "Hash": "FBBE390DB5B2D7D0CE5515B35D7D9E8CBC254FB606076FF18C3AD3806D737947"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.TouchPanelUI/NTouchPanelButton.cs",
+      "Hash": "862E7210F90E9CD27F950F4108AF9487B164A34463A96B5D0ACD7FB66C3F6804"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/NChipsExchangeButton.cs",
+      "Hash": "7984FCBE495BDBA350EF33AB1F73596F36FC206F4628CD6C87615A7F722C2A1F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/NUdonChipsExchangeSystem.cs",
+      "Hash": "00B0554CAC8F93BE1CB40174AA8DA4807638228EDAD1654A0D87C865D0F605EC"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.UdonGameChips/NUdonGameChips.cs",
+      "Hash": "4E934D8BB5A58BDF7067BA8E38942E6061841C8E8ACE92FE3F02A1FEBBF30F2F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NAircraftSystem.cs",
+      "Hash": "065514204CC7C1311B1A08CF583032545AEA983C039D5776ECE9DFFEDA8F53E3"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NBoatSystem.cs",
+      "Hash": "86C77B5D7963B2C462FAA211B7261DD35723A29E3228997F96BE25B19C432761"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NCarSystem.cs",
+      "Hash": "B0AB83C9466859912E1A6EA097C4FDD08D727C6DAF578CA9B56301C2B0E3AF47"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NDroneSystem.cs",
+      "Hash": "63FF8C8BF3C6BFB8999E956AC64B1F4F550141219C77762D827B7426CC1F7BDA"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NFighterSystem.cs",
+      "Hash": "300FA38BC692B9788B9347A96DF69131650AB4464F1621C02D4701B7BE14FBDA"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NHelicopterSystem.cs",
+      "Hash": "2CCC75480669C097017231020EF988EFD48AE2D8EF8782D9B9536A1E938CEAD7"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NMotorcycleSystem.cs",
+      "Hash": "C06B2A1B8508D3E9F582019281DFD87B4F791C0C94008947CE3359B0C2956934"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NTrainSystem.cs",
+      "Hash": "77E37989250852E61DCB6B3A75FFB03617CDAF8D623960007CD76580E2655309"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NVehicleManager.cs",
+      "Hash": "750B021BC84AFFC38200C571DBEBBD599EBBEA3B1720216A9BAC3AC50EA1454F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VehicleManager/NVehicleSystem.cs",
+      "Hash": "2E3419817955D7A7451ADC2AE4D4D78AC69E2ABDCB2C31137EA64A9235B00D24"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VirtualInput/NVirtualInputContactGate.cs",
+      "Hash": "90584FB981BC1AC25ACA4540C85C6E95E22056538E26495D32BE52BF4FC8FBEC"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VirtualInput/NVirtualInputManager.cs",
+      "Hash": "EADDDCDF7917A8066B469B9F05F09B6251ED6A639E6AA8882B49C323CF6A1EDB"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.VirtualInput/NVirtualInputPhysBoneGate.cs",
+      "Hash": "75C76C20D048C292213B4F6CA4B4E5C6D0554AA5CF8F5F5AA9464DC750DB3555"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WaterRippleSystem/NWaterBuoyantPickup.cs",
+      "Hash": "B6764F13E52856031E80076B11B879170EA5AD03F49ABAC73D5EAFDDEEFEF82D"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WaterRippleSystem/NWaterRippleController.cs",
+      "Hash": "239C68F3CDD1BAF64ADBB48595DA432D5E286DFCB22727FAB0BE06452689CCE4"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WeaponsManager/NWeaponsManager.cs",
+      "Hash": "8BD6CEC268C99156E1B52F14219C091BC37B3A4AB40EE9DFB4E0F908AE1249EC"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WeaponsManager/NWeaponState.cs",
+      "Hash": "0F1119ADC5B20835C3977332C89304E0D3CF34F867DE58E0C610BFA2BC4AAC92"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WelcomeSystem/NWelcomeBoardIdentityBridge.cs",
+      "Hash": "851D5833D00DE2DCF52F0C48C0AE97517B144751CEBAF9147C13A3FBFD283D6F"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMChatModule.cs",
+      "Hash": "7956EF7FB08C838246EAE5AF0CB02C1459138BC2556FB16989456BE2CEC12432"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMCraftPage.cs",
+      "Hash": "E9096705B9CE2DD815F8CD776AEA8A8BECAA18E7F992FE5E75AF657E816F0DEE"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMEquipmentPage.cs",
+      "Hash": "C96A1B021AD0B5F4D6532E739F3B8D7ECF67103F0605F25FDABD243AA686A614"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs",
+      "Hash": "9011829493B3B54B78774E9CD93440464167833959C6A071B6ED871D77A8E134"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMapPage.cs",
+      "Hash": "EBC89A101705F64C24901BFE0183CE6BFE62D3604C2798226805AB81F225A9FD"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMenuShell.cs",
+      "Hash": "14BBF838634AE9821F140A66B816FEDE933E4836A119E63F83B457AD5AD6BEC1"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMSettingsPage.cs",
+      "Hash": "1C40C6AF91BEC6E80EC1554E96B24163B764E37554D12C211BD85B1754D9815C"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMShopPage.cs",
+      "Hash": "EC5BC756A355CFB7F8446C9C8E948F649AB02FE820EA32BBCDA1178DA6E2194B"
+    },
+    {
+      "Path": "Assets/N.Assets/N.Script/N.WIMExtensions/NWIMWeatherModule.cs",
+      "Hash": "AA69BA8FC5F13E5EDDA4476FF36DC316FE7CAAB1B9EAC2A48DB7DAF13D289657"
+    }
+  ]
+}
