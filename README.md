@@ -43,3 +43,10 @@ VRChat / Naturlin 系プロジェクトの、エラー修正・設計・検証�
 ## 注意
 
 ログやスクリーンショットを追加するときは、トークン、個人情報、非公開URL、不要なワールド参加者情報を含めないでください。Unity上で成功したことと、Scene保存・PlayMode・実機確認が済んだことは別々に記録します。
+
+## N.IntegratedMenu完成に向けた解析（2026-10-12）
+
+- [世界観・一次資料と設計基準](docs/project-context/worldbuilding.md)
+- [N系ギミック群の役割・互換性・関連性](docs/systems/n-gimmick-catalog.md)
+- [N.IntegratedMenuの担当・入力・接続・未確認事項](docs/design/integrated-menu-analysis-2026-10-12.md)
+- [完成条件・橋渡し実装順・受入試験](docs/design/integrated-menu-completion-plan.md)
