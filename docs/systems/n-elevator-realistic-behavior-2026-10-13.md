@@ -14,3 +14,9 @@
 
 ## 検証・未確認
 ソース変更とScene調査の記録。最終コンパイル・設定適用結果はローカル記録に追記する。Aの到着階ドア、Desktop実操作、権限拒否の音と赤点灯、35秒待機・Close早送り・多人数同期・B・VRは実機検証を要する。PlayMode性能改善は保留。安全センサーや方向別配車などは今回未実装。
+
+## 最終適用確認
+- UdonSharp 1,368スクリプトの最終コンパイル完了（63.142秒）。Use案内のProgram定義反映を確認し、対象2 Program Assetのみ保存。
+- Sceneで待機35秒、Use案内参照、ManagerのSwitch_error参照を確認。新規Program反映後にSystemとManagerのProxy参照を再転送した。元Sceneは未保存。
+- バックアップ: Temp/N_ElevatorRealistic_20261013_152351_958.unity。途中で検出したTMP_Text.transformの未公開APIはgameObject.transformへ修正済み。途中のエラーログはConsoleに履歴として残り得る。
+- AのパラメーターDoorStateとSystem設定は一致し、A配下に有効な旧Udonは見つからなかった。ドア不動の解決は引き続き未確認。
