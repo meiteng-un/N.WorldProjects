@@ -59,3 +59,8 @@ VRChat / Naturlin 系プロジェクトの、エラー修正・設計・検証�
 ## 現在展開中の正式ワールドScene
 - [N.Worlds Project -001 全ヒエラルキー解析](docs/systems/scene-hierarchy-analysis-2026-10-12.md)
 - [全枝・コンポーネント・N系配置索引](docs/systems/scene-structure-index-2026-10-12.md)
+
+## 統合世界観・要素設計書 初版（2026-10-17）
+
+- [世界観・要素・相関・裏設定の入口](docs/design/world-bible/README.md)
+- 設定確定と実装検証は別扱い。地図・配置図は制作終盤まで保留。
