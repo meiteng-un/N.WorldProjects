@@ -30,3 +30,11 @@
 - エラー修正以外のVR169本体制御・FlipCamera融合Prefab・レバー/モニター操作はまだ未実装。
 - ワールド用の入力と光学制御を一つずつ対応付け、実機確認前に完成扱いにしない。
 - 今回Scene/Prefab保存はしていない。購入アセットのソースパッチは更新時に上書きされ得るため差分を保持する。
+
+## 追加進捗：ワールド入力プロトタイプ
+- N.VirtualLensWorldを別Runtime/Editorアセンブリに作成。接触ボタン、Grabレバー、モニターチルト/回転、所有者Flip撮影イベント呼出しの土台。
+- Program AssetとUdon assembly markerは登録メニュー実行・ファイル生成まで確認。U#コンパイルは手動方針に従い未実行。
+- 絞り/フォーカス/ロックは状態値までで光学系へ未接続。縦横は軸回転のみでセンサー連携未実装。元の全機能はまだ未再現。
+- Scene・融合Prefabの作成/参照設定・同期・Desktop・VR実機検証は未実施。初期無効。
+- 検証メモ: Assets/N.Assets/N.Script/N.VirtualLensWorld/Docs/QuickVerify.md
+- 最終Console読取りがタイムアウト。メニュー登録成功を全U#・動作成功とは扱わない。
