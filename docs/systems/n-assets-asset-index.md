@@ -1,0 +1,177 @@
+# N.Assets 関連アセット・Assembly索引
+2026-10-12。保存済みファイルのみ。Sceneのdirty状態やPrefabの実行結果とは別。GUID参照の照合はN.Assets内のC#に限定し、外部ScriptやProgram Asset経由の参照は解決しない。
+
+## Assembly定義
+
+- Assets/N.Assets/Editor/N.AdvancedWorldSettings/Naturlin.NAdvancedWorldSettings.Editor.asmdef: name=Naturlin.NAdvancedWorldSettings.Editor; platforms=Editor; references=Naturlin.NAdvancedWorldSettings.Runtime, Naturlin.NDynamicObject.Runtime, Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.BoothPoster/Naturlin.NBoothPoster.Editor.asmdef: name=Naturlin.NBoothPoster.Editor; platforms=Editor; references=Naturlin.NBoothPoster.Runtime, Naturlin.NTouchPanelUI.Runtime, Naturlin.NTouchPanelUI.Editor, Tesca.BoothPoster, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Editor, VRC.Udon.Serialization.OdinSerializer, Unity.TextMeshPro, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.Border/Naturlin.NBorder.Editor.asmdef: name=Naturlin.NBorder.Editor; platforms=Editor; references=Naturlin.NBorder.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Editor, UnityEngine.UI, Unity.TextMeshPro, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.Console/Naturlin.NConsole.Editor.asmdef: name=Naturlin.NConsole.Editor; platforms=Editor; references=Naturlin.NConsole.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.Udon, VRC.Udon.Editor, UnityEngine.UI, Unity.TextMeshPro, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.DebugVisualization/Naturlin.NDebugVisualization.Editor.asmdef: name=Naturlin.NDebugVisualization.Editor; platforms=Editor; references=Naturlin.NDebugVisualization.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.DoorSystem/Naturlin.NDoorSystem.Editor.asmdef: name=Naturlin.NDoorSystem.Editor; platforms=Editor; references=Naturlin.NDoorSystem.Runtime, Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Editor, VRC.Udon, VRC.Udon.Editor, Unity.TextMeshPro, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.DynamicObject/Naturlin.NDynamicObject.Editor.asmdef: name=Naturlin.NDynamicObject.Editor; platforms=Editor; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.DynamicYamaPlayer/Naturlin.NDynamicYamaPlayer.Editor.asmdef: name=Naturlin.NDynamicYamaPlayer.Editor; platforms=Editor; references=Naturlin.NDynamicYamaPlayer.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.ElevatorSystem/Naturlin.NElevatorSystem.Editor.asmdef: name=Naturlin.NElevatorSystem.Editor; platforms=Editor; references=Naturlin.NElevatorSystem.Runtime, Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.FlyingSystem/Naturlin.NFlyingSystem.Editor.asmdef: name=Naturlin.NFlyingSystem.Editor; platforms=Editor; references=Naturlin.NFlyingSystem.Runtime, Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.Inspector/Naturlin.NInspector.Editor.asmdef: name=Naturlin.NInspector.Editor; platforms=Editor; references=
+- Assets/N.Assets/Editor/N.Inventory/Naturlin.NInventory.Editor.asmdef: name=Naturlin.NInventory.Editor; platforms=Editor; references=Naturlin.NInventory.Runtime, Naturlin.NDynamicObject.Runtime, Naturlin.NStatusSystem.Runtime, Naturlin.NUdonGameChips.Runtime, Naturlin.NUdonChipsExchangeSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, Naturlin.NWIMExtensions.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.MixedDrinksSystem/Naturlin.NMixedDrinksSystem.Editor.asmdef: name=Naturlin.NMixedDrinksSystem.Editor; platforms=Editor; references=Naturlin.NMixedDrinksSystem.Runtime, UdonSharp.Editor, UdonSharp.Runtime, VRC.Udon, VRC.Udon.Editor, Unity.ugui, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.MovementSystem/Naturlin.NMovementSystem.Editor.asmdef: name=Naturlin.NMovementSystem.Editor; platforms=Editor; references=Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.SecuritySystem/Naturlin.NSecuritySystem.Editor.asmdef: name=Naturlin.NSecuritySystem.Editor; platforms=Editor; references=Naturlin.NSecuritySystem.Runtime, Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.StatusSystem/Naturlin.NStatusSystem.Editor.asmdef: name=Naturlin.NStatusSystem.Editor; platforms=Editor; references=Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.SwimSystem/Naturlin.NSwimSystem.Editor.asmdef: name=Naturlin.NSwimSystem.Editor; platforms=Editor; references=Naturlin.NSwimSystem.Runtime, Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.TouchPanelUI/Naturlin.NTouchPanelUI.Editor.asmdef: name=Naturlin.NTouchPanelUI.Editor; platforms=Editor; references=Naturlin.NTouchPanelUI.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Editor, VRC.Udon.Serialization.OdinSerializer, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.UdonChipsExchangeSystem/Naturlin.NUdonChipsExchangeSystem.Editor.asmdef: name=Naturlin.NUdonChipsExchangeSystem.Editor; platforms=Editor; references=Naturlin.NUdonChipsExchangeSystem.Runtime, Naturlin.NUdonGameChips.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.UdonGameChips/Naturlin.NUdonGameChips.Editor.asmdef: name=Naturlin.NUdonGameChips.Editor; platforms=Editor; references=Naturlin.NUdonGameChips.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.VehicleManager/Naturlin.NVehicleManager.Editor.asmdef: name=Naturlin.NVehicleManager.Editor; platforms=Editor; references=Naturlin.NVehicleManager.Runtime, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.VirtualInput/Naturlin.NVirtualInput.Editor.asmdef: name=Naturlin.NVirtualInput.Editor; platforms=Editor; references=Naturlin.NVirtualInput.Runtime, Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Editor, VRC.Udon, VRC.Udon.Editor, Unity.TextMeshPro, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.WaterRippleSystem/Naturlin.NWaterRippleSystem.Editor.asmdef: name=Naturlin.NWaterRippleSystem.Editor; platforms=Editor; references=Naturlin.NWaterRippleSystem.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.WeaponsManager/Naturlin.NWeaponsManager.Editor.asmdef: name=Naturlin.NWeaponsManager.Editor; platforms=Editor; references=Naturlin.NWeaponsManager.Runtime, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDKBase, VRC.Udon, Naturlin.NInspector.Editor
+- Assets/N.Assets/Editor/N.WIMExtensions/Naturlin.NWIMExtensions.Editor.asmdef: name=Naturlin.NWIMExtensions.Editor; platforms=Editor; references=Naturlin.NWIMExtensions.Runtime, Naturlin.NMainMenu.Runtime, Naturlin.NInventory.Runtime, Naturlin.NDynamicObject.Runtime, Naturlin.NUdonGameChips.Runtime, Naturlin.NUdonChipsExchangeSystem.Runtime, Naturlin.NStatusSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, Unity.TextMeshPro, dev.yukineko.wim.core, dev.yukineko.wim.modules-vol2, dev.yukineko.wass.core, UdonSharp.Editor, UdonSharp.Runtime, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.AdvancedWorldSettings/Naturlin.NAdvancedWorldSettings.Runtime.asmdef: name=Naturlin.NAdvancedWorldSettings.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3
+- Assets/N.Assets/N.Script/N.BoothPoster/Naturlin.NBoothPoster.Runtime.asmdef: name=Naturlin.NBoothPoster.Runtime; platforms=; references=Naturlin.NTouchPanelUI.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Serialization.OdinSerializer, Unity.TextMeshPro
+- Assets/N.Assets/N.Script/N.Border/Naturlin.NBorder.Runtime.asmdef: name=Naturlin.NBorder.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Unity.TextMeshPro
+- Assets/N.Assets/N.Script/N.CalibrationSystem/Editor/Naturlin.NCalibrationSystem.Editor.asmdef: name=Naturlin.NCalibrationSystem.Editor; platforms=Editor; references=Naturlin.NCalibrationSystem.Runtime, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.CalibrationSystem/Runtime/Naturlin.NCalibrationSystem.Runtime.asmdef: name=Naturlin.NCalibrationSystem.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.Console/Naturlin.NConsole.Runtime.asmdef: name=Naturlin.NConsole.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon, UnityEngine.UI, Unity.TextMeshPro, Naturlin.NUdonGameChips.Runtime
+- Assets/N.Assets/N.Script/N.DebugVisualization/Naturlin.NDebugVisualization.Runtime.asmdef: name=Naturlin.NDebugVisualization.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3
+- Assets/N.Assets/N.Script/N.DoorSystem/Naturlin.NDoorSystem.Runtime.asmdef: name=Naturlin.NDoorSystem.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Unity.TextMeshPro
+- Assets/N.Assets/N.Script/N.DriftCorrection/Editor/Naturlin.NDriftCorrection.Editor.asmdef: name=Naturlin.NDriftCorrection.Editor; platforms=Editor; references=Naturlin.NDriftCorrection.Runtime, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.DriftCorrection/Runtime/Naturlin.NDriftCorrection.Runtime.asmdef: name=Naturlin.NDriftCorrection.Runtime; platforms=; references=UdonSharp.Runtime, VRC.Udon
+- Assets/N.Assets/N.Script/N.DynamicObject/Naturlin.NDynamicObject.Runtime.asmdef: name=Naturlin.NDynamicObject.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Naturlin.NUdonGameChips.Runtime, Naturlin.NStatusSystem.Runtime
+- Assets/N.Assets/N.Script/N.DynamicYamaPlayer/Naturlin.NDynamicYamaPlayer.Runtime.asmdef: name=Naturlin.NDynamicYamaPlayer.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon, Yamadev.YamaStream.Runtime, Yamadev.YamaStream.Modules.PermissionManagement
+- Assets/N.Assets/N.Script/N.ElevatorSystem/Naturlin.NElevatorSystem.Runtime.asmdef: name=Naturlin.NElevatorSystem.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon
+- Assets/N.Assets/N.Script/N.FarmerSimulation/Editor/Naturlin.NFarmerSimulation.Editor.asmdef: name=Naturlin.NFarmerSimulation.Editor; platforms=Editor; references=Naturlin.NFarmerSimulation.Runtime, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.FarmerSimulation/Runtime/Naturlin.NFarmerSimulation.Runtime.asmdef: name=Naturlin.NFarmerSimulation.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Naturlin.NDynamicObject.Runtime
+- Assets/N.Assets/N.Script/N.FlyingSystem/Naturlin.NFlyingSystem.Runtime.asmdef: name=Naturlin.NFlyingSystem.Runtime; platforms=; references=Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Editor/Naturlin.NGimmickTransformationSystem.Editor.asmdef: name=Naturlin.NGimmickTransformationSystem.Editor; platforms=Editor; references=Naturlin.NGimmickTransformationSystem.Runtime, Naturlin.NWeaponsManager.Runtime, nadena.dev.modular-avatar.core, UdonSharp.Runtime, UdonSharp.Editor, VRC.SDK3, VRC.SDKBase, VRC.Udon, VRC.Udon.Editor, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Naturlin.NGimmickTransformationSystem.Runtime.asmdef: name=Naturlin.NGimmickTransformationSystem.Runtime; platforms=; references=Naturlin.NWeaponsManager.Runtime, UdonSharp.Runtime, VRC.SDK3, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.Inventory/Naturlin.NInventory.Runtime.asmdef: name=Naturlin.NInventory.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.SDK3.Persistence, VRC.Udon, Naturlin.NDynamicObject.Runtime, Naturlin.NStatusSystem.Runtime
+- Assets/N.Assets/N.Script/N.MainMenu/Naturlin.NMainMenu.Runtime.asmdef: name=Naturlin.NMainMenu.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Unity.TextMeshPro
+- Assets/N.Assets/N.Script/N.MixedDrinksSystem/Runtime/Naturlin.NMixedDrinksSystem.Runtime.asmdef: name=Naturlin.NMixedDrinksSystem.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon, Unity.ugui
+- Assets/N.Assets/N.Script/N.MovementSystem/Naturlin.NMovementSystem.Runtime.asmdef: name=Naturlin.NMovementSystem.Runtime; platforms=; references=Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.PetSimulator/Editor/Naturlin.NPetSimulator.Editor.asmdef: name=Naturlin.NPetSimulator.Editor; platforms=Editor; references=Naturlin.NPetSimulator.Runtime, Naturlin.NInspector.Editor
+- Assets/N.Assets/N.Script/N.PetSimulator/Runtime/Naturlin.NPetSimulator.Runtime.asmdef: name=Naturlin.NPetSimulator.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon
+- Assets/N.Assets/N.Script/N.SecuritySystem/Naturlin.NSecuritySystem.Runtime.asmdef: name=Naturlin.NSecuritySystem.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon
+- Assets/N.Assets/N.Script/N.StatusSystem/Naturlin.NStatusSystem.Runtime.asmdef: name=Naturlin.NStatusSystem.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3.Persistence
+- Assets/N.Assets/N.Script/N.SwimSystem/Naturlin.NSwimSystem.Runtime.asmdef: name=Naturlin.NSwimSystem.Runtime; platforms=; references=Naturlin.NMovementSystem.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.TouchPanelUI/Naturlin.NTouchPanelUI.Runtime.asmdef: name=Naturlin.NTouchPanelUI.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, VRC.Udon.Serialization.OdinSerializer
+- Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/Naturlin.NUdonChipsExchangeSystem.Runtime.asmdef: name=Naturlin.NUdonChipsExchangeSystem.Runtime; platforms=; references=Naturlin.NUdonGameChips.Runtime, Naturlin.NStatusSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.UdonGameChips/Naturlin.NUdonGameChips.Runtime.asmdef: name=Naturlin.NUdonGameChips.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon, Naturlin.NStatusSystem.Runtime
+- Assets/N.Assets/N.Script/N.VehicleManager/Naturlin.NVehicleManager.Runtime.asmdef: name=Naturlin.NVehicleManager.Runtime; platforms=; references=Naturlin.NMovementSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.VirtualInput/Naturlin.NVirtualInput.Runtime.asmdef: name=Naturlin.NVirtualInput.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, Unity.TextMeshPro
+- Assets/N.Assets/N.Script/N.WaterRippleSystem/Naturlin.NWaterRippleSystem.Runtime.asmdef: name=Naturlin.NWaterRippleSystem.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.WeaponsManager/Naturlin.NWeaponsManager.Runtime.asmdef: name=Naturlin.NWeaponsManager.Runtime; platforms=; references=Naturlin.NDynamicObject.Runtime, UdonSharp.Runtime, VRC.SDK3, VRC.SDKBase, VRC.Udon
+- Assets/N.Assets/N.Script/N.WIMExtensions/Naturlin.NWIMExtensions.Runtime.asmdef: name=Naturlin.NWIMExtensions.Runtime; platforms=; references=UdonSharp.Runtime, VRC.SDKBase, VRC.SDK3, VRC.Udon, dev.yukineko.wass.core, dev.yukineko.wim.modules-vol2, Naturlin.NInventory.Runtime, Naturlin.NDynamicObject.Runtime, Naturlin.NUdonGameChips.Runtime, Naturlin.NUdonChipsExchangeSystem.Runtime, Naturlin.NStatusSystem.Runtime, Naturlin.NSwimSystem.Runtime, Naturlin.NFlyingSystem.Runtime, Unity.TextMeshPro
+
+## Prefab
+
+- Assets/N.Assets/N.Prefab/N.AdvancedWorldSettings/Archive/VRCWorld_PreNAdvancedWorldSettings 1.prefab → 
+- Assets/N.Assets/N.Prefab/N.AdvancedWorldSettings/Archive/VRCWorld_PreNAdvancedWorldSettings 2.prefab → 
+- Assets/N.Assets/N.Prefab/N.AdvancedWorldSettings/Archive/VRCWorld_PreNAdvancedWorldSettings 3.prefab → 
+- Assets/N.Assets/N.Prefab/N.AdvancedWorldSettings/Archive/VRCWorld_PreNAdvancedWorldSettings.prefab → 
+- Assets/N.Assets/N.Prefab/N.BoothPoster/N.BoothPoster.prefab → Assets/N.Assets/N.Script/N.BoothPoster/NBoothItem.cs, Assets/N.Assets/N.Script/N.TouchPanelUI/NTouchPanelButton.cs, Assets/N.Assets/N.Script/N.BoothPoster/NTagRightXPosition.cs, Assets/N.Assets/N.Script/N.BoothPoster/NTagCenterWidth.cs, Assets/N.Assets/N.Script/N.BoothPoster/NUntrustedUrlsWindow.cs, Assets/N.Assets/N.Script/N.BoothPoster/NServerErrorWindow.cs, Assets/N.Assets/N.Script/N.BoothPoster/NBoothItemContainer.cs, Assets/N.Assets/N.Script/N.BoothPoster/NGetBoothItemsRequest.cs, Assets/N.Assets/N.Script/N.BoothPoster/NUrlWindow.cs, Assets/N.Assets/N.Script/N.BoothPoster/NBoothPoster.cs, Assets/N.Assets/N.Script/N.BoothPoster/NBoothCategoryButton.cs
+- Assets/N.Assets/N.Prefab/N.Border/N.Border.prefab → Assets/N.Assets/N.Script/N.Border/NBorder.cs
+- Assets/N.Assets/N.Prefab/N.Border/N.BorderManager.prefab → Assets/N.Assets/N.Script/N.Border/NBorderManager.cs
+- Assets/N.Assets/N.Prefab/N.Border/N.Borders.prefab → Assets/N.Assets/N.Script/N.Border/NBorder.cs, Assets/N.Assets/N.Script/N.Border/NBorderManager.cs
+- Assets/N.Assets/N.Prefab/N.DebugVisualization/N.DebugVisualization.prefab → Assets/N.Assets/N.Script/N.DebugVisualization/NDebugVisualizationManager.cs
+- Assets/N.Assets/N.Prefab/N.DoorSystem/Archive/DoorLocker_701_LegacyBackup.prefab → 
+- Assets/N.Assets/N.Prefab/N.DoorSystem/Archive/DoorLocker_701_PreDesktopPhysicsFix.prefab → Assets/N.Assets/N.Script/N.DoorSystem/NDoorHandleInput.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorTeleportInput.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorPhysBoneHandleInput.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorAuthZone.cs
+- Assets/N.Assets/N.Prefab/N.DoorSystem/Archive/DoorLocker_701_PreModeCoexistence.prefab → Assets/N.Assets/N.Script/N.DoorSystem/NDoorTeleportInput.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorAuthZone.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorPhysBoneHandleInput.cs
+- Assets/N.Assets/N.Prefab/N.DoorSystem/Archive/DoorLocker_701_PrePhysBoneOptimization.prefab → Assets/N.Assets/N.Script/N.DoorSystem/NDoorAuthZone.cs, Assets/N.Assets/N.Script/N.DoorSystem/NDoorTeleportInput.cs
+- Assets/N.Assets/N.Prefab/N.DoorSystem/N_DoorSystem_Manager.prefab → Assets/N.Assets/N.Script/N.DoorSystem/NDoorSystem.cs
+- Assets/N.Assets/N.Prefab/N.DynamicObject/N_DynamicObject_Sample.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs
+- Assets/N.Assets/N.Prefab/N.DynamicObject/N_DynamicObject_SnapPoint.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObjectSnapPoint.cs
+- Assets/N.Assets/N.Prefab/N.DynamicObject/N_DynamicObjectManager.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObjectManager.cs
+- Assets/N.Assets/N.Prefab/N.DynamicYamaPlayer/N_DynamicYamaPlayerManager_Legacy.prefab → Assets/N.Assets/N.Script/N.DynamicYamaPlayer/NDynamicYamaPlayerManager.cs
+- Assets/N.Assets/N.Prefab/N.DynamicYamaPlayer/N_DynamicYamaPlayerManager.prefab → Assets/N.Assets/N.Script/N.DynamicYamaPlayer/NDynamicYamaPlayerManager.cs
+- Assets/N.Assets/N.Prefab/N.ElevatorSystem/N_ElevatorButton.prefab → Assets/N.Assets/N.Script/N.ElevatorSystem/NElevatorButton.cs
+- Assets/N.Assets/N.Prefab/N.ElevatorSystem/N_ElevatorSystem.prefab → Assets/N.Assets/N.Script/N.ElevatorSystem/NElevatorSystem.cs
+- Assets/N.Assets/N.Prefab/N.FlyingSystem/N_FlyingSystem.prefab → Assets/N.Assets/N.Script/N.FlyingSystem/NFlyingSystem.cs
+- Assets/N.Assets/N.Prefab/N.GameObjectMemo/N.GameObjectMemo_Demo_EN.prefab → 
+- Assets/N.Assets/N.Prefab/N.GameObjectMemo/N.GameObjectMemo_Demo.prefab → 
+- Assets/N.Assets/N.Prefab/N.Inventory/N.Inventory Sample.prefab → Assets/N.Assets/N.Script/N.Inventory/NInventoryInserter.cs, Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs, Assets/N.Assets/N.Script/N.Inventory/NInventoryWithdrawButton.cs
+- Assets/N.Assets/N.Prefab/N.MixedDrinksSystem/N.MixedDrinksSystem.prefab → Assets/N.Assets/N.Script/N.MixedDrinksSystem/Runtime/NMixedDrinksSystem.cs
+- Assets/N.Assets/N.Prefab/N.MovementSystem/N_MovementSystem.prefab → Assets/N.Assets/N.Script/N.MovementSystem/NMovementSystem.cs
+- Assets/N.Assets/N.Prefab/N.SecuritySystem/N_SecurityDynamicObject_Sample.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs, Assets/N.Assets/N.Script/N.SecuritySystem/NSecurityObjectGuard.cs
+- Assets/N.Assets/N.Prefab/N.SecuritySystem/N_SecuritySystem.prefab → Assets/N.Assets/N.Script/N.SecuritySystem/NSecuritySystem.cs
+- Assets/N.Assets/N.Prefab/N.SecuritySystem/N_SecurityZone_Sample.prefab → Assets/N.Assets/N.Script/N.SecuritySystem/NSecurityZone.cs
+- Assets/N.Assets/N.Prefab/N.StatusSystem/N_StatusSystem.prefab → Assets/N.Assets/N.Script/N.StatusSystem/NStatusSystem.cs
+- Assets/N.Assets/N.Prefab/N.SwimSystem/N_SwimSystem.prefab → Assets/N.Assets/N.Script/N.SwimSystem/NSwimSystem.cs
+- Assets/N.Assets/N.Prefab/N.UdonChipsExchangeSystem/N_ChipsExchangeButton_GameChipsToMoney.prefab → Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/NChipsExchangeButton.cs
+- Assets/N.Assets/N.Prefab/N.UdonChipsExchangeSystem/N_ChipsExchangeButton_MoneyToGameChips.prefab → Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/NChipsExchangeButton.cs
+- Assets/N.Assets/N.Prefab/N.UdonChipsExchangeSystem/N_UdonChipsExchangeSystem.prefab → Assets/N.Assets/N.Script/N.UdonChipsExchangeSystem/NUdonChipsExchangeSystem.cs
+- Assets/N.Assets/N.Prefab/N.UdonGameChips/N_UdonGameChips.prefab → Assets/N.Assets/N.Script/N.UdonGameChips/NUdonGameChips.cs
+- Assets/N.Assets/N.Prefab/N.VirtualInput/N.VirtualInput.prefab → Assets/N.Assets/N.Script/N.VirtualInput/NVirtualInputManager.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_MainMenu.prefab → Assets/N.Assets/N.Script/N.WIMExtensions/NWIMShopPage.cs, Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMEquipmentPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs, Assets/N.Assets/N.Script/N.MainMenu/NMainMenuFollower.cs, Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMSettingsPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMenuShell.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMapPage.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_WIMChatModule.prefab → Assets/N.Assets/N.Script/N.WIMExtensions/NWIMChatModule.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_WIMInventoryModule.prefab → Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_WIMMenu_Module.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMEquipmentPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMShopPage.cs, Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMenuShell.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMSettingsPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMapPage.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_WIMMenu_Preview.prefab → Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs, Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMenuShell.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMapPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMSettingsPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMEquipmentPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMShopPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N.MainMenu.prefab → Assets/N.Assets/N.Script/N.DynamicObject/NDynamicObject.cs, Assets/N.Assets/N.Script/N.MainMenu/NMainMenuFollower.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMInventoryModule.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMShopPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMapPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMEquipmentPage.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMMenuShell.cs, Assets/N.Assets/N.Script/N.WIMExtensions/NWIMSettingsPage.cs, Assets/N.Assets/N.Script/N.Inventory/NInventoryManager.cs
+- Assets/N.Assets/N.Script/N.CalibrationSystem/Prefabs/N.CalibrationSystem_Sample.prefab → Assets/N.Assets/N.Script/N.CalibrationSystem/Runtime/NCalibrationSystem.cs
+- Assets/N.Assets/N.Script/N.DriftCorrection/Prefabs/N.DriftCorrection_Sample.prefab → Assets/N.Assets/N.Script/N.DriftCorrection/Runtime/NDriftCorrection.cs
+- Assets/N.Assets/N.Script/N.FarmerSimulation/Prefabs/N.FarmerSimulation_Sample.prefab → Assets/N.Assets/N.Script/N.FarmerSimulation/Runtime/NFarmerSimulationPlot.cs
+- Assets/N.Assets/N.Script/N.PetSimulator/Prefabs/N.PetSimulator_Sample.prefab → Assets/N.Assets/N.Script/N.PetSimulator/Runtime/NPetSimulatorAgent.cs
+
+## Shader
+
+- Assets/N.Assets/N.Shader/N.Border/N.Border.shader; Naturlin/N.Border; passes=2; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.Border/N.BorderInfo.shader; Naturlin/N.BorderInfo; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.DebugVisualization/N.DebugVisualization.shader; Naturlin/N.DebugVisualization; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.IntegratedMenu/N_DimensionalSurface.shader; N/IntegratedMenu/DimensionalSurface; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.IntegratedMenu/N_LocalPointer.shader; N/IntegratedMenu/LocalPointer; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.IntegratedMenu/N_UIFrame.shader; N/IntegratedMenu/UIFrame; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.SecuritySystem/N_SecurityViewBlocker.shader; Naturlin/N.SecuritySystem/ViewBlocker; passes=1; GrabPass=False; stereo tokens=True
+- Assets/N.Assets/N.Shader/N.WaterRippleSystem/NWaterRippleSimulation.shader; Naturlin/N.WaterRippleSystem/Simulation; passes=1; GrabPass=False; stereo tokens=False
+- Assets/N.Assets/N.Shader/N.WaterRippleSystem/NWaterShoreWetness.shader; Naturlin/N.WaterRippleSystem/ShoreWetness; passes=1; GrabPass=False; stereo tokens=False
+- Assets/N.Assets/N.Shader/N.WaterRippleSystem/NWaterSurfaceParticle.shader; Naturlin/N.WaterRippleSystem/SurfaceParticle; passes=1; GrabPass=False; stereo tokens=False
+- Assets/N.Assets/N.Shader/N.WaterRippleSystem/NWaterWetLens.shader; Naturlin/N.WaterRippleSystem/WetLens; passes=1; GrabPass=False; stereo tokens=False
+Shader欄は構造索引のみ。GPU負荷・VRステレオ・Android互換性の保証ではない。
+
+## 説明資料
+
+- Assets/N.Assets/N.Archive/N_ProjectAudit_2026-08-12.md
+- Assets/N.Assets/N.Archive/N.Optimization/Optimization_Report.md
+- Assets/N.Assets/N.Archive/N.Optimization/Runtime_Analysis.md
+- Assets/N.Assets/N.Archive/N.PackageRepair_20261010/Repair_Notes.md
+- Assets/N.Assets/N.Prefab/N.AdvancedWorldSettings/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.AvatarNow/README.md
+- Assets/N.Assets/N.Prefab/N.BoothPoster/README.md
+- Assets/N.Assets/N.Prefab/N.Border/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.DebugVisualization/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.DoorSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.DynamicObject/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.DynamicObject/README.md
+- Assets/N.Assets/N.Prefab/N.DynamicYamaPlayer/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.DynamicYamaPlayer/README.md
+- Assets/N.Assets/N.Prefab/N.ElevatorSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.FlyingSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.Inventory/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.Inventory/README.md
+- Assets/N.Assets/N.Prefab/N.MovementSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.SecuritySystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.StatusSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.SwimSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.TouchPanelUI/README.md
+- Assets/N.Assets/N.Prefab/N.UdonChipsExchangeSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.UdonGameChips/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.VirtualInput/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.WaterRippleSystem/QuickVerify.md
+- Assets/N.Assets/N.Prefab/N.WaterRippleSystem/README.md
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/N_MenuIntegration.md
+- Assets/N.Assets/N.Prefab/N.WIMExtensions/README.md
+- Assets/N.Assets/N.Script/N.CalibrationSystem/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.Console/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.DriftCorrection/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.ElevatorSystem/README.md
+- Assets/N.Assets/N.Script/N.FarmerSimulation/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.FlyingSystem/README.md
+- Assets/N.Assets/N.Script/N.GimmickTransformationSystem/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.GimmickTransformationSystem/README.md
+- Assets/N.Assets/N.Script/N.PetSimulator/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.SwimSystem/README.md
+- Assets/N.Assets/N.Script/N.VehicleManager/Docs/QuickVerify.md
+- Assets/N.Assets/N.Script/N.VehicleManager/README.md
+- Assets/N.Assets/N.Shader/N.IntegratedMenu/README.md
+- Assets/N.Assets/N.Texture/N.WIMMenu/N_Artwork_Source.md
