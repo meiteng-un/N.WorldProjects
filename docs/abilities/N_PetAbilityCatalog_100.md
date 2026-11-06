@@ -2,6 +2,9 @@
 
 100件。効果値・条件・分岐などの全項目は[定義データ](./N_PetAbilityCatalog_100.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · n.petability.walkspeed.1</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | n.petability.walkspeed.1 | "微かな軽足" | "Faint Lightfoot" | "移動速度を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -20,6 +23,14 @@
 | n.petability.hungerconsumption.4 | "深い倹しい食欲" | "Deep Frugal Appetite" | "空腹の進行速度を基準値から8%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.hungerconsumption.5 | "希少な倹しい食欲" | "Rare Frugal Appetite" | "空腹の進行速度を基準値から10%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.thirstconsumption.1 | "微かな節水体質" | "Faint Water Saver" | "渇きの進行速度を基準値から2%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>17–32 件目 · n.petability.thirstconsumption.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.thirstconsumption.2 | "穏やかな節水体質" | "Gentle Water Saver" | "渇きの進行速度を基準値から4%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.thirstconsumption.3 | "確かな節水体質" | "Distinct Water Saver" | "渇きの進行速度を基準値から6%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.thirstconsumption.4 | "深い節水体質" | "Deep Water Saver" | "渇きの進行速度を基準値から8%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -36,6 +47,14 @@
 | n.petability.lifespan.5 | "希少な長命の芽" | "Rare Longevity" | "寿命倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.breedingsuccess.1 | "微かな生命の実り" | "Faint Fertility" | "繁殖成功率の倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.breedingsuccess.2 | "穏やかな生命の実り" | "Gentle Fertility" | "繁殖成功率の倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>33–48 件目 · n.petability.breedingsuccess.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.breedingsuccess.3 | "確かな生命の実り" | "Distinct Fertility" | "繁殖成功率の倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.breedingsuccess.4 | "深い生命の実り" | "Deep Fertility" | "繁殖成功率の倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.breedingsuccess.5 | "希少な生命の実り" | "Rare Fertility" | "繁殖成功率の倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -52,6 +71,14 @@
 | n.petability.producequality.1 | "微かな上質な恵み" | "Faint Fine Produce" | "飼育生産物の品質評価を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.producequality.2 | "穏やかな上質な恵み" | "Gentle Fine Produce" | "飼育生産物の品質評価を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.producequality.3 | "確かな上質な恵み" | "Distinct Fine Produce" | "飼育生産物の品質評価を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>49–64 件目 · n.petability.producequality.4</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.producequality.4 | "深い上質な恵み" | "Deep Fine Produce" | "飼育生産物の品質評価を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.producequality.5 | "希少な上質な恵み" | "Rare Fine Produce" | "飼育生産物の品質評価を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.trainingexperience.1 | "微かな物覚え" | "Faint Quick Learner" | "訓練の成功経験値を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -68,6 +95,14 @@
 | n.petability.coldresistance.2 | "穏やかな冬毛の加護" | "Gentle Winter Coat" | "寒さへの抵抗倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.coldresistance.3 | "確かな冬毛の加護" | "Distinct Winter Coat" | "寒さへの抵抗倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.coldresistance.4 | "深い冬毛の加護" | "Deep Winter Coat" | "寒さへの抵抗倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>65–80 件目 · n.petability.coldresistance.5</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.coldresistance.5 | "希少な冬毛の加護" | "Rare Winter Coat" | "寒さへの抵抗倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.heatresistance.1 | "微かな夏風の体" | "Faint Summer Body" | "暑さへの抵抗倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.heatresistance.2 | "穏やかな夏風の体" | "Gentle Summer Body" | "暑さへの抵抗倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -84,6 +119,14 @@
 | n.petability.stamina.3 | "確かな底力" | "Distinct Endurance" | "持久力の上限を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.stamina.4 | "深い底力" | "Deep Endurance" | "持久力の上限を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.stamina.5 | "希少な底力" | "Rare Endurance" | "持久力の上限を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>81–96 件目 · n.petability.perception.1</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.perception.1 | "微かな鋭い感覚" | "Faint Keen Senses" | "対応する感知判定の有効範囲を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.perception.2 | "穏やかな鋭い感覚" | "Gentle Keen Senses" | "対応する感知判定の有効範囲を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.perception.3 | "確かな鋭い感覚" | "Distinct Keen Senses" | "対応する感知判定の有効範囲を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -100,7 +143,17 @@
 | n.petability.inheritancechance.4 | "深い継がれる資質" | "Deep Inherited Gift" | "能力遺伝の判定倍率を基準値から8%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.inheritancechance.5 | "希少な継がれる資質" | "Rare Inherited Gift" | "能力遺伝の判定倍率を基準値から10%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.evolutionchance.1 | "微かな変化の兆し" | "Faint Evolution Spark" | "条件充足後の進化抽選倍率を基準値から2%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>97–100 件目 · n.petability.evolutionchance.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.petability.evolutionchance.2 | "穏やかな変化の兆し" | "Gentle Evolution Spark" | "条件充足後の進化抽選倍率を基準値から4%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.evolutionchance.3 | "確かな変化の兆し" | "Distinct Evolution Spark" | "条件充足後の進化抽選倍率を基準値から6%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.evolutionchance.4 | "深い変化の兆し" | "Deep Evolution Spark" | "条件充足後の進化抽選倍率を基準値から8%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.petability.evolutionchance.5 | "希少な変化の兆し" | "Rare Evolution Spark" | "条件充足後の進化抽選倍率を基準値から10%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>

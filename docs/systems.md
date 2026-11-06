@@ -6,7 +6,8 @@
 - [シーンで確認した参照と保留事項](systems/scene-wiring-status.md)
 - [従来のギミック資料](systems/n-gimmick-catalog.md)
 
-## 移動・入場
+<details>
+<summary>移動・入場</summary>
 
 ```mermaid
 flowchart LR
@@ -42,7 +43,10 @@ flowchart LR
 | N.Border | 区域境界・通行判定 |
 | N.NavigateHierarchySystem | 階層・経路案内 |
 
-## 施設・権限
+</details>
+
+<details>
+<summary>施設・権限</summary>
 
 ```mermaid
 flowchart LR
@@ -62,7 +66,10 @@ flowchart LR
 | N.WelcomeSystem | 受付・認証カード連携 |
 | N.SecuritySystem | アクセス制御・復帰処理 |
 
-## 端末・操作
+</details>
+
+<details>
+<summary>端末・操作</summary>
 
 ```mermaid
 flowchart LR
@@ -84,7 +91,10 @@ flowchart LR
 | N.Console | コマンド・補助入力 |
 | N.RTabIntegration | RTabアプリ・レシピ連携 |
 
-## 個体・経済・進行
+</details>
+
+<details>
+<summary>個体・経済・進行</summary>
 
 ```mermaid
 flowchart LR
@@ -122,7 +132,10 @@ flowchart LR
 | N.NpcSystem | 住民・台詞・関係値・接触条件 |
 | N.QuestSystem | 依頼・周期・進行・報酬定義 |
 
-## 生活・制作・演出
+</details>
+
+<details>
+<summary>生活・制作・演出</summary>
 
 ```mermaid
 flowchart LR
@@ -158,19 +171,4 @@ flowchart LR
 
 図は同分類内の型付き参照を示します。分類をまたぐ参照はフィールド索引を参照してください。図で孤立したノードにも、汎用Udonイベントや外部アセットとの接続があり得ます。
 
-## 分類をまたぐ主な接続
-
-```mermaid
-flowchart LR
-    Welcome["N.WelcomeSystem"] --> Dynamic["N.DynamicObject"]
-    Door["N.DoorSystem"] --> Dynamic
-    Room["N.RoomRespawnSystem"] --> Status["N.StatusSystem"]
-    Elevator["N.ElevatorSystem"] --> Dynamic
-    WIM["N.WIMExtensions"] --> Status
-    WIM --> Exchange["N.UdonChipsExchangeSystem"]
-    RTab["N.RTabIntegration"] --> Inventory["N.Inventory"]
-    Camera["N.VirtualLensWorld"] --> Inventory
-    Camera --> Exchange
-    Fishing["N.FishingSystem"] --> Inventory
-    Movement["N.MovementSystem"] --> Status
-```
+</details>

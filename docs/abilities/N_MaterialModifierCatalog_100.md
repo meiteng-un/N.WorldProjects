@@ -2,6 +2,9 @@
 
 130件。効果値・条件・分岐などの全項目は[定義データ](./N_MaterialModifierCatalog_100.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · n.materialmodifier.sweetness.1</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | n.materialmodifier.sweetness.1 | "微かな蜜の気配" | "Faint Honeyed" | "甘みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -20,6 +23,14 @@
 | n.materialmodifier.astringency.4 | "深い渋皮の深み" | "Deep Tannic Depth" | "渋みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.astringency.5 | "希少な渋皮の深み" | "Rare Tannic Depth" | "渋みを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.bitterness.1 | "微かな夜葉の苦み" | "Faint Nightleaf Bitter" | "苦みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>17–32 件目 · n.materialmodifier.bitterness.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.bitterness.2 | "穏やかな夜葉の苦み" | "Gentle Nightleaf Bitter" | "苦みを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.bitterness.3 | "確かな夜葉の苦み" | "Distinct Nightleaf Bitter" | "苦みを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.bitterness.4 | "深い夜葉の苦み" | "Deep Nightleaf Bitter" | "苦みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -36,6 +47,14 @@
 | n.materialmodifier.watercontent.5 | "希少な瑞々しさ" | "Rare Juiciness" | "含水評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.quality.1 | "微かな良質" | "Faint Fine Grade" | "品質評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.quality.2 | "穏やかな良質" | "Gentle Fine Grade" | "品質評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>33–48 件目 · n.materialmodifier.quality.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.quality.3 | "確かな良質" | "Distinct Fine Grade" | "品質評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.quality.4 | "深い良質" | "Deep Fine Grade" | "品質評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.quality.5 | "希少な良質" | "Rare Fine Grade" | "品質評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -52,6 +71,14 @@
 | n.materialmodifier.hydration.1 | "微かな潤い" | "Faint Refreshing" | "加工後に継承可能な水分補給評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.hydration.2 | "穏やかな潤い" | "Gentle Refreshing" | "加工後に継承可能な水分補給評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.hydration.3 | "確かな潤い" | "Distinct Refreshing" | "加工後に継承可能な水分補給評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>49–64 件目 · n.materialmodifier.hydration.4</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.hydration.4 | "深い潤い" | "Deep Refreshing" | "加工後に継承可能な水分補給評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.hydration.5 | "希少な潤い" | "Rare Refreshing" | "加工後に継承可能な水分補給評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.alchemypotency.1 | "微かな薬効の兆し" | "Faint Potent Essence" | "対応する錬金材料の効力評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -68,6 +95,14 @@
 | n.materialmodifier.cookingaroma.2 | "穏やかな芳香" | "Gentle Fragrant" | "対応する料理の香り評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.cookingaroma.3 | "確かな芳香" | "Distinct Fragrant" | "対応する料理の香り評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.cookingaroma.4 | "深い芳香" | "Deep Fragrant" | "対応する料理の香り評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>65–80 件目 · n.materialmodifier.cookingaroma.5</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.cookingaroma.5 | "希少な芳香" | "Rare Fragrant" | "対応する料理の香り評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.roastingaroma.1 | "微かな焙香" | "Faint Roast Aroma" | "対応する焙煎の香り評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.roastingaroma.2 | "穏やかな焙香" | "Gentle Roast Aroma" | "対応する焙煎の香り評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -84,6 +119,14 @@
 | n.materialmodifier.weight.3 | "確かな軽い質感" | "Distinct Light Stock" | "重量を基準値から6%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.weight.4 | "深い軽い質感" | "Deep Light Stock" | "重量を基準値から8%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.weight.5 | "希少な軽い質感" | "Rare Light Stock" | "重量を基準値から10%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>81–96 件目 · n.materialmodifier.purity.1</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.purity.1 | "微かな澄んだ成分" | "Faint Pure Composition" | "純度評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.purity.2 | "穏やかな澄んだ成分" | "Gentle Pure Composition" | "純度評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.purity.3 | "確かな澄んだ成分" | "Distinct Pure Composition" | "純度評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -100,6 +143,14 @@
 | n.materialmodifier.elasticity.4 | "深いしなやかな繊維" | "Deep Supple Fiber" | "弾性評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.elasticity.5 | "希少なしなやかな繊維" | "Rare Supple Fiber" | "弾性評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.energyaffinity.1 | "微かな異質な親和" | "Faint Anomalous Affinity" | "対応する未知エネルギーとの親和評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
+
+</details>
+
+<details>
+<summary>97–112 件目 · n.materialmodifier.energyaffinity.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.energyaffinity.2 | "穏やかな異質な親和" | "Gentle Anomalous Affinity" | "対応する未知エネルギーとの親和評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.energyaffinity.3 | "確かな異質な親和" | "Distinct Anomalous Affinity" | "対応する未知エネルギーとの親和評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
 | n.materialmodifier.energyaffinity.4 | "深い異質な親和" | "Deep Anomalous Affinity" | "対応する未知エネルギーとの親和評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。" |
@@ -116,6 +167,14 @@
 | n.materialmodifier.affix.5 | "補正の宿り 極" | "Affix Receptivity 5" | "素材として使用時、Modifier付与率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.awaken.1 | "覚醒の触媒 微" | "Awakening Catalyst 1" | "素材として使用時、覚醒確率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.awaken.2 | "覚醒の触媒 小" | "Awakening Catalyst 2" | "素材として使用時、覚醒確率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
+
+</details>
+
+<details>
+<summary>113–128 件目 · n.materialmodifier.awaken.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.awaken.3 | "覚醒の触媒 中" | "Awakening Catalyst 3" | "素材として使用時、覚醒確率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.awaken.4 | "覚醒の触媒 大" | "Awakening Catalyst 4" | "素材として使用時、覚醒確率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.awaken.5 | "覚醒の触媒 極" | "Awakening Catalyst 5" | "素材として使用時、覚醒確率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
@@ -132,5 +191,15 @@
 | n.materialmodifier.rare.1 | "希なる共鳴 微" | "Rare Resonance 1" | "素材として使用時、高レアModifierの抽選重み傾向を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.rare.2 | "希なる共鳴 小" | "Rare Resonance 2" | "素材として使用時、高レアModifierの抽選重み傾向を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.rare.3 | "希なる共鳴 中" | "Rare Resonance 3" | "素材として使用時、高レアModifierの抽選重み傾向を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
+
+</details>
+
+<details>
+<summary>129–130 件目 · n.materialmodifier.rare.4</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | n.materialmodifier.rare.4 | "希なる共鳴 大" | "Rare Resonance 4" | "素材として使用時、高レアModifierの抽選重み傾向を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
 | n.materialmodifier.rare.5 | "希なる共鳴 極" | "Rare Resonance 5" | "素材として使用時、高レアModifierの抽選重み傾向を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。" |
+
+</details>

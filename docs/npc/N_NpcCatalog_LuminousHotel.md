@@ -2,6 +2,9 @@
 
 216件。効果値・条件・分岐などの全項目は[定義データ](./N_NpcCatalog_LuminousHotel.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · npc.luminous.mio</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | npc.luminous.mio | "澪" | "Mio" | "受付" |
@@ -20,6 +23,14 @@
 | npc.luminous.miyuki | "深雪" | "Miyuki" | "臨時診療" |
 | npc.luminous.tsuzuri | "綴" | "Tsuzuri" | "資料整理" |
 | npc.luminous.hoshino | "星乃" | "Hoshino" | "天体観測" |
+
+</details>
+
+<details>
+<summary>17–32 件目 · npc.luminous.kirie</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | npc.luminous.kirie | "霧江" | "Kirie" | "天候観測" |
 | npc.luminous.azusa | "梓" | "Azusa" | "調薬" |
 | npc.luminous.teppei | "鉄平" | "Teppei" | "工作" |
@@ -36,6 +47,14 @@
 | npc.luminous.hari | "玻璃" | "Hari" | "異常痕跡の観測" |
 | npc.luminous.toya | "遠矢" | "Toya" | "車道調査" |
 | npc.luminous.hatsuse | "初瀬" | "Hatsuse" | "外域取引" |
+
+</details>
+
+<details>
+<summary>33–48 件目 · npc.luminous.satsuki</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | npc.luminous.satsuki | "皐月" | "Satsuki" | "季節行事" |
 | npc.luminous.iori | "伊織" | "Iori" | "結界機材の点検" |
 | npc.luminous.ruri | "瑠璃" | "Ruri" | "写真資料" |
@@ -52,6 +71,14 @@
 | dialogue.luminous.akari.5 | "客室案内札は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The room direction signs still need checking. Could you follow up once the records are ready?" | "npc.luminous.akari" |
 | dialogue.luminous.tamaki.1 | "館内配達の環です。封緘便の件でしたら、ここでお聞きします。" | "I'm Tamaki, with Hotel courier. If this is about the sealed parcels, I can help." | "npc.luminous.tamaki" |
 | dialogue.luminous.tamaki.2 | "あ、来てくれたんだ。封緘便のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the sealed parcels?" | "npc.luminous.tamaki" |
+
+</details>
+
+<details>
+<summary>49–64 件目 · dialogue.luminous.tamaki.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.tamaki.3 | "配達用の籠については、次に顔を合わせたときに話しましょう。" | "Let's talk about the delivery baskets next time we meet." | "npc.luminous.tamaki" |
 | dialogue.luminous.tamaki.4 | "配達用の籠の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the delivery baskets records with you." | "npc.luminous.tamaki" |
 | dialogue.luminous.tamaki.5 | "配達用の籠は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The delivery baskets still need checking. Could you follow up once the records are ready?" | "npc.luminous.tamaki" |
@@ -68,6 +95,14 @@
 | dialogue.luminous.ritsu.1 | "整備の律です。昇降機の予備部品の件でしたら、ここでお聞きします。" | "I'm Ritsu, with Maintenance. If this is about the spare lift parts, I can help." | "npc.luminous.ritsu" |
 | dialogue.luminous.ritsu.2 | "あ、来てくれたんだ。昇降機の予備部品のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the spare lift parts?" | "npc.luminous.ritsu" |
 | dialogue.luminous.ritsu.3 | "工具台帳については、次に顔を合わせたときに話しましょう。" | "Let's talk about the tool ledger next time we meet." | "npc.luminous.ritsu" |
+
+</details>
+
+<details>
+<summary>65–80 件目 · dialogue.luminous.ritsu.4</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.ritsu.4 | "工具台帳の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the tool ledger records with you." | "npc.luminous.ritsu" |
 | dialogue.luminous.ritsu.5 | "工具台帳は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The tool ledger still need checking. Could you follow up once the records are ready?" | "npc.luminous.ritsu" |
 | dialogue.luminous.gen.1 | "車庫の弦です。帰還車両の積荷の件でしたら、ここでお聞きします。" | "I'm Gen, with Garage. If this is about the returning vehicle cargo, I can help." | "npc.luminous.gen" |
@@ -84,6 +119,14 @@
 | dialogue.luminous.nagisa.2 | "あ、来てくれたんだ。交換用の浮きのこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the replacement floats?" | "npc.luminous.nagisa" |
 | dialogue.luminous.nagisa.3 | "糸巻きについては、次に顔を合わせたときに話しましょう。" | "Let's talk about the line spools next time we meet." | "npc.luminous.nagisa" |
 | dialogue.luminous.nagisa.4 | "糸巻きの記録、そちらにも一部置いておくね。" | "I'll leave a copy of the line spools records with you." | "npc.luminous.nagisa" |
+
+</details>
+
+<details>
+<summary>81–96 件目 · dialogue.luminous.nagisa.5</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.nagisa.5 | "糸巻きは確認待ちです。記録が揃ったら続きをお願いできますか？" | "The line spools still need checking. Could you follow up once the records are ready?" | "npc.luminous.nagisa" |
 | dialogue.luminous.kohagi.1 | "栽培の小萩です。種苗箱の件でしたら、ここでお聞きします。" | "I'm Kohagi, with Cultivation. If this is about the seedling trays, I can help." | "npc.luminous.kohagi" |
 | dialogue.luminous.kohagi.2 | "あ、来てくれたんだ。種苗箱のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the seedling trays?" | "npc.luminous.kohagi" |
@@ -100,6 +143,14 @@
 | dialogue.luminous.haku.3 | "試飲札については、次に顔を合わせたときに話しましょう。" | "Let's talk about the tasting cards next time we meet." | "npc.luminous.haku" |
 | dialogue.luminous.haku.4 | "試飲札の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the tasting cards records with you." | "npc.luminous.haku" |
 | dialogue.luminous.haku.5 | "試飲札は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The tasting cards still need checking. Could you follow up once the records are ready?" | "npc.luminous.haku" |
+
+</details>
+
+<details>
+<summary>97–112 件目 · dialogue.luminous.yoi.1</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.yoi.1 | "バーの宵です。香草シロップの件でしたら、ここでお聞きします。" | "I'm Yoi, with Bar. If this is about the herbal syrup, I can help." | "npc.luminous.yoi" |
 | dialogue.luminous.yoi.2 | "あ、来てくれたんだ。香草シロップのこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the herbal syrup?" | "npc.luminous.yoi" |
 | dialogue.luminous.yoi.3 | "試作用のグラスについては、次に顔を合わせたときに話しましょう。" | "Let's talk about the sample glasses next time we meet." | "npc.luminous.yoi" |
@@ -116,6 +167,14 @@
 | dialogue.luminous.tsuzuri.4 | "災厄前の写真の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the pre-disaster photographs records with you." | "npc.luminous.tsuzuri" |
 | dialogue.luminous.tsuzuri.5 | "災厄前の写真は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The pre-disaster photographs still need checking. Could you follow up once the records are ready?" | "npc.luminous.tsuzuri" |
 | dialogue.luminous.hoshino.1 | "天体観測の星乃です。望遠鏡の遮光板の件でしたら、ここでお聞きします。" | "I'm Hoshino, with Astronomy. If this is about the telescope light shields, I can help." | "npc.luminous.hoshino" |
+
+</details>
+
+<details>
+<summary>113–128 件目 · dialogue.luminous.hoshino.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.hoshino.2 | "あ、来てくれたんだ。望遠鏡の遮光板のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the telescope light shields?" | "npc.luminous.hoshino" |
 | dialogue.luminous.hoshino.3 | "観測時刻表については、次に顔を合わせたときに話しましょう。" | "Let's talk about the observation schedule next time we meet." | "npc.luminous.hoshino" |
 | dialogue.luminous.hoshino.4 | "観測時刻表の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the observation schedule records with you." | "npc.luminous.hoshino" |
@@ -132,6 +191,14 @@
 | dialogue.luminous.azusa.5 | "乾燥薬草は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The dried medicinal herbs still need checking. Could you follow up once the records are ready?" | "npc.luminous.azusa" |
 | dialogue.luminous.teppei.1 | "工作の鉄平です。再鍛造の試験片の件でしたら、ここでお聞きします。" | "I'm Teppei, with Workshop. If this is about the reforging test pieces, I can help." | npc.luminous.teppei |
 | dialogue.luminous.teppei.2 | "あ、来てくれたんだ。再鍛造の試験片のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the reforging test pieces?" | "npc.luminous.teppei" |
+
+</details>
+
+<details>
+<summary>129–144 件目 · dialogue.luminous.teppei.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.teppei.3 | "研磨材については、次に顔を合わせたときに話しましょう。" | "Let's talk about the abrasives next time we meet." | "npc.luminous.teppei" |
 | dialogue.luminous.teppei.4 | "研磨材の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the abrasives records with you." | "npc.luminous.teppei" |
 | dialogue.luminous.teppei.5 | "研磨材は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The abrasives still need checking. Could you follow up once the records are ready?" | "npc.luminous.teppei" |
@@ -148,6 +215,14 @@
 | dialogue.luminous.kei.1 | "端末整備の慧です。端末の貸出箱の件でしたら、ここでお聞きします。" | "I'm Kei, with Terminal support. If this is about the terminal loan cases, I can help." | "npc.luminous.kei" |
 | dialogue.luminous.kei.2 | "あ、来てくれたんだ。端末の貸出箱のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the terminal loan cases?" | "npc.luminous.kei" |
 | dialogue.luminous.kei.3 | "充電台については、次に顔を合わせたときに話しましょう。" | "Let's talk about the charging stands next time we meet." | "npc.luminous.kei" |
+
+</details>
+
+<details>
+<summary>145–160 件目 · dialogue.luminous.kei.4</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.kei.4 | "充電台の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the charging stands records with you." | "npc.luminous.kei" |
 | dialogue.luminous.kei.5 | "充電台は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The charging stands still need checking. Could you follow up once the records are ready?" | "npc.luminous.kei" |
 | dialogue.luminous.nanao.1 | "娯楽備品の七緒です。共用のチェス駒の件でしたら、ここでお聞きします。" | "I'm Nanao, with Games and recreation. If this is about the shared chess pieces, I can help." | "npc.luminous.nanao" |
@@ -164,6 +239,14 @@
 | dialogue.luminous.aoba.2 | "あ、来てくれたんだ。乾物の保管箱のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the dry-goods crates?" | "npc.luminous.aoba" |
 | dialogue.luminous.aoba.3 | "搬入伝票については、次に顔を合わせたときに話しましょう。" | "Let's talk about the delivery slips next time we meet." | "npc.luminous.aoba" |
 | dialogue.luminous.aoba.4 | "搬入伝票の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the delivery slips records with you." | "npc.luminous.aoba" |
+
+</details>
+
+<details>
+<summary>161–176 件目 · dialogue.luminous.aoba.5</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.aoba.5 | "搬入伝票は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The delivery slips still need checking. Could you follow up once the records are ready?" | "npc.luminous.aoba" |
 | dialogue.luminous.tonami.1 | "外域測量の砥波です。旧歩道の迂回標の件でしたら、ここでお聞きします。" | "I'm Tonami, with Field survey. If this is about the old walkway detour markers, I can help." | "npc.luminous.tonami" |
 | dialogue.luminous.tonami.2 | "あ、来てくれたんだ。旧歩道の迂回標のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the old walkway detour markers?" | "npc.luminous.tonami" |
@@ -180,6 +263,14 @@
 | dialogue.luminous.usuzumi.3 | "旧商店の帳面については、次に顔を合わせたときに話しましょう。" | "Let's talk about the old shop ledgers next time we meet." | "npc.luminous.usuzumi" |
 | dialogue.luminous.usuzumi.4 | "旧商店の帳面の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the old shop ledgers records with you." | "npc.luminous.usuzumi" |
 | dialogue.luminous.usuzumi.5 | "旧商店の帳面は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The old shop ledgers still need checking. Could you follow up once the records are ready?" | "npc.luminous.usuzumi" |
+
+</details>
+
+<details>
+<summary>177–192 件目 · dialogue.luminous.minemori.1</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.minemori.1 | "野営地の下見の峰守です。旧キャンプ場の測定点の件でしたら、ここでお聞きします。" | "I'm Minemori, with Campsite survey. If this is about the old campsite survey points, I can help." | "npc.luminous.minemori" |
 | dialogue.luminous.minemori.2 | "あ、来てくれたんだ。旧キャンプ場の測定点のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the old campsite survey points?" | "npc.luminous.minemori" |
 | dialogue.luminous.minemori.3 | "林道の退避標については、次に顔を合わせたときに話しましょう。" | "Let's talk about the forest road retreat markers next time we meet." | npc.luminous.minemori |
@@ -196,6 +287,14 @@
 | dialogue.luminous.toya.4 | "路肩の迂回札の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the roadside detour signs records with you." | "npc.luminous.toya" |
 | dialogue.luminous.toya.5 | "路肩の迂回札は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The roadside detour signs still need checking. Could you follow up once the records are ready?" | "npc.luminous.toya" |
 | dialogue.luminous.hatsuse.1 | "外域取引の初瀬です。交換用の医療容器の件でしたら、ここでお聞きします。" | "I'm Hatsuse, with Outland trade. If this is about the medical containers for barter, I can help." | "npc.luminous.hatsuse" |
+
+</details>
+
+<details>
+<summary>193–208 件目 · dialogue.luminous.hatsuse.2</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.hatsuse.2 | "あ、来てくれたんだ。交換用の医療容器のこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the medical containers for barter?" | "npc.luminous.hatsuse" |
 | dialogue.luminous.hatsuse.3 | "物々交換の見本については、次に顔を合わせたときに話しましょう。" | "Let's talk about the barter samples next time we meet." | "npc.luminous.hatsuse" |
 | dialogue.luminous.hatsuse.4 | "物々交換の見本の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the barter samples records with you." | "npc.luminous.hatsuse" |
@@ -212,6 +311,14 @@
 | dialogue.luminous.iori.5 | "撤収用の留め具は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The pack-down fasteners still need checking. Could you follow up once the records are ready?" | "npc.luminous.iori" |
 | dialogue.luminous.ruri.1 | "写真資料の瑠璃です。写真プリントの件でしたら、ここでお聞きします。" | "I'm Ruri, with Photo archives. If this is about the photo prints, I can help." | "npc.luminous.ruri" |
 | dialogue.luminous.ruri.2 | "あ、来てくれたんだ。写真プリントのこと、ちょっと聞いてくれる？" | "Oh, you made it. Got a minute to talk about the photo prints?" | "npc.luminous.ruri" |
+
+</details>
+
+<details>
+<summary>209–216 件目 · dialogue.luminous.ruri.3</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.luminous.ruri.3 | "撮影位置の記録については、次に顔を合わせたときに話しましょう。" | "Let's talk about the photo location notes next time we meet." | "npc.luminous.ruri" |
 | dialogue.luminous.ruri.4 | "撮影位置の記録の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the photo location notes records with you." | "npc.luminous.ruri" |
 | dialogue.luminous.ruri.5 | "撮影位置の記録は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The photo location notes still need checking. Could you follow up once the records are ready?" | "npc.luminous.ruri" |
@@ -220,3 +327,5 @@
 | dialogue.luminous.niwa.3 | "鮮度の記録については、次に顔を合わせたときに話しましょう。" | "Let's talk about the freshness logs next time we meet." | "npc.luminous.niwa" |
 | dialogue.luminous.niwa.4 | "鮮度の記録の記録、そちらにも一部置いておくね。" | "I'll leave a copy of the freshness logs records with you." | "npc.luminous.niwa" |
 | dialogue.luminous.niwa.5 | "鮮度の記録は確認待ちです。記録が揃ったら続きをお願いできますか？" | "The freshness logs still need checking. Could you follow up once the records are ready?" | "npc.luminous.niwa" |
+
+</details>

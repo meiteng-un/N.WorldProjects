@@ -2,6 +2,9 @@
 
 192件。効果値・条件・分岐などの全項目は[定義データ](./N_NpcCatalog_Prototype.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · npc.prototype.01</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | npc.prototype.01 | 仮住民1 | Prototype Resident 1 | 整備 |
@@ -20,6 +23,14 @@
 | npc.prototype.14 | 仮住民14 | Prototype Resident 14 | 探索 |
 | npc.prototype.15 | 仮住民15 | Prototype Resident 15 | 売店 |
 | npc.prototype.16 | 仮住民16 | Prototype Resident 16 | 観測 |
+
+</details>
+
+<details>
+<summary>17–32 件目 · npc.prototype.17</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | npc.prototype.17 | 仮住民17 | Prototype Resident 17 | 飼育 |
 | npc.prototype.18 | 仮住民18 | Prototype Resident 18 | 農園 |
 | npc.prototype.19 | 仮住民19 | Prototype Resident 19 | 整備 |
@@ -36,6 +47,14 @@
 | npc.prototype.30 | 仮住民30 | Prototype Resident 30 | 農園 |
 | npc.prototype.31 | 仮住民31 | Prototype Resident 31 | 整備 |
 | npc.prototype.32 | 仮住民32 | Prototype Resident 32 | 探索 |
+
+</details>
+
+<details>
+<summary>33–48 件目 · npc.prototype.33</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | npc.prototype.33 | 仮住民33 | Prototype Resident 33 | 売店 |
 | npc.prototype.34 | 仮住民34 | Prototype Resident 34 | 観測 |
 | npc.prototype.35 | 仮住民35 | Prototype Resident 35 | 飼育 |
@@ -52,6 +71,14 @@
 | npc.prototype.46 | 仮住民46 | Prototype Resident 46 | 観測 |
 | npc.prototype.47 | 仮住民47 | Prototype Resident 47 | 飼育 |
 | npc.prototype.48 | 仮住民48 | Prototype Resident 48 | 農園 |
+
+</details>
+
+<details>
+<summary>49–64 件目 · dialogue.prototype.001</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.001 | 整備の担当です。 | I work in Maintenance. | npc.prototype.01 |
 | dialogue.prototype.002 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.01 |
 | dialogue.prototype.003 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.01 |
@@ -68,6 +95,14 @@
 | dialogue.prototype.014 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.05 |
 | dialogue.prototype.015 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.05 |
 | dialogue.prototype.016 | 農園の担当です。 | I work in Garden. | npc.prototype.06 |
+
+</details>
+
+<details>
+<summary>65–80 件目 · dialogue.prototype.017</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.017 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.06 |
 | dialogue.prototype.018 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.06 |
 | dialogue.prototype.019 | 整備の担当です。 | I work in Maintenance. | npc.prototype.07 |
@@ -84,6 +119,14 @@
 | dialogue.prototype.030 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.10 |
 | dialogue.prototype.031 | 飼育の担当です。 | I work in Animal Care. | npc.prototype.11 |
 | dialogue.prototype.032 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.11 |
+
+</details>
+
+<details>
+<summary>81–96 件目 · dialogue.prototype.033</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.033 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.11 |
 | dialogue.prototype.034 | 農園の担当です。 | I work in Garden. | npc.prototype.12 |
 | dialogue.prototype.035 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.12 |
@@ -100,6 +143,14 @@
 | dialogue.prototype.046 | 観測の担当です。 | I work in Observation. | npc.prototype.16 |
 | dialogue.prototype.047 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.16 |
 | dialogue.prototype.048 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.16 |
+
+</details>
+
+<details>
+<summary>97–112 件目 · dialogue.prototype.049</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.049 | 飼育の担当です。 | I work in Animal Care. | npc.prototype.17 |
 | dialogue.prototype.050 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.17 |
 | dialogue.prototype.051 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.17 |
@@ -116,6 +167,14 @@
 | dialogue.prototype.062 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.21 |
 | dialogue.prototype.063 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.21 |
 | dialogue.prototype.064 | 観測の担当です。 | I work in Observation. | npc.prototype.22 |
+
+</details>
+
+<details>
+<summary>113–128 件目 · dialogue.prototype.065</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.065 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.22 |
 | dialogue.prototype.066 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.22 |
 | dialogue.prototype.067 | 飼育の担当です。 | I work in Animal Care. | npc.prototype.23 |
@@ -132,6 +191,14 @@
 | dialogue.prototype.078 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.26 |
 | dialogue.prototype.079 | 売店の担当です。 | I work in Shop. | npc.prototype.27 |
 | dialogue.prototype.080 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.27 |
+
+</details>
+
+<details>
+<summary>129–144 件目 · dialogue.prototype.081</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.081 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.27 |
 | dialogue.prototype.082 | 観測の担当です。 | I work in Observation. | npc.prototype.28 |
 | dialogue.prototype.083 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.28 |
@@ -148,6 +215,14 @@
 | dialogue.prototype.094 | 探索の担当です。 | I work in Exploration. | npc.prototype.32 |
 | dialogue.prototype.095 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.32 |
 | dialogue.prototype.096 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.32 |
+
+</details>
+
+<details>
+<summary>145–160 件目 · dialogue.prototype.097</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.097 | 売店の担当です。 | I work in Shop. | npc.prototype.33 |
 | dialogue.prototype.098 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.33 |
 | dialogue.prototype.099 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.33 |
@@ -164,6 +239,14 @@
 | dialogue.prototype.110 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.37 |
 | dialogue.prototype.111 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.37 |
 | dialogue.prototype.112 | 探索の担当です。 | I work in Exploration. | npc.prototype.38 |
+
+</details>
+
+<details>
+<summary>161–176 件目 · dialogue.prototype.113</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.113 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.38 |
 | dialogue.prototype.114 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.38 |
 | dialogue.prototype.115 | 売店の担当です。 | I work in Shop. | npc.prototype.39 |
@@ -180,6 +263,14 @@
 | dialogue.prototype.126 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.42 |
 | dialogue.prototype.127 | 整備の担当です。 | I work in Maintenance. | npc.prototype.43 |
 | dialogue.prototype.128 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.43 |
+
+</details>
+
+<details>
+<summary>177–192 件目 · dialogue.prototype.129</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | dialogue.prototype.129 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.43 |
 | dialogue.prototype.130 | 探索の担当です。 | I work in Exploration. | npc.prototype.44 |
 | dialogue.prototype.131 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.44 |
@@ -196,3 +287,5 @@
 | dialogue.prototype.142 | 農園の担当です。 | I work in Garden. | npc.prototype.48 |
 | dialogue.prototype.143 | 記録を残しておいてください。 | Please leave a record. | npc.prototype.48 |
 | dialogue.prototype.144 | また手を貸してくれると助かります。 | I would appreciate your help again. | npc.prototype.48 |
+
+</details>

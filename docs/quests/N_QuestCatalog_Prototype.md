@@ -2,6 +2,9 @@
 
 96件。効果値・条件・分岐などの全項目は[定義データ](./N_QuestCatalog_Prototype.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · quest.prototype.01</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | quest.prototype.01 | 整備の作業報告 1 | Maintenance Report 1 | 現場の状況を確認し、担当者に報告する。 |
@@ -20,6 +23,14 @@
 | quest.prototype.14 | 探索の作業報告 14 | Exploration Report 14 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.15 | 売店の作業報告 15 | Shop Report 15 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.16 | 観測の作業報告 16 | Observation Report 16 | 現場の状況を確認し、担当者に報告する。 |
+
+</details>
+
+<details>
+<summary>17–32 件目 · quest.prototype.17</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.prototype.17 | 飼育の作業報告 17 | Animal Care Report 17 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.18 | 農園の作業報告 18 | Garden Report 18 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.19 | 整備の作業報告 19 | Maintenance Report 19 | 現場の状況を確認し、担当者に報告する。 |
@@ -36,6 +47,14 @@
 | quest.prototype.30 | 農園の作業報告 30 | Garden Report 30 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.31 | 整備の作業報告 31 | Maintenance Report 31 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.32 | 探索の作業報告 32 | Exploration Report 32 | 現場の状況を確認し、担当者に報告する。 |
+
+</details>
+
+<details>
+<summary>33–48 件目 · quest.prototype.33</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.prototype.33 | 売店の作業報告 33 | Shop Report 33 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.34 | 観測の作業報告 34 | Observation Report 34 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.35 | 飼育の作業報告 35 | Animal Care Report 35 | 現場の状況を確認し、担当者に報告する。 |
@@ -52,6 +71,14 @@
 | quest.prototype.46 | 観測の作業報告 46 | Observation Report 46 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.47 | 飼育の作業報告 47 | Animal Care Report 47 | 現場の状況を確認し、担当者に報告する。 |
 | quest.prototype.48 | 農園の作業報告 48 | Garden Report 48 | 現場の状況を確認し、担当者に報告する。 |
+
+</details>
+
+<details>
+<summary>49–64 件目 · quest.prototype.49</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.prototype.49 | 整備の再点検 49 | Maintenance Follow-up 49 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.50 | 探索の再点検 50 | Exploration Follow-up 50 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.51 | 売店の再点検 51 | Shop Follow-up 51 | 前回の報告を確認し、変化を担当者に伝える。 |
@@ -68,6 +95,14 @@
 | quest.prototype.62 | 探索の再点検 62 | Exploration Follow-up 62 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.63 | 売店の再点検 63 | Shop Follow-up 63 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.64 | 観測の再点検 64 | Observation Follow-up 64 | 前回の報告を確認し、変化を担当者に伝える。 |
+
+</details>
+
+<details>
+<summary>65–80 件目 · quest.prototype.65</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.prototype.65 | 飼育の再点検 65 | Animal Care Follow-up 65 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.66 | 農園の再点検 66 | Garden Follow-up 66 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.67 | 整備の再点検 67 | Maintenance Follow-up 67 | 前回の報告を確認し、変化を担当者に伝える。 |
@@ -84,6 +119,14 @@
 | quest.prototype.78 | 農園の再点検 78 | Garden Follow-up 78 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.79 | 整備の再点検 79 | Maintenance Follow-up 79 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.80 | 探索の再点検 80 | Exploration Follow-up 80 | 前回の報告を確認し、変化を担当者に伝える。 |
+
+</details>
+
+<details>
+<summary>81–96 件目 · quest.prototype.81</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.prototype.81 | 売店の再点検 81 | Shop Follow-up 81 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.82 | 観測の再点検 82 | Observation Follow-up 82 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.83 | 飼育の再点検 83 | Animal Care Follow-up 83 | 前回の報告を確認し、変化を担当者に伝える。 |
@@ -100,3 +143,5 @@
 | quest.prototype.94 | 観測の再点検 94 | Observation Follow-up 94 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.95 | 飼育の再点検 95 | Animal Care Follow-up 95 | 前回の報告を確認し、変化を担当者に伝える。 |
 | quest.prototype.96 | 農園の再点検 96 | Garden Follow-up 96 | 前回の報告を確認し、変化を担当者に伝える。 |
+
+</details>

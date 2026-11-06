@@ -2,6 +2,9 @@
 
 216件。効果値・条件・分岐などの全項目は[定義データ](./N_QuestCatalog_LuminousHotel.yaml)に収録。
 
+<details>
+<summary>1–16 件目 · quest.luminous.mio.check</summary>
+
 | ID | 日本語 | English | 説明・役割・話者 |
 |---|---|---|---|
 | quest.luminous.mio.check | "到着記録：現況確認" | "Condition check — arrival register" | "澪からの依頼。対象は到着記録。現地で状態を確認し、異常があれば記録して戻る。" |
@@ -20,6 +23,14 @@
 | quest.luminous.tamaki.review | "配達用の籠：照合記録" | "Record reconciliation — delivery baskets" | "環からの依頼。対象は配達用の籠。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.tamaki.daily | "封緘便：日次巡回" | "Daily rounds — sealed parcels" | "環からの依頼。対象は封緘便。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.tamaki.weekly | "配達用の籠：週次引き継ぎ" | "Weekly handoff — delivery baskets" | "環からの依頼。対象は配達用の籠。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
+
+</details>
+
+<details>
+<summary>17–32 件目 · quest.luminous.tamaki.monthly</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.tamaki.monthly | "封緘便：月次棚卸し" | "Monthly audit — sealed parcels" | "環からの依頼。対象は封緘便。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.tamaki.annual | "配達用の籠：年次保存記録" | "Annual archive — delivery baskets" | "環からの依頼。対象は配達用の籠。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.chikage.check | "保存食の棚：現況確認" | "Condition check — preserved-food shelf" | "千景からの依頼。対象は保存食の棚。現地で状態を確認し、異常があれば記録して戻る。" |
@@ -36,6 +47,14 @@
 | quest.luminous.saku.annual | "巡回記録：年次保存記録" | "Annual archive — patrol records" | "朔からの依頼。対象は巡回記録。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.ritsu.check | "昇降機の予備部品：現況確認" | "Condition check — spare lift parts" | "律からの依頼。対象は昇降機の予備部品。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.ritsu.review | "工具台帳：照合記録" | "Record reconciliation — tool ledger" | "律からの依頼。対象は工具台帳。前回の現況記録と見比べ、差分を依頼主に報告する。" |
+
+</details>
+
+<details>
+<summary>33–48 件目 · quest.luminous.ritsu.daily</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.ritsu.daily | "昇降機の予備部品：日次巡回" | "Daily rounds — spare lift parts" | "律からの依頼。対象は昇降機の予備部品。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.ritsu.weekly | "工具台帳：週次引き継ぎ" | "Weekly handoff — tool ledger" | "律からの依頼。対象は工具台帳。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.ritsu.monthly | "昇降機の予備部品：月次棚卸し" | "Monthly audit — spare lift parts" | "律からの依頼。対象は昇降機の予備部品。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
@@ -52,6 +71,14 @@
 | quest.luminous.shio.weekly | "水槽の濾材：週次引き継ぎ" | "Weekly handoff — aquarium filter media" | "汐からの依頼。対象は水槽の濾材。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.shio.monthly | "給餌記録：月次棚卸し" | "Monthly audit — feeding records" | "汐からの依頼。対象は給餌記録。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.shio.annual | "水槽の濾材：年次保存記録" | "Annual archive — aquarium filter media" | "汐からの依頼。対象は水槽の濾材。一年分の変化が分かる代表例を選び、資料として保管する。" |
+
+</details>
+
+<details>
+<summary>49–64 件目 · quest.luminous.nagisa.check</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.nagisa.check | "交換用の浮き：現況確認" | "Condition check — replacement floats" | "凪沙からの依頼。対象は交換用の浮き。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.nagisa.review | "糸巻き：照合記録" | "Record reconciliation — line spools" | "凪沙からの依頼。対象は糸巻き。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.nagisa.daily | "交換用の浮き：日次巡回" | "Daily rounds — replacement floats" | "凪沙からの依頼。対象は交換用の浮き。所定の確認箇所を巡り、今日の状態を記録する。" |
@@ -68,6 +95,14 @@
 | quest.luminous.yuzuha.review | "食器の予備：照合記録" | "Record reconciliation — spare dishes" | "柚葉からの依頼。対象は食器の予備。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.yuzuha.daily | "乾燥ハーブ：日次巡回" | "Daily rounds — dried herbs" | "柚葉からの依頼。対象は乾燥ハーブ。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.yuzuha.weekly | "食器の予備：週次引き継ぎ" | "Weekly handoff — spare dishes" | "柚葉からの依頼。対象は食器の予備。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
+
+</details>
+
+<details>
+<summary>65–80 件目 · quest.luminous.yuzuha.monthly</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.yuzuha.monthly | "乾燥ハーブ：月次棚卸し" | "Monthly audit — dried herbs" | "柚葉からの依頼。対象は乾燥ハーブ。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.yuzuha.annual | "食器の予備：年次保存記録" | "Annual archive — spare dishes" | "柚葉からの依頼。対象は食器の予備。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.haku.check | "焙煎豆：現況確認" | "Condition check — roasted beans" | "珀からの依頼。対象は焙煎豆。現地で状態を確認し、異常があれば記録して戻る。" |
@@ -84,6 +119,14 @@
 | quest.luminous.yoi.annual | "試作用のグラス：年次保存記録" | "Annual archive — sample glasses" | "宵からの依頼。対象は試作用のグラス。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.miyuki.check | "携帯救急箱：現況確認" | "Condition check — portable first-aid kits" | "深雪からの依頼。対象は携帯救急箱。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.miyuki.review | "空き部屋の寝具：照合記録" | "Record reconciliation — spare-room bedding" | "深雪からの依頼。対象は空き部屋の寝具。前回の現況記録と見比べ、差分を依頼主に報告する。" |
+
+</details>
+
+<details>
+<summary>81–96 件目 · quest.luminous.miyuki.daily</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.miyuki.daily | "携帯救急箱：日次巡回" | "Daily rounds — portable first-aid kits" | "深雪からの依頼。対象は携帯救急箱。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.miyuki.weekly | "空き部屋の寝具：週次引き継ぎ" | "Weekly handoff — spare-room bedding" | "深雪からの依頼。対象は空き部屋の寝具。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.miyuki.monthly | "携帯救急箱：月次棚卸し" | "Monthly audit — portable first-aid kits" | "深雪からの依頼。対象は携帯救急箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
@@ -100,6 +143,14 @@
 | quest.luminous.hoshino.weekly | "観測時刻表：週次引き継ぎ" | "Weekly handoff — observation schedule" | "星乃からの依頼。対象は観測時刻表。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.hoshino.monthly | "望遠鏡の遮光板：月次棚卸し" | "Monthly audit — telescope light shields" | "星乃からの依頼。対象は望遠鏡の遮光板。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.hoshino.annual | "観測時刻表：年次保存記録" | "Annual archive — observation schedule" | "星乃からの依頼。対象は観測時刻表。一年分の変化が分かる代表例を選び、資料として保管する。" |
+
+</details>
+
+<details>
+<summary>97–112 件目 · quest.luminous.kirie.check</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.kirie.check | "風向計：現況確認" | "Condition check — wind vane" | "霧江からの依頼。対象は風向計。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.kirie.review | "急変時の観測記録：照合記録" | "Record reconciliation — rapid weather shift logs" | "霧江からの依頼。対象は急変時の観測記録。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.kirie.daily | "風向計：日次巡回" | "Daily rounds — wind vane" | "霧江からの依頼。対象は風向計。所定の確認箇所を巡り、今日の状態を記録する。" |
@@ -116,6 +167,14 @@
 | quest.luminous.teppei.review | "研磨材：照合記録" | "Record reconciliation — abrasives" | "鉄平からの依頼。対象は研磨材。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.teppei.daily | "再鍛造の試験片：日次巡回" | "Daily rounds — reforging test pieces" | "鉄平からの依頼。対象は再鍛造の試験片。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.teppei.weekly | "研磨材：週次引き継ぎ" | "Weekly handoff — abrasives" | "鉄平からの依頼。対象は研磨材。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
+
+</details>
+
+<details>
+<summary>113–128 件目 · quest.luminous.teppei.monthly</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.teppei.monthly | "再鍛造の試験片：月次棚卸し" | "Monthly audit — reforging test pieces" | "鉄平からの依頼。対象は再鍛造の試験片。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.teppei.annual | "研磨材：年次保存記録" | "Annual archive — abrasives" | "鉄平からの依頼。対象は研磨材。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.nadeshiko.check | "自動給餌機：現況確認" | "Condition check — automatic feeders" | "撫子からの依頼。対象は自動給餌機。現地で状態を確認し、異常があれば記録して戻る。" |
@@ -132,6 +191,14 @@
 | quest.luminous.izumi.annual | "給水所の点検札：年次保存記録" | "Annual archive — water station inspection tags" | "泉からの依頼。対象は給水所の点検札。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.kei.check | "端末の貸出箱：現況確認" | "Condition check — terminal loan cases" | "慧からの依頼。対象は端末の貸出箱。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.kei.review | "充電台：照合記録" | "Record reconciliation — charging stands" | "慧からの依頼。対象は充電台。前回の現況記録と見比べ、差分を依頼主に報告する。" |
+
+</details>
+
+<details>
+<summary>129–144 件目 · quest.luminous.kei.daily</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.kei.daily | "端末の貸出箱：日次巡回" | "Daily rounds — terminal loan cases" | "慧からの依頼。対象は端末の貸出箱。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.kei.weekly | "充電台：週次引き継ぎ" | "Weekly handoff — charging stands" | "慧からの依頼。対象は充電台。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.kei.monthly | "端末の貸出箱：月次棚卸し" | "Monthly audit — terminal loan cases" | "慧からの依頼。対象は端末の貸出箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
@@ -148,6 +215,14 @@
 | quest.luminous.tsumugi.weekly | "仕分け済みの糸：週次引き継ぎ" | "Weekly handoff — sorted thread" | "紡からの依頼。対象は仕分け済みの糸。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
 | quest.luminous.tsumugi.monthly | "修繕用の帆布：月次棚卸し" | "Monthly audit — repair canvas" | "紡からの依頼。対象は修繕用の帆布。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.tsumugi.annual | "仕分け済みの糸：年次保存記録" | "Annual archive — sorted thread" | "紡からの依頼。対象は仕分け済みの糸。一年分の変化が分かる代表例を選び、資料として保管する。" |
+
+</details>
+
+<details>
+<summary>145–160 件目 · quest.luminous.aoba.check</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.aoba.check | "乾物の保管箱：現況確認" | "Condition check — dry-goods crates" | "青葉からの依頼。対象は乾物の保管箱。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.aoba.review | "搬入伝票：照合記録" | "Record reconciliation — delivery slips" | "青葉からの依頼。対象は搬入伝票。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.aoba.daily | "乾物の保管箱：日次巡回" | "Daily rounds — dry-goods crates" | "青葉からの依頼。対象は乾物の保管箱。所定の確認箇所を巡り、今日の状態を記録する。" |
@@ -164,6 +239,14 @@
 | quest.luminous.mizushino.review | "水没交差点の写真：照合記録" | "Record reconciliation — flooded junction photos" | "水篠からの依頼。対象は水没交差点の写真。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.mizushino.daily | "水位目印：日次巡回" | "Daily rounds — water-level markers" | "水篠からの依頼。対象は水位目印。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.mizushino.weekly | "水没交差点の写真：週次引き継ぎ" | "Weekly handoff — flooded junction photos" | "水篠からの依頼。対象は水没交差点の写真。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
+
+</details>
+
+<details>
+<summary>161–176 件目 · quest.luminous.mizushino.monthly</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.mizushino.monthly | "水位目印：月次棚卸し" | "Monthly audit — water-level markers" | "水篠からの依頼。対象は水位目印。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.mizushino.annual | "水没交差点の写真：年次保存記録" | "Annual archive — flooded junction photos" | "水篠からの依頼。対象は水没交差点の写真。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.usuzumi.check | "廃ビルの案内板：現況確認" | "Condition check — ruined tower directory" | "薄墨からの依頼。対象は廃ビルの案内板。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
@@ -180,6 +263,14 @@
 | quest.luminous.minemori.annual | "林道の退避標：年次保存記録" | "Annual archive — forest road retreat markers" | "峰守からの依頼。対象は林道の退避標。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hari.check | "端末撮影の比較記録：現況確認" | "Condition check — terminal photo comparison logs" | "玻璃からの依頼。対象は端末撮影の比較記録。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hari.review | "異常濃度の測定札：照合記録" | "Record reconciliation — anomaly concentration tags" | "玻璃からの依頼。対象は異常濃度の測定札。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
+
+</details>
+
+<details>
+<summary>177–192 件目 · quest.luminous.hari.daily</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.hari.daily | "端末撮影の比較記録：日次巡回" | "Daily rounds — terminal photo comparison logs" | "玻璃からの依頼。対象は端末撮影の比較記録。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hari.weekly | "異常濃度の測定札：週次引き継ぎ" | "Weekly handoff — anomaly concentration tags" | "玻璃からの依頼。対象は異常濃度の測定札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hari.monthly | "端末撮影の比較記録：月次棚卸し" | "Monthly audit — terminal photo comparison logs" | "玻璃からの依頼。対象は端末撮影の比較記録。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
@@ -196,6 +287,14 @@
 | quest.luminous.hatsuse.weekly | "物々交換の見本：週次引き継ぎ" | "Weekly handoff — barter samples" | "初瀬からの依頼。対象は物々交換の見本。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hatsuse.monthly | "交換用の医療容器：月次棚卸し" | "Monthly audit — medical containers for barter" | "初瀬からの依頼。対象は交換用の医療容器。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
 | quest.luminous.hatsuse.annual | "物々交換の見本：年次保存記録" | "Annual archive — barter samples" | "初瀬からの依頼。対象は物々交換の見本。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。" |
+
+</details>
+
+<details>
+<summary>193–208 件目 · quest.luminous.satsuki.check</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.satsuki.check | "季節展示の小物：現況確認" | "Condition check — seasonal display pieces" | "皐月からの依頼。対象は季節展示の小物。現地で状態を確認し、異常があれば記録して戻る。" |
 | quest.luminous.satsuki.review | "行事の案内札：照合記録" | "Record reconciliation — event signs" | "皐月からの依頼。対象は行事の案内札。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.satsuki.daily | "季節展示の小物：日次巡回" | "Daily rounds — seasonal display pieces" | "皐月からの依頼。対象は季節展示の小物。所定の確認箇所を巡り、今日の状態を記録する。" |
@@ -212,6 +311,14 @@
 | quest.luminous.ruri.review | "撮影位置の記録：照合記録" | "Record reconciliation — photo location notes" | "瑠璃からの依頼。対象は撮影位置の記録。前回の現況記録と見比べ、差分を依頼主に報告する。" |
 | quest.luminous.ruri.daily | "写真プリント：日次巡回" | "Daily rounds — photo prints" | "瑠璃からの依頼。対象は写真プリント。所定の確認箇所を巡り、今日の状態を記録する。" |
 | quest.luminous.ruri.weekly | "撮影位置の記録：週次引き継ぎ" | "Weekly handoff — photo location notes" | "瑠璃からの依頼。対象は撮影位置の記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。" |
+
+</details>
+
+<details>
+<summary>209–216 件目 · quest.luminous.ruri.monthly</summary>
+
+| ID | 日本語 | English | 説明・役割・話者 |
+|---|---|---|---|
 | quest.luminous.ruri.monthly | "写真プリント：月次棚卸し" | "Monthly audit — photo prints" | "瑠璃からの依頼。対象は写真プリント。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.ruri.annual | "撮影位置の記録：年次保存記録" | "Annual archive — photo location notes" | "瑠璃からの依頼。対象は撮影位置の記録。一年分の変化が分かる代表例を選び、資料として保管する。" |
 | quest.luminous.niwa.check | "冷蔵棚の点検表：現況確認" | "Condition check — cold-storage checklists" | "丹羽からの依頼。対象は冷蔵棚の点検表。現地で状態を確認し、異常があれば記録して戻る。" |
@@ -220,3 +327,5 @@
 | quest.luminous.niwa.weekly | "鮮度の記録：週次引き継ぎ" | "Weekly handoff — freshness logs" | 丹羽からの依頼。対象は鮮度の記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。 |
 | quest.luminous.niwa.monthly | "冷蔵棚の点検表：月次棚卸し" | "Monthly audit — cold-storage checklists" | "丹羽からの依頼。対象は冷蔵棚の点検表。使用可能なものと交換が必要なものを分け、翌月の準備に回す。" |
 | quest.luminous.niwa.annual | "鮮度の記録：年次保存記録" | "Annual archive — freshness logs" | "丹羽からの依頼。対象は鮮度の記録。一年分の変化が分かる代表例を選び、資料として保管する。" |
+
+</details>
