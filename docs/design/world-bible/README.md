@@ -43,3 +43,4 @@
 - [日常・外域の補完](daily-life-expansion.md)
 - [依頼案8件](quest-episodes.md)
 - [NPC同士の会話案8件](resident-conversations.md)
+- [装備・強化・住民関係・依頼の採用候補集](candidates/README.md)
