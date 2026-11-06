@@ -44,3 +44,5 @@
 - [依頼案8件](quest-episodes.md)
 - [NPC同士の会話案8件](resident-conversations.md)
 - [装備・強化・住民関係・依頼の採用候補集](candidates/README.md)
+
+- [生態・環境の採用候補108件](candidates/ecology/README.md)

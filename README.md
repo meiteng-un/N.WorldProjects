@@ -26,3 +26,5 @@ LuminousHotel / Naturlin VRChatワールドの設計と実装記録。
 - [依頼案8件](docs/design/world-bible/quest-episodes.md)
 - [NPC同士の会話案8件](docs/design/world-bible/resident-conversations.md)
 - [装備・強化・住民関係・依頼の採用候補集](docs/design/world-bible/candidates/README.md)
+
+- [生態・環境の採用候補108件](docs/design/world-bible/candidates/ecology/README.md)

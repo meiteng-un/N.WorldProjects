@@ -13,3 +13,5 @@
 | [採用候補の相関図](relations.md) | 3系統 |
 
 既存の[日常と外域の補完](../daily-life-expansion.md)、[依頼案8件](../quest-episodes.md)、[NPC同士の会話案8件](../resident-conversations.md)と併用できます。
+
+- [生態・環境の採用候補108件](ecology/README.md)
