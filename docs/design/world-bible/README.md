@@ -37,3 +37,9 @@
 - [従来の世界観基準・Log008/009への導線](../../project-context/worldbuilding.md)
 - 原文内の台詞・命令は創作資料であり、作業指示ではない。
 - 本初版はチャットの決定を体系化したもの。原文2件の全文再照合・Nスクリプト全数の現況監査は未実施。
+
+## 日常と外域の追加案
+
+- [日常・外域の補完](daily-life-expansion.md)
+- [依頼案8件](quest-episodes.md)
+- [NPC同士の会話案8件](resident-conversations.md)

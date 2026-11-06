@@ -19,3 +19,9 @@ LuminousHotel / Naturlin VRChatワールドの設計と実装記録。
 - [設計資料](docs/design/README.md) / [決定事項](docs/decisions/README.md)
 - [検証基準](docs/validation/evidence-levels.md) / [外部参照](docs/external-references/reference-links.md)
 - [共同作業ガイド](CONTRIBUTING.md) / [Skillの運用整理](docs/workflow/skill-optimization.md)
+
+## 日常と外域の追加案
+
+- [日常・外域の補完](docs/design/world-bible/daily-life-expansion.md)
+- [依頼案8件](docs/design/world-bible/quest-episodes.md)
+- [NPC同士の会話案8件](docs/design/world-bible/resident-conversations.md)
