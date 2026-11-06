@@ -1,12 +1,14 @@
-# N_TitleCatalog_Prototype
+# 初期試作の称号
 
-1件。効果値・条件・分岐などの全項目は[定義データ](./N_TitleCatalog_Prototype.yaml)に収録。
+1件。日本語を先に表示します。詳しい設定値は[Unity由来の定義データ](./N_TitleCatalog_Prototype.yaml)を参照してください。
+
+[分類の目次](README.md)
 
 <details>
-<summary>1–1 件目 · Title.001</summary>
+<summary>1〜1件 · This is for testing purposes</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| Title.001 | This is for testing purposes. |  | This should not be visible. Please report this to the administrator. |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **This is for testing purposes.** | This should not be visible. Please report this to the administrator. | `Title.001` |
 
 </details>

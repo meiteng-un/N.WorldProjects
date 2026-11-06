@@ -5,8 +5,8 @@ LuminousHotel / Naturlin VRChatワールドの設計と実装記録。
 ## ワールド・定義データ
 
 - [N系ギミックと相互参照](docs/systems.md)
-- [アイテム案512件](docs/items/README.md)
-- [能力・Modifier・Ego・エンチャント](docs/abilities/README.md)
+- [アイテム一覧・武器性能・防具軽減](docs/items/README.md)
+- [能力・個体補正（Modifier）・Ego・エンチャント](docs/abilities/README.md)
 - [称号](docs/titles/README.md)
 - [住民・会話](docs/npc/README.md)
 - [Quest・依頼](docs/quests/README.md)

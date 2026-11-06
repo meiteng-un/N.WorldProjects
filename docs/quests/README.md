@@ -1,4 +1,5 @@
 # 依頼
 
-- [N_QuestCatalog_Prototype](./N_QuestCatalog_Prototype.md)
-- [N_QuestCatalog_LuminousHotel](./N_QuestCatalog_LuminousHotel.md)
+- [試作依頼](./N_QuestCatalog_Prototype.md)
+- [本編用の依頼](./N_QuestCatalog_LuminousHotel.md)
+

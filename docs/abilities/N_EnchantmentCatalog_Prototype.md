@@ -1,39 +1,41 @@
-# N_EnchantmentCatalog_Prototype
+# エンチャントの試作定義
 
-20件。効果値・条件・分岐などの全項目は[定義データ](./N_EnchantmentCatalog_Prototype.yaml)に収録。
+20件。日本語を先に表示します。詳しい設定値は[Unity由来の定義データ](./N_EnchantmentCatalog_Prototype.yaml)を参照してください。
+
+[分類の目次](README.md)
 
 <details>
-<summary>1–16 件目 · n.enchant.memory.1</summary>
+<summary>1〜12件 · 手業の刻印 1</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.enchant.memory.1 | "\u624B\u696D\u306E\u523B\u5370 1" | Craft Memory 1 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30922%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.memory.2 | "\u624B\u696D\u306E\u523B\u5370 2" | Craft Memory 2 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30924%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.memory.3 | "\u624B\u696D\u306E\u523B\u5370 3" | Craft Memory 3 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30926%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.memory.4 | "\u624B\u696D\u306E\u523B\u5370 4" | Craft Memory 4 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30928%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.edge.1 | "\u92ED\u3055\u306E\u523B\u5370 1" | Edge Inscription 1 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30922%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.edge.2 | "\u92ED\u3055\u306E\u523B\u5370 2" | Edge Inscription 2 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30924%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.edge.3 | "\u92ED\u3055\u306E\u523B\u5370 3" | Edge Inscription 3 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30926%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.edge.4 | "\u92ED\u3055\u306E\u523B\u5370 4" | Edge Inscription 4 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30928%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.reel.1 | "\u5DFB\u53D6\u308A\u306E\u523B\u5370 1" | Retrieve Inscription 1 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30922%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.reel.2 | "\u5DFB\u53D6\u308A\u306E\u523B\u5370 2" | Retrieve Inscription 2 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30924%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.reel.3 | "\u5DFB\u53D6\u308A\u306E\u523B\u5370 3" | Retrieve Inscription 3 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30926%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.reel.4 | "\u5DFB\u53D6\u308A\u306E\u523B\u5370 4" | Retrieve Inscription 4 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30928%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.bite.1 | "\u9B5A\u4FE1\u306E\u523B\u5370 1" | Bite Inscription 1 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30922%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.bite.2 | "\u9B5A\u4FE1\u306E\u523B\u5370 2" | Bite Inscription 2 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30924%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.bite.3 | "\u9B5A\u4FE1\u306E\u523B\u5370 3" | Bite Inscription 3 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30926%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.bite.4 | "\u9B5A\u4FE1\u306E\u523B\u5370 4" | Bite Inscription 4 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30928%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **手業の刻印 1**<br>Craft Memory 1 | エンチャント枠に刻む追加効果。対応効果を2%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.memory.1` |
+| **手業の刻印 2**<br>Craft Memory 2 | エンチャント枠に刻む追加効果。対応効果を4%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.memory.2` |
+| **手業の刻印 3**<br>Craft Memory 3 | エンチャント枠に刻む追加効果。対応効果を6%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.memory.3` |
+| **手業の刻印 4**<br>Craft Memory 4 | エンチャント枠に刻む追加効果。対応効果を8%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.memory.4` |
+| **鋭さの刻印 1**<br>Edge Inscription 1 | エンチャント枠に刻む追加効果。対応効果を2%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.edge.1` |
+| **鋭さの刻印 2**<br>Edge Inscription 2 | エンチャント枠に刻む追加効果。対応効果を4%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.edge.2` |
+| **鋭さの刻印 3**<br>Edge Inscription 3 | エンチャント枠に刻む追加効果。対応効果を6%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.edge.3` |
+| **鋭さの刻印 4**<br>Edge Inscription 4 | エンチャント枠に刻む追加効果。対応効果を8%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.edge.4` |
+| **巻取りの刻印 1**<br>Retrieve Inscription 1 | エンチャント枠に刻む追加効果。対応効果を2%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.reel.1` |
+| **巻取りの刻印 2**<br>Retrieve Inscription 2 | エンチャント枠に刻む追加効果。対応効果を4%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.reel.2` |
+| **巻取りの刻印 3**<br>Retrieve Inscription 3 | エンチャント枠に刻む追加効果。対応効果を6%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.reel.3` |
+| **巻取りの刻印 4**<br>Retrieve Inscription 4 | エンチャント枠に刻む追加効果。対応効果を8%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.reel.4` |
 
 </details>
 
 <details>
-<summary>17–20 件目 · n.enchant.harmony.1</summary>
+<summary>13〜20件 · 魚信の刻印 1</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.enchant.harmony.1 | "\u8ABF\u548C\u306E\u523B\u5370 1" | Harmony Inscription 1 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30922%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.harmony.2 | "\u8ABF\u548C\u306E\u523B\u5370 2" | Harmony Inscription 2 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30924%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.harmony.3 | "\u8ABF\u548C\u306E\u523B\u5370 3" | Harmony Inscription 3 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30926%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
-| n.enchant.harmony.4 | "\u8ABF\u548C\u306E\u523B\u5370 4" | Harmony Inscription 4 | "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u67A0\u306B\u523B\u3080\u8FFD\u52A0\u52B9\u679C\u3002\u5BFE\u5FDC\u52B9\u679C\u30928%\u5897\u52A0\u3002\u901A\u5E38Modifier\u306E\u518D\u935B\u9020\u3067\u306F\u5931\u308F\u308C\u306A\u3044\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **魚信の刻印 1**<br>Bite Inscription 1 | エンチャント枠に刻む追加効果。対応効果を2%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.bite.1` |
+| **魚信の刻印 2**<br>Bite Inscription 2 | エンチャント枠に刻む追加効果。対応効果を4%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.bite.2` |
+| **魚信の刻印 3**<br>Bite Inscription 3 | エンチャント枠に刻む追加効果。対応効果を6%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.bite.3` |
+| **魚信の刻印 4**<br>Bite Inscription 4 | エンチャント枠に刻む追加効果。対応効果を8%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.bite.4` |
+| **調和の刻印 1**<br>Harmony Inscription 1 | エンチャント枠に刻む追加効果。対応効果を2%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.harmony.1` |
+| **調和の刻印 2**<br>Harmony Inscription 2 | エンチャント枠に刻む追加効果。対応効果を4%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.harmony.2` |
+| **調和の刻印 3**<br>Harmony Inscription 3 | エンチャント枠に刻む追加効果。対応効果を6%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.harmony.3` |
+| **調和の刻印 4**<br>Harmony Inscription 4 | エンチャント枠に刻む追加効果。対応効果を8%増加。通常Modifierの再鍛造では失われない。 | `n.enchant.harmony.4` |
 
 </details>

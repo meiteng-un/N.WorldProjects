@@ -1,4 +1,5 @@
 # 住民・会話
 
-- [N_NpcCatalog_Prototype](./N_NpcCatalog_Prototype.md)
-- [N_NpcCatalog_LuminousHotel](./N_NpcCatalog_LuminousHotel.md)
+- [試作住民・台詞](./N_NpcCatalog_Prototype.md)
+- [本編用の住民・台詞](./N_NpcCatalog_LuminousHotel.md)
+

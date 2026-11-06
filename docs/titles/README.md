@@ -1,5 +1,6 @@
 # 称号
 
-- [N_TitleCatalog_Prototype](./N_TitleCatalog_Prototype.md)
-- [N_TitleCatalog_Debug](./N_TitleCatalog_Debug.md)
-- [N_TitleCatalog_150](./N_TitleCatalog_150.md)
+- [初期試作の称号](./N_TitleCatalog_Prototype.md)
+- [検証用称号](./N_TitleCatalog_Debug.md)
+- [称号一覧（150件）](./N_TitleCatalog_150.md)
+

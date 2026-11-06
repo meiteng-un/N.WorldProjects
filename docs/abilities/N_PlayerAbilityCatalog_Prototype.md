@@ -1,15 +1,17 @@
-# N_PlayerAbilityCatalog_Prototype
+# 試作プレイヤー能力
 
-4件。効果値・条件・分岐などの全項目は[定義データ](./N_PlayerAbilityCatalog_Prototype.yaml)に収録。
+4件。日本語を先に表示します。詳しい設定値は[Unity由来の定義データ](./N_PlayerAbilityCatalog_Prototype.yaml)を参照してください。
+
+[分類の目次](README.md)
 
 <details>
-<summary>1–4 件目 · n.ability.angler</summary>
+<summary>1〜4件 · 糸先の心得</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.ability.angler | "\u7CF8\u5148\u306E\u5FC3\u5F97" | An Angler's Touch |  |
-| n.ability.angler.awakened | "\u6C34\u8FBA\u306E\u547C\u5438" | Breath of the Waterside |  |
-| n.ability.familiar | "\u99B4\u67D3\u307F\u306E\u5B89\u3089\u304E" | Familiar Comfort |  |
-| n.ability.focus | "\u77ED\u3044\u96C6\u4E2D" | Brief Focus |  |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **糸先の心得**<br>An Angler's Touch | 次：`n.ability.angler.awakened` | `n.ability.angler` |
+| **水辺の呼吸**<br>Breath of the Waterside | — | `n.ability.angler.awakened` |
+| **馴染みの安らぎ**<br>Familiar Comfort | — | `n.ability.familiar` |
+| **短い集中**<br>Brief Focus | — | `n.ability.focus` |
 
 </details>

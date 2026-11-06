@@ -1,233 +1,259 @@
-# N_TitleCatalog_150
+# 称号一覧（150件）
 
-150件。効果値・条件・分岐などの全項目は[定義データ](./N_TitleCatalog_150.yaml)に収録。
+150件。日本語を先に表示します。詳しい設定値は[Unity由来の定義データ](./N_TitleCatalog_150.yaml)を参照してください。
+
+[分類の目次](README.md)
 
 <details>
-<summary>1–16 件目 · n.title.stay.01</summary>
+<summary>1〜12件 · ひと息の来訪者</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.stay.01 | "\u3072\u3068\u606F\u306E\u6765\u8A2A\u8005" | A Moment of Rest | "\u7D2F\u8A08\u6EDE\u57285\u6642\u9593\u4EE5\u4E0A\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.stay.02 | "\u30ED\u30D3\u30FC\u306E\u898B\u6163\u308C\u305F\u9854" | A Familiar Face in the Lobby | "\u7D2F\u8A08\u6EDE\u572850\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A10\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.stay.03 | "\u767E\u6642\u9593\u306E\u8DB3\u8DE1" | A Hundred Hours of Footprints | "\u7D2F\u8A08\u6EDE\u5728100\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A20\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +1.5\u3002" |
-| n.title.stay.04 | "\u591C\u3092\u8D8A\u3059\u706F" | A Light Through the Night | "\u7D2F\u8A08\u6EDE\u5728250\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A30\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +2\u3002" |
-| n.title.stay.05 | "\u30DB\u30C6\u30EB\u306E\u5E38\u9023" | A Hotel Regular | "\u7D2F\u8A08\u6EDE\u5728500\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A50\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +2.5\u3002" |
-| n.title.stay.06 | "\u5343\u6642\u9593\u306E\u8DB3\u8DE1" | A Thousand Hours of Footprints | "\u7D2F\u8A08\u6EDE\u57281000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A100\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +3\u3002" |
-| n.title.stay.07 | "\u5E30\u308B\u5834\u6240\u3092\u77E5\u308B\u8005" | Knowing Where Home Is | "\u7D2F\u8A08\u6EDE\u57282500\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A200\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +3.5\u3002" |
-| n.title.stay.08 | "\u4E94\u5343\u6642\u9593\u306E\u661F\u898B" | Five Thousand Hours Under the Stars | "\u7D2F\u8A08\u6EDE\u57285000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A365\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +4\u3002" |
-| n.title.stay.09 | "\u9577\u3044\u65E5\u5E38\u306E\u540C\u4F34\u8005" | A Companion Through the Years | "\u7D2F\u8A08\u6EDE\u572810000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A730\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +4.5\u3002" |
-| n.title.stay.10 | "\u3053\u306E\u706F\u3068\u3068\u3082\u306B" | Together with This Light | "\u7D2F\u8A08\u6EDE\u572820000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A1000\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +5\u3002" |
-| n.title.visits.01 | "\u6249\u3092\u958B\u3044\u305F\u4EBA" | Through the Door | "\u6765\u8A2A\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.visits.02 | "\u307E\u305F\u4F1A\u3044\u307E\u3057\u305F\u306D" | Good to See You Again | "\u6765\u8A2A\uFF1A3\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.visits.03 | "\u5341\u5EA6\u76EE\u306E\u5E30\u9084" | The Tenth Return | "\u6765\u8A2A\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +1.5\u3002" |
-| n.title.visits.04 | "\u9854\u306A\u3058\u307F" | A Familiar Face | "\u6765\u8A2A\uFF1A25\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2\u3002" |
-| n.title.visits.05 | "\u4E94\u5341\u679A\u306E\u8DB3\u8DE1" | Fifty Sets of Footprints | "\u6765\u8A2A\uFF1A50\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2.5\u3002" |
-| n.title.visits.06 | "\u767E\u306E\u305F\u3060\u3044\u307E" | A Hundred Homecomings | "\u6765\u8A2A\uFF1A100\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **ひと息の来訪者**<br>A Moment of Rest | 累計滞在5時間以上。離脱中の時間は含みません。獲得後は通常失われません。 | `n.title.stay.01` |
+| **ロビーの見慣れた顔**<br>A Familiar Face in the Lobby | 累計滞在50時間以上。来訪10回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。 | `n.title.stay.02` |
+| **百時間の足跡**<br>A Hundred Hours of Footprints | 累計滞在100時間以上。来訪20回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +1.5。 | `n.title.stay.03` |
+| **夜を越す灯**<br>A Light Through the Night | 累計滞在250時間以上。来訪30回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +2。 | `n.title.stay.04` |
+| **ホテルの常連**<br>A Hotel Regular | 累計滞在500時間以上。来訪50回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +2.5。 | `n.title.stay.05` |
+| **千時間の足跡**<br>A Thousand Hours of Footprints | 累計滞在1000時間以上。来訪100回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +3。 | `n.title.stay.06` |
+| **帰る場所を知る者**<br>Knowing Where Home Is | 累計滞在2500時間以上。来訪200回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +3.5。 | `n.title.stay.07` |
+| **五千時間の星見**<br>Five Thousand Hours Under the Stars | 累計滞在5000時間以上。来訪365回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +4。 | `n.title.stay.08` |
+| **長い日常の同伴者**<br>A Companion Through the Years | 累計滞在10000時間以上。来訪730回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +4.5。 | `n.title.stay.09` |
+| **この灯とともに**<br>Together with This Light | 累計滞在20000時間以上。来訪1000回以上も必要。離脱中の時間は含みません。獲得後は通常失われません。<br>装着効果（仮）：最大HP +5。 | `n.title.stay.10` |
+| **扉を開いた人**<br>Through the Door | 来訪：1回以上。一度獲得した称号は通常失われません。 | `n.title.visits.01` |
+| **また会いましたね**<br>Good to See You Again | 来訪：3回以上。一度獲得した称号は通常失われません。 | `n.title.visits.02` |
 
 </details>
 
 <details>
-<summary>17–32 件目 · n.title.visits.07</summary>
+<summary>13〜24件 · 十度目の帰還</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.visits.07 | "\u5E30\u8DEF\u306E\u9054\u4EBA" | A Seasoned Returner | "\u6765\u8A2A\uFF1A250\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3.5\u3002" |
-| n.title.visits.08 | "\u4E94\u767E\u56DE\u306E\u30CE\u30C3\u30AF" | Five Hundred Knocks | "\u6765\u8A2A\uFF1A500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4\u3002" |
-| n.title.visits.09 | "\u5343\u5EA6\u306E\u5E30\u308A\u9053" | A Thousand Roads Home | "\u6765\u8A2A\uFF1A1000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4.5\u3002" |
-| n.title.visits.10 | "\u7D42\u308F\u3089\u306A\u3044\u305F\u3060\u3044\u307E" | Always Coming Home | "\u6765\u8A2A\uFF1A2000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +5\u3002" |
-| n.title.wealth.01 | "\u65C5\u306E\u5C0F\u92AD" | Travel Money | "\u6240\u6301\u91D1\uFF1A1000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.wealth.02 | "\u5C11\u3057\u306E\u4F59\u88D5" | A Little Breathing Room | "\u6240\u6301\u91D1\uFF1A5000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.wealth.03 | "\u4E00\u4E07\u679A\u306E\u5099\u3048" | Ten Thousand in Reserve | "\u6240\u6301\u91D1\uFF1A10000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.006\u3002" |
-| n.title.wealth.04 | "\u84C4\u3048\u4E0A\u624B" | A Careful Saver | "\u6240\u6301\u91D1\uFF1A50000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.008\u3002" |
-| n.title.wealth.05 | "\u5341\u4E07\u679A\u306E\u8CA1\u5E03" | A Six-Figure Wallet | "\u6240\u6301\u91D1\uFF1A100000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.01\u3002" |
-| n.title.wealth.06 | "\u539A\u3044\u624B\u6301\u3061" | Deep Pockets | "\u6240\u6301\u91D1\uFF1A500000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.012\u3002" |
-| n.title.wealth.07 | "\u767E\u4E07\u679A\u306E\u5099\u84C4" | A Million in Reserve | "\u6240\u6301\u91D1\uFF1A1000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.014\u3002" |
-| n.title.wealth.08 | "\u5927\u53E3\u306E\u6765\u8A2A\u8005" | A Major Patron | "\u6240\u6301\u91D1\uFF1A5000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.016\u3002" |
-| n.title.wealth.09 | "\u5343\u4E07\u306E\u4F59\u88D5" | Ten Million to Spare | "\u6240\u6301\u91D1\uFF1A10000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.018\u3002" |
-| n.title.wealth.10 | "\u5104\u306E\u5099\u3048" | A Hundred Million in Reserve | "\u6240\u6301\u91D1\uFF1A100000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.02\u3002" |
-| n.title.gamechips.01 | "\u904A\u3073\u306E\u652F\u5EA6" | Ready to Play | "\u5A2F\u697D\u901A\u8CA8\uFF1A100GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.gamechips.02 | "\u5353\u306E\u5E38\u9023" | A Regular at the Table | "\u5A2F\u697D\u901A\u8CA8\uFF1A500GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **十度目の帰還**<br>The Tenth Return | 来訪：10回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +1.5。 | `n.title.visits.03` |
+| **顔なじみ**<br>A Familiar Face | 来訪：25回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2。 | `n.title.visits.04` |
+| **五十枚の足跡**<br>Fifty Sets of Footprints | 来訪：50回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2.5。 | `n.title.visits.05` |
+| **百のただいま**<br>A Hundred Homecomings | 来訪：100回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3。 | `n.title.visits.06` |
+| **帰路の達人**<br>A Seasoned Returner | 来訪：250回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3.5。 | `n.title.visits.07` |
+| **五百回のノック**<br>Five Hundred Knocks | 来訪：500回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4。 | `n.title.visits.08` |
+| **千度の帰り道**<br>A Thousand Roads Home | 来訪：1000回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4.5。 | `n.title.visits.09` |
+| **終わらないただいま**<br>Always Coming Home | 来訪：2000回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +5。 | `n.title.visits.10` |
+| **旅の小銭**<br>Travel Money | 所持金：1000UdonChips以上。一度獲得した称号は通常失われません。 | `n.title.wealth.01` |
+| **少しの余裕**<br>A Little Breathing Room | 所持金：5000UdonChips以上。一度獲得した称号は通常失われません。 | `n.title.wealth.02` |
+| **一万枚の備え**<br>Ten Thousand in Reserve | 所持金：10000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.006。 | `n.title.wealth.03` |
+| **蓄え上手**<br>A Careful Saver | 所持金：50000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.008。 | `n.title.wealth.04` |
 
 </details>
 
 <details>
-<summary>33–48 件目 · n.title.gamechips.03</summary>
+<summary>25〜36件 · 十万枚の財布</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.gamechips.03 | "\u5343\u679A\u306E\u904A\u3073\u5FC3" | A Thousand Chips of Fun | "\u5A2F\u697D\u901A\u8CA8\uFF1A1000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.006\u3002" |
-| n.title.gamechips.04 | "\u904A\u622F\u5BA4\u306E\u9854" | A Familiar Face in the Game Room | "\u5A2F\u697D\u901A\u8CA8\uFF1A5000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.008\u3002" |
-| n.title.gamechips.05 | "\u4E07\u679A\u306E\u6301\u3061\u672D" | Ten Thousand on Hand | "\u5A2F\u697D\u901A\u8CA8\uFF1A10000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.01\u3002" |
-| n.title.gamechips.06 | "\u8CD1\u308F\u3044\u306E\u62C5\u3044\u624B" | Keeping the Games Alive | "\u5A2F\u697D\u901A\u8CA8\uFF1A50000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.012\u3002" |
-| n.title.gamechips.07 | "\u5341\u4E07\u679A\u306E\u4F59\u6687" | A Hundred Thousand for Leisure | "\u5A2F\u697D\u901A\u8CA8\uFF1A100000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.014\u3002" |
-| n.title.gamechips.08 | "\u904A\u622F\u5834\u306E\u5927\u53E3" | A High Roller | "\u5A2F\u697D\u901A\u8CA8\uFF1A500000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.016\u3002" |
-| n.title.gamechips.09 | "\u767E\u4E07\u679A\u306E\u904A\u3073\u5FC3" | A Million Reasons to Play | "\u5A2F\u697D\u901A\u8CA8\uFF1A1000000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.018\u3002" |
-| n.title.gamechips.10 | "\u679C\u3066\u3057\u306A\u3044\u5A2F\u697D" | Leisure Without Limits | "\u5A2F\u697D\u901A\u8CA8\uFF1A10000000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.02\u3002" |
-| n.title.exploration.01 | "\u5916\u57DF\u3078\u306E\u4E00\u6B69" | A Step into the Outlands | "\u63A2\u7D22\uFF1A1\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.exploration.02 | "\u9053\u306E\u5411\u3053\u3046\u5074" | Beyond the Road | "\u63A2\u7D22\uFF1A3\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.exploration.03 | "\u5730\u56F3\u306E\u4F59\u767D" | The Blank Edge of the Map | "\u63A2\u7D22\uFF1A5\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +0.6\u3002" |
-| n.title.exploration.04 | "\u5EC3\u9053\u306E\u6848\u5185\u4EBA" | A Guide to Forgotten Roads | "\u63A2\u7D22\uFF1A10\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +0.8\u3002" |
-| n.title.exploration.05 | "\u8857\u89D2\u306E\u8A18\u9332\u8005" | A Chronicler of Street Corners | "\u63A2\u7D22\uFF1A20\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1\u3002" |
-| n.title.exploration.06 | "\u8FC2\u56DE\u8DEF\u3092\u77E5\u308B\u8005" | Knowing the Detours | "\u63A2\u7D22\uFF1A35\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.2\u3002" |
-| n.title.exploration.07 | "\u5931\u308F\u308C\u305F\u8857\u306E\u65C5\u4EBA" | A Traveler of Lost Cities | "\u63A2\u7D22\uFF1A50\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.4\u3002" |
-| n.title.exploration.08 | "\u9060\u666F\u306E\u8E0F\u7834\u8005" | Reaching the Far Horizon | "\u63A2\u7D22\uFF1A80\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.6\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **十万枚の財布**<br>A Six-Figure Wallet | 所持金：100000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.01。 | `n.title.wealth.05` |
+| **厚い手持ち**<br>Deep Pockets | 所持金：500000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.012。 | `n.title.wealth.06` |
+| **百万枚の備蓄**<br>A Million in Reserve | 所持金：1000000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.014。 | `n.title.wealth.07` |
+| **大口の来訪者**<br>A Major Patron | 所持金：5000000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.016。 | `n.title.wealth.08` |
+| **千万の余裕**<br>Ten Million to Spare | 所持金：10000000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.018。 | `n.title.wealth.09` |
+| **億の備え**<br>A Hundred Million in Reserve | 所持金：100000000UdonChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.02。 | `n.title.wealth.10` |
+| **遊びの支度**<br>Ready to Play | 娯楽通貨：100GameChips以上。一度獲得した称号は通常失われません。 | `n.title.gamechips.01` |
+| **卓の常連**<br>A Regular at the Table | 娯楽通貨：500GameChips以上。一度獲得した称号は通常失われません。 | `n.title.gamechips.02` |
+| **千枚の遊び心**<br>A Thousand Chips of Fun | 娯楽通貨：1000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.006。 | `n.title.gamechips.03` |
+| **遊戯室の顔**<br>A Familiar Face in the Game Room | 娯楽通貨：5000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.008。 | `n.title.gamechips.04` |
+| **万枚の持ち札**<br>Ten Thousand on Hand | 娯楽通貨：10000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.01。 | `n.title.gamechips.05` |
+| **賑わいの担い手**<br>Keeping the Games Alive | 娯楽通貨：50000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.012。 | `n.title.gamechips.06` |
 
 </details>
 
 <details>
-<summary>49–64 件目 · n.title.exploration.09</summary>
+<summary>37〜48件 · 十万枚の余暇</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.exploration.09 | "\u4E16\u754C\u306E\u7D99\u304E\u76EE\u3092\u6B69\u304F\u8005" | Walking the Seams of the World | "\u63A2\u7D22\uFF1A120\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.8\u3002" |
-| n.title.exploration.10 | "\u672A\u77E5\u3092\u65E5\u5E38\u306B\u3059\u308B\u8005" | Making the Unknown Familiar | "\u63A2\u7D22\uFF1A200\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +2\u3002" |
-| n.title.fishing.01 | "\u6700\u521D\u306E\u4E00\u5C3E" | The First Catch | "\u91E3\u308A\uFF1A1\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.fishing.02 | "\u6C34\u8FBA\u306E\u5F85\u3061\u4EBA" | Waiting by the Water | "\u91E3\u308A\uFF1A5\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.fishing.03 | "\u6D6E\u304D\u3092\u898B\u5B88\u308B\u8005" | Watching the Float | "\u91E3\u308A\uFF1A20\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +1.5\u3002" |
-| n.title.fishing.04 | "\u7CF8\u5148\u306E\u5BFE\u8A71\u8005" | A Conversation on the Line | "\u91E3\u308A\uFF1A50\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2\u3002" |
-| n.title.fishing.05 | "\u767E\u5C3E\u306E\u91E3\u308A\u4EBA" | A Hundred Fish | "\u91E3\u308A\uFF1A100\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2.5\u3002" |
-| n.title.fishing.06 | "\u6CE2\u7D0B\u3092\u8AAD\u3080\u8005" | Reading the Ripples | "\u91E3\u308A\uFF1A250\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3\u3002" |
-| n.title.fishing.07 | "\u6C34\u8FBA\u306E\u719F\u7DF4\u8005" | A Veteran of the Waterside | "\u91E3\u308A\uFF1A500\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3.5\u3002" |
-| n.title.fishing.08 | "\u5343\u5C3E\u306E\u91E3\u884C\u8A18" | A Thousand Catches | "\u91E3\u308A\uFF1A1000\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4\u3002" |
-| n.title.fishing.09 | "\u6D41\u308C\u3092\u77E5\u308B\u624B" | Hands That Know the Current | "\u91E3\u308A\uFF1A2500\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4.5\u3002" |
-| n.title.fishing.10 | "\u7CF8\u306E\u5148\u306B\u4E16\u754C\u3092\u898B\u308B\u8005" | A World at the End of the Line | "\u91E3\u308A\uFF1A5000\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +5\u3002" |
-| n.title.cooking.01 | "\u306F\u3058\u3081\u3066\u306E\u4E00\u76BF" | The First Plate | "\u6599\u7406\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.cooking.02 | "\u6E6F\u6C17\u306E\u5411\u3053\u3046" | Beyond the Steam | "\u6599\u7406\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.cooking.03 | "\u53F0\u6240\u306E\u52A9\u3063\u4EBA" | A Helping Hand in the Kitchen | "\u6599\u7406\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +1.5\u3002" |
-| n.title.cooking.04 | "\u5473\u3092\u899A\u3048\u308B\u624B" | Hands That Learn Flavor | "\u6599\u7406\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +2\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **十万枚の余暇**<br>A Hundred Thousand for Leisure | 娯楽通貨：100000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.014。 | `n.title.gamechips.07` |
+| **遊戯場の大口**<br>A High Roller | 娯楽通貨：500000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.016。 | `n.title.gamechips.08` |
+| **百万枚の遊び心**<br>A Million Reasons to Play | 娯楽通貨：1000000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.018。 | `n.title.gamechips.09` |
+| **果てしない娯楽**<br>Leisure Without Limits | 娯楽通貨：10000000GameChips以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：娯楽通貨獲得倍率 +0.02。 | `n.title.gamechips.10` |
+| **外域への一歩**<br>A Step into the Outlands | 探索：1地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.exploration.01` |
+| **道の向こう側**<br>Beyond the Road | 探索：3地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.exploration.02` |
+| **地図の余白**<br>The Blank Edge of the Map | 探索：5地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +0.6。 | `n.title.exploration.03` |
+| **廃道の案内人**<br>A Guide to Forgotten Roads | 探索：10地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +0.8。 | `n.title.exploration.04` |
+| **街角の記録者**<br>A Chronicler of Street Corners | 探索：20地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1。 | `n.title.exploration.05` |
+| **迂回路を知る者**<br>Knowing the Detours | 探索：35地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.2。 | `n.title.exploration.06` |
+| **失われた街の旅人**<br>A Traveler of Lost Cities | 探索：50地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.4。 | `n.title.exploration.07` |
+| **遠景の踏破者**<br>Reaching the Far Horizon | 探索：80地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.6。 | `n.title.exploration.08` |
 
 </details>
 
 <details>
-<summary>65–80 件目 · n.title.cooking.05</summary>
+<summary>49〜60件 · 世界の継ぎ目を歩く者</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.cooking.05 | "\u65E5\u3005\u306E\u307E\u304B\u306A\u3044" | The Daily Meal | "\u6599\u7406\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +2.5\u3002" |
-| n.title.cooking.06 | "\u767E\u76BF\u306E\u6E29\u3082\u308A" | A Hundred Plates of Warmth | "\u6599\u7406\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +3\u3002" |
-| n.title.cooking.07 | "\u98DF\u5353\u3092\u652F\u3048\u308B\u8005" | Keeping the Table Set | "\u6599\u7406\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +3.5\u3002" |
-| n.title.cooking.08 | "\u9999\u308A\u306E\u6848\u5185\u4EBA" | A Guide to Good Aromas | "\u6599\u7406\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +4\u3002" |
-| n.title.cooking.09 | "\u5343\u76BF\u306E\u3082\u3066\u306A\u3057" | A Thousand Plates of Hospitality | "\u6599\u7406\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +4.5\u3002" |
-| n.title.cooking.10 | "\u7D42\u672B\u306E\u98DF\u5353\u3092\u5F69\u308B\u8005" | Bringing Flavor to the End of the World | "\u6599\u7406\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP +5\u3002" |
-| n.title.alchemy.01 | "\u5C0F\u74F6\u306E\u306F\u3058\u307E\u308A" | The First Vial | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.alchemy.02 | "\u8ABF\u5408\u306E\u898B\u7FD2\u3044" | An Apprentice Mixer | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.alchemy.03 | "\u85AC\u8349\u3092\u8B58\u308B\u8005" | Knowing the Herbs | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +1.5\u3002" |
-| n.title.alchemy.04 | "\u62BD\u51FA\u306E\u624B\u307B\u3069\u304D" | Learning Extraction | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2\u3002" |
-| n.title.alchemy.05 | "\u8A66\u85AC\u68DA\u306E\u4F4F\u4EBA" | At Home Among Reagents | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2.5\u3002" |
-| n.title.alchemy.06 | "\u767E\u74F6\u306E\u8A18\u9332" | A Hundred Bottles on Record | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3\u3002" |
-| n.title.alchemy.07 | "\u8ABF\u5408\u5BA4\u306E\u983C\u308A" | A Reliable Hand in the Laboratory | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3.5\u3002" |
-| n.title.alchemy.08 | "\u7D20\u6750\u306E\u58F0\u3092\u8074\u304F\u8005" | Listening to the Ingredients | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4\u3002" |
-| n.title.alchemy.09 | "\u5343\u74F6\u306E\u63A2\u7A76" | A Thousand Bottles of Inquiry | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4.5\u3002" |
-| n.title.alchemy.10 | "\u4E0D\u53EF\u601D\u8B70\u3092\u8ABF\u3048\u308B\u8005" | Bringing Order to the Uncanny | "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +5\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **世界の継ぎ目を歩く者**<br>Walking the Seams of the World | 探索：120地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.8。 | `n.title.exploration.09` |
+| **未知を日常にする者**<br>Making the Unknown Familiar | 探索：200地点以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +2。 | `n.title.exploration.10` |
+| **最初の一尾**<br>The First Catch | 釣り：1匹以上。一度獲得した称号は通常失われません。 | `n.title.fishing.01` |
+| **水辺の待ち人**<br>Waiting by the Water | 釣り：5匹以上。一度獲得した称号は通常失われません。 | `n.title.fishing.02` |
+| **浮きを見守る者**<br>Watching the Float | 釣り：20匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +1.5。 | `n.title.fishing.03` |
+| **糸先の対話者**<br>A Conversation on the Line | 釣り：50匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2。 | `n.title.fishing.04` |
+| **百尾の釣り人**<br>A Hundred Fish | 釣り：100匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2.5。 | `n.title.fishing.05` |
+| **波紋を読む者**<br>Reading the Ripples | 釣り：250匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3。 | `n.title.fishing.06` |
+| **水辺の熟練者**<br>A Veteran of the Waterside | 釣り：500匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3.5。 | `n.title.fishing.07` |
+| **千尾の釣行記**<br>A Thousand Catches | 釣り：1000匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4。 | `n.title.fishing.08` |
+| **流れを知る手**<br>Hands That Know the Current | 釣り：2500匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4.5。 | `n.title.fishing.09` |
+| **糸の先に世界を見る者**<br>A World at the End of the Line | 釣り：5000匹以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +5。 | `n.title.fishing.10` |
 
 </details>
 
 <details>
-<summary>81–96 件目 · n.title.craft.01</summary>
+<summary>61〜72件 · はじめての一皿</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.craft.01 | "\u6700\u521D\u306E\u624B\u4ED5\u4E8B" | The First Handcrafted Piece | "\u88FD\u4F5C\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.craft.02 | "\u4F5C\u696D\u53F0\u306E\u96A3\u4EBA" | A Neighbor at the Workbench | "\u88FD\u4F5C\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.craft.03 | "\u9053\u5177\u3092\u751F\u3080\u624B" | Hands That Make Tools | "\u88FD\u4F5C\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +0.6\u3002" |
-| n.title.craft.04 | "\u7D44\u307F\u7ACB\u3066\u4E0A\u624B" | A Skilled Assembler | "\u88FD\u4F5C\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +0.8\u3002" |
-| n.title.craft.05 | "\u66AE\u3089\u3057\u306E\u4F5C\u308A\u624B" | Making Everyday Life | "\u88FD\u4F5C\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +1\u3002" |
-| n.title.craft.06 | "\u767E\u54C1\u306E\u624B\u4ED5\u4E8B" | A Hundred Handcrafted Pieces | "\u88FD\u4F5C\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +1.2\u3002" |
-| n.title.craft.07 | "\u5DE5\u623F\u306E\u62C5\u3044\u624B" | Keeping the Workshop Alive | "\u88FD\u4F5C\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +1.4\u3002" |
-| n.title.craft.08 | "\u7CBE\u5DE7\u3092\u91CD\u306D\u308B\u8005" | Refining the Details | "\u88FD\u4F5C\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +1.6\u3002" |
-| n.title.craft.09 | "\u5343\u54C1\u306E\u7A4D\u307F\u91CD\u306D" | A Thousand Pieces of Work | "\u88FD\u4F5C\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +1.8\u3002" |
-| n.title.craft.10 | "\u7D42\u672B\u3092\u7D44\u307F\u76F4\u3059\u8005" | Rebuilding After the End | "\u88FD\u4F5C\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483 +2\u3002" |
-| n.title.trade.01 | "\u306F\u3058\u3081\u3066\u306E\u53D6\u5F15" | The First Trade | "\u53D6\u5F15\uFF1A1\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.trade.02 | "\u58F2\u5E97\u306E\u9854\u306A\u3058\u307F" | A Familiar Face at the Shop | "\u53D6\u5F15\uFF1A5\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.trade.03 | "\u4EA4\u63DB\u306E\u5FC3\u5F97" | Learning the Exchange | "\u53D6\u5F15\uFF1A15\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.006\u3002" |
-| n.title.trade.04 | "\u5546\u8AC7\u306E\u805E\u304D\u624B" | A Good Listener at the Counter | "\u53D6\u5F15\uFF1A30\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.008\u3002" |
-| n.title.trade.05 | "\u884C\u304D\u4EA4\u3046\u54C1\u3005" | Goods on the Move | "\u53D6\u5F15\uFF1A60\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.01\u3002" |
-| n.title.trade.06 | "\u767E\u306E\u53D7\u3051\u6E21\u3057" | A Hundred Handovers | "\u53D6\u5F15\uFF1A100\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.012\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **はじめての一皿**<br>The First Plate | 料理：1品以上。一度獲得した称号は通常失われません。 | `n.title.cooking.01` |
+| **湯気の向こう**<br>Beyond the Steam | 料理：5品以上。一度獲得した称号は通常失われません。 | `n.title.cooking.02` |
+| **台所の助っ人**<br>A Helping Hand in the Kitchen | 料理：15品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +1.5。 | `n.title.cooking.03` |
+| **味を覚える手**<br>Hands That Learn Flavor | 料理：30品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +2。 | `n.title.cooking.04` |
+| **日々のまかない**<br>The Daily Meal | 料理：60品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +2.5。 | `n.title.cooking.05` |
+| **百皿の温もり**<br>A Hundred Plates of Warmth | 料理：100品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +3。 | `n.title.cooking.06` |
+| **食卓を支える者**<br>Keeping the Table Set | 料理：250品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +3.5。 | `n.title.cooking.07` |
+| **香りの案内人**<br>A Guide to Good Aromas | 料理：500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +4。 | `n.title.cooking.08` |
+| **千皿のもてなし**<br>A Thousand Plates of Hospitality | 料理：1000品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +4.5。 | `n.title.cooking.09` |
+| **終末の食卓を彩る者**<br>Bringing Flavor to the End of the World | 料理：2500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大HP +5。 | `n.title.cooking.10` |
+| **小瓶のはじまり**<br>The First Vial | 錬金・薬学：1品以上。一度獲得した称号は通常失われません。 | `n.title.alchemy.01` |
+| **調合の見習い**<br>An Apprentice Mixer | 錬金・薬学：5品以上。一度獲得した称号は通常失われません。 | `n.title.alchemy.02` |
 
 </details>
 
 <details>
-<summary>97–112 件目 · n.title.trade.07</summary>
+<summary>73〜84件 · 薬草を識る者</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.trade.07 | "\u54C1\u3092\u898B\u308B\u773C" | An Eye for Goods | "\u53D6\u5F15\uFF1A250\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.014\u3002" |
-| n.title.trade.08 | "\u53D6\u5F15\u306E\u6A4B\u6E21\u3057" | A Bridge Between Traders | "\u53D6\u5F15\uFF1A500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.016\u3002" |
-| n.title.trade.09 | "\u5343\u306E\u5546\u8AC7" | A Thousand Deals | "\u53D6\u5F15\uFF1A1000\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.018\u3002" |
-| n.title.trade.10 | "\u6D41\u901A\u3092\u3064\u306A\u3050\u8005" | Keeping Goods in Circulation | "\u53D6\u5F15\uFF1A2500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387 +0.02\u3002" |
-| n.title.farming.01 | "\u5C0F\u3055\u306A\u521D\u53CE\u7A6B" | A Small First Harvest | "\u8FB2\u696D\uFF1A1\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.farming.02 | "\u571F\u306B\u89E6\u308C\u308B\u624B" | Hands in the Soil | "\u8FB2\u696D\uFF1A10\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.farming.03 | "\u7551\u306E\u898B\u5B88\u308A\u4EBA" | A Watcher of the Fields | "\u8FB2\u696D\uFF1A30\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +1.5\u3002" |
-| n.title.farming.04 | "\u82BD\u5439\u304D\u306E\u76F8\u68D2" | A Partner to New Growth | "\u8FB2\u696D\uFF1A60\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2\u3002" |
-| n.title.farming.05 | "\u767E\u306E\u5B9F\u308A" | A Hundred Fruits of Labor | "\u8FB2\u696D\uFF1A100\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +2.5\u3002" |
-| n.title.farming.06 | "\u5B63\u7BC0\u3092\u80B2\u3066\u308B\u8005" | Growing with the Seasons | "\u8FB2\u696D\uFF1A250\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3\u3002" |
-| n.title.farming.07 | "\u8C4A\u7A63\u306E\u624B\u5165\u308C" | Tending Abundance | "\u8FB2\u696D\uFF1A500\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +3.5\u3002" |
-| n.title.farming.08 | "\u5343\u306E\u53CE\u7A6B" | A Thousand Harvested Crops | "\u8FB2\u696D\uFF1A1000\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4\u3002" |
-| n.title.farming.09 | "\u7DD1\u3092\u5B88\u308B\u62C5\u3044\u624B" | A Steward of Green Life | "\u8FB2\u696D\uFF1A2500\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +4.5\u3002" |
-| n.title.farming.10 | "\u8352\u5EC3\u306B\u5B9F\u308A\u3092\u706F\u3059\u8005" | A Harvest Amid the Ruins | "\u8FB2\u696D\uFF1A5000\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA +5\u3002" |
-| n.title.pets.01 | "\u306F\u3058\u3081\u3066\u306E\u304A\u4E16\u8A71" | The First Act of Care | "\u98FC\u80B2\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
-| n.title.pets.02 | "\u5C0F\u3055\u306A\u53CB\u306E\u96A3" | Beside a Small Friend | "\u98FC\u80B2\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **薬草を識る者**<br>Knowing the Herbs | 錬金・薬学：15品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +1.5。 | `n.title.alchemy.03` |
+| **抽出の手ほどき**<br>Learning Extraction | 錬金・薬学：30品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +2。 | `n.title.alchemy.04` |
+| **試薬棚の住人**<br>At Home Among Reagents | 錬金・薬学：60品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +2.5。 | `n.title.alchemy.05` |
+| **百瓶の記録**<br>A Hundred Bottles on Record | 錬金・薬学：100品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +3。 | `n.title.alchemy.06` |
+| **調合室の頼り**<br>A Reliable Hand in the Laboratory | 錬金・薬学：250品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +3.5。 | `n.title.alchemy.07` |
+| **素材の声を聴く者**<br>Listening to the Ingredients | 錬金・薬学：500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +4。 | `n.title.alchemy.08` |
+| **千瓶の探究**<br>A Thousand Bottles of Inquiry | 錬金・薬学：1000品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +4.5。 | `n.title.alchemy.09` |
+| **不可思議を調える者**<br>Bringing Order to the Uncanny | 錬金・薬学：2500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +5。 | `n.title.alchemy.10` |
+| **最初の手仕事**<br>The First Handcrafted Piece | 製作：1品以上。一度獲得した称号は通常失われません。 | `n.title.craft.01` |
+| **作業台の隣人**<br>A Neighbor at the Workbench | 製作：5品以上。一度獲得した称号は通常失われません。 | `n.title.craft.02` |
+| **道具を生む手**<br>Hands That Make Tools | 製作：15品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +0.6。 | `n.title.craft.03` |
+| **組み立て上手**<br>A Skilled Assembler | 製作：30品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +0.8。 | `n.title.craft.04` |
 
 </details>
 
 <details>
-<summary>113–128 件目 · n.title.pets.03</summary>
+<summary>85〜96件 · 暮らしの作り手</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.pets.03 | "\u990C\u76BF\u306E\u7D04\u675F" | A Promise at the Feeding Bowl | "\u98FC\u80B2\uFF1A30\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +1.5\u3002" |
-| n.title.pets.04 | "\u904A\u3073\u6642\u9593\u306E\u76F8\u68D2" | A Playtime Companion | "\u98FC\u80B2\uFF1A60\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2\u3002" |
-| n.title.pets.05 | "\u767E\u306E\u6C17\u9063\u3044" | A Hundred Kind Gestures | "\u98FC\u80B2\uFF1A100\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2.5\u3002" |
-| n.title.pets.06 | "\u306C\u304F\u3082\u308A\u306E\u5C45\u5834\u6240" | A Place of Warmth | "\u98FC\u80B2\uFF1A250\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3\u3002" |
-| n.title.pets.07 | "\u547D\u3092\u898B\u5B88\u308B\u624B" | Hands That Watch Over Life | "\u98FC\u80B2\uFF1A500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3.5\u3002" |
-| n.title.pets.08 | "\u5343\u306E\u3044\u305F\u308F\u308A" | A Thousand Acts of Care | "\u98FC\u80B2\uFF1A1000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4\u3002" |
-| n.title.pets.09 | "\u65E5\u3005\u3092\u5BC4\u308A\u6DFB\u3046\u8005" | Sharing the Everyday | "\u98FC\u80B2\uFF1A2500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4.5\u3002" |
-| n.title.pets.10 | "\u5C0F\u3055\u306A\u547D\u306E\u5927\u304D\u306A\u5473\u65B9" | A Great Friend to Small Lives | "\u98FC\u80B2\uFF1A5000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +5\u3002" |
-| n.title.social.01 | "\u4EA4\u308F\u3057\u305F\u9023\u7D61\u5148" | The First Contact | "\u4EA4\u6D41\uFF1A1\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.social.02 | "\u4E8C\u3064\u306E\u7E01" | Two Connections | "\u4EA4\u6D41\uFF1A2\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.social.03 | "\u5C0F\u3055\u306A\u3064\u306A\u304C\u308A" | A Small Circle | "\u4EA4\u6D41\uFF1A3\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +1.5\u3002" |
-| n.title.social.04 | "\u8AC7\u8A71\u306E\u8F2A" | A Circle of Conversation | "\u4EA4\u6D41\uFF1A5\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2\u3002" |
-| n.title.social.05 | "\u9854\u306E\u898B\u3048\u308B\u4EF2\u9593" | Friends with Familiar Faces | "\u4EA4\u6D41\uFF1A8\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2.5\u3002" |
-| n.title.social.06 | "\u9023\u7D61\u5E33\u306E\u8CD1\u308F\u3044" | A Lively Contact List | "\u4EA4\u6D41\uFF1A12\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3\u3002" |
-| n.title.social.07 | "\u5E83\u304C\u308B\u4EA4\u53CB" | An Expanding Circle | "\u4EA4\u6D41\uFF1A20\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3.5\u3002" |
-| n.title.social.08 | "\u30DB\u30C6\u30EB\u306E\u3064\u306A\u304E\u5F79" | Bringing the Hotel Together | "\u4EA4\u6D41\uFF1A30\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **暮らしの作り手**<br>Making Everyday Life | 製作：60品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +1。 | `n.title.craft.05` |
+| **百品の手仕事**<br>A Hundred Handcrafted Pieces | 製作：100品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +1.2。 | `n.title.craft.06` |
+| **工房の担い手**<br>Keeping the Workshop Alive | 製作：250品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +1.4。 | `n.title.craft.07` |
+| **精巧を重ねる者**<br>Refining the Details | 製作：500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +1.6。 | `n.title.craft.08` |
+| **千品の積み重ね**<br>A Thousand Pieces of Work | 製作：1000品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +1.8。 | `n.title.craft.09` |
+| **終末を組み直す者**<br>Rebuilding After the End | 製作：2500品以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：攻撃 +2。 | `n.title.craft.10` |
+| **はじめての取引**<br>The First Trade | 取引：1件以上。一度獲得した称号は通常失われません。 | `n.title.trade.01` |
+| **売店の顔なじみ**<br>A Familiar Face at the Shop | 取引：5件以上。一度獲得した称号は通常失われません。 | `n.title.trade.02` |
+| **交換の心得**<br>Learning the Exchange | 取引：15件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.006。 | `n.title.trade.03` |
+| **商談の聞き手**<br>A Good Listener at the Counter | 取引：30件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.008。 | `n.title.trade.04` |
+| **行き交う品々**<br>Goods on the Move | 取引：60件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.01。 | `n.title.trade.05` |
+| **百の受け渡し**<br>A Hundred Handovers | 取引：100件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.012。 | `n.title.trade.06` |
 
 </details>
 
 <details>
-<summary>129–144 件目 · n.title.social.09</summary>
+<summary>97〜108件 · 品を見る眼</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.social.09 | "\u4E94\u5341\u306E\u7E01" | Fifty Connections | "\u4EA4\u6D41\uFF1A50\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4.5\u3002" |
-| n.title.social.10 | "\u7D42\u672B\u306B\u7E01\u3092\u7D50\u3076\u8005" | Forging Bonds After the End | "\u4EA4\u6D41\uFF1A80\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +5\u3002" |
-| n.title.knowledge.01 | "\u6700\u521D\u306E\u8A18\u9332" | The First Record | "\u8A18\u9332\uFF1A1\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.knowledge.02 | "\u30E1\u30E2\u3092\u62FE\u3046\u4EBA" | A Collector of Notes | "\u8A18\u9332\uFF1A3\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.knowledge.03 | "\u5341\u7BC7\u306E\u624B\u304C\u304B\u308A" | Ten Pieces of Evidence | "\u8A18\u9332\uFF1A10\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +1.5\u3002" |
-| n.title.knowledge.04 | "\u8A18\u9332\u306E\u8AAD\u307F\u624B" | A Reader of Records | "\u8A18\u9332\uFF1A20\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2\u3002" |
-| n.title.knowledge.05 | "\u8CC7\u6599\u3092\u305F\u3069\u308B\u8005" | Following the Documents | "\u8A18\u9332\uFF1A35\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +2.5\u3002" |
-| n.title.knowledge.06 | "\u5C0F\u3055\u306A\u8CC7\u6599\u5EAB" | A Small Archive | "\u8A18\u9332\uFF1A50\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3\u3002" |
-| n.title.knowledge.07 | "\u767E\u7BC7\u306E\u77E5\u8B58" | A Hundred Pieces of Knowledge | "\u8A18\u9332\uFF1A100\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +3.5\u3002" |
-| n.title.knowledge.08 | "\u8A18\u9332\u3092\u7DE8\u3080\u8005" | Weaving the Records Together | "\u8A18\u9332\uFF1A200\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4\u3002" |
-| n.title.knowledge.09 | "\u5FD8\u5374\u306B\u6297\u3046\u66F8\u67B6" | A Library Against Oblivion | "\u8A18\u9332\uFF1A350\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +4.5\u3002" |
-| n.title.knowledge.10 | "\u4E16\u754C\u3092\u8AAD\u307F\u89E3\u304F\u96A3\u4EBA" | A Neighbor Who Reads the World | "\u8A18\u9332\uFF1A500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP +5\u3002" |
-| n.title.camp.01 | "\u306F\u3058\u3081\u3066\u306E\u91CE\u55B6" | The First Camp | "\u91CE\u55B6\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.camp.02 | "\u711A\u304D\u706B\u306E\u96A3" | Beside the Campfire | "\u91CE\u55B6\uFF1A3\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002" |
-| n.title.camp.03 | "\u4E94\u591C\u306E\u8A2D\u55B6" | Five Camps Made | "\u91CE\u55B6\uFF1A5\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +0.6\u3002" |
-| n.title.camp.04 | "\u5916\u57DF\u306E\u4F11\u307F\u51E6" | A Resting Place in the Outlands | "\u91CE\u55B6\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +0.8\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **品を見る眼**<br>An Eye for Goods | 取引：250件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.014。 | `n.title.trade.07` |
+| **取引の橋渡し**<br>A Bridge Between Traders | 取引：500件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.016。 | `n.title.trade.08` |
+| **千の商談**<br>A Thousand Deals | 取引：1000件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.018。 | `n.title.trade.09` |
+| **流通をつなぐ者**<br>Keeping Goods in Circulation | 取引：2500件以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：通貨獲得倍率 +0.02。 | `n.title.trade.10` |
+| **小さな初収穫**<br>A Small First Harvest | 農業：1個以上。一度獲得した称号は通常失われません。 | `n.title.farming.01` |
+| **土に触れる手**<br>Hands in the Soil | 農業：10個以上。一度獲得した称号は通常失われません。 | `n.title.farming.02` |
+| **畑の見守り人**<br>A Watcher of the Fields | 農業：30個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +1.5。 | `n.title.farming.03` |
+| **芽吹きの相棒**<br>A Partner to New Growth | 農業：60個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2。 | `n.title.farming.04` |
+| **百の実り**<br>A Hundred Fruits of Labor | 農業：100個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +2.5。 | `n.title.farming.05` |
+| **季節を育てる者**<br>Growing with the Seasons | 農業：250個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3。 | `n.title.farming.06` |
+| **豊穣の手入れ**<br>Tending Abundance | 農業：500個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +3.5。 | `n.title.farming.07` |
+| **千の収穫**<br>A Thousand Harvested Crops | 農業：1000個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4。 | `n.title.farming.08` |
 
 </details>
 
 <details>
-<summary>145–150 件目 · n.title.camp.05</summary>
+<summary>109〜120件 · 緑を守る担い手</summary>
 
-| ID | 日本語 | English | 説明・役割・話者 |
-|---|---|---|---|
-| n.title.camp.05 | "\u7D50\u754C\u306E\u5185\u306E\u5B89\u3089\u304E" | Peace Within the Barrier | "\u91CE\u55B6\uFF1A20\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1\u3002" |
-| n.title.camp.06 | "\u64A4\u53CE\u4E0A\u624B" | A Clean Pack-Up | "\u91CE\u55B6\uFF1A35\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.2\u3002" |
-| n.title.camp.07 | "\u661F\u660E\u304B\u308A\u306E\u5E38\u9023" | A Regular Under Starlight | "\u91CE\u55B6\uFF1A50\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.4\u3002" |
-| n.title.camp.08 | 荒野の宿づくり | Making Shelter in the Wasteland | "\u91CE\u55B6\uFF1A80\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.6\u3002" |
-| n.title.camp.09 | "\u65C5\u306E\u4EEE\u4F4F\u307E\u3044" | A Home Along the Road | "\u91CE\u55B6\uFF1A120\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +1.8\u3002" |
-| n.title.camp.10 | "\u5371\u3046\u3044\u4E16\u754C\u306E\u7A4F\u3084\u304B\u306A\u591C" | A Quiet Night in a Perilous World | "\u91CE\u55B6\uFF1A200\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1 +2\u3002" |
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **緑を守る担い手**<br>A Steward of Green Life | 農業：2500個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +4.5。 | `n.title.farming.09` |
+| **荒廃に実りを灯す者**<br>A Harvest Amid the Ruins | 農業：5000個以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大スタミナ +5。 | `n.title.farming.10` |
+| **はじめてのお世話**<br>The First Act of Care | 飼育：1回以上。一度獲得した称号は通常失われません。 | `n.title.pets.01` |
+| **小さな友の隣**<br>Beside a Small Friend | 飼育：10回以上。一度獲得した称号は通常失われません。 | `n.title.pets.02` |
+| **餌皿の約束**<br>A Promise at the Feeding Bowl | 飼育：30回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +1.5。 | `n.title.pets.03` |
+| **遊び時間の相棒**<br>A Playtime Companion | 飼育：60回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +2。 | `n.title.pets.04` |
+| **百の気遣い**<br>A Hundred Kind Gestures | 飼育：100回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +2.5。 | `n.title.pets.05` |
+| **ぬくもりの居場所**<br>A Place of Warmth | 飼育：250回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +3。 | `n.title.pets.06` |
+| **命を見守る手**<br>Hands That Watch Over Life | 飼育：500回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +3.5。 | `n.title.pets.07` |
+| **千のいたわり**<br>A Thousand Acts of Care | 飼育：1000回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +4。 | `n.title.pets.08` |
+| **日々を寄り添う者**<br>Sharing the Everyday | 飼育：2500回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +4.5。 | `n.title.pets.09` |
+| **小さな命の大きな味方**<br>A Great Friend to Small Lives | 飼育：5000回以上。一度獲得した称号は通常失われません。<br>装着効果（仮）：最大MP +5。 | `n.title.pets.10` |
+
+</details>
+
+<details>
+<summary>121〜132件 · 交わした連絡先</summary>
+
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **交わした連絡先**<br>The First Contact | 交流：1人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.social.01` |
+| **二つの縁**<br>Two Connections | 交流：2人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.social.02` |
+| **小さなつながり**<br>A Small Circle | 交流：3人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +1.5。 | `n.title.social.03` |
+| **談話の輪**<br>A Circle of Conversation | 交流：5人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +2。 | `n.title.social.04` |
+| **顔の見える仲間**<br>Friends with Familiar Faces | 交流：8人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +2.5。 | `n.title.social.05` |
+| **連絡帳の賑わい**<br>A Lively Contact List | 交流：12人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +3。 | `n.title.social.06` |
+| **広がる交友**<br>An Expanding Circle | 交流：20人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +3.5。 | `n.title.social.07` |
+| **ホテルのつなぎ役**<br>Bringing the Hotel Together | 交流：30人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +4。 | `n.title.social.08` |
+| **五十の縁**<br>Fifty Connections | 交流：50人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +4.5。 | `n.title.social.09` |
+| **終末に縁を結ぶ者**<br>Forging Bonds After the End | 交流：80人以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +5。 | `n.title.social.10` |
+| **最初の記録**<br>The First Record | 記録：1件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.knowledge.01` |
+| **メモを拾う人**<br>A Collector of Notes | 記録：3件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.knowledge.02` |
+
+</details>
+
+<details>
+<summary>133〜144件 · 十篇の手がかり</summary>
+
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **十篇の手がかり**<br>Ten Pieces of Evidence | 記録：10件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +1.5。 | `n.title.knowledge.03` |
+| **記録の読み手**<br>A Reader of Records | 記録：20件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +2。 | `n.title.knowledge.04` |
+| **資料をたどる者**<br>Following the Documents | 記録：35件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +2.5。 | `n.title.knowledge.05` |
+| **小さな資料庫**<br>A Small Archive | 記録：50件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +3。 | `n.title.knowledge.06` |
+| **百篇の知識**<br>A Hundred Pieces of Knowledge | 記録：100件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +3.5。 | `n.title.knowledge.07` |
+| **記録を編む者**<br>Weaving the Records Together | 記録：200件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +4。 | `n.title.knowledge.08` |
+| **忘却に抗う書架**<br>A Library Against Oblivion | 記録：350件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +4.5。 | `n.title.knowledge.09` |
+| **世界を読み解く隣人**<br>A Neighbor Who Reads the World | 記録：500件以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：最大MP +5。 | `n.title.knowledge.10` |
+| **はじめての野営**<br>The First Camp | 野営：1回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.camp.01` |
+| **焚き火の隣**<br>Beside the Campfire | 野営：3回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。 | `n.title.camp.02` |
+| **五夜の設営**<br>Five Camps Made | 野営：5回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +0.6。 | `n.title.camp.03` |
+| **外域の休み処**<br>A Resting Place in the Outlands | 野営：10回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +0.8。 | `n.title.camp.04` |
+
+</details>
+
+<details>
+<summary>145〜150件 · 結界の内の安らぎ</summary>
+
+| 名称・台詞 | 説明・条件 | ID |
+|---|---|---|
+| **結界の内の安らぎ**<br>Peace Within the Barrier | 野営：20回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1。 | `n.title.camp.05` |
+| **撤収上手**<br>A Clean Pack-Up | 野営：35回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.2。 | `n.title.camp.06` |
+| **星明かりの常連**<br>A Regular Under Starlight | 野営：50回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.4。 | `n.title.camp.07` |
+| **荒野の宿づくり**<br>Making Shelter in the Wasteland | 野営：80回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.6。 | `n.title.camp.08` |
+| **旅の仮住まい**<br>A Home Along the Road | 野営：120回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +1.8。 | `n.title.camp.09` |
+| **危うい世界の穏やかな夜**<br>A Quiet Night in a Perilous World | 野営：200回以上。一度獲得した称号は通常失われません。【接続待ち】専用実績カウンターの接続後に自動判定します。<br>装着効果（仮）：防御 +2。 | `n.title.camp.10` |
 
 </details>
