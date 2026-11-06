@@ -1,0 +1,2897 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4e0bb61d4b4f95a4b22d256925d332, type: 3}
+  m_Name: N_MaterialModifierCatalog_100
+  m_EditorClassIdentifier:
+  rollChance: 0.02
+  maximumAffixes: 1
+  entries:
+  - id: n.materialmodifier.sweetness.1
+    evolutionTarget: n.materialmodifier.sweetness.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな蜜の気配"
+    nameEn: "Faint Honeyed"
+    descriptionJa: "甘みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sweetness by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 0
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.sweetness.2
+    evolutionTarget: n.materialmodifier.sweetness.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな蜜の気配"
+    nameEn: "Gentle Honeyed"
+    descriptionJa: "甘みを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sweetness by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 0
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.sweetness.3
+    evolutionTarget: n.materialmodifier.sweetness.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな蜜の気配"
+    nameEn: "Distinct Honeyed"
+    descriptionJa: "甘みを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sweetness by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 0
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.sweetness.4
+    evolutionTarget: n.materialmodifier.sweetness.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い蜜の気配"
+    nameEn: "Deep Honeyed"
+    descriptionJa: "甘みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sweetness by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 0
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.sweetness.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な蜜の気配"
+    nameEn: "Rare Honeyed"
+    descriptionJa: "甘みを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sweetness by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 0
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.spiciness.1
+    evolutionTarget: n.materialmodifier.spiciness.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな火種の辛み"
+    nameEn: "Faint Ember Spice"
+    descriptionJa: "辛みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases spiciness by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 1
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.spiciness.2
+    evolutionTarget: n.materialmodifier.spiciness.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな火種の辛み"
+    nameEn: "Gentle Ember Spice"
+    descriptionJa: "辛みを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases spiciness by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 1
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.spiciness.3
+    evolutionTarget: n.materialmodifier.spiciness.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな火種の辛み"
+    nameEn: "Distinct Ember Spice"
+    descriptionJa: "辛みを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases spiciness by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 1
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.spiciness.4
+    evolutionTarget: n.materialmodifier.spiciness.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い火種の辛み"
+    nameEn: "Deep Ember Spice"
+    descriptionJa: "辛みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases spiciness by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 1
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.spiciness.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な火種の辛み"
+    nameEn: "Rare Ember Spice"
+    descriptionJa: "辛みを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases spiciness by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 1
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.astringency.1
+    evolutionTarget: n.materialmodifier.astringency.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな渋皮の深み"
+    nameEn: "Faint Tannic Depth"
+    descriptionJa: "渋みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases astringency by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 2
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.astringency.2
+    evolutionTarget: n.materialmodifier.astringency.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな渋皮の深み"
+    nameEn: "Gentle Tannic Depth"
+    descriptionJa: "渋みを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases astringency by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 2
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.astringency.3
+    evolutionTarget: n.materialmodifier.astringency.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな渋皮の深み"
+    nameEn: "Distinct Tannic Depth"
+    descriptionJa: "渋みを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases astringency by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 2
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.astringency.4
+    evolutionTarget: n.materialmodifier.astringency.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い渋皮の深み"
+    nameEn: "Deep Tannic Depth"
+    descriptionJa: "渋みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases astringency by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 2
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.astringency.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な渋皮の深み"
+    nameEn: "Rare Tannic Depth"
+    descriptionJa: "渋みを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases astringency by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 2
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.bitterness.1
+    evolutionTarget: n.materialmodifier.bitterness.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな夜葉の苦み"
+    nameEn: "Faint Nightleaf Bitter"
+    descriptionJa: "苦みを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases bitterness by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 3
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.bitterness.2
+    evolutionTarget: n.materialmodifier.bitterness.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな夜葉の苦み"
+    nameEn: "Gentle Nightleaf Bitter"
+    descriptionJa: "苦みを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases bitterness by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 3
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.bitterness.3
+    evolutionTarget: n.materialmodifier.bitterness.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな夜葉の苦み"
+    nameEn: "Distinct Nightleaf Bitter"
+    descriptionJa: "苦みを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases bitterness by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 3
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.bitterness.4
+    evolutionTarget: n.materialmodifier.bitterness.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い夜葉の苦み"
+    nameEn: "Deep Nightleaf Bitter"
+    descriptionJa: "苦みを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases bitterness by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 3
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.bitterness.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な夜葉の苦み"
+    nameEn: "Rare Nightleaf Bitter"
+    descriptionJa: "苦みを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases bitterness by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "flavor"
+    effect: 3
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.size.1
+    evolutionTarget: n.materialmodifier.size.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな大ぶり"
+    nameEn: "Faint Oversized"
+    descriptionJa: "素材サイズを基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases material size by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 4
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.size.2
+    evolutionTarget: n.materialmodifier.size.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな大ぶり"
+    nameEn: "Gentle Oversized"
+    descriptionJa: "素材サイズを基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases material size by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 4
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.size.3
+    evolutionTarget: n.materialmodifier.size.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな大ぶり"
+    nameEn: "Distinct Oversized"
+    descriptionJa: "素材サイズを基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases material size by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 4
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.size.4
+    evolutionTarget: n.materialmodifier.size.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い大ぶり"
+    nameEn: "Deep Oversized"
+    descriptionJa: "素材サイズを基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases material size by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 4
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.size.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な大ぶり"
+    nameEn: "Rare Oversized"
+    descriptionJa: "素材サイズを基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases material size by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 4
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.watercontent.1
+    evolutionTarget: n.materialmodifier.watercontent.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな瑞々しさ"
+    nameEn: "Faint Juiciness"
+    descriptionJa: "含水評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases water content by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 5
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.watercontent.2
+    evolutionTarget: n.materialmodifier.watercontent.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな瑞々しさ"
+    nameEn: "Gentle Juiciness"
+    descriptionJa: "含水評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases water content by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 5
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.watercontent.3
+    evolutionTarget: n.materialmodifier.watercontent.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな瑞々しさ"
+    nameEn: "Distinct Juiciness"
+    descriptionJa: "含水評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases water content by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 5
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.watercontent.4
+    evolutionTarget: n.materialmodifier.watercontent.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い瑞々しさ"
+    nameEn: "Deep Juiciness"
+    descriptionJa: "含水評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases water content by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 5
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.watercontent.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な瑞々しさ"
+    nameEn: "Rare Juiciness"
+    descriptionJa: "含水評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases water content by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 5
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.quality.1
+    evolutionTarget: n.materialmodifier.quality.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな良質"
+    nameEn: "Faint Fine Grade"
+    descriptionJa: "品質評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases quality score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "quality"
+    effect: 6
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.quality.2
+    evolutionTarget: n.materialmodifier.quality.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな良質"
+    nameEn: "Gentle Fine Grade"
+    descriptionJa: "品質評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases quality score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "quality"
+    effect: 6
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.quality.3
+    evolutionTarget: n.materialmodifier.quality.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな良質"
+    nameEn: "Distinct Fine Grade"
+    descriptionJa: "品質評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases quality score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "quality"
+    effect: 6
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.quality.4
+    evolutionTarget: n.materialmodifier.quality.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い良質"
+    nameEn: "Deep Fine Grade"
+    descriptionJa: "品質評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases quality score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "quality"
+    effect: 6
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.quality.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な良質"
+    nameEn: "Rare Fine Grade"
+    descriptionJa: "品質評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases quality score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "quality"
+    effect: 6
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.freshnessduration.1
+    evolutionTarget: n.materialmodifier.freshnessduration.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな鮮度の余韻"
+    nameEn: "Faint Lasting Freshness"
+    descriptionJa: "鮮度保持期間を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases freshness lifetime by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "storage"
+    effect: 7
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.freshnessduration.2
+    evolutionTarget: n.materialmodifier.freshnessduration.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな鮮度の余韻"
+    nameEn: "Gentle Lasting Freshness"
+    descriptionJa: "鮮度保持期間を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases freshness lifetime by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "storage"
+    effect: 7
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.freshnessduration.3
+    evolutionTarget: n.materialmodifier.freshnessduration.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな鮮度の余韻"
+    nameEn: "Distinct Lasting Freshness"
+    descriptionJa: "鮮度保持期間を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases freshness lifetime by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "storage"
+    effect: 7
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.freshnessduration.4
+    evolutionTarget: n.materialmodifier.freshnessduration.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い鮮度の余韻"
+    nameEn: "Deep Lasting Freshness"
+    descriptionJa: "鮮度保持期間を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases freshness lifetime by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "storage"
+    effect: 7
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.freshnessduration.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な鮮度の余韻"
+    nameEn: "Rare Lasting Freshness"
+    descriptionJa: "鮮度保持期間を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases freshness lifetime by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "storage"
+    effect: 7
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.nutrition.1
+    evolutionTarget: n.materialmodifier.nutrition.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな滋養"
+    nameEn: "Faint Nourishing"
+    descriptionJa: "加工後に継承可能な栄養評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases nutrition score eligible for processing inheritance by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 8
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.nutrition.2
+    evolutionTarget: n.materialmodifier.nutrition.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな滋養"
+    nameEn: "Gentle Nourishing"
+    descriptionJa: "加工後に継承可能な栄養評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases nutrition score eligible for processing inheritance by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 8
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.nutrition.3
+    evolutionTarget: n.materialmodifier.nutrition.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな滋養"
+    nameEn: "Distinct Nourishing"
+    descriptionJa: "加工後に継承可能な栄養評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases nutrition score eligible for processing inheritance by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 8
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.nutrition.4
+    evolutionTarget: n.materialmodifier.nutrition.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い滋養"
+    nameEn: "Deep Nourishing"
+    descriptionJa: "加工後に継承可能な栄養評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases nutrition score eligible for processing inheritance by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 8
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.nutrition.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な滋養"
+    nameEn: "Rare Nourishing"
+    descriptionJa: "加工後に継承可能な栄養評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases nutrition score eligible for processing inheritance by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 8
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hydration.1
+    evolutionTarget: n.materialmodifier.hydration.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな潤い"
+    nameEn: "Faint Refreshing"
+    descriptionJa: "加工後に継承可能な水分補給評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hydration score eligible for processing inheritance by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 9
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hydration.2
+    evolutionTarget: n.materialmodifier.hydration.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな潤い"
+    nameEn: "Gentle Refreshing"
+    descriptionJa: "加工後に継承可能な水分補給評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hydration score eligible for processing inheritance by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 9
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hydration.3
+    evolutionTarget: n.materialmodifier.hydration.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな潤い"
+    nameEn: "Distinct Refreshing"
+    descriptionJa: "加工後に継承可能な水分補給評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hydration score eligible for processing inheritance by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 9
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hydration.4
+    evolutionTarget: n.materialmodifier.hydration.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い潤い"
+    nameEn: "Deep Refreshing"
+    descriptionJa: "加工後に継承可能な水分補給評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hydration score eligible for processing inheritance by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 9
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hydration.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な潤い"
+    nameEn: "Rare Refreshing"
+    descriptionJa: "加工後に継承可能な水分補給評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hydration score eligible for processing inheritance by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 9
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.alchemypotency.1
+    evolutionTarget: n.materialmodifier.alchemypotency.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな薬効の兆し"
+    nameEn: "Faint Potent Essence"
+    descriptionJa: "対応する錬金材料の効力評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported alchemy ingredient potency by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 10
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.alchemypotency.2
+    evolutionTarget: n.materialmodifier.alchemypotency.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな薬効の兆し"
+    nameEn: "Gentle Potent Essence"
+    descriptionJa: "対応する錬金材料の効力評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported alchemy ingredient potency by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 10
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.alchemypotency.3
+    evolutionTarget: n.materialmodifier.alchemypotency.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな薬効の兆し"
+    nameEn: "Distinct Potent Essence"
+    descriptionJa: "対応する錬金材料の効力評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported alchemy ingredient potency by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 10
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.alchemypotency.4
+    evolutionTarget: n.materialmodifier.alchemypotency.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い薬効の兆し"
+    nameEn: "Deep Potent Essence"
+    descriptionJa: "対応する錬金材料の効力評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported alchemy ingredient potency by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 10
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.alchemypotency.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な薬効の兆し"
+    nameEn: "Rare Potent Essence"
+    descriptionJa: "対応する錬金材料の効力評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported alchemy ingredient potency by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 10
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craftingdurability.1
+    evolutionTarget: n.materialmodifier.craftingdurability.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな粘り強い材"
+    nameEn: "Faint Durable Stock"
+    descriptionJa: "対応する製作耐久への寄与を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported crafting durability contribution by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 11
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craftingdurability.2
+    evolutionTarget: n.materialmodifier.craftingdurability.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな粘り強い材"
+    nameEn: "Gentle Durable Stock"
+    descriptionJa: "対応する製作耐久への寄与を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported crafting durability contribution by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 11
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craftingdurability.3
+    evolutionTarget: n.materialmodifier.craftingdurability.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな粘り強い材"
+    nameEn: "Distinct Durable Stock"
+    descriptionJa: "対応する製作耐久への寄与を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported crafting durability contribution by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 11
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craftingdurability.4
+    evolutionTarget: n.materialmodifier.craftingdurability.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い粘り強い材"
+    nameEn: "Deep Durable Stock"
+    descriptionJa: "対応する製作耐久への寄与を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported crafting durability contribution by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 11
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craftingdurability.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な粘り強い材"
+    nameEn: "Rare Durable Stock"
+    descriptionJa: "対応する製作耐久への寄与を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported crafting durability contribution by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 11
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.cookingaroma.1
+    evolutionTarget: n.materialmodifier.cookingaroma.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな芳香"
+    nameEn: "Faint Fragrant"
+    descriptionJa: "対応する料理の香り評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported cooking aroma score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 12
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.cookingaroma.2
+    evolutionTarget: n.materialmodifier.cookingaroma.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな芳香"
+    nameEn: "Gentle Fragrant"
+    descriptionJa: "対応する料理の香り評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported cooking aroma score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 12
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.cookingaroma.3
+    evolutionTarget: n.materialmodifier.cookingaroma.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな芳香"
+    nameEn: "Distinct Fragrant"
+    descriptionJa: "対応する料理の香り評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported cooking aroma score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 12
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.cookingaroma.4
+    evolutionTarget: n.materialmodifier.cookingaroma.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い芳香"
+    nameEn: "Deep Fragrant"
+    descriptionJa: "対応する料理の香り評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported cooking aroma score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 12
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.cookingaroma.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な芳香"
+    nameEn: "Rare Fragrant"
+    descriptionJa: "対応する料理の香り評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported cooking aroma score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 12
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fruit
+    - fish
+    - herb
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.roastingaroma.1
+    evolutionTarget: n.materialmodifier.roastingaroma.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな焙香"
+    nameEn: "Faint Roast Aroma"
+    descriptionJa: "対応する焙煎の香り評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported roasting aroma score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 13
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - bean
+    - grain
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.roastingaroma.2
+    evolutionTarget: n.materialmodifier.roastingaroma.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな焙香"
+    nameEn: "Gentle Roast Aroma"
+    descriptionJa: "対応する焙煎の香り評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported roasting aroma score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 13
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - bean
+    - grain
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.roastingaroma.3
+    evolutionTarget: n.materialmodifier.roastingaroma.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな焙香"
+    nameEn: "Distinct Roast Aroma"
+    descriptionJa: "対応する焙煎の香り評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported roasting aroma score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 13
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - bean
+    - grain
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.roastingaroma.4
+    evolutionTarget: n.materialmodifier.roastingaroma.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い焙香"
+    nameEn: "Deep Roast Aroma"
+    descriptionJa: "対応する焙煎の香り評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported roasting aroma score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 13
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - bean
+    - grain
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.roastingaroma.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な焙香"
+    nameEn: "Rare Roast Aroma"
+    descriptionJa: "対応する焙煎の香り評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported roasting aroma score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "food"
+    effect: 13
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - bean
+    - grain
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.salevalue.1
+    evolutionTarget: n.materialmodifier.salevalue.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな買い手の目印"
+    nameEn: "Faint Market Appeal"
+    descriptionJa: "売却査定の倍率を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sale appraisal multiplier by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "trade"
+    effect: 14
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.salevalue.2
+    evolutionTarget: n.materialmodifier.salevalue.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな買い手の目印"
+    nameEn: "Gentle Market Appeal"
+    descriptionJa: "売却査定の倍率を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sale appraisal multiplier by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "trade"
+    effect: 14
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.salevalue.3
+    evolutionTarget: n.materialmodifier.salevalue.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな買い手の目印"
+    nameEn: "Distinct Market Appeal"
+    descriptionJa: "売却査定の倍率を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sale appraisal multiplier by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "trade"
+    effect: 14
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.salevalue.4
+    evolutionTarget: n.materialmodifier.salevalue.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い買い手の目印"
+    nameEn: "Deep Market Appeal"
+    descriptionJa: "売却査定の倍率を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sale appraisal multiplier by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "trade"
+    effect: 14
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.salevalue.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な買い手の目印"
+    nameEn: "Rare Market Appeal"
+    descriptionJa: "売却査定の倍率を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases sale appraisal multiplier by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "trade"
+    effect: 14
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - crop
+    - fish
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.weight.1
+    evolutionTarget: n.materialmodifier.weight.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな軽い質感"
+    nameEn: "Faint Light Stock"
+    descriptionJa: "重量を基準値から2%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces weight by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 15
+    additiveRatio: -0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.weight.2
+    evolutionTarget: n.materialmodifier.weight.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな軽い質感"
+    nameEn: "Gentle Light Stock"
+    descriptionJa: "重量を基準値から4%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces weight by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 15
+    additiveRatio: -0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.weight.3
+    evolutionTarget: n.materialmodifier.weight.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな軽い質感"
+    nameEn: "Distinct Light Stock"
+    descriptionJa: "重量を基準値から6%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces weight by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 15
+    additiveRatio: -0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.weight.4
+    evolutionTarget: n.materialmodifier.weight.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い軽い質感"
+    nameEn: "Deep Light Stock"
+    descriptionJa: "重量を基準値から8%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces weight by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 15
+    additiveRatio: -0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.weight.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な軽い質感"
+    nameEn: "Rare Light Stock"
+    descriptionJa: "重量を基準値から10%減少させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces weight by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "physical"
+    effect: 15
+    additiveRatio: -0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - wood
+    - ore
+    - fiber
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.purity.1
+    evolutionTarget: n.materialmodifier.purity.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな澄んだ成分"
+    nameEn: "Faint Pure Composition"
+    descriptionJa: "純度評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases purity score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 16
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - ore
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.purity.2
+    evolutionTarget: n.materialmodifier.purity.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな澄んだ成分"
+    nameEn: "Gentle Pure Composition"
+    descriptionJa: "純度評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases purity score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 16
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - ore
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.purity.3
+    evolutionTarget: n.materialmodifier.purity.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな澄んだ成分"
+    nameEn: "Distinct Pure Composition"
+    descriptionJa: "純度評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases purity score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 16
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - ore
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.purity.4
+    evolutionTarget: n.materialmodifier.purity.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い澄んだ成分"
+    nameEn: "Deep Pure Composition"
+    descriptionJa: "純度評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases purity score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 16
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - ore
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.purity.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な澄んだ成分"
+    nameEn: "Rare Pure Composition"
+    descriptionJa: "純度評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases purity score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "alchemy"
+    effect: 16
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - ore
+    - herb
+    - gathered
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hardness.1
+    evolutionTarget: n.materialmodifier.hardness.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな緻密な硬さ"
+    nameEn: "Faint Dense Hardness"
+    descriptionJa: "硬度評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hardness score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 17
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - ore
+    - wood
+    - shell
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hardness.2
+    evolutionTarget: n.materialmodifier.hardness.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな緻密な硬さ"
+    nameEn: "Gentle Dense Hardness"
+    descriptionJa: "硬度評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hardness score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 17
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - ore
+    - wood
+    - shell
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hardness.3
+    evolutionTarget: n.materialmodifier.hardness.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな緻密な硬さ"
+    nameEn: "Distinct Dense Hardness"
+    descriptionJa: "硬度評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hardness score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 17
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - ore
+    - wood
+    - shell
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hardness.4
+    evolutionTarget: n.materialmodifier.hardness.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い緻密な硬さ"
+    nameEn: "Deep Dense Hardness"
+    descriptionJa: "硬度評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hardness score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 17
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - ore
+    - wood
+    - shell
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.hardness.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な緻密な硬さ"
+    nameEn: "Rare Dense Hardness"
+    descriptionJa: "硬度評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases hardness score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 17
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - ore
+    - wood
+    - shell
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.elasticity.1
+    evolutionTarget: n.materialmodifier.elasticity.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かなしなやかな繊維"
+    nameEn: "Faint Supple Fiber"
+    descriptionJa: "弾性評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases elasticity score by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 18
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - fiber
+    - wood
+    - hide
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.elasticity.2
+    evolutionTarget: n.materialmodifier.elasticity.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかなしなやかな繊維"
+    nameEn: "Gentle Supple Fiber"
+    descriptionJa: "弾性評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases elasticity score by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 18
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - fiber
+    - wood
+    - hide
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.elasticity.3
+    evolutionTarget: n.materialmodifier.elasticity.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かなしなやかな繊維"
+    nameEn: "Distinct Supple Fiber"
+    descriptionJa: "弾性評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases elasticity score by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 18
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - fiber
+    - wood
+    - hide
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.elasticity.4
+    evolutionTarget: n.materialmodifier.elasticity.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深いしなやかな繊維"
+    nameEn: "Deep Supple Fiber"
+    descriptionJa: "弾性評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases elasticity score by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 18
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - fiber
+    - wood
+    - hide
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.elasticity.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少なしなやかな繊維"
+    nameEn: "Rare Supple Fiber"
+    descriptionJa: "弾性評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases elasticity score by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "craft"
+    effect: 18
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - fiber
+    - wood
+    - hide
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.energyaffinity.1
+    evolutionTarget: n.materialmodifier.energyaffinity.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "微かな異質な親和"
+    nameEn: "Faint Anomalous Affinity"
+    descriptionJa: "対応する未知エネルギーとの親和評価を基準値から2%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported anomalous energy affinity by 2% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "anomalous"
+    effect: 19
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags:
+    - anomalous
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.energyaffinity.2
+    evolutionTarget: n.materialmodifier.energyaffinity.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    nameJa: "穏やかな異質な親和"
+    nameEn: "Gentle Anomalous Affinity"
+    descriptionJa: "対応する未知エネルギーとの親和評価を基準値から4%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported anomalous energy affinity by 4% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "anomalous"
+    effect: 19
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags:
+    - anomalous
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.energyaffinity.3
+    evolutionTarget: n.materialmodifier.energyaffinity.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    nameJa: "確かな異質な親和"
+    nameEn: "Distinct Anomalous Affinity"
+    descriptionJa: "対応する未知エネルギーとの親和評価を基準値から6%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported anomalous energy affinity by 6% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "anomalous"
+    effect: 19
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags:
+    - anomalous
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.energyaffinity.4
+    evolutionTarget: n.materialmodifier.energyaffinity.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    nameJa: "深い異質な親和"
+    nameEn: "Deep Anomalous Affinity"
+    descriptionJa: "対応する未知エネルギーとの親和評価を基準値から8%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported anomalous energy affinity by 8% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "anomalous"
+    effect: 19
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags:
+    - anomalous
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.energyaffinity.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    nameJa: "希少な異質な親和"
+    nameEn: "Rare Anomalous Affinity"
+    descriptionJa: "対応する未知エネルギーとの親和評価を基準値から10%増加させる仮定義。対象タグに合う素材のみ抽選候補。完成品への継承は個別レシピで明示するまで行わない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported anomalous energy affinity by 10% of its base value. Only eligible tagged materials may roll this modifier. No processed-product inheritance without an explicit recipe rule. Definition only; effect application and rolls are not connected."
+    category: "anomalous"
+    effect: 19
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags:
+    - anomalous
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craft.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.craft.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "結び易さ 微"
+    nameEn: "Binding Affinity 1"
+    descriptionJa: "素材として使用時、製作成功率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases craft success multiplier by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 20
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craft.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.craft.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "結び易さ 小"
+    nameEn: "Binding Affinity 2"
+    descriptionJa: "素材として使用時、製作成功率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases craft success multiplier by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 20
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craft.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.craft.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "結び易さ 中"
+    nameEn: "Binding Affinity 3"
+    descriptionJa: "素材として使用時、製作成功率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases craft success multiplier by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 20
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craft.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.craft.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "結び易さ 大"
+    nameEn: "Binding Affinity 4"
+    descriptionJa: "素材として使用時、製作成功率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases craft success multiplier by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 20
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.craft.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "結び易さ 極"
+    nameEn: "Binding Affinity 5"
+    descriptionJa: "素材として使用時、製作成功率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases craft success multiplier by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 20
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.affix.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.affix.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "補正の宿り 微"
+    nameEn: "Affix Receptivity 1"
+    descriptionJa: "素材として使用時、Modifier付与率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases Modifier attachment multiplier by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 21
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.affix.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.affix.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "補正の宿り 小"
+    nameEn: "Affix Receptivity 2"
+    descriptionJa: "素材として使用時、Modifier付与率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases Modifier attachment multiplier by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 21
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.affix.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.affix.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "補正の宿り 中"
+    nameEn: "Affix Receptivity 3"
+    descriptionJa: "素材として使用時、Modifier付与率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases Modifier attachment multiplier by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 21
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.affix.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.affix.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "補正の宿り 大"
+    nameEn: "Affix Receptivity 4"
+    descriptionJa: "素材として使用時、Modifier付与率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases Modifier attachment multiplier by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 21
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.affix.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "補正の宿り 極"
+    nameEn: "Affix Receptivity 5"
+    descriptionJa: "素材として使用時、Modifier付与率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases Modifier attachment multiplier by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 21
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.awaken.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.awaken.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "覚醒の触媒 微"
+    nameEn: "Awakening Catalyst 1"
+    descriptionJa: "素材として使用時、覚醒確率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases awakening multiplier by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 22
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.awaken.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.awaken.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "覚醒の触媒 小"
+    nameEn: "Awakening Catalyst 2"
+    descriptionJa: "素材として使用時、覚醒確率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases awakening multiplier by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 22
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.awaken.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.awaken.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "覚醒の触媒 中"
+    nameEn: "Awakening Catalyst 3"
+    descriptionJa: "素材として使用時、覚醒確率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases awakening multiplier by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 22
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.awaken.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.awaken.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "覚醒の触媒 大"
+    nameEn: "Awakening Catalyst 4"
+    descriptionJa: "素材として使用時、覚醒確率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases awakening multiplier by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 22
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.awaken.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "覚醒の触媒 極"
+    nameEn: "Awakening Catalyst 5"
+    descriptionJa: "素材として使用時、覚醒確率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases awakening multiplier by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 22
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.enchant.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.enchant.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "術式の受容 微"
+    nameEn: "Spell Receptivity 1"
+    descriptionJa: "素材として使用時、エンチャント成功率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases enchantment success multiplier by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 23
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.enchant.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.enchant.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "術式の受容 小"
+    nameEn: "Spell Receptivity 2"
+    descriptionJa: "素材として使用時、エンチャント成功率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases enchantment success multiplier by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 23
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.enchant.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.enchant.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "術式の受容 中"
+    nameEn: "Spell Receptivity 3"
+    descriptionJa: "素材として使用時、エンチャント成功率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases enchantment success multiplier by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 23
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.enchant.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.enchant.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "術式の受容 大"
+    nameEn: "Spell Receptivity 4"
+    descriptionJa: "素材として使用時、エンチャント成功率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases enchantment success multiplier by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 23
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.enchant.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "術式の受容 極"
+    nameEn: "Spell Receptivity 5"
+    descriptionJa: "素材として使用時、エンチャント成功率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases enchantment success multiplier by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 23
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.reforge.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.reforge.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "鍛え直しの素質 微"
+    nameEn: "Reforge Affinity 1"
+    descriptionJa: "素材として使用時、再鍛造成功率倍率を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases reforging success multiplier by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 24
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.reforge.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.reforge.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "鍛え直しの素質 小"
+    nameEn: "Reforge Affinity 2"
+    descriptionJa: "素材として使用時、再鍛造成功率倍率を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases reforging success multiplier by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 24
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.reforge.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.reforge.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "鍛え直しの素質 中"
+    nameEn: "Reforge Affinity 3"
+    descriptionJa: "素材として使用時、再鍛造成功率倍率を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases reforging success multiplier by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 24
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.reforge.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.reforge.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "鍛え直しの素質 大"
+    nameEn: "Reforge Affinity 4"
+    descriptionJa: "素材として使用時、再鍛造成功率倍率を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases reforging success multiplier by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 24
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.reforge.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "鍛え直しの素質 極"
+    nameEn: "Reforge Affinity 5"
+    descriptionJa: "素材として使用時、再鍛造成功率倍率を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases reforging success multiplier by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 24
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.rare.1
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    evolutionTarget: n.materialmodifier.rare.2
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "希なる共鳴 微"
+    nameEn: "Rare Resonance 1"
+    descriptionJa: "素材として使用時、高レアModifierの抽選重み傾向を2%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases higher-rarity Modifier weighting by 2%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 25
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.rare.2
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    evolutionTarget: n.materialmodifier.rare.3
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "希なる共鳴 小"
+    nameEn: "Rare Resonance 2"
+    descriptionJa: "素材として使用時、高レアModifierの抽選重み傾向を4%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases higher-rarity Modifier weighting by 4%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 25
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.rare.3
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    evolutionTarget: n.materialmodifier.rare.4
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "希なる共鳴 中"
+    nameEn: "Rare Resonance 3"
+    descriptionJa: "素材として使用時、高レアModifierの抽選重み傾向を6%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases higher-rarity Modifier weighting by 6%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 25
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.rare.4
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    evolutionTarget: n.materialmodifier.rare.5
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "希なる共鳴 大"
+    nameEn: "Rare Resonance 4"
+    descriptionJa: "素材として使用時、高レアModifierの抽選重み傾向を8%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases higher-rarity Modifier weighting by 8%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 25
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0
+  - id: n.materialmodifier.rare.5
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作の対応経路でのみ上位化。"
+    evolutionConditionEn: "Upgrade through a supported refining or crafting route only."
+    nameJa: "希なる共鳴 極"
+    nameEn: "Rare Resonance 5"
+    descriptionJa: "素材として使用時、高レアModifierの抽選重み傾向を10%増加。基礎確率への倍率であり確率への直接加算ではない。成功や高レアを保証しない。"
+    descriptionEn: "When used as an ingredient, increases higher-rarity Modifier weighting by 10%. Multiplies the base rate, rather than adding percentage points. Does not guarantee success or rare results."
+    category: enhancement
+    effect: 25
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    retainedAfterProcessing: 0
+    runtimeConnected: 0

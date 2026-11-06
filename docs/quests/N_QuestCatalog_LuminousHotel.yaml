@@ -1,0 +1,3291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be95c4ac56e120a4280d7613471382a2, type: 3}
+  m_Name: N_QuestCatalog_LuminousHotel
+  m_EditorClassIdentifier:
+  quests:
+  - id: quest.luminous.mio.check
+    nameJa: "到着記録：現況確認"
+    nameEn: "Condition check — arrival register"
+    descriptionJa: "澪からの依頼。対象は到着記録。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Mio requests work concerning the arrival register. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.mio.review
+    nameJa: "返却カード：照合記録"
+    nameEn: "Record reconciliation — returned keycards"
+    descriptionJa: "澪からの依頼。対象は返却カード。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Mio requests work concerning the returned keycards. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds:
+    - quest.luminous.mio.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.mio.daily
+    nameJa: "到着記録：日次巡回"
+    nameEn: "Daily rounds — arrival register"
+    descriptionJa: "澪からの依頼。対象は到着記録。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Mio requests work concerning the arrival register. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.mio.weekly
+    nameJa: "返却カード：週次引き継ぎ"
+    nameEn: "Weekly handoff — returned keycards"
+    descriptionJa: "澪からの依頼。対象は返却カード。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Mio requests work concerning the returned keycards. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.mio.monthly
+    nameJa: "到着記録：月次棚卸し"
+    nameEn: "Monthly audit — arrival register"
+    descriptionJa: "澪からの依頼。対象は到着記録。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Mio requests work concerning the arrival register. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.mio.annual
+    nameJa: "返却カード：年次保存記録"
+    nameEn: "Annual archive — returned keycards"
+    descriptionJa: "澪からの依頼。対象は返却カード。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Mio requests work concerning the returned keycards. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.mio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.akari.check
+    nameJa: "貸出毛布：現況確認"
+    nameEn: "Condition check — loan blankets"
+    descriptionJa: "灯里からの依頼。対象は貸出毛布。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Akari requests work concerning the loan blankets. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.akari.review
+    nameJa: "客室案内札：照合記録"
+    nameEn: "Record reconciliation — room direction signs"
+    descriptionJa: "灯里からの依頼。対象は客室案内札。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Akari requests work concerning the room direction signs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds:
+    - quest.luminous.akari.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.akari.daily
+    nameJa: "貸出毛布：日次巡回"
+    nameEn: "Daily rounds — loan blankets"
+    descriptionJa: "灯里からの依頼。対象は貸出毛布。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Akari requests work concerning the loan blankets. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.akari.weekly
+    nameJa: "客室案内札：週次引き継ぎ"
+    nameEn: "Weekly handoff — room direction signs"
+    descriptionJa: "灯里からの依頼。対象は客室案内札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Akari requests work concerning the room direction signs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.akari.monthly
+    nameJa: "貸出毛布：月次棚卸し"
+    nameEn: "Monthly audit — loan blankets"
+    descriptionJa: "灯里からの依頼。対象は貸出毛布。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Akari requests work concerning the loan blankets. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.akari.annual
+    nameJa: "客室案内札：年次保存記録"
+    nameEn: "Annual archive — room direction signs"
+    descriptionJa: "灯里からの依頼。対象は客室案内札。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Akari requests work concerning the room direction signs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.akari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.check
+    nameJa: "封緘便：現況確認"
+    nameEn: "Condition check — sealed parcels"
+    descriptionJa: "環からの依頼。対象は封緘便。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Tamaki requests work concerning the sealed parcels. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.review
+    nameJa: "配達用の籠：照合記録"
+    nameEn: "Record reconciliation — delivery baskets"
+    descriptionJa: "環からの依頼。対象は配達用の籠。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Tamaki requests work concerning the delivery baskets. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds:
+    - quest.luminous.tamaki.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.daily
+    nameJa: "封緘便：日次巡回"
+    nameEn: "Daily rounds — sealed parcels"
+    descriptionJa: "環からの依頼。対象は封緘便。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Tamaki requests work concerning the sealed parcels. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.weekly
+    nameJa: "配達用の籠：週次引き継ぎ"
+    nameEn: "Weekly handoff — delivery baskets"
+    descriptionJa: "環からの依頼。対象は配達用の籠。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Tamaki requests work concerning the delivery baskets. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.monthly
+    nameJa: "封緘便：月次棚卸し"
+    nameEn: "Monthly audit — sealed parcels"
+    descriptionJa: "環からの依頼。対象は封緘便。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Tamaki requests work concerning the sealed parcels. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.tamaki.annual
+    nameJa: "配達用の籠：年次保存記録"
+    nameEn: "Annual archive — delivery baskets"
+    descriptionJa: "環からの依頼。対象は配達用の籠。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Tamaki requests work concerning the delivery baskets. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.tamaki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.chikage.check
+    nameJa: "保存食の棚：現況確認"
+    nameEn: "Condition check — preserved-food shelf"
+    descriptionJa: "千景からの依頼。対象は保存食の棚。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Chikage requests work concerning the preserved-food shelf. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.chikage.review
+    nameJa: "値札板：照合記録"
+    nameEn: "Record reconciliation — price boards"
+    descriptionJa: "千景からの依頼。対象は値札板。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Chikage requests work concerning the price boards. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds:
+    - quest.luminous.chikage.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.chikage.daily
+    nameJa: "保存食の棚：日次巡回"
+    nameEn: "Daily rounds — preserved-food shelf"
+    descriptionJa: "千景からの依頼。対象は保存食の棚。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Chikage requests work concerning the preserved-food shelf. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.chikage.weekly
+    nameJa: "値札板：週次引き継ぎ"
+    nameEn: "Weekly handoff — price boards"
+    descriptionJa: "千景からの依頼。対象は値札板。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Chikage requests work concerning the price boards. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.chikage.monthly
+    nameJa: "保存食の棚：月次棚卸し"
+    nameEn: "Monthly audit — preserved-food shelf"
+    descriptionJa: "千景からの依頼。対象は保存食の棚。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Chikage requests work concerning the preserved-food shelf. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.chikage.annual
+    nameJa: "値札板：年次保存記録"
+    nameEn: "Annual archive — price boards"
+    descriptionJa: "千景からの依頼。対象は値札板。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Chikage requests work concerning the price boards. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.chikage"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.saku.check
+    nameJa: "外周灯：現況確認"
+    nameEn: "Condition check — perimeter lights"
+    descriptionJa: "朔からの依頼。対象は外周灯。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Saku requests work concerning the perimeter lights. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.saku.review
+    nameJa: "巡回記録：照合記録"
+    nameEn: "Record reconciliation — patrol records"
+    descriptionJa: "朔からの依頼。対象は巡回記録。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Saku requests work concerning the patrol records. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds:
+    - quest.luminous.saku.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.saku.daily
+    nameJa: "外周灯：日次巡回"
+    nameEn: "Daily rounds — perimeter lights"
+    descriptionJa: "朔からの依頼。対象は外周灯。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Saku requests work concerning the perimeter lights. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.saku.weekly
+    nameJa: "巡回記録：週次引き継ぎ"
+    nameEn: "Weekly handoff — patrol records"
+    descriptionJa: "朔からの依頼。対象は巡回記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Saku requests work concerning the patrol records. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.saku.monthly
+    nameJa: "外周灯：月次棚卸し"
+    nameEn: "Monthly audit — perimeter lights"
+    descriptionJa: "朔からの依頼。対象は外周灯。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Saku requests work concerning the perimeter lights. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.saku.annual
+    nameJa: "巡回記録：年次保存記録"
+    nameEn: "Annual archive — patrol records"
+    descriptionJa: "朔からの依頼。対象は巡回記録。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Saku requests work concerning the patrol records. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.saku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.check
+    nameJa: "昇降機の予備部品：現況確認"
+    nameEn: "Condition check — spare lift parts"
+    descriptionJa: "律からの依頼。対象は昇降機の予備部品。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Ritsu requests work concerning the spare lift parts. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.review
+    nameJa: "工具台帳：照合記録"
+    nameEn: "Record reconciliation — tool ledger"
+    descriptionJa: "律からの依頼。対象は工具台帳。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Ritsu requests work concerning the tool ledger. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds:
+    - quest.luminous.ritsu.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.daily
+    nameJa: "昇降機の予備部品：日次巡回"
+    nameEn: "Daily rounds — spare lift parts"
+    descriptionJa: "律からの依頼。対象は昇降機の予備部品。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Ritsu requests work concerning the spare lift parts. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.weekly
+    nameJa: "工具台帳：週次引き継ぎ"
+    nameEn: "Weekly handoff — tool ledger"
+    descriptionJa: "律からの依頼。対象は工具台帳。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Ritsu requests work concerning the tool ledger. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.monthly
+    nameJa: "昇降機の予備部品：月次棚卸し"
+    nameEn: "Monthly audit — spare lift parts"
+    descriptionJa: "律からの依頼。対象は昇降機の予備部品。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Ritsu requests work concerning the spare lift parts. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.ritsu.annual
+    nameJa: "工具台帳：年次保存記録"
+    nameEn: "Annual archive — tool ledger"
+    descriptionJa: "律からの依頼。対象は工具台帳。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Ritsu requests work concerning the tool ledger. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.ritsu"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.gen.check
+    nameJa: "帰還車両の積荷：現況確認"
+    nameEn: "Condition check — returning vehicle cargo"
+    descriptionJa: "弦からの依頼。対象は帰還車両の積荷。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Gen requests work concerning the returning vehicle cargo. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.gen.review
+    nameJa: "転移用電池：照合記録"
+    nameEn: "Record reconciliation — transfer batteries"
+    descriptionJa: "弦からの依頼。対象は転移用電池。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Gen requests work concerning the transfer batteries. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds:
+    - quest.luminous.gen.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.gen.daily
+    nameJa: "帰還車両の積荷：日次巡回"
+    nameEn: "Daily rounds — returning vehicle cargo"
+    descriptionJa: "弦からの依頼。対象は帰還車両の積荷。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Gen requests work concerning the returning vehicle cargo. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.gen.weekly
+    nameJa: "転移用電池：週次引き継ぎ"
+    nameEn: "Weekly handoff — transfer batteries"
+    descriptionJa: "弦からの依頼。対象は転移用電池。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Gen requests work concerning the transfer batteries. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.gen.monthly
+    nameJa: "帰還車両の積荷：月次棚卸し"
+    nameEn: "Monthly audit — returning vehicle cargo"
+    descriptionJa: "弦からの依頼。対象は帰還車両の積荷。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Gen requests work concerning the returning vehicle cargo. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.gen.annual
+    nameJa: "転移用電池：年次保存記録"
+    nameEn: "Annual archive — transfer batteries"
+    descriptionJa: "弦からの依頼。対象は転移用電池。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Gen requests work concerning the transfer batteries. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.gen"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.shio.check
+    nameJa: "給餌記録：現況確認"
+    nameEn: "Condition check — feeding records"
+    descriptionJa: "汐からの依頼。対象は給餌記録。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Shio requests work concerning the feeding records. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.shio.review
+    nameJa: "水槽の濾材：照合記録"
+    nameEn: "Record reconciliation — aquarium filter media"
+    descriptionJa: "汐からの依頼。対象は水槽の濾材。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Shio requests work concerning the aquarium filter media. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds:
+    - quest.luminous.shio.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.shio.daily
+    nameJa: "給餌記録：日次巡回"
+    nameEn: "Daily rounds — feeding records"
+    descriptionJa: "汐からの依頼。対象は給餌記録。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Shio requests work concerning the feeding records. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.shio.weekly
+    nameJa: "水槽の濾材：週次引き継ぎ"
+    nameEn: "Weekly handoff — aquarium filter media"
+    descriptionJa: "汐からの依頼。対象は水槽の濾材。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Shio requests work concerning the aquarium filter media. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.shio.monthly
+    nameJa: "給餌記録：月次棚卸し"
+    nameEn: "Monthly audit — feeding records"
+    descriptionJa: "汐からの依頼。対象は給餌記録。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Shio requests work concerning the feeding records. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.shio.annual
+    nameJa: "水槽の濾材：年次保存記録"
+    nameEn: "Annual archive — aquarium filter media"
+    descriptionJa: "汐からの依頼。対象は水槽の濾材。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Shio requests work concerning the aquarium filter media. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.shio"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.check
+    nameJa: "交換用の浮き：現況確認"
+    nameEn: "Condition check — replacement floats"
+    descriptionJa: "凪沙からの依頼。対象は交換用の浮き。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Nagisa requests work concerning the replacement floats. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.review
+    nameJa: "糸巻き：照合記録"
+    nameEn: "Record reconciliation — line spools"
+    descriptionJa: "凪沙からの依頼。対象は糸巻き。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Nagisa requests work concerning the line spools. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds:
+    - quest.luminous.nagisa.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.daily
+    nameJa: "交換用の浮き：日次巡回"
+    nameEn: "Daily rounds — replacement floats"
+    descriptionJa: "凪沙からの依頼。対象は交換用の浮き。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Nagisa requests work concerning the replacement floats. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.weekly
+    nameJa: "糸巻き：週次引き継ぎ"
+    nameEn: "Weekly handoff — line spools"
+    descriptionJa: "凪沙からの依頼。対象は糸巻き。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Nagisa requests work concerning the line spools. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.monthly
+    nameJa: "交換用の浮き：月次棚卸し"
+    nameEn: "Monthly audit — replacement floats"
+    descriptionJa: "凪沙からの依頼。対象は交換用の浮き。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Nagisa requests work concerning the replacement floats. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.nagisa.annual
+    nameJa: "糸巻き：年次保存記録"
+    nameEn: "Annual archive — line spools"
+    descriptionJa: "凪沙からの依頼。対象は糸巻き。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Nagisa requests work concerning the line spools. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.nagisa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.check
+    nameJa: "種苗箱：現況確認"
+    nameEn: "Condition check — seedling trays"
+    descriptionJa: "小萩からの依頼。対象は種苗箱。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Kohagi requests work concerning the seedling trays. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.review
+    nameJa: "遮風幕：照合記録"
+    nameEn: "Record reconciliation — windbreak screens"
+    descriptionJa: "小萩からの依頼。対象は遮風幕。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Kohagi requests work concerning the windbreak screens. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds:
+    - quest.luminous.kohagi.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.daily
+    nameJa: "種苗箱：日次巡回"
+    nameEn: "Daily rounds — seedling trays"
+    descriptionJa: "小萩からの依頼。対象は種苗箱。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Kohagi requests work concerning the seedling trays. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.weekly
+    nameJa: "遮風幕：週次引き継ぎ"
+    nameEn: "Weekly handoff — windbreak screens"
+    descriptionJa: "小萩からの依頼。対象は遮風幕。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Kohagi requests work concerning the windbreak screens. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.monthly
+    nameJa: "種苗箱：月次棚卸し"
+    nameEn: "Monthly audit — seedling trays"
+    descriptionJa: "小萩からの依頼。対象は種苗箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Kohagi requests work concerning the seedling trays. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.kohagi.annual
+    nameJa: "遮風幕：年次保存記録"
+    nameEn: "Annual archive — windbreak screens"
+    descriptionJa: "小萩からの依頼。対象は遮風幕。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Kohagi requests work concerning the windbreak screens. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.kohagi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.check
+    nameJa: "乾燥ハーブ：現況確認"
+    nameEn: "Condition check — dried herbs"
+    descriptionJa: "柚葉からの依頼。対象は乾燥ハーブ。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Yuzuha requests work concerning the dried herbs. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.review
+    nameJa: "食器の予備：照合記録"
+    nameEn: "Record reconciliation — spare dishes"
+    descriptionJa: "柚葉からの依頼。対象は食器の予備。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Yuzuha requests work concerning the spare dishes. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds:
+    - quest.luminous.yuzuha.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.daily
+    nameJa: "乾燥ハーブ：日次巡回"
+    nameEn: "Daily rounds — dried herbs"
+    descriptionJa: "柚葉からの依頼。対象は乾燥ハーブ。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Yuzuha requests work concerning the dried herbs. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.weekly
+    nameJa: "食器の予備：週次引き継ぎ"
+    nameEn: "Weekly handoff — spare dishes"
+    descriptionJa: "柚葉からの依頼。対象は食器の予備。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Yuzuha requests work concerning the spare dishes. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.monthly
+    nameJa: "乾燥ハーブ：月次棚卸し"
+    nameEn: "Monthly audit — dried herbs"
+    descriptionJa: "柚葉からの依頼。対象は乾燥ハーブ。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Yuzuha requests work concerning the dried herbs. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.yuzuha.annual
+    nameJa: "食器の予備：年次保存記録"
+    nameEn: "Annual archive — spare dishes"
+    descriptionJa: "柚葉からの依頼。対象は食器の予備。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Yuzuha requests work concerning the spare dishes. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.yuzuha"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.haku.check
+    nameJa: "焙煎豆：現況確認"
+    nameEn: "Condition check — roasted beans"
+    descriptionJa: "珀からの依頼。対象は焙煎豆。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Haku requests work concerning the roasted beans. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.haku.review
+    nameJa: "試飲札：照合記録"
+    nameEn: "Record reconciliation — tasting cards"
+    descriptionJa: "珀からの依頼。対象は試飲札。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Haku requests work concerning the tasting cards. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds:
+    - quest.luminous.haku.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.haku.daily
+    nameJa: "焙煎豆：日次巡回"
+    nameEn: "Daily rounds — roasted beans"
+    descriptionJa: "珀からの依頼。対象は焙煎豆。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Haku requests work concerning the roasted beans. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.haku.weekly
+    nameJa: "試飲札：週次引き継ぎ"
+    nameEn: "Weekly handoff — tasting cards"
+    descriptionJa: "珀からの依頼。対象は試飲札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Haku requests work concerning the tasting cards. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.haku.monthly
+    nameJa: "焙煎豆：月次棚卸し"
+    nameEn: "Monthly audit — roasted beans"
+    descriptionJa: "珀からの依頼。対象は焙煎豆。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Haku requests work concerning the roasted beans. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.haku.annual
+    nameJa: "試飲札：年次保存記録"
+    nameEn: "Annual archive — tasting cards"
+    descriptionJa: "珀からの依頼。対象は試飲札。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Haku requests work concerning the tasting cards. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.haku"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.yoi.check
+    nameJa: "香草シロップ：現況確認"
+    nameEn: "Condition check — herbal syrup"
+    descriptionJa: "宵からの依頼。対象は香草シロップ。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Yoi requests work concerning the herbal syrup. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.yoi.review
+    nameJa: "試作用のグラス：照合記録"
+    nameEn: "Record reconciliation — sample glasses"
+    descriptionJa: "宵からの依頼。対象は試作用のグラス。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Yoi requests work concerning the sample glasses. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds:
+    - quest.luminous.yoi.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.yoi.daily
+    nameJa: "香草シロップ：日次巡回"
+    nameEn: "Daily rounds — herbal syrup"
+    descriptionJa: "宵からの依頼。対象は香草シロップ。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Yoi requests work concerning the herbal syrup. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.yoi.weekly
+    nameJa: "試作用のグラス：週次引き継ぎ"
+    nameEn: "Weekly handoff — sample glasses"
+    descriptionJa: "宵からの依頼。対象は試作用のグラス。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Yoi requests work concerning the sample glasses. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.yoi.monthly
+    nameJa: "香草シロップ：月次棚卸し"
+    nameEn: "Monthly audit — herbal syrup"
+    descriptionJa: "宵からの依頼。対象は香草シロップ。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Yoi requests work concerning the herbal syrup. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.yoi.annual
+    nameJa: "試作用のグラス：年次保存記録"
+    nameEn: "Annual archive — sample glasses"
+    descriptionJa: "宵からの依頼。対象は試作用のグラス。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Yoi requests work concerning the sample glasses. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.yoi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.check
+    nameJa: "携帯救急箱：現況確認"
+    nameEn: "Condition check — portable first-aid kits"
+    descriptionJa: "深雪からの依頼。対象は携帯救急箱。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Miyuki requests work concerning the portable first-aid kits. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.review
+    nameJa: "空き部屋の寝具：照合記録"
+    nameEn: "Record reconciliation — spare-room bedding"
+    descriptionJa: "深雪からの依頼。対象は空き部屋の寝具。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Miyuki requests work concerning the spare-room bedding. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds:
+    - quest.luminous.miyuki.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.daily
+    nameJa: "携帯救急箱：日次巡回"
+    nameEn: "Daily rounds — portable first-aid kits"
+    descriptionJa: "深雪からの依頼。対象は携帯救急箱。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Miyuki requests work concerning the portable first-aid kits. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.weekly
+    nameJa: "空き部屋の寝具：週次引き継ぎ"
+    nameEn: "Weekly handoff — spare-room bedding"
+    descriptionJa: "深雪からの依頼。対象は空き部屋の寝具。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Miyuki requests work concerning the spare-room bedding. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.monthly
+    nameJa: "携帯救急箱：月次棚卸し"
+    nameEn: "Monthly audit — portable first-aid kits"
+    descriptionJa: "深雪からの依頼。対象は携帯救急箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Miyuki requests work concerning the portable first-aid kits. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.miyuki.annual
+    nameJa: "空き部屋の寝具：年次保存記録"
+    nameEn: "Annual archive — spare-room bedding"
+    descriptionJa: "深雪からの依頼。対象は空き部屋の寝具。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Miyuki requests work concerning the spare-room bedding. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.miyuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.check
+    nameJa: "遠征メモ：現況確認"
+    nameEn: "Condition check — expedition notes"
+    descriptionJa: "綴からの依頼。対象は遠征メモ。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Tsuzuri requests work concerning the expedition notes. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.review
+    nameJa: "災厄前の写真：照合記録"
+    nameEn: "Record reconciliation — pre-disaster photographs"
+    descriptionJa: "綴からの依頼。対象は災厄前の写真。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Tsuzuri requests work concerning the pre-disaster photographs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds:
+    - quest.luminous.tsuzuri.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.daily
+    nameJa: "遠征メモ：日次巡回"
+    nameEn: "Daily rounds — expedition notes"
+    descriptionJa: "綴からの依頼。対象は遠征メモ。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Tsuzuri requests work concerning the expedition notes. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.weekly
+    nameJa: "災厄前の写真：週次引き継ぎ"
+    nameEn: "Weekly handoff — pre-disaster photographs"
+    descriptionJa: "綴からの依頼。対象は災厄前の写真。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Tsuzuri requests work concerning the pre-disaster photographs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.monthly
+    nameJa: "遠征メモ：月次棚卸し"
+    nameEn: "Monthly audit — expedition notes"
+    descriptionJa: "綴からの依頼。対象は遠征メモ。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Tsuzuri requests work concerning the expedition notes. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.tsuzuri.annual
+    nameJa: "災厄前の写真：年次保存記録"
+    nameEn: "Annual archive — pre-disaster photographs"
+    descriptionJa: "綴からの依頼。対象は災厄前の写真。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Tsuzuri requests work concerning the pre-disaster photographs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.tsuzuri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.check
+    nameJa: "望遠鏡の遮光板：現況確認"
+    nameEn: "Condition check — telescope light shields"
+    descriptionJa: "星乃からの依頼。対象は望遠鏡の遮光板。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Hoshino requests work concerning the telescope light shields. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.review
+    nameJa: "観測時刻表：照合記録"
+    nameEn: "Record reconciliation — observation schedule"
+    descriptionJa: "星乃からの依頼。対象は観測時刻表。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Hoshino requests work concerning the observation schedule. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds:
+    - quest.luminous.hoshino.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.daily
+    nameJa: "望遠鏡の遮光板：日次巡回"
+    nameEn: "Daily rounds — telescope light shields"
+    descriptionJa: "星乃からの依頼。対象は望遠鏡の遮光板。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Hoshino requests work concerning the telescope light shields. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.weekly
+    nameJa: "観測時刻表：週次引き継ぎ"
+    nameEn: "Weekly handoff — observation schedule"
+    descriptionJa: "星乃からの依頼。対象は観測時刻表。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Hoshino requests work concerning the observation schedule. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.monthly
+    nameJa: "望遠鏡の遮光板：月次棚卸し"
+    nameEn: "Monthly audit — telescope light shields"
+    descriptionJa: "星乃からの依頼。対象は望遠鏡の遮光板。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Hoshino requests work concerning the telescope light shields. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.hoshino.annual
+    nameJa: "観測時刻表：年次保存記録"
+    nameEn: "Annual archive — observation schedule"
+    descriptionJa: "星乃からの依頼。対象は観測時刻表。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Hoshino requests work concerning the observation schedule. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.hoshino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.kirie.check
+    nameJa: "風向計：現況確認"
+    nameEn: "Condition check — wind vane"
+    descriptionJa: "霧江からの依頼。対象は風向計。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Kirie requests work concerning the wind vane. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kirie.review
+    nameJa: "急変時の観測記録：照合記録"
+    nameEn: "Record reconciliation — rapid weather shift logs"
+    descriptionJa: "霧江からの依頼。対象は急変時の観測記録。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Kirie requests work concerning the rapid weather shift logs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds:
+    - quest.luminous.kirie.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kirie.daily
+    nameJa: "風向計：日次巡回"
+    nameEn: "Daily rounds — wind vane"
+    descriptionJa: "霧江からの依頼。対象は風向計。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Kirie requests work concerning the wind vane. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.kirie.weekly
+    nameJa: "急変時の観測記録：週次引き継ぎ"
+    nameEn: "Weekly handoff — rapid weather shift logs"
+    descriptionJa: "霧江からの依頼。対象は急変時の観測記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Kirie requests work concerning the rapid weather shift logs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.kirie.monthly
+    nameJa: "風向計：月次棚卸し"
+    nameEn: "Monthly audit — wind vane"
+    descriptionJa: "霧江からの依頼。対象は風向計。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Kirie requests work concerning the wind vane. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.kirie.annual
+    nameJa: "急変時の観測記録：年次保存記録"
+    nameEn: "Annual archive — rapid weather shift logs"
+    descriptionJa: "霧江からの依頼。対象は急変時の観測記録。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Kirie requests work concerning the rapid weather shift logs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.kirie"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.azusa.check
+    nameJa: "聖水の浸漬容器：現況確認"
+    nameEn: "Condition check — holy-water soaking vessels"
+    descriptionJa: "梓からの依頼。対象は聖水の浸漬容器。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Azusa requests work concerning the holy-water soaking vessels. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.azusa.review
+    nameJa: "乾燥薬草：照合記録"
+    nameEn: "Record reconciliation — dried medicinal herbs"
+    descriptionJa: "梓からの依頼。対象は乾燥薬草。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Azusa requests work concerning the dried medicinal herbs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds:
+    - quest.luminous.azusa.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.azusa.daily
+    nameJa: "聖水の浸漬容器：日次巡回"
+    nameEn: "Daily rounds — holy-water soaking vessels"
+    descriptionJa: "梓からの依頼。対象は聖水の浸漬容器。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Azusa requests work concerning the holy-water soaking vessels. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.azusa.weekly
+    nameJa: "乾燥薬草：週次引き継ぎ"
+    nameEn: "Weekly handoff — dried medicinal herbs"
+    descriptionJa: "梓からの依頼。対象は乾燥薬草。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Azusa requests work concerning the dried medicinal herbs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.azusa.monthly
+    nameJa: "聖水の浸漬容器：月次棚卸し"
+    nameEn: "Monthly audit — holy-water soaking vessels"
+    descriptionJa: "梓からの依頼。対象は聖水の浸漬容器。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Azusa requests work concerning the holy-water soaking vessels. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.azusa.annual
+    nameJa: "乾燥薬草：年次保存記録"
+    nameEn: "Annual archive — dried medicinal herbs"
+    descriptionJa: "梓からの依頼。対象は乾燥薬草。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Azusa requests work concerning the dried medicinal herbs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.azusa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.teppei.check
+    nameJa: "再鍛造の試験片：現況確認"
+    nameEn: "Condition check — reforging test pieces"
+    descriptionJa: "鉄平からの依頼。対象は再鍛造の試験片。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Teppei requests work concerning the reforging test pieces. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.teppei.review
+    nameJa: "研磨材：照合記録"
+    nameEn: "Record reconciliation — abrasives"
+    descriptionJa: "鉄平からの依頼。対象は研磨材。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Teppei requests work concerning the abrasives. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds:
+    - quest.luminous.teppei.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.teppei.daily
+    nameJa: "再鍛造の試験片：日次巡回"
+    nameEn: "Daily rounds — reforging test pieces"
+    descriptionJa: "鉄平からの依頼。対象は再鍛造の試験片。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Teppei requests work concerning the reforging test pieces. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.teppei.weekly
+    nameJa: "研磨材：週次引き継ぎ"
+    nameEn: "Weekly handoff — abrasives"
+    descriptionJa: "鉄平からの依頼。対象は研磨材。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Teppei requests work concerning the abrasives. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.teppei.monthly
+    nameJa: "再鍛造の試験片：月次棚卸し"
+    nameEn: "Monthly audit — reforging test pieces"
+    descriptionJa: "鉄平からの依頼。対象は再鍛造の試験片。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Teppei requests work concerning the reforging test pieces. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.teppei.annual
+    nameJa: "研磨材：年次保存記録"
+    nameEn: "Annual archive — abrasives"
+    descriptionJa: "鉄平からの依頼。対象は研磨材。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Teppei requests work concerning the abrasives. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.teppei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.check
+    nameJa: "自動給餌機：現況確認"
+    nameEn: "Condition check — automatic feeders"
+    descriptionJa: "撫子からの依頼。対象は自動給餌機。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Nadeshiko requests work concerning the automatic feeders. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.review
+    nameJa: "飼育当番表：照合記録"
+    nameEn: "Record reconciliation — animal-care roster"
+    descriptionJa: "撫子からの依頼。対象は飼育当番表。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Nadeshiko requests work concerning the animal-care roster. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds:
+    - quest.luminous.nadeshiko.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.daily
+    nameJa: "自動給餌機：日次巡回"
+    nameEn: "Daily rounds — automatic feeders"
+    descriptionJa: "撫子からの依頼。対象は自動給餌機。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Nadeshiko requests work concerning the automatic feeders. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.weekly
+    nameJa: "飼育当番表：週次引き継ぎ"
+    nameEn: "Weekly handoff — animal-care roster"
+    descriptionJa: "撫子からの依頼。対象は飼育当番表。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Nadeshiko requests work concerning the animal-care roster. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.monthly
+    nameJa: "自動給餌機：月次棚卸し"
+    nameEn: "Monthly audit — automatic feeders"
+    descriptionJa: "撫子からの依頼。対象は自動給餌機。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Nadeshiko requests work concerning the automatic feeders. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.nadeshiko.annual
+    nameJa: "飼育当番表：年次保存記録"
+    nameEn: "Annual archive — animal-care roster"
+    descriptionJa: "撫子からの依頼。対象は飼育当番表。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Nadeshiko requests work concerning the animal-care roster. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.nadeshiko"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.izumi.check
+    nameJa: "採水瓶：現況確認"
+    nameEn: "Condition check — water sample bottles"
+    descriptionJa: "泉からの依頼。対象は採水瓶。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Izumi requests work concerning the water sample bottles. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.izumi.review
+    nameJa: "給水所の点検札：照合記録"
+    nameEn: "Record reconciliation — water station inspection tags"
+    descriptionJa: "泉からの依頼。対象は給水所の点検札。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Izumi requests work concerning the water station inspection tags. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds:
+    - quest.luminous.izumi.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.izumi.daily
+    nameJa: "採水瓶：日次巡回"
+    nameEn: "Daily rounds — water sample bottles"
+    descriptionJa: "泉からの依頼。対象は採水瓶。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Izumi requests work concerning the water sample bottles. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.izumi.weekly
+    nameJa: "給水所の点検札：週次引き継ぎ"
+    nameEn: "Weekly handoff — water station inspection tags"
+    descriptionJa: "泉からの依頼。対象は給水所の点検札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Izumi requests work concerning the water station inspection tags. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.izumi.monthly
+    nameJa: "採水瓶：月次棚卸し"
+    nameEn: "Monthly audit — water sample bottles"
+    descriptionJa: "泉からの依頼。対象は採水瓶。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Izumi requests work concerning the water sample bottles. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.izumi.annual
+    nameJa: "給水所の点検札：年次保存記録"
+    nameEn: "Annual archive — water station inspection tags"
+    descriptionJa: "泉からの依頼。対象は給水所の点検札。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Izumi requests work concerning the water station inspection tags. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.izumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.kei.check
+    nameJa: "端末の貸出箱：現況確認"
+    nameEn: "Condition check — terminal loan cases"
+    descriptionJa: "慧からの依頼。対象は端末の貸出箱。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Kei requests work concerning the terminal loan cases. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kei.review
+    nameJa: "充電台：照合記録"
+    nameEn: "Record reconciliation — charging stands"
+    descriptionJa: "慧からの依頼。対象は充電台。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Kei requests work concerning the charging stands. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds:
+    - quest.luminous.kei.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.kei.daily
+    nameJa: "端末の貸出箱：日次巡回"
+    nameEn: "Daily rounds — terminal loan cases"
+    descriptionJa: "慧からの依頼。対象は端末の貸出箱。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Kei requests work concerning the terminal loan cases. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.kei.weekly
+    nameJa: "充電台：週次引き継ぎ"
+    nameEn: "Weekly handoff — charging stands"
+    descriptionJa: "慧からの依頼。対象は充電台。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Kei requests work concerning the charging stands. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.kei.monthly
+    nameJa: "端末の貸出箱：月次棚卸し"
+    nameEn: "Monthly audit — terminal loan cases"
+    descriptionJa: "慧からの依頼。対象は端末の貸出箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Kei requests work concerning the terminal loan cases. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.kei.annual
+    nameJa: "充電台：年次保存記録"
+    nameEn: "Annual archive — charging stands"
+    descriptionJa: "慧からの依頼。対象は充電台。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Kei requests work concerning the charging stands. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.kei"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.nanao.check
+    nameJa: "共用のチェス駒：現況確認"
+    nameEn: "Condition check — shared chess pieces"
+    descriptionJa: "七緒からの依頼。対象は共用のチェス駒。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Nanao requests work concerning the shared chess pieces. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nanao.review
+    nameJa: "カードの予備束：照合記録"
+    nameEn: "Record reconciliation — spare card decks"
+    descriptionJa: "七緒からの依頼。対象はカードの予備束。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Nanao requests work concerning the spare card decks. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds:
+    - quest.luminous.nanao.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.nanao.daily
+    nameJa: "共用のチェス駒：日次巡回"
+    nameEn: "Daily rounds — shared chess pieces"
+    descriptionJa: "七緒からの依頼。対象は共用のチェス駒。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Nanao requests work concerning the shared chess pieces. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.nanao.weekly
+    nameJa: "カードの予備束：週次引き継ぎ"
+    nameEn: "Weekly handoff — spare card decks"
+    descriptionJa: "七緒からの依頼。対象はカードの予備束。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Nanao requests work concerning the spare card decks. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.nanao.monthly
+    nameJa: "共用のチェス駒：月次棚卸し"
+    nameEn: "Monthly audit — shared chess pieces"
+    descriptionJa: "七緒からの依頼。対象は共用のチェス駒。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Nanao requests work concerning the shared chess pieces. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.nanao.annual
+    nameJa: "カードの予備束：年次保存記録"
+    nameEn: "Annual archive — spare card decks"
+    descriptionJa: "七緒からの依頼。対象はカードの予備束。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Nanao requests work concerning the spare card decks. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.nanao"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.check
+    nameJa: "修繕用の帆布：現況確認"
+    nameEn: "Condition check — repair canvas"
+    descriptionJa: "紡からの依頼。対象は修繕用の帆布。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Tsumugi requests work concerning the repair canvas. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.review
+    nameJa: "仕分け済みの糸：照合記録"
+    nameEn: "Record reconciliation — sorted thread"
+    descriptionJa: "紡からの依頼。対象は仕分け済みの糸。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Tsumugi requests work concerning the sorted thread. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds:
+    - quest.luminous.tsumugi.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.daily
+    nameJa: "修繕用の帆布：日次巡回"
+    nameEn: "Daily rounds — repair canvas"
+    descriptionJa: "紡からの依頼。対象は修繕用の帆布。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Tsumugi requests work concerning the repair canvas. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.weekly
+    nameJa: "仕分け済みの糸：週次引き継ぎ"
+    nameEn: "Weekly handoff — sorted thread"
+    descriptionJa: "紡からの依頼。対象は仕分け済みの糸。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Tsumugi requests work concerning the sorted thread. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.monthly
+    nameJa: "修繕用の帆布：月次棚卸し"
+    nameEn: "Monthly audit — repair canvas"
+    descriptionJa: "紡からの依頼。対象は修繕用の帆布。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Tsumugi requests work concerning the repair canvas. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.tsumugi.annual
+    nameJa: "仕分け済みの糸：年次保存記録"
+    nameEn: "Annual archive — sorted thread"
+    descriptionJa: "紡からの依頼。対象は仕分け済みの糸。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Tsumugi requests work concerning the sorted thread. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.tsumugi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.aoba.check
+    nameJa: "乾物の保管箱：現況確認"
+    nameEn: "Condition check — dry-goods crates"
+    descriptionJa: "青葉からの依頼。対象は乾物の保管箱。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Aoba requests work concerning the dry-goods crates. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.aoba.review
+    nameJa: "搬入伝票：照合記録"
+    nameEn: "Record reconciliation — delivery slips"
+    descriptionJa: "青葉からの依頼。対象は搬入伝票。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Aoba requests work concerning the delivery slips. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds:
+    - quest.luminous.aoba.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.aoba.daily
+    nameJa: "乾物の保管箱：日次巡回"
+    nameEn: "Daily rounds — dry-goods crates"
+    descriptionJa: "青葉からの依頼。対象は乾物の保管箱。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Aoba requests work concerning the dry-goods crates. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.aoba.weekly
+    nameJa: "搬入伝票：週次引き継ぎ"
+    nameEn: "Weekly handoff — delivery slips"
+    descriptionJa: "青葉からの依頼。対象は搬入伝票。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Aoba requests work concerning the delivery slips. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.aoba.monthly
+    nameJa: "乾物の保管箱：月次棚卸し"
+    nameEn: "Monthly audit — dry-goods crates"
+    descriptionJa: "青葉からの依頼。対象は乾物の保管箱。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Aoba requests work concerning the dry-goods crates. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.aoba.annual
+    nameJa: "搬入伝票：年次保存記録"
+    nameEn: "Annual archive — delivery slips"
+    descriptionJa: "青葉からの依頼。対象は搬入伝票。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Aoba requests work concerning the delivery slips. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.aoba"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.tonami.check
+    nameJa: "旧歩道の迂回標：現況確認"
+    nameEn: "Condition check — old walkway detour markers"
+    descriptionJa: "砥波からの依頼。対象は旧歩道の迂回標。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the old walkway detour markers. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tonami.review
+    nameJa: "陥没地点の記録：照合記録"
+    nameEn: "Record reconciliation — sinkhole notes"
+    descriptionJa: "砥波からの依頼。対象は陥没地点の記録。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the sinkhole notes. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds:
+    - quest.luminous.tonami.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.tonami.daily
+    nameJa: "旧歩道の迂回標：日次巡回"
+    nameEn: "Daily rounds — old walkway detour markers"
+    descriptionJa: "砥波からの依頼。対象は旧歩道の迂回標。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the old walkway detour markers. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.tonami.weekly
+    nameJa: "陥没地点の記録：週次引き継ぎ"
+    nameEn: "Weekly handoff — sinkhole notes"
+    descriptionJa: "砥波からの依頼。対象は陥没地点の記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the sinkhole notes. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.tonami.monthly
+    nameJa: "旧歩道の迂回標：月次棚卸し"
+    nameEn: "Monthly audit — old walkway detour markers"
+    descriptionJa: "砥波からの依頼。対象は旧歩道の迂回標。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the old walkway detour markers. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.tonami.annual
+    nameJa: "陥没地点の記録：年次保存記録"
+    nameEn: "Annual archive — sinkhole notes"
+    descriptionJa: "砥波からの依頼。対象は陥没地点の記録。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Tonami requests work concerning the sinkhole notes. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.tonami"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.check
+    nameJa: "水位目印：現況確認"
+    nameEn: "Condition check — water-level markers"
+    descriptionJa: "水篠からの依頼。対象は水位目印。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the water-level markers. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.review
+    nameJa: "水没交差点の写真：照合記録"
+    nameEn: "Record reconciliation — flooded junction photos"
+    descriptionJa: "水篠からの依頼。対象は水没交差点の写真。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the flooded junction photos. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds:
+    - quest.luminous.mizushino.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.daily
+    nameJa: "水位目印：日次巡回"
+    nameEn: "Daily rounds — water-level markers"
+    descriptionJa: "水篠からの依頼。対象は水位目印。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the water-level markers. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.weekly
+    nameJa: "水没交差点の写真：週次引き継ぎ"
+    nameEn: "Weekly handoff — flooded junction photos"
+    descriptionJa: "水篠からの依頼。対象は水没交差点の写真。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the flooded junction photos. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.monthly
+    nameJa: "水位目印：月次棚卸し"
+    nameEn: "Monthly audit — water-level markers"
+    descriptionJa: "水篠からの依頼。対象は水位目印。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the water-level markers. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.mizushino.annual
+    nameJa: "水没交差点の写真：年次保存記録"
+    nameEn: "Annual archive — flooded junction photos"
+    descriptionJa: "水篠からの依頼。対象は水没交差点の写真。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Mizushino requests work concerning the flooded junction photos. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.mizushino"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.check
+    nameJa: "廃ビルの案内板：現況確認"
+    nameEn: "Condition check — ruined tower directory"
+    descriptionJa: "薄墨からの依頼。対象は廃ビルの案内板。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the ruined tower directory. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.review
+    nameJa: "旧商店の帳面：照合記録"
+    nameEn: "Record reconciliation — old shop ledgers"
+    descriptionJa: "薄墨からの依頼。対象は旧商店の帳面。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the old shop ledgers. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds:
+    - quest.luminous.usuzumi.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.daily
+    nameJa: "廃ビルの案内板：日次巡回"
+    nameEn: "Daily rounds — ruined tower directory"
+    descriptionJa: "薄墨からの依頼。対象は廃ビルの案内板。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the ruined tower directory. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.weekly
+    nameJa: "旧商店の帳面：週次引き継ぎ"
+    nameEn: "Weekly handoff — old shop ledgers"
+    descriptionJa: "薄墨からの依頼。対象は旧商店の帳面。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the old shop ledgers. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.monthly
+    nameJa: "廃ビルの案内板：月次棚卸し"
+    nameEn: "Monthly audit — ruined tower directory"
+    descriptionJa: "薄墨からの依頼。対象は廃ビルの案内板。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the ruined tower directory. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.usuzumi.annual
+    nameJa: "旧商店の帳面：年次保存記録"
+    nameEn: "Annual archive — old shop ledgers"
+    descriptionJa: "薄墨からの依頼。対象は旧商店の帳面。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Usuzumi requests work concerning the old shop ledgers. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.usuzumi"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.minemori.check
+    nameJa: "旧キャンプ場の測定点：現況確認"
+    nameEn: "Condition check — old campsite survey points"
+    descriptionJa: "峰守からの依頼。対象は旧キャンプ場の測定点。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the old campsite survey points. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.minemori.review
+    nameJa: "林道の退避標：照合記録"
+    nameEn: "Record reconciliation — forest road retreat markers"
+    descriptionJa: "峰守からの依頼。対象は林道の退避標。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the forest road retreat markers. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds:
+    - quest.luminous.minemori.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.minemori.daily
+    nameJa: "旧キャンプ場の測定点：日次巡回"
+    nameEn: "Daily rounds — old campsite survey points"
+    descriptionJa: "峰守からの依頼。対象は旧キャンプ場の測定点。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the old campsite survey points. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.minemori.weekly
+    nameJa: "林道の退避標：週次引き継ぎ"
+    nameEn: "Weekly handoff — forest road retreat markers"
+    descriptionJa: "峰守からの依頼。対象は林道の退避標。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the forest road retreat markers. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.minemori.monthly
+    nameJa: "旧キャンプ場の測定点：月次棚卸し"
+    nameEn: "Monthly audit — old campsite survey points"
+    descriptionJa: "峰守からの依頼。対象は旧キャンプ場の測定点。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the old campsite survey points. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.minemori.annual
+    nameJa: "林道の退避標：年次保存記録"
+    nameEn: "Annual archive — forest road retreat markers"
+    descriptionJa: "峰守からの依頼。対象は林道の退避標。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Minemori requests work concerning the forest road retreat markers. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.minemori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.hari.check
+    nameJa: "端末撮影の比較記録：現況確認"
+    nameEn: "Condition check — terminal photo comparison logs"
+    descriptionJa: "玻璃からの依頼。対象は端末撮影の比較記録。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the terminal photo comparison logs. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hari.review
+    nameJa: "異常濃度の測定札：照合記録"
+    nameEn: "Record reconciliation — anomaly concentration tags"
+    descriptionJa: "玻璃からの依頼。対象は異常濃度の測定札。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the anomaly concentration tags. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds:
+    - quest.luminous.hari.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hari.daily
+    nameJa: "端末撮影の比較記録：日次巡回"
+    nameEn: "Daily rounds — terminal photo comparison logs"
+    descriptionJa: "玻璃からの依頼。対象は端末撮影の比較記録。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the terminal photo comparison logs. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.hari.weekly
+    nameJa: "異常濃度の測定札：週次引き継ぎ"
+    nameEn: "Weekly handoff — anomaly concentration tags"
+    descriptionJa: "玻璃からの依頼。対象は異常濃度の測定札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the anomaly concentration tags. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.hari.monthly
+    nameJa: "端末撮影の比較記録：月次棚卸し"
+    nameEn: "Monthly audit — terminal photo comparison logs"
+    descriptionJa: "玻璃からの依頼。対象は端末撮影の比較記録。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the terminal photo comparison logs. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.hari.annual
+    nameJa: "異常濃度の測定札：年次保存記録"
+    nameEn: "Annual archive — anomaly concentration tags"
+    descriptionJa: "玻璃からの依頼。対象は異常濃度の測定札。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hari requests work concerning the anomaly concentration tags. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hari"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.toya.check
+    nameJa: "通行可能区間の地図：現況確認"
+    nameEn: "Condition check — passable road maps"
+    descriptionJa: "遠矢からの依頼。対象は通行可能区間の地図。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the passable road maps. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.toya.review
+    nameJa: "路肩の迂回札：照合記録"
+    nameEn: "Record reconciliation — roadside detour signs"
+    descriptionJa: "遠矢からの依頼。対象は路肩の迂回札。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the roadside detour signs. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds:
+    - quest.luminous.toya.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.toya.daily
+    nameJa: "通行可能区間の地図：日次巡回"
+    nameEn: "Daily rounds — passable road maps"
+    descriptionJa: "遠矢からの依頼。対象は通行可能区間の地図。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the passable road maps. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.toya.weekly
+    nameJa: "路肩の迂回札：週次引き継ぎ"
+    nameEn: "Weekly handoff — roadside detour signs"
+    descriptionJa: "遠矢からの依頼。対象は路肩の迂回札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the roadside detour signs. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.toya.monthly
+    nameJa: "通行可能区間の地図：月次棚卸し"
+    nameEn: "Monthly audit — passable road maps"
+    descriptionJa: "遠矢からの依頼。対象は通行可能区間の地図。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the passable road maps. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.toya.annual
+    nameJa: "路肩の迂回札：年次保存記録"
+    nameEn: "Annual archive — roadside detour signs"
+    descriptionJa: "遠矢からの依頼。対象は路肩の迂回札。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Toya requests work concerning the roadside detour signs. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.toya"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.check
+    nameJa: "交換用の医療容器：現況確認"
+    nameEn: "Condition check — medical containers for barter"
+    descriptionJa: "初瀬からの依頼。対象は交換用の医療容器。現地で状態を確認し、異常があれば記録して戻る。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the medical containers for barter. Check the condition on site, record any irregularities, and return. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.review
+    nameJa: "物々交換の見本：照合記録"
+    nameEn: "Record reconciliation — barter samples"
+    descriptionJa: "初瀬からの依頼。対象は物々交換の見本。前回の現況記録と見比べ、差分を依頼主に報告する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the barter samples. Compare against the earlier condition report and report the differences. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds:
+    - quest.luminous.hatsuse.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.daily
+    nameJa: "交換用の医療容器：日次巡回"
+    nameEn: "Daily rounds — medical containers for barter"
+    descriptionJa: "初瀬からの依頼。対象は交換用の医療容器。所定の確認箇所を巡り、今日の状態を記録する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the medical containers for barter. Visit the designated checkpoints and record today's condition. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.weekly
+    nameJa: "物々交換の見本：週次引き継ぎ"
+    nameEn: "Weekly handoff — barter samples"
+    descriptionJa: "初瀬からの依頼。対象は物々交換の見本。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the barter samples. Cross-check this week's records against what is on site and prepare a handoff. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.monthly
+    nameJa: "交換用の医療容器：月次棚卸し"
+    nameEn: "Monthly audit — medical containers for barter"
+    descriptionJa: "初瀬からの依頼。対象は交換用の医療容器。使用可能なものと交換が必要なものを分け、翌月の準備に回す。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the medical containers for barter. Separate usable stock from items needing replacement and prepare for next month. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.hatsuse.annual
+    nameJa: "物々交換の見本：年次保存記録"
+    nameEn: "Annual archive — barter samples"
+    descriptionJa: "初瀬からの依頼。対象は物々交換の見本。一年分の変化が分かる代表例を選び、資料として保管する。危険域に変わっていた場合は無理に進まず、退避して報告すること。"
+    descriptionEn: "Hatsuse requests work concerning the barter samples. Select examples that show how things changed over the year and preserve them in the archive. If the site has become hazardous, withdraw and report back."
+    giverNpcId: "npc.luminous.hatsuse"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.check
+    nameJa: "季節展示の小物：現況確認"
+    nameEn: "Condition check — seasonal display pieces"
+    descriptionJa: "皐月からの依頼。対象は季節展示の小物。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Satsuki requests work concerning the seasonal display pieces. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.review
+    nameJa: "行事の案内札：照合記録"
+    nameEn: "Record reconciliation — event signs"
+    descriptionJa: "皐月からの依頼。対象は行事の案内札。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Satsuki requests work concerning the event signs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds:
+    - quest.luminous.satsuki.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.daily
+    nameJa: "季節展示の小物：日次巡回"
+    nameEn: "Daily rounds — seasonal display pieces"
+    descriptionJa: "皐月からの依頼。対象は季節展示の小物。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Satsuki requests work concerning the seasonal display pieces. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.weekly
+    nameJa: "行事の案内札：週次引き継ぎ"
+    nameEn: "Weekly handoff — event signs"
+    descriptionJa: "皐月からの依頼。対象は行事の案内札。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Satsuki requests work concerning the event signs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.monthly
+    nameJa: "季節展示の小物：月次棚卸し"
+    nameEn: "Monthly audit — seasonal display pieces"
+    descriptionJa: "皐月からの依頼。対象は季節展示の小物。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Satsuki requests work concerning the seasonal display pieces. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.satsuki.annual
+    nameJa: "行事の案内札：年次保存記録"
+    nameEn: "Annual archive — event signs"
+    descriptionJa: "皐月からの依頼。対象は行事の案内札。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Satsuki requests work concerning the event signs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.satsuki"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.iori.check
+    nameJa: "携帯結界の警告灯：現況確認"
+    nameEn: "Condition check — portable barrier warning lights"
+    descriptionJa: "伊織からの依頼。対象は携帯結界の警告灯。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Iori requests work concerning the portable barrier warning lights. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.iori.review
+    nameJa: "撤収用の留め具：照合記録"
+    nameEn: "Record reconciliation — pack-down fasteners"
+    descriptionJa: "伊織からの依頼。対象は撤収用の留め具。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Iori requests work concerning the pack-down fasteners. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds:
+    - quest.luminous.iori.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.iori.daily
+    nameJa: "携帯結界の警告灯：日次巡回"
+    nameEn: "Daily rounds — portable barrier warning lights"
+    descriptionJa: "伊織からの依頼。対象は携帯結界の警告灯。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Iori requests work concerning the portable barrier warning lights. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.iori.weekly
+    nameJa: "撤収用の留め具：週次引き継ぎ"
+    nameEn: "Weekly handoff — pack-down fasteners"
+    descriptionJa: "伊織からの依頼。対象は撤収用の留め具。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Iori requests work concerning the pack-down fasteners. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.iori.monthly
+    nameJa: "携帯結界の警告灯：月次棚卸し"
+    nameEn: "Monthly audit — portable barrier warning lights"
+    descriptionJa: "伊織からの依頼。対象は携帯結界の警告灯。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Iori requests work concerning the portable barrier warning lights. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.iori.annual
+    nameJa: "撤収用の留め具：年次保存記録"
+    nameEn: "Annual archive — pack-down fasteners"
+    descriptionJa: "伊織からの依頼。対象は撤収用の留め具。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Iori requests work concerning the pack-down fasteners. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.iori"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.ruri.check
+    nameJa: "写真プリント：現況確認"
+    nameEn: "Condition check — photo prints"
+    descriptionJa: "瑠璃からの依頼。対象は写真プリント。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Ruri requests work concerning the photo prints. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.ruri.review
+    nameJa: "撮影位置の記録：照合記録"
+    nameEn: "Record reconciliation — photo location notes"
+    descriptionJa: "瑠璃からの依頼。対象は撮影位置の記録。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Ruri requests work concerning the photo location notes. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds:
+    - quest.luminous.ruri.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.ruri.daily
+    nameJa: "写真プリント：日次巡回"
+    nameEn: "Daily rounds — photo prints"
+    descriptionJa: "瑠璃からの依頼。対象は写真プリント。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Ruri requests work concerning the photo prints. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.ruri.weekly
+    nameJa: "撮影位置の記録：週次引き継ぎ"
+    nameEn: "Weekly handoff — photo location notes"
+    descriptionJa: "瑠璃からの依頼。対象は撮影位置の記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Ruri requests work concerning the photo location notes. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.ruri.monthly
+    nameJa: "写真プリント：月次棚卸し"
+    nameEn: "Monthly audit — photo prints"
+    descriptionJa: "瑠璃からの依頼。対象は写真プリント。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Ruri requests work concerning the photo prints. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.ruri.annual
+    nameJa: "撮影位置の記録：年次保存記録"
+    nameEn: "Annual archive — photo location notes"
+    descriptionJa: "瑠璃からの依頼。対象は撮影位置の記録。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Ruri requests work concerning the photo location notes. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.ruri"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5
+  - id: quest.luminous.niwa.check
+    nameJa: "冷蔵棚の点検表：現況確認"
+    nameEn: "Condition check — cold-storage checklists"
+    descriptionJa: "丹羽からの依頼。対象は冷蔵棚の点検表。現地で状態を確認し、異常があれば記録して戻る。"
+    descriptionEn: "Niwa requests work concerning the cold-storage checklists. Check the condition on site, record any irregularities, and return."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 720
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.niwa.review
+    nameJa: "鮮度の記録：照合記録"
+    nameEn: "Record reconciliation — freshness logs"
+    descriptionJa: "丹羽からの依頼。対象は鮮度の記録。前回の現況記録と見比べ、差分を依頼主に報告する。"
+    descriptionEn: "Niwa requests work concerning the freshness logs. Compare against the earlier condition report and report the differences."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds:
+    - quest.luminous.niwa.check
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 3
+    rewardCurrency: 30
+    repeatable: 0
+    urgent: 0
+    recurrence: 0
+    resetHourJst: 5
+  - id: quest.luminous.niwa.daily
+    nameJa: "冷蔵棚の点検表：日次巡回"
+    nameEn: "Daily rounds — cold-storage checklists"
+    descriptionJa: "丹羽からの依頼。対象は冷蔵棚の点検表。所定の確認箇所を巡り、今日の状態を記録する。"
+    descriptionEn: "Niwa requests work concerning the cold-storage checklists. Visit the designated checkpoints and record today's condition."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 360
+    rewardContribution: 2
+    rewardCurrency: 20
+    repeatable: 1
+    urgent: 0
+    recurrence: 1
+    resetHourJst: 5
+  - id: quest.luminous.niwa.weekly
+    nameJa: "鮮度の記録：週次引き継ぎ"
+    nameEn: "Weekly handoff — freshness logs"
+    descriptionJa: "丹羽からの依頼。対象は鮮度の記録。今週分の記録と現物を照合し、引き継ぎ用の要点をまとめる。"
+    descriptionEn: "Niwa requests work concerning the freshness logs. Cross-check this week's records against what is on site and prepare a handoff."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 4320
+    rewardContribution: 4
+    rewardCurrency: 40
+    repeatable: 1
+    urgent: 0
+    recurrence: 2
+    resetHourJst: 5
+  - id: quest.luminous.niwa.monthly
+    nameJa: "冷蔵棚の点検表：月次棚卸し"
+    nameEn: "Monthly audit — cold-storage checklists"
+    descriptionJa: "丹羽からの依頼。対象は冷蔵棚の点検表。使用可能なものと交換が必要なものを分け、翌月の準備に回す。"
+    descriptionEn: "Niwa requests work concerning the cold-storage checklists. Separate usable stock from items needing replacement and prepare for next month."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 10080
+    rewardContribution: 6
+    rewardCurrency: 65
+    repeatable: 1
+    urgent: 0
+    recurrence: 3
+    resetHourJst: 5
+  - id: quest.luminous.niwa.annual
+    nameJa: "鮮度の記録：年次保存記録"
+    nameEn: "Annual archive — freshness logs"
+    descriptionJa: "丹羽からの依頼。対象は鮮度の記録。一年分の変化が分かる代表例を選び、資料として保管する。"
+    descriptionEn: "Niwa requests work concerning the freshness logs. Select examples that show how things changed over the year and preserve them in the archive."
+    giverNpcId: "npc.luminous.niwa"
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 20160
+    rewardContribution: 8
+    rewardCurrency: 90
+    repeatable: 1
+    urgent: 0
+    recurrence: 4
+    resetHourJst: 5

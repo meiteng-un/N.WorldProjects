@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb166e85721af9d42bd00e7665d626ee, type: 3}
+  m_Name: N_AbilityCatalog_Prototype
+  m_EditorClassIdentifier: 
+  entries:
+  - id: n.ability.angler
+    abilityCategory: 1
+    rarity: 0
+    nameJa: "\u7CF8\u5148\u306E\u5FC3\u5F97"
+    nameEn: An Angler's Touch
+    descriptionJa: 
+    descriptionEn: 
+    hintJa: "\u4F55\u304B\u306E\u884C\u52D5\u3092\u91CD\u306D\u308B\u3068\u767A\u73FE\u3059\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+    hintEn: Repeated actions may awaken something.
+    requirementsJa: "\u91E3\u679C\u30925\u5339\u53D7\u3051\u53D6\u308B\u3002\u6210\u9577\u306F\u6709\u52B9\u306A\u91E3\u679C\u306E\u307F\u3002"
+    requirementsEn: Receive 5 catches. Only successful catches grant experience.
+    kind: 0
+    autoLearn: 1
+    forgetOnDeath: 0
+    requiredTitle: 
+    requiredMetric: landedCatchCount
+    metricThreshold: 5
+    maxLevel: 5
+    experiencePerLevel: 20
+    growthAction: landedCatchCount
+    evolutionTarget: n.ability.angler.awakened
+    evolutionLevel: 5
+    slotCost: 0
+    manaCost: 0
+    cooldown: 0
+    duration: 0
+    conditionSource: {fileID: 0}
+    activationTarget: {fileID: 0}
+    conditionVariable: 
+    activationEvent: 
+    effects:
+    - target: 18
+      amount: 1
+      perLevel: 0.5
+  - id: n.ability.angler.awakened
+    abilityCategory: 1
+    rarity: 0
+    nameJa: "\u6C34\u8FBA\u306E\u547C\u5438"
+    nameEn: Breath of the Waterside
+    descriptionJa: 
+    descriptionEn: 
+    hintJa: "\u4F55\u304B\u306E\u884C\u52D5\u3092\u91CD\u306D\u308B\u3068\u767A\u73FE\u3059\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+    hintEn: Repeated actions may awaken something.
+    requirementsJa: "\u7CF8\u5148\u306E\u5FC3\u5F97\u304C\u30EC\u30D9\u30EB5\u306B\u5230\u9054\u5F8C\u3001\u9032\u5316\u3059\u308B\u3002"
+    requirementsEn: Evolve An Angler's Touch at level 5.
+    kind: 0
+    autoLearn: 0
+    forgetOnDeath: 0
+    requiredTitle: 
+    requiredMetric: 
+    metricThreshold: 0
+    maxLevel: 1
+    experiencePerLevel: 10
+    growthAction: 
+    evolutionTarget: 
+    evolutionLevel: 1
+    slotCost: 0
+    manaCost: 0
+    cooldown: 0
+    duration: 0
+    conditionSource: {fileID: 0}
+    activationTarget: {fileID: 0}
+    conditionVariable: 
+    activationEvent: 
+    effects:
+    - target: 18
+      amount: 5
+      perLevel: 0
+  - id: n.ability.familiar
+    abilityCategory: 1
+    rarity: 0
+    nameJa: "\u99B4\u67D3\u307F\u306E\u5B89\u3089\u304E"
+    nameEn: Familiar Comfort
+    descriptionJa: 
+    descriptionEn: 
+    hintJa: "\u4F55\u304B\u306E\u884C\u52D5\u3092\u91CD\u306D\u308B\u3068\u767A\u73FE\u3059\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+    hintEn: Repeated actions may awaken something.
+    requirementsJa: "\u79F0\u53F7\u300C\u30ED\u30D3\u30FC\u306E\u898B\u6163\u308C\u305F\u9854\u300D\u3092\u7372\u5F97\u3059\u308B\u3002"
+    requirementsEn: Earn A Familiar Face in the Lobby.
+    kind: 0
+    autoLearn: 1
+    forgetOnDeath: 0
+    requiredTitle: n.title.stay.02
+    requiredMetric: 
+    metricThreshold: 0
+    maxLevel: 1
+    experiencePerLevel: 10
+    growthAction: 
+    evolutionTarget: 
+    evolutionLevel: 1
+    slotCost: 0
+    manaCost: 0
+    cooldown: 0
+    duration: 0
+    conditionSource: {fileID: 0}
+    activationTarget: {fileID: 0}
+    conditionVariable: 
+    activationEvent: 
+    effects:
+    - target: 16
+      amount: 2
+      perLevel: 0
+  - id: n.ability.focus
+    abilityCategory: 1
+    rarity: 0
+    nameJa: "\u77ED\u3044\u96C6\u4E2D"
+    nameEn: Brief Focus
+    descriptionJa: 
+    descriptionEn: 
+    hintJa: "\u4F55\u304B\u306E\u884C\u52D5\u3092\u91CD\u306D\u308B\u3068\u767A\u73FE\u3059\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+    hintEn: Repeated actions may awaken something.
+    requirementsJa: "\u5BFE\u5FDC\u3059\u308B\u85AC\u30FB\u65BD\u8853\u306A\u3069\u304B\u3089\u7FD2\u5F97\u3059\u308B\u691C\u67FB\u7528\u80FD\u529B\u3002"
+    requirementsEn: Prototype learned through an item or treatment.
+    kind: 2
+    autoLearn: 0
+    forgetOnDeath: 1
+    requiredTitle: 
+    requiredMetric: 
+    metricThreshold: 0
+    maxLevel: 1
+    experiencePerLevel: 10
+    growthAction: 
+    evolutionTarget: 
+    evolutionLevel: 1
+    slotCost: 1
+    manaCost: 5
+    cooldown: 30
+    duration: 10
+    conditionSource: {fileID: 0}
+    activationTarget: {fileID: 0}
+    conditionVariable: 
+    activationEvent: 
+    effects:
+    - target: 19
+      amount: 2
+      perLevel: 0

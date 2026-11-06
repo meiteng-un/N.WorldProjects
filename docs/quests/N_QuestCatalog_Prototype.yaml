@@ -1,0 +1,1311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be95c4ac56e120a4280d7613471382a2, type: 3}
+  m_Name: N_QuestCatalog_Prototype
+  m_EditorClassIdentifier:
+  quests:
+  - id: quest.prototype.01
+    nameJa: 整備の作業報告 1
+    nameEn: Maintenance Report 1
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.01
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.02
+    nameJa: 探索の作業報告 2
+    nameEn: Exploration Report 2
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.02
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.03
+    nameJa: 売店の作業報告 3
+    nameEn: Shop Report 3
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.03
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.04
+    nameJa: 観測の作業報告 4
+    nameEn: Observation Report 4
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.04
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.05
+    nameJa: 飼育の作業報告 5
+    nameEn: Animal Care Report 5
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.05
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.06
+    nameJa: 農園の作業報告 6
+    nameEn: Garden Report 6
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.06
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.07
+    nameJa: 整備の作業報告 7
+    nameEn: Maintenance Report 7
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.07
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.08
+    nameJa: 探索の作業報告 8
+    nameEn: Exploration Report 8
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.08
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.09
+    nameJa: 売店の作業報告 9
+    nameEn: Shop Report 9
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.09
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.10
+    nameJa: 観測の作業報告 10
+    nameEn: Observation Report 10
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.10
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.11
+    nameJa: 飼育の作業報告 11
+    nameEn: Animal Care Report 11
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.11
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.12
+    nameJa: 農園の作業報告 12
+    nameEn: Garden Report 12
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.12
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 120
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 1
+  - id: quest.prototype.13
+    nameJa: 整備の作業報告 13
+    nameEn: Maintenance Report 13
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.13
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.14
+    nameJa: 探索の作業報告 14
+    nameEn: Exploration Report 14
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.14
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.15
+    nameJa: 売店の作業報告 15
+    nameEn: Shop Report 15
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.15
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.16
+    nameJa: 観測の作業報告 16
+    nameEn: Observation Report 16
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.16
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.17
+    nameJa: 飼育の作業報告 17
+    nameEn: Animal Care Report 17
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.17
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.18
+    nameJa: 農園の作業報告 18
+    nameEn: Garden Report 18
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.18
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.19
+    nameJa: 整備の作業報告 19
+    nameEn: Maintenance Report 19
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.19
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.20
+    nameJa: 探索の作業報告 20
+    nameEn: Exploration Report 20
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.20
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.21
+    nameJa: 売店の作業報告 21
+    nameEn: Shop Report 21
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.21
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.22
+    nameJa: 観測の作業報告 22
+    nameEn: Observation Report 22
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.22
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.23
+    nameJa: 飼育の作業報告 23
+    nameEn: Animal Care Report 23
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.23
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.24
+    nameJa: 農園の作業報告 24
+    nameEn: Garden Report 24
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.24
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 120
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 1
+  - id: quest.prototype.25
+    nameJa: 整備の作業報告 25
+    nameEn: Maintenance Report 25
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.25
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.26
+    nameJa: 探索の作業報告 26
+    nameEn: Exploration Report 26
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.26
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.27
+    nameJa: 売店の作業報告 27
+    nameEn: Shop Report 27
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.27
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.28
+    nameJa: 観測の作業報告 28
+    nameEn: Observation Report 28
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.28
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.29
+    nameJa: 飼育の作業報告 29
+    nameEn: Animal Care Report 29
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.29
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.30
+    nameJa: 農園の作業報告 30
+    nameEn: Garden Report 30
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.30
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.31
+    nameJa: 整備の作業報告 31
+    nameEn: Maintenance Report 31
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.31
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.32
+    nameJa: 探索の作業報告 32
+    nameEn: Exploration Report 32
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.32
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.33
+    nameJa: 売店の作業報告 33
+    nameEn: Shop Report 33
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.33
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.34
+    nameJa: 観測の作業報告 34
+    nameEn: Observation Report 34
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.34
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.35
+    nameJa: 飼育の作業報告 35
+    nameEn: Animal Care Report 35
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.35
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.36
+    nameJa: 農園の作業報告 36
+    nameEn: Garden Report 36
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.36
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 120
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 1
+  - id: quest.prototype.37
+    nameJa: 整備の作業報告 37
+    nameEn: Maintenance Report 37
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.37
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.38
+    nameJa: 探索の作業報告 38
+    nameEn: Exploration Report 38
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.38
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.39
+    nameJa: 売店の作業報告 39
+    nameEn: Shop Report 39
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.39
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.40
+    nameJa: 観測の作業報告 40
+    nameEn: Observation Report 40
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.40
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.41
+    nameJa: 飼育の作業報告 41
+    nameEn: Animal Care Report 41
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.41
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.42
+    nameJa: 農園の作業報告 42
+    nameEn: Garden Report 42
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.42
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.43
+    nameJa: 整備の作業報告 43
+    nameEn: Maintenance Report 43
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.43
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.44
+    nameJa: 探索の作業報告 44
+    nameEn: Exploration Report 44
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.44
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.45
+    nameJa: 売店の作業報告 45
+    nameEn: Shop Report 45
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.45
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.46
+    nameJa: 観測の作業報告 46
+    nameEn: Observation Report 46
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.46
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.47
+    nameJa: 飼育の作業報告 47
+    nameEn: Animal Care Report 47
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.47
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 1440
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 0
+  - id: quest.prototype.48
+    nameJa: 農園の作業報告 48
+    nameEn: Garden Report 48
+    descriptionJa: 現場の状況を確認し、担当者に報告する。
+    descriptionEn: Check the site and report back to the requester.
+    giverNpcId: npc.prototype.48
+    prerequisiteQuestIds: []
+    stageCount: 2
+    timeLimitMinutes: 120
+    rewardContribution: 10
+    rewardCurrency: 25
+    repeatable: 0
+    urgent: 1
+  - id: quest.prototype.49
+    nameJa: 整備の再点検 49
+    nameEn: Maintenance Follow-up 49
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.01
+    prerequisiteQuestIds:
+    - quest.prototype.01
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.50
+    nameJa: 探索の再点検 50
+    nameEn: Exploration Follow-up 50
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.02
+    prerequisiteQuestIds:
+    - quest.prototype.02
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.51
+    nameJa: 売店の再点検 51
+    nameEn: Shop Follow-up 51
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.03
+    prerequisiteQuestIds:
+    - quest.prototype.03
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.52
+    nameJa: 観測の再点検 52
+    nameEn: Observation Follow-up 52
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.04
+    prerequisiteQuestIds:
+    - quest.prototype.04
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.53
+    nameJa: 飼育の再点検 53
+    nameEn: Animal Care Follow-up 53
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.05
+    prerequisiteQuestIds:
+    - quest.prototype.05
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.54
+    nameJa: 農園の再点検 54
+    nameEn: Garden Follow-up 54
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.06
+    prerequisiteQuestIds:
+    - quest.prototype.06
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.55
+    nameJa: 整備の再点検 55
+    nameEn: Maintenance Follow-up 55
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.07
+    prerequisiteQuestIds:
+    - quest.prototype.07
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.56
+    nameJa: 探索の再点検 56
+    nameEn: Exploration Follow-up 56
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.08
+    prerequisiteQuestIds:
+    - quest.prototype.08
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.57
+    nameJa: 売店の再点検 57
+    nameEn: Shop Follow-up 57
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.09
+    prerequisiteQuestIds:
+    - quest.prototype.09
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.58
+    nameJa: 観測の再点検 58
+    nameEn: Observation Follow-up 58
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.10
+    prerequisiteQuestIds:
+    - quest.prototype.10
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.59
+    nameJa: 飼育の再点検 59
+    nameEn: Animal Care Follow-up 59
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.11
+    prerequisiteQuestIds:
+    - quest.prototype.11
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.60
+    nameJa: 農園の再点検 60
+    nameEn: Garden Follow-up 60
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.12
+    prerequisiteQuestIds:
+    - quest.prototype.12
+    stageCount: 3
+    timeLimitMinutes: 120
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 1
+  - id: quest.prototype.61
+    nameJa: 整備の再点検 61
+    nameEn: Maintenance Follow-up 61
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.13
+    prerequisiteQuestIds:
+    - quest.prototype.13
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.62
+    nameJa: 探索の再点検 62
+    nameEn: Exploration Follow-up 62
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.14
+    prerequisiteQuestIds:
+    - quest.prototype.14
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.63
+    nameJa: 売店の再点検 63
+    nameEn: Shop Follow-up 63
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.15
+    prerequisiteQuestIds:
+    - quest.prototype.15
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.64
+    nameJa: 観測の再点検 64
+    nameEn: Observation Follow-up 64
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.16
+    prerequisiteQuestIds:
+    - quest.prototype.16
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.65
+    nameJa: 飼育の再点検 65
+    nameEn: Animal Care Follow-up 65
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.17
+    prerequisiteQuestIds:
+    - quest.prototype.17
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.66
+    nameJa: 農園の再点検 66
+    nameEn: Garden Follow-up 66
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.18
+    prerequisiteQuestIds:
+    - quest.prototype.18
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.67
+    nameJa: 整備の再点検 67
+    nameEn: Maintenance Follow-up 67
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.19
+    prerequisiteQuestIds:
+    - quest.prototype.19
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.68
+    nameJa: 探索の再点検 68
+    nameEn: Exploration Follow-up 68
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.20
+    prerequisiteQuestIds:
+    - quest.prototype.20
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.69
+    nameJa: 売店の再点検 69
+    nameEn: Shop Follow-up 69
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.21
+    prerequisiteQuestIds:
+    - quest.prototype.21
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.70
+    nameJa: 観測の再点検 70
+    nameEn: Observation Follow-up 70
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.22
+    prerequisiteQuestIds:
+    - quest.prototype.22
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.71
+    nameJa: 飼育の再点検 71
+    nameEn: Animal Care Follow-up 71
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.23
+    prerequisiteQuestIds:
+    - quest.prototype.23
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.72
+    nameJa: 農園の再点検 72
+    nameEn: Garden Follow-up 72
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.24
+    prerequisiteQuestIds:
+    - quest.prototype.24
+    stageCount: 3
+    timeLimitMinutes: 120
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 1
+  - id: quest.prototype.73
+    nameJa: 整備の再点検 73
+    nameEn: Maintenance Follow-up 73
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.25
+    prerequisiteQuestIds:
+    - quest.prototype.25
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.74
+    nameJa: 探索の再点検 74
+    nameEn: Exploration Follow-up 74
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.26
+    prerequisiteQuestIds:
+    - quest.prototype.26
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.75
+    nameJa: 売店の再点検 75
+    nameEn: Shop Follow-up 75
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.27
+    prerequisiteQuestIds:
+    - quest.prototype.27
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.76
+    nameJa: 観測の再点検 76
+    nameEn: Observation Follow-up 76
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.28
+    prerequisiteQuestIds:
+    - quest.prototype.28
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.77
+    nameJa: 飼育の再点検 77
+    nameEn: Animal Care Follow-up 77
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.29
+    prerequisiteQuestIds:
+    - quest.prototype.29
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.78
+    nameJa: 農園の再点検 78
+    nameEn: Garden Follow-up 78
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.30
+    prerequisiteQuestIds:
+    - quest.prototype.30
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.79
+    nameJa: 整備の再点検 79
+    nameEn: Maintenance Follow-up 79
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.31
+    prerequisiteQuestIds:
+    - quest.prototype.31
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.80
+    nameJa: 探索の再点検 80
+    nameEn: Exploration Follow-up 80
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.32
+    prerequisiteQuestIds:
+    - quest.prototype.32
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.81
+    nameJa: 売店の再点検 81
+    nameEn: Shop Follow-up 81
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.33
+    prerequisiteQuestIds:
+    - quest.prototype.33
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.82
+    nameJa: 観測の再点検 82
+    nameEn: Observation Follow-up 82
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.34
+    prerequisiteQuestIds:
+    - quest.prototype.34
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.83
+    nameJa: 飼育の再点検 83
+    nameEn: Animal Care Follow-up 83
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.35
+    prerequisiteQuestIds:
+    - quest.prototype.35
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.84
+    nameJa: 農園の再点検 84
+    nameEn: Garden Follow-up 84
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.36
+    prerequisiteQuestIds:
+    - quest.prototype.36
+    stageCount: 3
+    timeLimitMinutes: 120
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 1
+  - id: quest.prototype.85
+    nameJa: 整備の再点検 85
+    nameEn: Maintenance Follow-up 85
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.37
+    prerequisiteQuestIds:
+    - quest.prototype.37
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.86
+    nameJa: 探索の再点検 86
+    nameEn: Exploration Follow-up 86
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.38
+    prerequisiteQuestIds:
+    - quest.prototype.38
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.87
+    nameJa: 売店の再点検 87
+    nameEn: Shop Follow-up 87
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.39
+    prerequisiteQuestIds:
+    - quest.prototype.39
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.88
+    nameJa: 観測の再点検 88
+    nameEn: Observation Follow-up 88
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.40
+    prerequisiteQuestIds:
+    - quest.prototype.40
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.89
+    nameJa: 飼育の再点検 89
+    nameEn: Animal Care Follow-up 89
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.41
+    prerequisiteQuestIds:
+    - quest.prototype.41
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.90
+    nameJa: 農園の再点検 90
+    nameEn: Garden Follow-up 90
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.42
+    prerequisiteQuestIds:
+    - quest.prototype.42
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.91
+    nameJa: 整備の再点検 91
+    nameEn: Maintenance Follow-up 91
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.43
+    prerequisiteQuestIds:
+    - quest.prototype.43
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.92
+    nameJa: 探索の再点検 92
+    nameEn: Exploration Follow-up 92
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.44
+    prerequisiteQuestIds:
+    - quest.prototype.44
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.93
+    nameJa: 売店の再点検 93
+    nameEn: Shop Follow-up 93
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.45
+    prerequisiteQuestIds:
+    - quest.prototype.45
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.94
+    nameJa: 観測の再点検 94
+    nameEn: Observation Follow-up 94
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.46
+    prerequisiteQuestIds:
+    - quest.prototype.46
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.95
+    nameJa: 飼育の再点検 95
+    nameEn: Animal Care Follow-up 95
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.47
+    prerequisiteQuestIds:
+    - quest.prototype.47
+    stageCount: 3
+    timeLimitMinutes: 1440
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 0
+  - id: quest.prototype.96
+    nameJa: 農園の再点検 96
+    nameEn: Garden Follow-up 96
+    descriptionJa: 前回の報告を確認し、変化を担当者に伝える。
+    descriptionEn: Review the previous report and report any changes.
+    giverNpcId: npc.prototype.48
+    prerequisiteQuestIds:
+    - quest.prototype.48
+    stageCount: 3
+    timeLimitMinutes: 120
+    rewardContribution: 20
+    rewardCurrency: 50
+    repeatable: 1
+    urgent: 1

@@ -1,0 +1,3163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f41813cea489ba4bb38e8bde9ec1999, type: 3}
+  m_Name: N_ObjectAbilityCatalog_120
+  m_EditorClassIdentifier:
+  entries:
+  - id: n.objectability.blade.01
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "切先の記憶"
+    nameEn: "Point Memory"
+    descriptionJa: "刃物向けの仮能力。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.blade.02
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "薄刃の息"
+    nameEn: "Thin Edge"
+    descriptionJa: "刃物向けの仮能力。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.blade.03
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "研ぎ澄む朝"
+    nameEn: "Honed Dawn"
+    descriptionJa: "刃物向けの仮能力。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.blade.04
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "返しの鋭さ"
+    nameEn: "Sharp Return"
+    descriptionJa: "刃物向けの仮能力。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.blade.05
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "堅実な刃筋"
+    nameEn: "Steady Edge"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.blade.06
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "踏み込みの相棒"
+    nameEn: "Forward Companion"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.blade.07
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "使い込まれた峰"
+    nameEn: "Seasoned Spine"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.blade.08
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "傷跡の切れ味"
+    nameEn: "Scarred Sharpness"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.blade.09
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "静かな一閃"
+    nameEn: "Quiet Stroke"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.blade.10
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "重ねた斬線"
+    nameEn: "Repeated Cuts"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.blade.11
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: n.objectability.blade.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "守り手の刃"
+    nameEn: "Guardian Edge"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.blade.12
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "終わらぬ研鑽"
+    nameEn: "Endless Honing"
+    descriptionJa: "刃物向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bladed tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.firearm.01
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "馴染んだ照準"
+    nameEn: "Familiar Sight"
+    descriptionJa: "射撃具向けの仮能力。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.firearm.02
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "銃身の記憶"
+    nameEn: "Barrel Memory"
+    descriptionJa: "射撃具向けの仮能力。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.firearm.03
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "静穏な引金"
+    nameEn: "Quiet Trigger"
+    descriptionJa: "射撃具向けの仮能力。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.firearm.04
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "揺るがぬ狙い"
+    nameEn: "Steady Aim"
+    descriptionJa: "射撃具向けの仮能力。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.firearm.05
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "反復の弾道"
+    nameEn: "Practiced Trajectory"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.firearm.06
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "古傷の銃床"
+    nameEn: "Scarred Stock"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.firearm.07
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "遠方への挨拶"
+    nameEn: "Distant Greeting"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.firearm.08
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "最後の一射"
+    nameEn: "Last Shot"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.firearm.09
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "掌の射線"
+    nameEn: "Palm Trajectory"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。対応武器の命中ダメージを3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases supported weapon hit damage by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 1
+      amount: 0.03
+  - id: n.objectability.firearm.10
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "射手の相棒"
+    nameEn: "Shooter Companion"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。対応武器の命中ダメージを5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases supported weapon hit damage by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 1
+      amount: 0.05
+  - id: n.objectability.firearm.11
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: n.objectability.firearm.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "巡回の記録"
+    nameEn: "Patrol Record"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。対応武器の命中ダメージを8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases supported weapon hit damage by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.objectability.firearm.12
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "生還の照準"
+    nameEn: "Survivor Sight"
+    descriptionJa: "射撃具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。対応武器の命中ダメージを10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for ranged weapons. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases supported weapon hit damage by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 1
+      amount: 0.1
+  - id: n.objectability.rod.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "朝凪の穂先"
+    nameEn: "Dawn Tip"
+    descriptionJa: "釣竿向けの仮能力。魚信倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Increases bite multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 3
+      amount: 0.03
+  - id: n.objectability.rod.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "夕凪の誘い"
+    nameEn: "Dusk Lure"
+    descriptionJa: "釣竿向けの仮能力。魚信倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Increases bite multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 3
+      amount: 0.05
+  - id: n.objectability.rod.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "水面の囁き"
+    nameEn: "Surface Whisper"
+    descriptionJa: "釣竿向けの仮能力。魚信倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Increases bite multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 3
+      amount: 0.08
+  - id: n.objectability.rod.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "淵を読む竿"
+    nameEn: "Deep Reader"
+    descriptionJa: "釣竿向けの仮能力。魚信倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Increases bite multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 3
+      amount: 0.1
+  - id: n.objectability.rod.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "待ち人の魚信"
+    nameEn: "Patient Bite"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。魚信倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases bite multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 3
+      amount: 0.03
+  - id: n.objectability.rod.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "流れの記憶"
+    nameEn: "Current Memory"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。魚信倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases bite multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 3
+      amount: 0.05
+  - id: n.objectability.rod.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "月映しの竿"
+    nameEn: "Moon Reflection"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。魚信倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases bite multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 3
+      amount: 0.08
+  - id: n.objectability.rod.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "雨音の誘い"
+    nameEn: "Rain Invitation"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。魚信倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases bite multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 3
+      amount: 0.1
+  - id: n.objectability.rod.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "空隙の手応え"
+    nameEn: "Rift Sensation"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。魚信倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases bite multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 3
+      amount: 0.03
+  - id: n.objectability.rod.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "深層への挨拶"
+    nameEn: "Deep Greeting"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。魚信倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases bite multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 3
+      amount: 0.05
+  - id: n.objectability.rod.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.rod.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "旅人の釣糸"
+    nameEn: "Traveler Line"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。魚信倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases bite multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 3
+      amount: 0.08
+  - id: n.objectability.rod.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "水辺の相棒"
+    nameEn: "Waterside Companion"
+    descriptionJa: "釣竿向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。魚信倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for fishing rods. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases bite multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 3
+      amount: 0.1
+  - id: n.objectability.reel.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "滑走の巻胴"
+    nameEn: "Gliding Spool"
+    descriptionJa: "リール・釣具向けの仮能力。巻き取り倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Increases reel multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.03
+  - id: n.objectability.reel.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "一定の拍子"
+    nameEn: "Steady Rhythm"
+    descriptionJa: "リール・釣具向けの仮能力。巻き取り倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Increases reel multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.05
+  - id: n.objectability.reel.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "引潮の回転"
+    nameEn: "Ebb Rotation"
+    descriptionJa: "リール・釣具向けの仮能力。巻き取り倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Increases reel multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.08
+  - id: n.objectability.reel.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "柔らかな牽引"
+    nameEn: "Gentle Pull"
+    descriptionJa: "リール・釣具向けの仮能力。巻き取り倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Increases reel multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.1
+  - id: n.objectability.reel.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "糸道の記憶"
+    nameEn: "Line Memory"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。巻き取り倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases reel multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 2
+      amount: 0.03
+  - id: n.objectability.reel.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "継ぎ目なき回転"
+    nameEn: "Seamless Turn"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。巻き取り倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases reel multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 2
+      amount: 0.05
+  - id: n.objectability.reel.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "水際の粘り"
+    nameEn: "Shore Persistence"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。巻き取り倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases reel multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 2
+      amount: 0.08
+  - id: n.objectability.reel.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "帰路の巻取り"
+    nameEn: "Homeward Retrieve"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。巻き取り倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases reel multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 2
+      amount: 0.1
+  - id: n.objectability.reel.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "夜釣りの相棒"
+    nameEn: "Night Companion"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。巻き取り倍率を3%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases reel multiplier by 3%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 2
+      amount: 0.03
+  - id: n.objectability.reel.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "緩急の輪"
+    nameEn: "Measured Ring"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。巻き取り倍率を5%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases reel multiplier by 5%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 2
+      amount: 0.05
+  - id: n.objectability.reel.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: n.objectability.reel.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "深みの回収"
+    nameEn: "Deep Retrieve"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。巻き取り倍率を8%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases reel multiplier by 8%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 2
+      amount: 0.08
+  - id: n.objectability.reel.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "手繰りの余韻"
+    nameEn: "Retrieval Echo"
+    descriptionJa: "リール・釣具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。巻き取り倍率を10%増加する。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for reels and tackle. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases reel multiplier by 10%. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 2
+      amount: 0.1
+  - id: n.objectability.coffee.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "朝一杯の記憶"
+    nameEn: "Morning Cup"
+    descriptionJa: "珈琲器具向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.coffee.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "湯気の導き"
+    nameEn: "Steam Guide"
+    descriptionJa: "珈琲器具向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.coffee.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "挽目の習熟"
+    nameEn: "Grind Practice"
+    descriptionJa: "珈琲器具向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.coffee.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "抽出の相棒"
+    nameEn: "Brewing Companion"
+    descriptionJa: "珈琲器具向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.coffee.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "琥珀の反復"
+    nameEn: "Amber Repetition"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.coffee.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "珈琲匙の記憶"
+    nameEn: "Coffee Spoon Memory"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.coffee.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "濾過の手馴れ"
+    nameEn: "Filter Familiarity"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.coffee.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "焙煎の手帳"
+    nameEn: "Roasting Notebook"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.coffee.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "豆挽きの律動"
+    nameEn: "Grinding Rhythm"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.coffee.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "休息の手仕事"
+    nameEn: "Restful Craft"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.coffee.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: n.objectability.coffee.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "香りの足跡"
+    nameEn: "Aroma Footsteps"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.coffee.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "最後の一滴"
+    nameEn: "Final Drop"
+    descriptionJa: "珈琲器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for coffee tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.cocktail.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "振り慣れた銀器"
+    nameEn: "Seasoned Shaker"
+    descriptionJa: "酒器・調理器具向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.cocktail.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "一匙の加減"
+    nameEn: "Measured Spoon"
+    descriptionJa: "酒器・調理器具向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.cocktail.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "氷音の拍子"
+    nameEn: "Ice Rhythm"
+    descriptionJa: "酒器・調理器具向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.cocktail.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "夜更けの手業"
+    nameEn: "Night Craft"
+    descriptionJa: "酒器・調理器具向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.cocktail.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "刻みの反復"
+    nameEn: "Repeated Chopping"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.cocktail.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "鍋肌の記憶"
+    nameEn: "Pan Memory"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.cocktail.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "包む掌"
+    nameEn: "Wrapping Hands"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.cocktail.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "盛付けの軌跡"
+    nameEn: "Plating Trail"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.cocktail.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "混ぜ合わせの勘"
+    nameEn: "Mixing Instinct"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.cocktail.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "焼色の手帳"
+    nameEn: "Browning Notebook"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.cocktail.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: n.objectability.cocktail.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "杯を満たす手"
+    nameEn: "Cup Filler"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.cocktail.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.cooking
+    - tool.cocktail
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "食卓の相棒"
+    nameEn: "Table Companion"
+    descriptionJa: "酒器・調理器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for bar and cooking tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.farm.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "土馴染み"
+    nameEn: "Soil Familiarity"
+    descriptionJa: "農具向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.farm.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "種蒔きの記憶"
+    nameEn: "Sowing Memory"
+    descriptionJa: "農具向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.farm.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "畝を辿る手"
+    nameEn: "Furrow Hands"
+    descriptionJa: "農具向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.farm.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "朝露の鍬"
+    nameEn: "Dew Hoe"
+    descriptionJa: "農具向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.farm.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "収穫の反復"
+    nameEn: "Harvest Practice"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.farm.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "根を読む匙"
+    nameEn: "Root Reader"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.farm.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "庭師の相棒"
+    nameEn: "Garden Companion"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.farm.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "剪定の手業"
+    nameEn: "Pruning Craft"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.farm.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "実りの手帳"
+    nameEn: "Harvest Notebook"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.farm.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "水遣りの律動"
+    nameEn: "Watering Rhythm"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.farm.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: n.objectability.farm.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "植替えの軌跡"
+    nameEn: "Repotting Trail"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.farm.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.farming
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "季節を繋ぐ柄"
+    nameEn: "Season Handle"
+    descriptionJa: "農具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for farming tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.care.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "世話焼きの櫛"
+    nameEn: "Caring Comb"
+    descriptionJa: "飼育用品向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.care.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "餌匙の記憶"
+    nameEn: "Feeding Spoon"
+    descriptionJa: "飼育用品向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.care.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "毛並みの手業"
+    nameEn: "Grooming Craft"
+    descriptionJa: "飼育用品向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.care.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "水槽掃除の相棒"
+    nameEn: "Tank Companion"
+    descriptionJa: "飼育用品向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.care.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "遊び道具の記憶"
+    nameEn: "Toy Memory"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.care.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "静かな給餌"
+    nameEn: "Quiet Feeding"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.care.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "手入れの拍子"
+    nameEn: "Care Rhythm"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.care.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "小屋掃除の手帳"
+    nameEn: "Hutch Notebook"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.care.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "観察の相棒"
+    nameEn: "Observation Companion"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.care.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "磨かれたブラシ"
+    nameEn: "Polished Brush"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.care.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: n.objectability.care.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "寄り添う道具"
+    nameEn: "Companion Tool"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.care.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.care
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "日々の世話役"
+    nameEn: "Daily Helper"
+    descriptionJa: "飼育用品向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for animal care tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.craft.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "掌の金槌"
+    nameEn: "Palm Hammer"
+    descriptionJa: "整備・錬金器具向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.craft.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "目盛りの記憶"
+    nameEn: "Scale Memory"
+    descriptionJa: "整備・錬金器具向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.craft.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "締付けの手業"
+    nameEn: "Fastening Craft"
+    descriptionJa: "整備・錬金器具向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.craft.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "乳鉢の反復"
+    nameEn: "Mortar Practice"
+    descriptionJa: "整備・錬金器具向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.craft.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "硝子器の手馴れ"
+    nameEn: "Glass Familiarity"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.craft.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "調合の相棒"
+    nameEn: "Alchemy Companion"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.craft.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "削り跡の手帳"
+    nameEn: "Shaving Notebook"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.craft.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "継ぎ接ぎの知恵"
+    nameEn: "Patching Wisdom"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.craft.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "研磨の律動"
+    nameEn: "Polishing Rhythm"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.craft.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "縫い針の帰路"
+    nameEn: "Needle Return"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.craft.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: n.objectability.craft.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "修繕の足跡"
+    nameEn: "Repair Trail"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.craft.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.craft
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "作業台の記憶"
+    nameEn: "Workbench Memory"
+    descriptionJa: "整備・錬金器具向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for workshop and alchemy tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.leisure.01
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.02
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "切札の手馴れ"
+    nameEn: "Card Familiarity"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.leisure.02
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.03
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "賽の記憶"
+    nameEn: "Dice Memory"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.leisure.03
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.04
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "精製・再製作・再鍛造の対応経路でのみ上位補正へ置換。自動進化しない。"
+    evolutionConditionEn: "Replace through a supported refining, crafting or reforging route only; never evolves automatically."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "盤上の反復"
+    nameEn: "Board Practice"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.leisure.04
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    nameJa: "星見の相棒"
+    nameEn: "Stargazing Companion"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.leisure.05
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.06
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 60
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "写し手の記録"
+    nameEn: "Photographer Record"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用50回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 5 and 50 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 50
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.leisure.06
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.07
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 70
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "野営の手業"
+    nameEn: "Camping Craft"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用60回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 10 and 60 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 60
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.leisure.07
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.08
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 80
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "磨き布の記憶"
+    nameEn: "Polishing Cloth"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用70回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 15 and 70 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 70
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.leisure.08
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.09
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 90
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "旅鞄の手馴れ"
+    nameEn: "Travel Bag Familiarity"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用80回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 20 and 80 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 80
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.objectability.leisure.09
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.10
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 100
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "読書灯の手帳"
+    nameEn: "Reading Lamp Notebook"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル5以上・有効使用90回以上で発動。有効使用時の熟練経験値を3%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 5 and 90 successful uses. Increases proficiency experience from successful use by 3%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 5
+    minimumSuccessfulUses: 90
+    effects:
+    - kind: 0
+      amount: 0.03
+  - id: n.objectability.leisure.10
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.11
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 110
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "測量の相棒"
+    nameEn: "Survey Companion"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル10以上・有効使用100回以上で発動。有効使用時の熟練経験値を5%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 10 and 100 successful uses. Increases proficiency experience from successful use by 5%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 10
+    minimumSuccessfulUses: 100
+    effects:
+    - kind: 0
+      amount: 0.05
+  - id: n.objectability.leisure.11
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: n.objectability.leisure.12
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 120
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "採集籠の記憶"
+    nameEn: "Gathering Basket"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル15以上・有効使用110回以上で発動。有効使用時の熟練経験値を8%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 15 and 110 successful uses. Increases proficiency experience from successful use by 8%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 15
+    minimumSuccessfulUses: 110
+    effects:
+    - kind: 0
+      amount: 0.08
+  - id: n.objectability.leisure.12
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 2
+    rarity: 0
+    nameJa: "日用品の年月"
+    nameEn: "Everyday Years"
+    descriptionJa: "遊戯・観測・生活用品向けの仮能力。使用者の当該道具熟練レベル20以上・有効使用120回以上で発動。有効使用時の熟練経験値を10%増加する。対応する成功判定が接続された道具のみ有効。保持・経過時間だけでは経験値を得ない。名称に由来する天候・時間帯等の追加条件はない。"
+    descriptionEn: "Prototype for leisure and household tools. Requires the operator's tool proficiency level 20 and 120 successful uses. Increases proficiency experience from successful use by 10%. Requires a connected successful-use hook; holding or elapsed time grants no experience. The name adds no weather or time conditions."
+    requiresProficiency: 1
+    minimumProficiencyLevel: 20
+    minimumSuccessfulUses: 120
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.modifier.heavy_edge
+    nameJa: "鈍重な刃"
+    nameEn: "Heavy Edge"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+12%、熟練経験値-6%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +12%, proficiency XP -6%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    selectionWeight: 12
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.12
+    - kind: 0
+      amount: -0.06
+  - id: n.modifier.keen_edge
+    nameJa: "鋭利な刃"
+    nameEn: "Keen Edge"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+8%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +8%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    selectionWeight: 8
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.08
+  - id: n.modifier.chipped_edge
+    nameJa: "欠けた刃"
+    nameEn: "Chipped Edge"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ-12%、熟練経験値+2%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage -12%, proficiency XP +2%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    selectionWeight: 15
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: -0.12
+    - kind: 0
+      amount: 0.02
+  - id: n.modifier.balanced_edge
+    nameJa: "均整の刃"
+    nameEn: "Balanced Edge"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+5%、熟練経験値+5%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +5%, proficiency XP +5%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    selectionWeight: 4
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.05
+    - kind: 0
+      amount: 0.05
+  - id: n.modifier.master_edge
+    nameJa: "名工の刃"
+    nameEn: "Masterwork Edge"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+15%、熟練経験値+8%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +15%, proficiency XP +8%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.blade
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.15
+    - kind: 0
+      amount: 0.08
+  - id: n.modifier.rough_barrel
+    nameJa: "粗い銃身"
+    nameEn: "Rough Barrel"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ-10%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage -10%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    selectionWeight: 15
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: -0.1
+  - id: n.modifier.weighty_barrel
+    nameJa: "重厚な銃身"
+    nameEn: "Weighty Barrel"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+10%、熟練経験値-5%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +10%, proficiency XP -5%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    selectionWeight: 12
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.1
+    - kind: 0
+      amount: -0.05
+  - id: n.modifier.sighted_barrel
+    nameJa: "照準の合う銃身"
+    nameEn: "Aligned Barrel"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+7%、熟練経験値+2%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +7%, proficiency XP +2%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    selectionWeight: 8
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.07
+    - kind: 0
+      amount: 0.02
+  - id: n.modifier.seasoned_stock
+    nameJa: "手馴れた銃床"
+    nameEn: "Seasoned Stock"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値+12%、命中ダメージ+3%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP +12%, hit damage +3%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    selectionWeight: 4
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.12
+    - kind: 1
+      amount: 0.03
+  - id: n.modifier.master_barrel
+    nameJa: "名工の銃身"
+    nameEn: "Masterwork Barrel"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。命中ダメージ+14%、熟練経験値+7%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: hit damage +14%, proficiency XP +7%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    selectionWeight: 1
+    eligibilityTags:
+    - weapon.ranged
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 1
+      amount: 0.14
+    - kind: 0
+      amount: 0.07
+  - id: n.modifier.stiff_tackle
+    nameJa: "硬い釣具"
+    nameEn: "Stiff Tackle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。巻き取り倍率-8%、魚信倍率+2%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: reel multiplier -8%, bite multiplier +2%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    selectionWeight: 15
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: -0.08
+    - kind: 3
+      amount: 0.02
+  - id: n.modifier.swift_tackle
+    nameJa: "軽快な釣具"
+    nameEn: "Swift Tackle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。巻き取り倍率+8%、魚信倍率-3%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: reel multiplier +8%, bite multiplier -3%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    selectionWeight: 12
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.08
+    - kind: 3
+      amount: -0.03
+  - id: n.modifier.luring_tackle
+    nameJa: "誘い巧みな釣具"
+    nameEn: "Inviting Tackle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。魚信倍率+8%、巻き取り倍率-2%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: bite multiplier +8%, reel multiplier -2%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    selectionWeight: 8
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 3
+      amount: 0.08
+    - kind: 2
+      amount: -0.02
+  - id: n.modifier.flowing_tackle
+    nameJa: "流麗な釣具"
+    nameEn: "Flowing Tackle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。巻き取り倍率+7%、魚信倍率+5%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: reel multiplier +7%, bite multiplier +5%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    selectionWeight: 4
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.07
+    - kind: 3
+      amount: 0.05
+  - id: n.modifier.master_tackle
+    nameJa: "名工の釣具"
+    nameEn: "Masterwork Tackle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。巻き取り倍率+12%、魚信倍率+10%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: reel multiplier +12%, bite multiplier +10%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.fishing
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 2
+      amount: 0.12
+    - kind: 3
+      amount: 0.1
+  - id: n.modifier.awkward_handle
+    nameJa: "扱いにくい柄"
+    nameEn: "Awkward Handle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値-8%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP -8%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 1
+    selectionWeight: 15
+    eligibilityTags:
+    - tool.coffee
+    - tool.cooking
+    - tool.cocktail
+    - tool.farming
+    - tool.care
+    - tool.craft
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: -0.08
+  - id: n.modifier.familiar_handle
+    nameJa: "馴染んだ柄"
+    nameEn: "Familiar Handle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値+4%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP +4%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 2
+    selectionWeight: 12
+    eligibilityTags:
+    - tool.coffee
+    - tool.cooking
+    - tool.cocktail
+    - tool.farming
+    - tool.care
+    - tool.craft
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.04
+  - id: n.modifier.practiced_handle
+    nameJa: "手慣れた柄"
+    nameEn: "Practiced Handle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値+7%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP +7%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 3
+    selectionWeight: 8
+    eligibilityTags:
+    - tool.coffee
+    - tool.cooking
+    - tool.cocktail
+    - tool.farming
+    - tool.care
+    - tool.craft
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.07
+  - id: n.modifier.adept_handle
+    nameJa: "熟達の柄"
+    nameEn: "Adept Handle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値+10%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP +10%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 4
+    selectionWeight: 4
+    eligibilityTags:
+    - tool.coffee
+    - tool.cooking
+    - tool.cocktail
+    - tool.farming
+    - tool.care
+    - tool.craft
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.1
+  - id: n.modifier.master_handle
+    nameJa: "名工の柄"
+    nameEn: "Masterwork Handle"
+    descriptionJa: "製作・再鍛造で付く仮Modifier。熟練経験値+15%。再鍛造でこの補正だけを付け替える。"
+    descriptionEn: "Prototype craft/reforge Modifier: proficiency XP +15%. Reforging replaces only the Modifier layer."
+    abilityCategory: 0
+    activation: 2
+    rarity: 5
+    selectionWeight: 1
+    eligibilityTags:
+    - tool.coffee
+    - tool.cooking
+    - tool.cocktail
+    - tool.farming
+    - tool.care
+    - tool.craft
+    - tool.leisure
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    requiresProficiency: 0
+    minimumProficiencyLevel: 1
+    minimumSuccessfulUses: 0
+    effects:
+    - kind: 0
+      amount: 0.15

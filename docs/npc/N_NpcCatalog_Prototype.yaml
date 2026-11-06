@@ -1,0 +1,1792 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cd5cd8580a3d84fb1ee223579bac0e, type: 3}
+  m_Name: N_NpcCatalog_Prototype
+  m_EditorClassIdentifier: 
+  npcs:
+  - id: npc.prototype.01
+    nameJa: 仮住民1
+    nameEn: Prototype Resident 1
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.001
+    - dialogue.prototype.002
+    - dialogue.prototype.003
+    questIds:
+    - quest.prototype.01
+    - quest.prototype.49
+    specialResident: 1
+  - id: npc.prototype.02
+    nameJa: 仮住民2
+    nameEn: Prototype Resident 2
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.004
+    - dialogue.prototype.005
+    - dialogue.prototype.006
+    questIds:
+    - quest.prototype.02
+    - quest.prototype.50
+    specialResident: 1
+  - id: npc.prototype.03
+    nameJa: 仮住民3
+    nameEn: Prototype Resident 3
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.007
+    - dialogue.prototype.008
+    - dialogue.prototype.009
+    questIds:
+    - quest.prototype.03
+    - quest.prototype.51
+    specialResident: 1
+  - id: npc.prototype.04
+    nameJa: 仮住民4
+    nameEn: Prototype Resident 4
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.010
+    - dialogue.prototype.011
+    - dialogue.prototype.012
+    questIds:
+    - quest.prototype.04
+    - quest.prototype.52
+    specialResident: 1
+  - id: npc.prototype.05
+    nameJa: 仮住民5
+    nameEn: Prototype Resident 5
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.013
+    - dialogue.prototype.014
+    - dialogue.prototype.015
+    questIds:
+    - quest.prototype.05
+    - quest.prototype.53
+    specialResident: 0
+  - id: npc.prototype.06
+    nameJa: 仮住民6
+    nameEn: Prototype Resident 6
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.016
+    - dialogue.prototype.017
+    - dialogue.prototype.018
+    questIds:
+    - quest.prototype.06
+    - quest.prototype.54
+    specialResident: 0
+  - id: npc.prototype.07
+    nameJa: 仮住民7
+    nameEn: Prototype Resident 7
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.019
+    - dialogue.prototype.020
+    - dialogue.prototype.021
+    questIds:
+    - quest.prototype.07
+    - quest.prototype.55
+    specialResident: 0
+  - id: npc.prototype.08
+    nameJa: 仮住民8
+    nameEn: Prototype Resident 8
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.022
+    - dialogue.prototype.023
+    - dialogue.prototype.024
+    questIds:
+    - quest.prototype.08
+    - quest.prototype.56
+    specialResident: 0
+  - id: npc.prototype.09
+    nameJa: 仮住民9
+    nameEn: Prototype Resident 9
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.025
+    - dialogue.prototype.026
+    - dialogue.prototype.027
+    questIds:
+    - quest.prototype.09
+    - quest.prototype.57
+    specialResident: 0
+  - id: npc.prototype.10
+    nameJa: 仮住民10
+    nameEn: Prototype Resident 10
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.028
+    - dialogue.prototype.029
+    - dialogue.prototype.030
+    questIds:
+    - quest.prototype.10
+    - quest.prototype.58
+    specialResident: 0
+  - id: npc.prototype.11
+    nameJa: 仮住民11
+    nameEn: Prototype Resident 11
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.031
+    - dialogue.prototype.032
+    - dialogue.prototype.033
+    questIds:
+    - quest.prototype.11
+    - quest.prototype.59
+    specialResident: 0
+  - id: npc.prototype.12
+    nameJa: 仮住民12
+    nameEn: Prototype Resident 12
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.034
+    - dialogue.prototype.035
+    - dialogue.prototype.036
+    questIds:
+    - quest.prototype.12
+    - quest.prototype.60
+    specialResident: 0
+  - id: npc.prototype.13
+    nameJa: 仮住民13
+    nameEn: Prototype Resident 13
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.037
+    - dialogue.prototype.038
+    - dialogue.prototype.039
+    questIds:
+    - quest.prototype.13
+    - quest.prototype.61
+    specialResident: 0
+  - id: npc.prototype.14
+    nameJa: 仮住民14
+    nameEn: Prototype Resident 14
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.040
+    - dialogue.prototype.041
+    - dialogue.prototype.042
+    questIds:
+    - quest.prototype.14
+    - quest.prototype.62
+    specialResident: 0
+  - id: npc.prototype.15
+    nameJa: 仮住民15
+    nameEn: Prototype Resident 15
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.043
+    - dialogue.prototype.044
+    - dialogue.prototype.045
+    questIds:
+    - quest.prototype.15
+    - quest.prototype.63
+    specialResident: 0
+  - id: npc.prototype.16
+    nameJa: 仮住民16
+    nameEn: Prototype Resident 16
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.046
+    - dialogue.prototype.047
+    - dialogue.prototype.048
+    questIds:
+    - quest.prototype.16
+    - quest.prototype.64
+    specialResident: 0
+  - id: npc.prototype.17
+    nameJa: 仮住民17
+    nameEn: Prototype Resident 17
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.049
+    - dialogue.prototype.050
+    - dialogue.prototype.051
+    questIds:
+    - quest.prototype.17
+    - quest.prototype.65
+    specialResident: 0
+  - id: npc.prototype.18
+    nameJa: 仮住民18
+    nameEn: Prototype Resident 18
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.052
+    - dialogue.prototype.053
+    - dialogue.prototype.054
+    questIds:
+    - quest.prototype.18
+    - quest.prototype.66
+    specialResident: 0
+  - id: npc.prototype.19
+    nameJa: 仮住民19
+    nameEn: Prototype Resident 19
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.055
+    - dialogue.prototype.056
+    - dialogue.prototype.057
+    questIds:
+    - quest.prototype.19
+    - quest.prototype.67
+    specialResident: 0
+  - id: npc.prototype.20
+    nameJa: 仮住民20
+    nameEn: Prototype Resident 20
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.058
+    - dialogue.prototype.059
+    - dialogue.prototype.060
+    questIds:
+    - quest.prototype.20
+    - quest.prototype.68
+    specialResident: 0
+  - id: npc.prototype.21
+    nameJa: 仮住民21
+    nameEn: Prototype Resident 21
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.061
+    - dialogue.prototype.062
+    - dialogue.prototype.063
+    questIds:
+    - quest.prototype.21
+    - quest.prototype.69
+    specialResident: 0
+  - id: npc.prototype.22
+    nameJa: 仮住民22
+    nameEn: Prototype Resident 22
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.064
+    - dialogue.prototype.065
+    - dialogue.prototype.066
+    questIds:
+    - quest.prototype.22
+    - quest.prototype.70
+    specialResident: 0
+  - id: npc.prototype.23
+    nameJa: 仮住民23
+    nameEn: Prototype Resident 23
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.067
+    - dialogue.prototype.068
+    - dialogue.prototype.069
+    questIds:
+    - quest.prototype.23
+    - quest.prototype.71
+    specialResident: 0
+  - id: npc.prototype.24
+    nameJa: 仮住民24
+    nameEn: Prototype Resident 24
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.070
+    - dialogue.prototype.071
+    - dialogue.prototype.072
+    questIds:
+    - quest.prototype.24
+    - quest.prototype.72
+    specialResident: 0
+  - id: npc.prototype.25
+    nameJa: 仮住民25
+    nameEn: Prototype Resident 25
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.073
+    - dialogue.prototype.074
+    - dialogue.prototype.075
+    questIds:
+    - quest.prototype.25
+    - quest.prototype.73
+    specialResident: 0
+  - id: npc.prototype.26
+    nameJa: 仮住民26
+    nameEn: Prototype Resident 26
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.076
+    - dialogue.prototype.077
+    - dialogue.prototype.078
+    questIds:
+    - quest.prototype.26
+    - quest.prototype.74
+    specialResident: 0
+  - id: npc.prototype.27
+    nameJa: 仮住民27
+    nameEn: Prototype Resident 27
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.079
+    - dialogue.prototype.080
+    - dialogue.prototype.081
+    questIds:
+    - quest.prototype.27
+    - quest.prototype.75
+    specialResident: 0
+  - id: npc.prototype.28
+    nameJa: 仮住民28
+    nameEn: Prototype Resident 28
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.082
+    - dialogue.prototype.083
+    - dialogue.prototype.084
+    questIds:
+    - quest.prototype.28
+    - quest.prototype.76
+    specialResident: 0
+  - id: npc.prototype.29
+    nameJa: 仮住民29
+    nameEn: Prototype Resident 29
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.085
+    - dialogue.prototype.086
+    - dialogue.prototype.087
+    questIds:
+    - quest.prototype.29
+    - quest.prototype.77
+    specialResident: 0
+  - id: npc.prototype.30
+    nameJa: 仮住民30
+    nameEn: Prototype Resident 30
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.088
+    - dialogue.prototype.089
+    - dialogue.prototype.090
+    questIds:
+    - quest.prototype.30
+    - quest.prototype.78
+    specialResident: 0
+  - id: npc.prototype.31
+    nameJa: 仮住民31
+    nameEn: Prototype Resident 31
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.091
+    - dialogue.prototype.092
+    - dialogue.prototype.093
+    questIds:
+    - quest.prototype.31
+    - quest.prototype.79
+    specialResident: 0
+  - id: npc.prototype.32
+    nameJa: 仮住民32
+    nameEn: Prototype Resident 32
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.094
+    - dialogue.prototype.095
+    - dialogue.prototype.096
+    questIds:
+    - quest.prototype.32
+    - quest.prototype.80
+    specialResident: 0
+  - id: npc.prototype.33
+    nameJa: 仮住民33
+    nameEn: Prototype Resident 33
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.097
+    - dialogue.prototype.098
+    - dialogue.prototype.099
+    questIds:
+    - quest.prototype.33
+    - quest.prototype.81
+    specialResident: 0
+  - id: npc.prototype.34
+    nameJa: 仮住民34
+    nameEn: Prototype Resident 34
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.100
+    - dialogue.prototype.101
+    - dialogue.prototype.102
+    questIds:
+    - quest.prototype.34
+    - quest.prototype.82
+    specialResident: 0
+  - id: npc.prototype.35
+    nameJa: 仮住民35
+    nameEn: Prototype Resident 35
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.103
+    - dialogue.prototype.104
+    - dialogue.prototype.105
+    questIds:
+    - quest.prototype.35
+    - quest.prototype.83
+    specialResident: 0
+  - id: npc.prototype.36
+    nameJa: 仮住民36
+    nameEn: Prototype Resident 36
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.106
+    - dialogue.prototype.107
+    - dialogue.prototype.108
+    questIds:
+    - quest.prototype.36
+    - quest.prototype.84
+    specialResident: 0
+  - id: npc.prototype.37
+    nameJa: 仮住民37
+    nameEn: Prototype Resident 37
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.109
+    - dialogue.prototype.110
+    - dialogue.prototype.111
+    questIds:
+    - quest.prototype.37
+    - quest.prototype.85
+    specialResident: 0
+  - id: npc.prototype.38
+    nameJa: 仮住民38
+    nameEn: Prototype Resident 38
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.112
+    - dialogue.prototype.113
+    - dialogue.prototype.114
+    questIds:
+    - quest.prototype.38
+    - quest.prototype.86
+    specialResident: 0
+  - id: npc.prototype.39
+    nameJa: 仮住民39
+    nameEn: Prototype Resident 39
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.115
+    - dialogue.prototype.116
+    - dialogue.prototype.117
+    questIds:
+    - quest.prototype.39
+    - quest.prototype.87
+    specialResident: 0
+  - id: npc.prototype.40
+    nameJa: 仮住民40
+    nameEn: Prototype Resident 40
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.118
+    - dialogue.prototype.119
+    - dialogue.prototype.120
+    questIds:
+    - quest.prototype.40
+    - quest.prototype.88
+    specialResident: 0
+  - id: npc.prototype.41
+    nameJa: 仮住民41
+    nameEn: Prototype Resident 41
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 1F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.121
+    - dialogue.prototype.122
+    - dialogue.prototype.123
+    questIds:
+    - quest.prototype.41
+    - quest.prototype.89
+    specialResident: 0
+  - id: npc.prototype.42
+    nameJa: 仮住民42
+    nameEn: Prototype Resident 42
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 2F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.124
+    - dialogue.prototype.125
+    - dialogue.prototype.126
+    questIds:
+    - quest.prototype.42
+    - quest.prototype.90
+    specialResident: 0
+  - id: npc.prototype.43
+    nameJa: 仮住民43
+    nameEn: Prototype Resident 43
+    roleJa: 整備
+    roleEn: Maintenance
+    homeArea: 3F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.127
+    - dialogue.prototype.128
+    - dialogue.prototype.129
+    questIds:
+    - quest.prototype.43
+    - quest.prototype.91
+    specialResident: 0
+  - id: npc.prototype.44
+    nameJa: 仮住民44
+    nameEn: Prototype Resident 44
+    roleJa: 探索
+    roleEn: Exploration
+    homeArea: 4F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.130
+    - dialogue.prototype.131
+    - dialogue.prototype.132
+    questIds:
+    - quest.prototype.44
+    - quest.prototype.92
+    specialResident: 0
+  - id: npc.prototype.45
+    nameJa: 仮住民45
+    nameEn: Prototype Resident 45
+    roleJa: 売店
+    roleEn: Shop
+    homeArea: 5F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.133
+    - dialogue.prototype.134
+    - dialogue.prototype.135
+    questIds:
+    - quest.prototype.45
+    - quest.prototype.93
+    specialResident: 0
+  - id: npc.prototype.46
+    nameJa: 仮住民46
+    nameEn: Prototype Resident 46
+    roleJa: 観測
+    roleEn: Observation
+    homeArea: 6F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.136
+    - dialogue.prototype.137
+    - dialogue.prototype.138
+    questIds:
+    - quest.prototype.46
+    - quest.prototype.94
+    specialResident: 0
+  - id: npc.prototype.47
+    nameJa: 仮住民47
+    nameEn: Prototype Resident 47
+    roleJa: 飼育
+    roleEn: Animal Care
+    homeArea: 7F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.139
+    - dialogue.prototype.140
+    - dialogue.prototype.141
+    questIds:
+    - quest.prototype.47
+    - quest.prototype.95
+    specialResident: 0
+  - id: npc.prototype.48
+    nameJa: 仮住民48
+    nameEn: Prototype Resident 48
+    roleJa: 農園
+    roleEn: Garden
+    homeArea: 8F
+    initialAffinity: 0
+    initialTrust: 20
+    dialogueIds:
+    - dialogue.prototype.142
+    - dialogue.prototype.143
+    - dialogue.prototype.144
+    questIds:
+    - quest.prototype.48
+    - quest.prototype.96
+    specialResident: 0
+  dialogues:
+  - id: dialogue.prototype.001
+    npcId: npc.prototype.01
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.002
+    npcId: npc.prototype.01
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.003
+    npcId: npc.prototype.01
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.004
+    npcId: npc.prototype.02
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.005
+    npcId: npc.prototype.02
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.006
+    npcId: npc.prototype.02
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.007
+    npcId: npc.prototype.03
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.008
+    npcId: npc.prototype.03
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.009
+    npcId: npc.prototype.03
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.010
+    npcId: npc.prototype.04
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.011
+    npcId: npc.prototype.04
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.012
+    npcId: npc.prototype.04
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.013
+    npcId: npc.prototype.05
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.014
+    npcId: npc.prototype.05
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.015
+    npcId: npc.prototype.05
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.016
+    npcId: npc.prototype.06
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.017
+    npcId: npc.prototype.06
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.018
+    npcId: npc.prototype.06
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.019
+    npcId: npc.prototype.07
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.020
+    npcId: npc.prototype.07
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.021
+    npcId: npc.prototype.07
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.022
+    npcId: npc.prototype.08
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.023
+    npcId: npc.prototype.08
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.024
+    npcId: npc.prototype.08
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.025
+    npcId: npc.prototype.09
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.026
+    npcId: npc.prototype.09
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.027
+    npcId: npc.prototype.09
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.028
+    npcId: npc.prototype.10
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.029
+    npcId: npc.prototype.10
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.030
+    npcId: npc.prototype.10
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.031
+    npcId: npc.prototype.11
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.032
+    npcId: npc.prototype.11
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.033
+    npcId: npc.prototype.11
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.034
+    npcId: npc.prototype.12
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.035
+    npcId: npc.prototype.12
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.036
+    npcId: npc.prototype.12
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.037
+    npcId: npc.prototype.13
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.038
+    npcId: npc.prototype.13
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.039
+    npcId: npc.prototype.13
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.040
+    npcId: npc.prototype.14
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.041
+    npcId: npc.prototype.14
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.042
+    npcId: npc.prototype.14
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.043
+    npcId: npc.prototype.15
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.044
+    npcId: npc.prototype.15
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.045
+    npcId: npc.prototype.15
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.046
+    npcId: npc.prototype.16
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.047
+    npcId: npc.prototype.16
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.048
+    npcId: npc.prototype.16
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.049
+    npcId: npc.prototype.17
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.050
+    npcId: npc.prototype.17
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.051
+    npcId: npc.prototype.17
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.052
+    npcId: npc.prototype.18
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.053
+    npcId: npc.prototype.18
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.054
+    npcId: npc.prototype.18
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.055
+    npcId: npc.prototype.19
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.056
+    npcId: npc.prototype.19
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.057
+    npcId: npc.prototype.19
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.058
+    npcId: npc.prototype.20
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.059
+    npcId: npc.prototype.20
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.060
+    npcId: npc.prototype.20
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.061
+    npcId: npc.prototype.21
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.062
+    npcId: npc.prototype.21
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.063
+    npcId: npc.prototype.21
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.064
+    npcId: npc.prototype.22
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.065
+    npcId: npc.prototype.22
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.066
+    npcId: npc.prototype.22
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.067
+    npcId: npc.prototype.23
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.068
+    npcId: npc.prototype.23
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.069
+    npcId: npc.prototype.23
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.070
+    npcId: npc.prototype.24
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.071
+    npcId: npc.prototype.24
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.072
+    npcId: npc.prototype.24
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.073
+    npcId: npc.prototype.25
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.074
+    npcId: npc.prototype.25
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.075
+    npcId: npc.prototype.25
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.076
+    npcId: npc.prototype.26
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.077
+    npcId: npc.prototype.26
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.078
+    npcId: npc.prototype.26
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.079
+    npcId: npc.prototype.27
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.080
+    npcId: npc.prototype.27
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.081
+    npcId: npc.prototype.27
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.082
+    npcId: npc.prototype.28
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.083
+    npcId: npc.prototype.28
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.084
+    npcId: npc.prototype.28
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.085
+    npcId: npc.prototype.29
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.086
+    npcId: npc.prototype.29
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.087
+    npcId: npc.prototype.29
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.088
+    npcId: npc.prototype.30
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.089
+    npcId: npc.prototype.30
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.090
+    npcId: npc.prototype.30
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.091
+    npcId: npc.prototype.31
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.092
+    npcId: npc.prototype.31
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.093
+    npcId: npc.prototype.31
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.094
+    npcId: npc.prototype.32
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.095
+    npcId: npc.prototype.32
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.096
+    npcId: npc.prototype.32
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.097
+    npcId: npc.prototype.33
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.098
+    npcId: npc.prototype.33
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.099
+    npcId: npc.prototype.33
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.100
+    npcId: npc.prototype.34
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.101
+    npcId: npc.prototype.34
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.102
+    npcId: npc.prototype.34
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.103
+    npcId: npc.prototype.35
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.104
+    npcId: npc.prototype.35
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.105
+    npcId: npc.prototype.35
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.106
+    npcId: npc.prototype.36
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.107
+    npcId: npc.prototype.36
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.108
+    npcId: npc.prototype.36
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.109
+    npcId: npc.prototype.37
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.110
+    npcId: npc.prototype.37
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.111
+    npcId: npc.prototype.37
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.112
+    npcId: npc.prototype.38
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.113
+    npcId: npc.prototype.38
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.114
+    npcId: npc.prototype.38
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.115
+    npcId: npc.prototype.39
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.116
+    npcId: npc.prototype.39
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.117
+    npcId: npc.prototype.39
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.118
+    npcId: npc.prototype.40
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.119
+    npcId: npc.prototype.40
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.120
+    npcId: npc.prototype.40
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.121
+    npcId: npc.prototype.41
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.122
+    npcId: npc.prototype.41
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.123
+    npcId: npc.prototype.41
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.124
+    npcId: npc.prototype.42
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.125
+    npcId: npc.prototype.42
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.126
+    npcId: npc.prototype.42
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.127
+    npcId: npc.prototype.43
+    textJa: 整備の担当です。
+    textEn: I work in Maintenance.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.128
+    npcId: npc.prototype.43
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.129
+    npcId: npc.prototype.43
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.130
+    npcId: npc.prototype.44
+    textJa: 探索の担当です。
+    textEn: I work in Exploration.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.131
+    npcId: npc.prototype.44
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.132
+    npcId: npc.prototype.44
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.133
+    npcId: npc.prototype.45
+    textJa: 売店の担当です。
+    textEn: I work in Shop.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.134
+    npcId: npc.prototype.45
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.135
+    npcId: npc.prototype.45
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.136
+    npcId: npc.prototype.46
+    textJa: 観測の担当です。
+    textEn: I work in Observation.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.137
+    npcId: npc.prototype.46
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.138
+    npcId: npc.prototype.46
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.139
+    npcId: npc.prototype.47
+    textJa: 飼育の担当です。
+    textEn: I work in Animal Care.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.140
+    npcId: npc.prototype.47
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.141
+    npcId: npc.prototype.47
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []
+  - id: dialogue.prototype.142
+    npcId: npc.prototype.48
+    textJa: 農園の担当です。
+    textEn: I work in Garden.
+    minimumAffinity: 0
+    minimumTrust: 10
+    responseIds: []
+  - id: dialogue.prototype.143
+    npcId: npc.prototype.48
+    textJa: 記録を残しておいてください。
+    textEn: Please leave a record.
+    minimumAffinity: 10
+    minimumTrust: 20
+    responseIds: []
+  - id: dialogue.prototype.144
+    npcId: npc.prototype.48
+    textJa: また手を貸してくれると助かります。
+    textEn: I would appreciate your help again.
+    minimumAffinity: 20
+    minimumTrust: 30
+    responseIds: []

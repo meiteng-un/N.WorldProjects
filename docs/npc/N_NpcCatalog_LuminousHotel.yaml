@@ -1,0 +1,3544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cd5cd8580a3d84fb1ee223579bac0e, type: 3}
+  m_Name: N_NpcCatalog_LuminousHotel
+  m_EditorClassIdentifier:
+  npcs:
+  - id: npc.luminous.mio
+    nameJa: "澪"
+    nameEn: "Mio"
+    roleJa: "受付"
+    roleEn: "Reception"
+    homeArea: "1F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.mio.1
+    - dialogue.luminous.mio.2
+    - dialogue.luminous.mio.3
+    - dialogue.luminous.mio.4
+    - dialogue.luminous.mio.5
+    questIds:
+    - quest.luminous.mio.check
+    - quest.luminous.mio.review
+    - quest.luminous.mio.daily
+    - quest.luminous.mio.weekly
+    - quest.luminous.mio.monthly
+    - quest.luminous.mio.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.akari
+    nameJa: "灯里"
+    nameEn: "Akari"
+    roleJa: "客室案内"
+    roleEn: "Guest services"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.akari.1
+    - dialogue.luminous.akari.2
+    - dialogue.luminous.akari.3
+    - dialogue.luminous.akari.4
+    - dialogue.luminous.akari.5
+    questIds:
+    - quest.luminous.akari.check
+    - quest.luminous.akari.review
+    - quest.luminous.akari.daily
+    - quest.luminous.akari.weekly
+    - quest.luminous.akari.monthly
+    - quest.luminous.akari.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.tamaki
+    nameJa: "環"
+    nameEn: "Tamaki"
+    roleJa: "館内配達"
+    roleEn: "Hotel courier"
+    homeArea: "1F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.tamaki.1
+    - dialogue.luminous.tamaki.2
+    - dialogue.luminous.tamaki.3
+    - dialogue.luminous.tamaki.4
+    - dialogue.luminous.tamaki.5
+    questIds:
+    - quest.luminous.tamaki.check
+    - quest.luminous.tamaki.review
+    - quest.luminous.tamaki.daily
+    - quest.luminous.tamaki.weekly
+    - quest.luminous.tamaki.monthly
+    - quest.luminous.tamaki.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.chikage
+    nameJa: "千景"
+    nameEn: "Chikage"
+    roleJa: "売店"
+    roleEn: "General store"
+    homeArea: "1F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.chikage.1
+    - dialogue.luminous.chikage.2
+    - dialogue.luminous.chikage.3
+    - dialogue.luminous.chikage.4
+    - dialogue.luminous.chikage.5
+    questIds:
+    - quest.luminous.chikage.check
+    - quest.luminous.chikage.review
+    - quest.luminous.chikage.daily
+    - quest.luminous.chikage.weekly
+    - quest.luminous.chikage.monthly
+    - quest.luminous.chikage.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.saku
+    nameJa: "朔"
+    nameEn: "Saku"
+    roleJa: "警備"
+    roleEn: "Security"
+    homeArea: "1F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.saku.1
+    - dialogue.luminous.saku.2
+    - dialogue.luminous.saku.3
+    - dialogue.luminous.saku.4
+    - dialogue.luminous.saku.5
+    questIds:
+    - quest.luminous.saku.check
+    - quest.luminous.saku.review
+    - quest.luminous.saku.daily
+    - quest.luminous.saku.weekly
+    - quest.luminous.saku.monthly
+    - quest.luminous.saku.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.ritsu
+    nameJa: "律"
+    nameEn: "Ritsu"
+    roleJa: "整備"
+    roleEn: "Maintenance"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.ritsu.1
+    - dialogue.luminous.ritsu.2
+    - dialogue.luminous.ritsu.3
+    - dialogue.luminous.ritsu.4
+    - dialogue.luminous.ritsu.5
+    questIds:
+    - quest.luminous.ritsu.check
+    - quest.luminous.ritsu.review
+    - quest.luminous.ritsu.daily
+    - quest.luminous.ritsu.weekly
+    - quest.luminous.ritsu.monthly
+    - quest.luminous.ritsu.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.gen
+    nameJa: "弦"
+    nameEn: "Gen"
+    roleJa: "車庫"
+    roleEn: "Garage"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.gen.1
+    - dialogue.luminous.gen.2
+    - dialogue.luminous.gen.3
+    - dialogue.luminous.gen.4
+    - dialogue.luminous.gen.5
+    questIds:
+    - quest.luminous.gen.check
+    - quest.luminous.gen.review
+    - quest.luminous.gen.daily
+    - quest.luminous.gen.weekly
+    - quest.luminous.gen.monthly
+    - quest.luminous.gen.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.shio
+    nameJa: "汐"
+    nameEn: "Shio"
+    roleJa: "水槽飼育"
+    roleEn: "Aquarium care"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.shio.1
+    - dialogue.luminous.shio.2
+    - dialogue.luminous.shio.3
+    - dialogue.luminous.shio.4
+    - dialogue.luminous.shio.5
+    questIds:
+    - quest.luminous.shio.check
+    - quest.luminous.shio.review
+    - quest.luminous.shio.daily
+    - quest.luminous.shio.weekly
+    - quest.luminous.shio.monthly
+    - quest.luminous.shio.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.nagisa
+    nameJa: "凪沙"
+    nameEn: "Nagisa"
+    roleJa: "釣り道具"
+    roleEn: "Fishing tackle"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.nagisa.1
+    - dialogue.luminous.nagisa.2
+    - dialogue.luminous.nagisa.3
+    - dialogue.luminous.nagisa.4
+    - dialogue.luminous.nagisa.5
+    questIds:
+    - quest.luminous.nagisa.check
+    - quest.luminous.nagisa.review
+    - quest.luminous.nagisa.daily
+    - quest.luminous.nagisa.weekly
+    - quest.luminous.nagisa.monthly
+    - quest.luminous.nagisa.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.kohagi
+    nameJa: "小萩"
+    nameEn: "Kohagi"
+    roleJa: "栽培"
+    roleEn: "Cultivation"
+    homeArea: "R"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.kohagi.1
+    - dialogue.luminous.kohagi.2
+    - dialogue.luminous.kohagi.3
+    - dialogue.luminous.kohagi.4
+    - dialogue.luminous.kohagi.5
+    questIds:
+    - quest.luminous.kohagi.check
+    - quest.luminous.kohagi.review
+    - quest.luminous.kohagi.daily
+    - quest.luminous.kohagi.weekly
+    - quest.luminous.kohagi.monthly
+    - quest.luminous.kohagi.annual
+    specialResident: 0
+    allowHeadPat: 1
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.yuzuha
+    nameJa: "柚葉"
+    nameEn: "Yuzuha"
+    roleJa: "厨房"
+    roleEn: "Kitchen"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.yuzuha.1
+    - dialogue.luminous.yuzuha.2
+    - dialogue.luminous.yuzuha.3
+    - dialogue.luminous.yuzuha.4
+    - dialogue.luminous.yuzuha.5
+    questIds:
+    - quest.luminous.yuzuha.check
+    - quest.luminous.yuzuha.review
+    - quest.luminous.yuzuha.daily
+    - quest.luminous.yuzuha.weekly
+    - quest.luminous.yuzuha.monthly
+    - quest.luminous.yuzuha.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.haku
+    nameJa: "珀"
+    nameEn: "Haku"
+    roleJa: "喫茶"
+    roleEn: "Coffee counter"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.haku.1
+    - dialogue.luminous.haku.2
+    - dialogue.luminous.haku.3
+    - dialogue.luminous.haku.4
+    - dialogue.luminous.haku.5
+    questIds:
+    - quest.luminous.haku.check
+    - quest.luminous.haku.review
+    - quest.luminous.haku.daily
+    - quest.luminous.haku.weekly
+    - quest.luminous.haku.monthly
+    - quest.luminous.haku.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.yoi
+    nameJa: "宵"
+    nameEn: "Yoi"
+    roleJa: "バー"
+    roleEn: "Bar"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.yoi.1
+    - dialogue.luminous.yoi.2
+    - dialogue.luminous.yoi.3
+    - dialogue.luminous.yoi.4
+    - dialogue.luminous.yoi.5
+    questIds:
+    - quest.luminous.yoi.check
+    - quest.luminous.yoi.review
+    - quest.luminous.yoi.daily
+    - quest.luminous.yoi.weekly
+    - quest.luminous.yoi.monthly
+    - quest.luminous.yoi.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.miyuki
+    nameJa: "深雪"
+    nameEn: "Miyuki"
+    roleJa: "臨時診療"
+    roleEn: "On-call care"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.miyuki.1
+    - dialogue.luminous.miyuki.2
+    - dialogue.luminous.miyuki.3
+    - dialogue.luminous.miyuki.4
+    - dialogue.luminous.miyuki.5
+    questIds:
+    - quest.luminous.miyuki.check
+    - quest.luminous.miyuki.review
+    - quest.luminous.miyuki.daily
+    - quest.luminous.miyuki.weekly
+    - quest.luminous.miyuki.monthly
+    - quest.luminous.miyuki.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.tsuzuri
+    nameJa: "綴"
+    nameEn: "Tsuzuri"
+    roleJa: "資料整理"
+    roleEn: "Archives"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.tsuzuri.1
+    - dialogue.luminous.tsuzuri.2
+    - dialogue.luminous.tsuzuri.3
+    - dialogue.luminous.tsuzuri.4
+    - dialogue.luminous.tsuzuri.5
+    questIds:
+    - quest.luminous.tsuzuri.check
+    - quest.luminous.tsuzuri.review
+    - quest.luminous.tsuzuri.daily
+    - quest.luminous.tsuzuri.weekly
+    - quest.luminous.tsuzuri.monthly
+    - quest.luminous.tsuzuri.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.hoshino
+    nameJa: "星乃"
+    nameEn: "Hoshino"
+    roleJa: "天体観測"
+    roleEn: "Astronomy"
+    homeArea: "R"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.hoshino.1
+    - dialogue.luminous.hoshino.2
+    - dialogue.luminous.hoshino.3
+    - dialogue.luminous.hoshino.4
+    - dialogue.luminous.hoshino.5
+    questIds:
+    - quest.luminous.hoshino.check
+    - quest.luminous.hoshino.review
+    - quest.luminous.hoshino.daily
+    - quest.luminous.hoshino.weekly
+    - quest.luminous.hoshino.monthly
+    - quest.luminous.hoshino.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.kirie
+    nameJa: "霧江"
+    nameEn: "Kirie"
+    roleJa: "天候観測"
+    roleEn: "Weather observation"
+    homeArea: "R"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.kirie.1
+    - dialogue.luminous.kirie.2
+    - dialogue.luminous.kirie.3
+    - dialogue.luminous.kirie.4
+    - dialogue.luminous.kirie.5
+    questIds:
+    - quest.luminous.kirie.check
+    - quest.luminous.kirie.review
+    - quest.luminous.kirie.daily
+    - quest.luminous.kirie.weekly
+    - quest.luminous.kirie.monthly
+    - quest.luminous.kirie.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.azusa
+    nameJa: "梓"
+    nameEn: "Azusa"
+    roleJa: "調薬"
+    roleEn: "Alchemy"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.azusa.1
+    - dialogue.luminous.azusa.2
+    - dialogue.luminous.azusa.3
+    - dialogue.luminous.azusa.4
+    - dialogue.luminous.azusa.5
+    questIds:
+    - quest.luminous.azusa.check
+    - quest.luminous.azusa.review
+    - quest.luminous.azusa.daily
+    - quest.luminous.azusa.weekly
+    - quest.luminous.azusa.monthly
+    - quest.luminous.azusa.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.teppei
+    nameJa: "鉄平"
+    nameEn: "Teppei"
+    roleJa: "工作"
+    roleEn: "Workshop"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.teppei.1
+    - dialogue.luminous.teppei.2
+    - dialogue.luminous.teppei.3
+    - dialogue.luminous.teppei.4
+    - dialogue.luminous.teppei.5
+    questIds:
+    - quest.luminous.teppei.check
+    - quest.luminous.teppei.review
+    - quest.luminous.teppei.daily
+    - quest.luminous.teppei.weekly
+    - quest.luminous.teppei.monthly
+    - quest.luminous.teppei.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.nadeshiko
+    nameJa: "撫子"
+    nameEn: "Nadeshiko"
+    roleJa: "共用飼育"
+    roleEn: "Shared animal care"
+    homeArea: "R"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.nadeshiko.1
+    - dialogue.luminous.nadeshiko.2
+    - dialogue.luminous.nadeshiko.3
+    - dialogue.luminous.nadeshiko.4
+    - dialogue.luminous.nadeshiko.5
+    questIds:
+    - quest.luminous.nadeshiko.check
+    - quest.luminous.nadeshiko.review
+    - quest.luminous.nadeshiko.daily
+    - quest.luminous.nadeshiko.weekly
+    - quest.luminous.nadeshiko.monthly
+    - quest.luminous.nadeshiko.annual
+    specialResident: 0
+    allowHeadPat: 1
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.izumi
+    nameJa: "泉"
+    nameEn: "Izumi"
+    roleJa: "水質管理"
+    roleEn: "Water monitoring"
+    homeArea: "B2"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.izumi.1
+    - dialogue.luminous.izumi.2
+    - dialogue.luminous.izumi.3
+    - dialogue.luminous.izumi.4
+    - dialogue.luminous.izumi.5
+    questIds:
+    - quest.luminous.izumi.check
+    - quest.luminous.izumi.review
+    - quest.luminous.izumi.daily
+    - quest.luminous.izumi.weekly
+    - quest.luminous.izumi.monthly
+    - quest.luminous.izumi.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.kei
+    nameJa: "慧"
+    nameEn: "Kei"
+    roleJa: "端末整備"
+    roleEn: "Terminal support"
+    homeArea: "1F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.kei.1
+    - dialogue.luminous.kei.2
+    - dialogue.luminous.kei.3
+    - dialogue.luminous.kei.4
+    - dialogue.luminous.kei.5
+    questIds:
+    - quest.luminous.kei.check
+    - quest.luminous.kei.review
+    - quest.luminous.kei.daily
+    - quest.luminous.kei.weekly
+    - quest.luminous.kei.monthly
+    - quest.luminous.kei.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.nanao
+    nameJa: "七緒"
+    nameEn: "Nanao"
+    roleJa: "娯楽備品"
+    roleEn: "Games and recreation"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.nanao.1
+    - dialogue.luminous.nanao.2
+    - dialogue.luminous.nanao.3
+    - dialogue.luminous.nanao.4
+    - dialogue.luminous.nanao.5
+    questIds:
+    - quest.luminous.nanao.check
+    - quest.luminous.nanao.review
+    - quest.luminous.nanao.daily
+    - quest.luminous.nanao.weekly
+    - quest.luminous.nanao.monthly
+    - quest.luminous.nanao.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.tsumugi
+    nameJa: "紡"
+    nameEn: "Tsumugi"
+    roleJa: "裁縫"
+    roleEn: "Textiles"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.tsumugi.1
+    - dialogue.luminous.tsumugi.2
+    - dialogue.luminous.tsumugi.3
+    - dialogue.luminous.tsumugi.4
+    - dialogue.luminous.tsumugi.5
+    questIds:
+    - quest.luminous.tsumugi.check
+    - quest.luminous.tsumugi.review
+    - quest.luminous.tsumugi.daily
+    - quest.luminous.tsumugi.weekly
+    - quest.luminous.tsumugi.monthly
+    - quest.luminous.tsumugi.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.aoba
+    nameJa: "青葉"
+    nameEn: "Aoba"
+    roleJa: "物資仕分け"
+    roleEn: "Supply sorting"
+    homeArea: "8F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.aoba.1
+    - dialogue.luminous.aoba.2
+    - dialogue.luminous.aoba.3
+    - dialogue.luminous.aoba.4
+    - dialogue.luminous.aoba.5
+    questIds:
+    - quest.luminous.aoba.check
+    - quest.luminous.aoba.review
+    - quest.luminous.aoba.daily
+    - quest.luminous.aoba.weekly
+    - quest.luminous.aoba.monthly
+    - quest.luminous.aoba.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.tonami
+    nameJa: "砥波"
+    nameEn: "Tonami"
+    roleJa: "外域測量"
+    roleEn: "Field survey"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.tonami.1
+    - dialogue.luminous.tonami.2
+    - dialogue.luminous.tonami.3
+    - dialogue.luminous.tonami.4
+    - dialogue.luminous.tonami.5
+    questIds:
+    - quest.luminous.tonami.check
+    - quest.luminous.tonami.review
+    - quest.luminous.tonami.daily
+    - quest.luminous.tonami.weekly
+    - quest.luminous.tonami.monthly
+    - quest.luminous.tonami.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.mizushino
+    nameJa: "水篠"
+    nameEn: "Mizushino"
+    roleJa: "水没街の観測"
+    roleEn: "Flooded district survey"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.mizushino.1
+    - dialogue.luminous.mizushino.2
+    - dialogue.luminous.mizushino.3
+    - dialogue.luminous.mizushino.4
+    - dialogue.luminous.mizushino.5
+    questIds:
+    - quest.luminous.mizushino.check
+    - quest.luminous.mizushino.review
+    - quest.luminous.mizushino.daily
+    - quest.luminous.mizushino.weekly
+    - quest.luminous.mizushino.monthly
+    - quest.luminous.mizushino.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.usuzumi
+    nameJa: "薄墨"
+    nameEn: "Usuzumi"
+    roleJa: "廃墟資料の回収"
+    roleEn: "Ruin archives"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.usuzumi.1
+    - dialogue.luminous.usuzumi.2
+    - dialogue.luminous.usuzumi.3
+    - dialogue.luminous.usuzumi.4
+    - dialogue.luminous.usuzumi.5
+    questIds:
+    - quest.luminous.usuzumi.check
+    - quest.luminous.usuzumi.review
+    - quest.luminous.usuzumi.daily
+    - quest.luminous.usuzumi.weekly
+    - quest.luminous.usuzumi.monthly
+    - quest.luminous.usuzumi.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.minemori
+    nameJa: "峰守"
+    nameEn: "Minemori"
+    roleJa: "野営地の下見"
+    roleEn: "Campsite survey"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.minemori.1
+    - dialogue.luminous.minemori.2
+    - dialogue.luminous.minemori.3
+    - dialogue.luminous.minemori.4
+    - dialogue.luminous.minemori.5
+    questIds:
+    - quest.luminous.minemori.check
+    - quest.luminous.minemori.review
+    - quest.luminous.minemori.daily
+    - quest.luminous.minemori.weekly
+    - quest.luminous.minemori.monthly
+    - quest.luminous.minemori.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.hari
+    nameJa: "玻璃"
+    nameEn: "Hari"
+    roleJa: "異常痕跡の観測"
+    roleEn: "Anomaly trace observation"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.hari.1
+    - dialogue.luminous.hari.2
+    - dialogue.luminous.hari.3
+    - dialogue.luminous.hari.4
+    - dialogue.luminous.hari.5
+    questIds:
+    - quest.luminous.hari.check
+    - quest.luminous.hari.review
+    - quest.luminous.hari.daily
+    - quest.luminous.hari.weekly
+    - quest.luminous.hari.monthly
+    - quest.luminous.hari.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.toya
+    nameJa: "遠矢"
+    nameEn: "Toya"
+    roleJa: "車道調査"
+    roleEn: "Road survey"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.toya.1
+    - dialogue.luminous.toya.2
+    - dialogue.luminous.toya.3
+    - dialogue.luminous.toya.4
+    - dialogue.luminous.toya.5
+    questIds:
+    - quest.luminous.toya.check
+    - quest.luminous.toya.review
+    - quest.luminous.toya.daily
+    - quest.luminous.toya.weekly
+    - quest.luminous.toya.monthly
+    - quest.luminous.toya.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.hatsuse
+    nameJa: "初瀬"
+    nameEn: "Hatsuse"
+    roleJa: "外域取引"
+    roleEn: "Outland trade"
+    homeArea: "外域"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.hatsuse.1
+    - dialogue.luminous.hatsuse.2
+    - dialogue.luminous.hatsuse.3
+    - dialogue.luminous.hatsuse.4
+    - dialogue.luminous.hatsuse.5
+    questIds:
+    - quest.luminous.hatsuse.check
+    - quest.luminous.hatsuse.review
+    - quest.luminous.hatsuse.daily
+    - quest.luminous.hatsuse.weekly
+    - quest.luminous.hatsuse.monthly
+    - quest.luminous.hatsuse.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 0
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.satsuki
+    nameJa: "皐月"
+    nameEn: "Satsuki"
+    roleJa: "季節行事"
+    roleEn: "Seasonal events"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.satsuki.1
+    - dialogue.luminous.satsuki.2
+    - dialogue.luminous.satsuki.3
+    - dialogue.luminous.satsuki.4
+    - dialogue.luminous.satsuki.5
+    questIds:
+    - quest.luminous.satsuki.check
+    - quest.luminous.satsuki.review
+    - quest.luminous.satsuki.daily
+    - quest.luminous.satsuki.weekly
+    - quest.luminous.satsuki.monthly
+    - quest.luminous.satsuki.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.iori
+    nameJa: "伊織"
+    nameEn: "Iori"
+    roleJa: "結界機材の点検"
+    roleEn: "Barrier equipment"
+    homeArea: "R"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.iori.1
+    - dialogue.luminous.iori.2
+    - dialogue.luminous.iori.3
+    - dialogue.luminous.iori.4
+    - dialogue.luminous.iori.5
+    questIds:
+    - quest.luminous.iori.check
+    - quest.luminous.iori.review
+    - quest.luminous.iori.daily
+    - quest.luminous.iori.weekly
+    - quest.luminous.iori.monthly
+    - quest.luminous.iori.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.ruri
+    nameJa: "瑠璃"
+    nameEn: "Ruri"
+    roleJa: "写真資料"
+    roleEn: "Photo archives"
+    homeArea: "3F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.ruri.1
+    - dialogue.luminous.ruri.2
+    - dialogue.luminous.ruri.3
+    - dialogue.luminous.ruri.4
+    - dialogue.luminous.ruri.5
+    questIds:
+    - quest.luminous.ruri.check
+    - quest.luminous.ruri.review
+    - quest.luminous.ruri.daily
+    - quest.luminous.ruri.weekly
+    - quest.luminous.ruri.monthly
+    - quest.luminous.ruri.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  - id: npc.luminous.niwa
+    nameJa: "丹羽"
+    nameEn: "Niwa"
+    roleJa: "貯蔵管理"
+    roleEn: "Stockroom care"
+    homeArea: "8F"
+    initialAffinity: 0
+    initialTrust: 15
+    dialogueIds:
+    - dialogue.luminous.niwa.1
+    - dialogue.luminous.niwa.2
+    - dialogue.luminous.niwa.3
+    - dialogue.luminous.niwa.4
+    - dialogue.luminous.niwa.5
+    questIds:
+    - quest.luminous.niwa.check
+    - quest.luminous.niwa.review
+    - quest.luminous.niwa.daily
+    - quest.luminous.niwa.weekly
+    - quest.luminous.niwa.monthly
+    - quest.luminous.niwa.annual
+    specialResident: 0
+    allowHeadPat: 0
+    allowBodyContact: 1
+    contactMinimumAffinity: 60
+    contactMinimumTrust: 55
+  dialogues:
+  - id: dialogue.luminous.mio.1
+    npcId: "npc.luminous.mio"
+    textJa: "受付の澪です。到着記録の件でしたら、ここでお聞きします。"
+    textEn: "I'm Mio, with Reception. If this is about the arrival register, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.mio.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.mio.2
+    npcId: "npc.luminous.mio"
+    textJa: "あ、来てくれたんだ。到着記録のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the arrival register?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.mio.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.mio.3
+    npcId: "npc.luminous.mio"
+    textJa: "返却カードについては、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the returned keycards next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.mio.4
+    npcId: "npc.luminous.mio"
+    textJa: "返却カードの記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the returned keycards records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.mio.5
+    npcId: "npc.luminous.mio"
+    textJa: "返却カードは確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The returned keycards still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.akari.1
+    npcId: "npc.luminous.akari"
+    textJa: "客室案内の灯里です。貸出毛布の件でしたら、ここでお聞きします。"
+    textEn: "I'm Akari, with Guest services. If this is about the loan blankets, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.akari.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.akari.2
+    npcId: "npc.luminous.akari"
+    textJa: "あ、来てくれたんだ。貸出毛布のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the loan blankets?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.akari.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.akari.3
+    npcId: "npc.luminous.akari"
+    textJa: "客室案内札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the room direction signs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.akari.4
+    npcId: "npc.luminous.akari"
+    textJa: "客室案内札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the room direction signs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.akari.5
+    npcId: "npc.luminous.akari"
+    textJa: "客室案内札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The room direction signs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.tamaki.1
+    npcId: "npc.luminous.tamaki"
+    textJa: "館内配達の環です。封緘便の件でしたら、ここでお聞きします。"
+    textEn: "I'm Tamaki, with Hotel courier. If this is about the sealed parcels, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.tamaki.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tamaki.2
+    npcId: "npc.luminous.tamaki"
+    textJa: "あ、来てくれたんだ。封緘便のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the sealed parcels?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.tamaki.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tamaki.3
+    npcId: "npc.luminous.tamaki"
+    textJa: "配達用の籠については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the delivery baskets next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.tamaki.4
+    npcId: "npc.luminous.tamaki"
+    textJa: "配達用の籠の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the delivery baskets records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.tamaki.5
+    npcId: "npc.luminous.tamaki"
+    textJa: "配達用の籠は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The delivery baskets still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.chikage.1
+    npcId: "npc.luminous.chikage"
+    textJa: "売店の千景です。保存食の棚の件でしたら、ここでお聞きします。"
+    textEn: "I'm Chikage, with General store. If this is about the preserved-food shelf, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.chikage.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.chikage.2
+    npcId: "npc.luminous.chikage"
+    textJa: "あ、来てくれたんだ。保存食の棚のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the preserved-food shelf?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.chikage.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.chikage.3
+    npcId: "npc.luminous.chikage"
+    textJa: "値札板については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the price boards next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.chikage.4
+    npcId: "npc.luminous.chikage"
+    textJa: "値札板の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the price boards records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.chikage.5
+    npcId: "npc.luminous.chikage"
+    textJa: "値札板は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The price boards still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.saku.1
+    npcId: "npc.luminous.saku"
+    textJa: "警備の朔です。外周灯の件でしたら、ここでお聞きします。"
+    textEn: "I'm Saku, with Security. If this is about the perimeter lights, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.saku.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.saku.2
+    npcId: "npc.luminous.saku"
+    textJa: "あ、来てくれたんだ。外周灯のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the perimeter lights?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.saku.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.saku.3
+    npcId: "npc.luminous.saku"
+    textJa: "巡回記録については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the patrol records next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.saku.4
+    npcId: "npc.luminous.saku"
+    textJa: "巡回記録の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the patrol records records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.saku.5
+    npcId: "npc.luminous.saku"
+    textJa: "巡回記録は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The patrol records still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.ritsu.1
+    npcId: "npc.luminous.ritsu"
+    textJa: "整備の律です。昇降機の予備部品の件でしたら、ここでお聞きします。"
+    textEn: "I'm Ritsu, with Maintenance. If this is about the spare lift parts, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.ritsu.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.ritsu.2
+    npcId: "npc.luminous.ritsu"
+    textJa: "あ、来てくれたんだ。昇降機の予備部品のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the spare lift parts?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.ritsu.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.ritsu.3
+    npcId: "npc.luminous.ritsu"
+    textJa: "工具台帳については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the tool ledger next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.ritsu.4
+    npcId: "npc.luminous.ritsu"
+    textJa: "工具台帳の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the tool ledger records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.ritsu.5
+    npcId: "npc.luminous.ritsu"
+    textJa: "工具台帳は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The tool ledger still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.gen.1
+    npcId: "npc.luminous.gen"
+    textJa: "車庫の弦です。帰還車両の積荷の件でしたら、ここでお聞きします。"
+    textEn: "I'm Gen, with Garage. If this is about the returning vehicle cargo, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.gen.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.gen.2
+    npcId: "npc.luminous.gen"
+    textJa: "あ、来てくれたんだ。帰還車両の積荷のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the returning vehicle cargo?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.gen.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.gen.3
+    npcId: "npc.luminous.gen"
+    textJa: "転移用電池については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the transfer batteries next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.gen.4
+    npcId: "npc.luminous.gen"
+    textJa: "転移用電池の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the transfer batteries records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.gen.5
+    npcId: "npc.luminous.gen"
+    textJa: "転移用電池は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The transfer batteries still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.shio.1
+    npcId: "npc.luminous.shio"
+    textJa: "水槽飼育の汐です。給餌記録の件でしたら、ここでお聞きします。"
+    textEn: "I'm Shio, with Aquarium care. If this is about the feeding records, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.shio.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.shio.2
+    npcId: "npc.luminous.shio"
+    textJa: "あ、来てくれたんだ。給餌記録のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the feeding records?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.shio.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.shio.3
+    npcId: "npc.luminous.shio"
+    textJa: "水槽の濾材については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the aquarium filter media next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.shio.4
+    npcId: "npc.luminous.shio"
+    textJa: "水槽の濾材の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the aquarium filter media records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.shio.5
+    npcId: "npc.luminous.shio"
+    textJa: "水槽の濾材は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The aquarium filter media still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.nagisa.1
+    npcId: "npc.luminous.nagisa"
+    textJa: "釣り道具の凪沙です。交換用の浮きの件でしたら、ここでお聞きします。"
+    textEn: "I'm Nagisa, with Fishing tackle. If this is about the replacement floats, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.nagisa.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nagisa.2
+    npcId: "npc.luminous.nagisa"
+    textJa: "あ、来てくれたんだ。交換用の浮きのこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the replacement floats?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.nagisa.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nagisa.3
+    npcId: "npc.luminous.nagisa"
+    textJa: "糸巻きについては、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the line spools next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.nagisa.4
+    npcId: "npc.luminous.nagisa"
+    textJa: "糸巻きの記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the line spools records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.nagisa.5
+    npcId: "npc.luminous.nagisa"
+    textJa: "糸巻きは確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The line spools still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.kohagi.1
+    npcId: "npc.luminous.kohagi"
+    textJa: "栽培の小萩です。種苗箱の件でしたら、ここでお聞きします。"
+    textEn: "I'm Kohagi, with Cultivation. If this is about the seedling trays, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.kohagi.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kohagi.2
+    npcId: "npc.luminous.kohagi"
+    textJa: "あ、来てくれたんだ。種苗箱のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the seedling trays?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.kohagi.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kohagi.3
+    npcId: "npc.luminous.kohagi"
+    textJa: "遮風幕については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the windbreak screens next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.kohagi.4
+    npcId: "npc.luminous.kohagi"
+    textJa: "遮風幕の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the windbreak screens records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.kohagi.5
+    npcId: "npc.luminous.kohagi"
+    textJa: "遮風幕は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The windbreak screens still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.yuzuha.1
+    npcId: "npc.luminous.yuzuha"
+    textJa: "厨房の柚葉です。乾燥ハーブの件でしたら、ここでお聞きします。"
+    textEn: "I'm Yuzuha, with Kitchen. If this is about the dried herbs, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.yuzuha.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.yuzuha.2
+    npcId: "npc.luminous.yuzuha"
+    textJa: "あ、来てくれたんだ。乾燥ハーブのこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the dried herbs?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.yuzuha.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.yuzuha.3
+    npcId: "npc.luminous.yuzuha"
+    textJa: "食器の予備については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the spare dishes next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.yuzuha.4
+    npcId: "npc.luminous.yuzuha"
+    textJa: "食器の予備の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the spare dishes records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.yuzuha.5
+    npcId: "npc.luminous.yuzuha"
+    textJa: "食器の予備は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The spare dishes still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.haku.1
+    npcId: "npc.luminous.haku"
+    textJa: "喫茶の珀です。焙煎豆の件でしたら、ここでお聞きします。"
+    textEn: "I'm Haku, with Coffee counter. If this is about the roasted beans, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.haku.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.haku.2
+    npcId: "npc.luminous.haku"
+    textJa: "あ、来てくれたんだ。焙煎豆のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the roasted beans?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.haku.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.haku.3
+    npcId: "npc.luminous.haku"
+    textJa: "試飲札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the tasting cards next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.haku.4
+    npcId: "npc.luminous.haku"
+    textJa: "試飲札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the tasting cards records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.haku.5
+    npcId: "npc.luminous.haku"
+    textJa: "試飲札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The tasting cards still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.yoi.1
+    npcId: "npc.luminous.yoi"
+    textJa: "バーの宵です。香草シロップの件でしたら、ここでお聞きします。"
+    textEn: "I'm Yoi, with Bar. If this is about the herbal syrup, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.yoi.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.yoi.2
+    npcId: "npc.luminous.yoi"
+    textJa: "あ、来てくれたんだ。香草シロップのこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the herbal syrup?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.yoi.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.yoi.3
+    npcId: "npc.luminous.yoi"
+    textJa: "試作用のグラスについては、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the sample glasses next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.yoi.4
+    npcId: "npc.luminous.yoi"
+    textJa: "試作用のグラスの記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the sample glasses records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.yoi.5
+    npcId: "npc.luminous.yoi"
+    textJa: "試作用のグラスは確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The sample glasses still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.miyuki.1
+    npcId: "npc.luminous.miyuki"
+    textJa: "臨時診療の深雪です。携帯救急箱の件でしたら、ここでお聞きします。"
+    textEn: "I'm Miyuki, with On-call care. If this is about the portable first-aid kits, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.miyuki.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.miyuki.2
+    npcId: "npc.luminous.miyuki"
+    textJa: "あ、来てくれたんだ。携帯救急箱のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the portable first-aid kits?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.miyuki.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.miyuki.3
+    npcId: "npc.luminous.miyuki"
+    textJa: "空き部屋の寝具については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the spare-room bedding next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.miyuki.4
+    npcId: "npc.luminous.miyuki"
+    textJa: "空き部屋の寝具の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the spare-room bedding records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.miyuki.5
+    npcId: "npc.luminous.miyuki"
+    textJa: "空き部屋の寝具は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The spare-room bedding still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.tsuzuri.1
+    npcId: "npc.luminous.tsuzuri"
+    textJa: "資料整理の綴です。遠征メモの件でしたら、ここでお聞きします。"
+    textEn: "I'm Tsuzuri, with Archives. If this is about the expedition notes, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.tsuzuri.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tsuzuri.2
+    npcId: "npc.luminous.tsuzuri"
+    textJa: "あ、来てくれたんだ。遠征メモのこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the expedition notes?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.tsuzuri.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tsuzuri.3
+    npcId: "npc.luminous.tsuzuri"
+    textJa: "災厄前の写真については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the pre-disaster photographs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.tsuzuri.4
+    npcId: "npc.luminous.tsuzuri"
+    textJa: "災厄前の写真の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the pre-disaster photographs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.tsuzuri.5
+    npcId: "npc.luminous.tsuzuri"
+    textJa: "災厄前の写真は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The pre-disaster photographs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.hoshino.1
+    npcId: "npc.luminous.hoshino"
+    textJa: "天体観測の星乃です。望遠鏡の遮光板の件でしたら、ここでお聞きします。"
+    textEn: "I'm Hoshino, with Astronomy. If this is about the telescope light shields, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.hoshino.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hoshino.2
+    npcId: "npc.luminous.hoshino"
+    textJa: "あ、来てくれたんだ。望遠鏡の遮光板のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the telescope light shields?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.hoshino.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hoshino.3
+    npcId: "npc.luminous.hoshino"
+    textJa: "観測時刻表については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the observation schedule next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.hoshino.4
+    npcId: "npc.luminous.hoshino"
+    textJa: "観測時刻表の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the observation schedule records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.hoshino.5
+    npcId: "npc.luminous.hoshino"
+    textJa: "観測時刻表は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The observation schedule still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.kirie.1
+    npcId: "npc.luminous.kirie"
+    textJa: "天候観測の霧江です。風向計の件でしたら、ここでお聞きします。"
+    textEn: "I'm Kirie, with Weather observation. If this is about the wind vane, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.kirie.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kirie.2
+    npcId: "npc.luminous.kirie"
+    textJa: "あ、来てくれたんだ。風向計のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the wind vane?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.kirie.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kirie.3
+    npcId: "npc.luminous.kirie"
+    textJa: "急変時の観測記録については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the rapid weather shift logs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.kirie.4
+    npcId: "npc.luminous.kirie"
+    textJa: "急変時の観測記録の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the rapid weather shift logs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.kirie.5
+    npcId: "npc.luminous.kirie"
+    textJa: "急変時の観測記録は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The rapid weather shift logs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.azusa.1
+    npcId: "npc.luminous.azusa"
+    textJa: "調薬の梓です。聖水の浸漬容器の件でしたら、ここでお聞きします。"
+    textEn: "I'm Azusa, with Alchemy. If this is about the holy-water soaking vessels, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.azusa.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.azusa.2
+    npcId: "npc.luminous.azusa"
+    textJa: "あ、来てくれたんだ。聖水の浸漬容器のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the holy-water soaking vessels?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.azusa.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.azusa.3
+    npcId: "npc.luminous.azusa"
+    textJa: "乾燥薬草については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the dried medicinal herbs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.azusa.4
+    npcId: "npc.luminous.azusa"
+    textJa: "乾燥薬草の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the dried medicinal herbs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.azusa.5
+    npcId: "npc.luminous.azusa"
+    textJa: "乾燥薬草は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The dried medicinal herbs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.teppei.1
+    npcId: "npc.luminous.teppei"
+    textJa: "工作の鉄平です。再鍛造の試験片の件でしたら、ここでお聞きします。"
+    textEn: "I'm Teppei, with Workshop. If this is about the reforging test pieces, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.teppei.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.teppei.2
+    npcId: "npc.luminous.teppei"
+    textJa: "あ、来てくれたんだ。再鍛造の試験片のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the reforging test pieces?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.teppei.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.teppei.3
+    npcId: "npc.luminous.teppei"
+    textJa: "研磨材については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the abrasives next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.teppei.4
+    npcId: "npc.luminous.teppei"
+    textJa: "研磨材の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the abrasives records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.teppei.5
+    npcId: "npc.luminous.teppei"
+    textJa: "研磨材は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The abrasives still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.nadeshiko.1
+    npcId: "npc.luminous.nadeshiko"
+    textJa: "共用飼育の撫子です。自動給餌機の件でしたら、ここでお聞きします。"
+    textEn: "I'm Nadeshiko, with Shared animal care. If this is about the automatic feeders, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.nadeshiko.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nadeshiko.2
+    npcId: "npc.luminous.nadeshiko"
+    textJa: "あ、来てくれたんだ。自動給餌機のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the automatic feeders?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.nadeshiko.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nadeshiko.3
+    npcId: "npc.luminous.nadeshiko"
+    textJa: "飼育当番表については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the animal-care roster next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.nadeshiko.4
+    npcId: "npc.luminous.nadeshiko"
+    textJa: "飼育当番表の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the animal-care roster records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.nadeshiko.5
+    npcId: "npc.luminous.nadeshiko"
+    textJa: "飼育当番表は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The animal-care roster still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.izumi.1
+    npcId: "npc.luminous.izumi"
+    textJa: "水質管理の泉です。採水瓶の件でしたら、ここでお聞きします。"
+    textEn: "I'm Izumi, with Water monitoring. If this is about the water sample bottles, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.izumi.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.izumi.2
+    npcId: "npc.luminous.izumi"
+    textJa: "あ、来てくれたんだ。採水瓶のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the water sample bottles?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.izumi.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.izumi.3
+    npcId: "npc.luminous.izumi"
+    textJa: "給水所の点検札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the water station inspection tags next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.izumi.4
+    npcId: "npc.luminous.izumi"
+    textJa: "給水所の点検札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the water station inspection tags records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.izumi.5
+    npcId: "npc.luminous.izumi"
+    textJa: "給水所の点検札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The water station inspection tags still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.kei.1
+    npcId: "npc.luminous.kei"
+    textJa: "端末整備の慧です。端末の貸出箱の件でしたら、ここでお聞きします。"
+    textEn: "I'm Kei, with Terminal support. If this is about the terminal loan cases, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.kei.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kei.2
+    npcId: "npc.luminous.kei"
+    textJa: "あ、来てくれたんだ。端末の貸出箱のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the terminal loan cases?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.kei.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.kei.3
+    npcId: "npc.luminous.kei"
+    textJa: "充電台については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the charging stands next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.kei.4
+    npcId: "npc.luminous.kei"
+    textJa: "充電台の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the charging stands records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.kei.5
+    npcId: "npc.luminous.kei"
+    textJa: "充電台は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The charging stands still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.nanao.1
+    npcId: "npc.luminous.nanao"
+    textJa: "娯楽備品の七緒です。共用のチェス駒の件でしたら、ここでお聞きします。"
+    textEn: "I'm Nanao, with Games and recreation. If this is about the shared chess pieces, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.nanao.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nanao.2
+    npcId: "npc.luminous.nanao"
+    textJa: "あ、来てくれたんだ。共用のチェス駒のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the shared chess pieces?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.nanao.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.nanao.3
+    npcId: "npc.luminous.nanao"
+    textJa: "カードの予備束については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the spare card decks next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.nanao.4
+    npcId: "npc.luminous.nanao"
+    textJa: "カードの予備束の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the spare card decks records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.nanao.5
+    npcId: "npc.luminous.nanao"
+    textJa: "カードの予備束は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The spare card decks still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.tsumugi.1
+    npcId: "npc.luminous.tsumugi"
+    textJa: "裁縫の紡です。修繕用の帆布の件でしたら、ここでお聞きします。"
+    textEn: "I'm Tsumugi, with Textiles. If this is about the repair canvas, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.tsumugi.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tsumugi.2
+    npcId: "npc.luminous.tsumugi"
+    textJa: "あ、来てくれたんだ。修繕用の帆布のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the repair canvas?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.tsumugi.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tsumugi.3
+    npcId: "npc.luminous.tsumugi"
+    textJa: "仕分け済みの糸については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the sorted thread next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.tsumugi.4
+    npcId: "npc.luminous.tsumugi"
+    textJa: "仕分け済みの糸の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the sorted thread records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.tsumugi.5
+    npcId: "npc.luminous.tsumugi"
+    textJa: "仕分け済みの糸は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The sorted thread still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.aoba.1
+    npcId: "npc.luminous.aoba"
+    textJa: "物資仕分けの青葉です。乾物の保管箱の件でしたら、ここでお聞きします。"
+    textEn: "I'm Aoba, with Supply sorting. If this is about the dry-goods crates, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.aoba.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.aoba.2
+    npcId: "npc.luminous.aoba"
+    textJa: "あ、来てくれたんだ。乾物の保管箱のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the dry-goods crates?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.aoba.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.aoba.3
+    npcId: "npc.luminous.aoba"
+    textJa: "搬入伝票については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the delivery slips next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.aoba.4
+    npcId: "npc.luminous.aoba"
+    textJa: "搬入伝票の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the delivery slips records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.aoba.5
+    npcId: "npc.luminous.aoba"
+    textJa: "搬入伝票は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The delivery slips still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.tonami.1
+    npcId: "npc.luminous.tonami"
+    textJa: "外域測量の砥波です。旧歩道の迂回標の件でしたら、ここでお聞きします。"
+    textEn: "I'm Tonami, with Field survey. If this is about the old walkway detour markers, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.tonami.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tonami.2
+    npcId: "npc.luminous.tonami"
+    textJa: "あ、来てくれたんだ。旧歩道の迂回標のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the old walkway detour markers?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.tonami.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.tonami.3
+    npcId: "npc.luminous.tonami"
+    textJa: "陥没地点の記録については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the sinkhole notes next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.tonami.4
+    npcId: "npc.luminous.tonami"
+    textJa: "陥没地点の記録の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the sinkhole notes records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.tonami.5
+    npcId: "npc.luminous.tonami"
+    textJa: "陥没地点の記録は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The sinkhole notes still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.mizushino.1
+    npcId: "npc.luminous.mizushino"
+    textJa: "水没街の観測の水篠です。水位目印の件でしたら、ここでお聞きします。"
+    textEn: "I'm Mizushino, with Flooded district survey. If this is about the water-level markers, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.mizushino.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.mizushino.2
+    npcId: "npc.luminous.mizushino"
+    textJa: "あ、来てくれたんだ。水位目印のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the water-level markers?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.mizushino.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.mizushino.3
+    npcId: "npc.luminous.mizushino"
+    textJa: "水没交差点の写真については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the flooded junction photos next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.mizushino.4
+    npcId: "npc.luminous.mizushino"
+    textJa: "水没交差点の写真の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the flooded junction photos records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.mizushino.5
+    npcId: "npc.luminous.mizushino"
+    textJa: "水没交差点の写真は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The flooded junction photos still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.usuzumi.1
+    npcId: "npc.luminous.usuzumi"
+    textJa: "廃墟資料の回収の薄墨です。廃ビルの案内板の件でしたら、ここでお聞きします。"
+    textEn: "I'm Usuzumi, with Ruin archives. If this is about the ruined tower directory, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.usuzumi.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.usuzumi.2
+    npcId: "npc.luminous.usuzumi"
+    textJa: "あ、来てくれたんだ。廃ビルの案内板のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the ruined tower directory?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.usuzumi.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.usuzumi.3
+    npcId: "npc.luminous.usuzumi"
+    textJa: "旧商店の帳面については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the old shop ledgers next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.usuzumi.4
+    npcId: "npc.luminous.usuzumi"
+    textJa: "旧商店の帳面の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the old shop ledgers records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.usuzumi.5
+    npcId: "npc.luminous.usuzumi"
+    textJa: "旧商店の帳面は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The old shop ledgers still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.minemori.1
+    npcId: "npc.luminous.minemori"
+    textJa: "野営地の下見の峰守です。旧キャンプ場の測定点の件でしたら、ここでお聞きします。"
+    textEn: "I'm Minemori, with Campsite survey. If this is about the old campsite survey points, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.minemori.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.minemori.2
+    npcId: "npc.luminous.minemori"
+    textJa: "あ、来てくれたんだ。旧キャンプ場の測定点のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the old campsite survey points?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.minemori.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.minemori.3
+    npcId: "npc.luminous.minemori"
+    textJa: "林道の退避標については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the forest road retreat markers next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.minemori.4
+    npcId: "npc.luminous.minemori"
+    textJa: "林道の退避標の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the forest road retreat markers records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.minemori.5
+    npcId: "npc.luminous.minemori"
+    textJa: "林道の退避標は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The forest road retreat markers still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.hari.1
+    npcId: "npc.luminous.hari"
+    textJa: "異常痕跡の観測の玻璃です。端末撮影の比較記録の件でしたら、ここでお聞きします。"
+    textEn: "I'm Hari, with Anomaly trace observation. If this is about the terminal photo comparison logs, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.hari.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hari.2
+    npcId: "npc.luminous.hari"
+    textJa: "あ、来てくれたんだ。端末撮影の比較記録のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the terminal photo comparison logs?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.hari.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hari.3
+    npcId: "npc.luminous.hari"
+    textJa: "異常濃度の測定札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the anomaly concentration tags next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.hari.4
+    npcId: "npc.luminous.hari"
+    textJa: "異常濃度の測定札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the anomaly concentration tags records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.hari.5
+    npcId: "npc.luminous.hari"
+    textJa: "異常濃度の測定札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The anomaly concentration tags still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.toya.1
+    npcId: "npc.luminous.toya"
+    textJa: "車道調査の遠矢です。通行可能区間の地図の件でしたら、ここでお聞きします。"
+    textEn: "I'm Toya, with Road survey. If this is about the passable road maps, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.toya.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.toya.2
+    npcId: "npc.luminous.toya"
+    textJa: "あ、来てくれたんだ。通行可能区間の地図のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the passable road maps?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.toya.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.toya.3
+    npcId: "npc.luminous.toya"
+    textJa: "路肩の迂回札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the roadside detour signs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.toya.4
+    npcId: "npc.luminous.toya"
+    textJa: "路肩の迂回札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the roadside detour signs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.toya.5
+    npcId: "npc.luminous.toya"
+    textJa: "路肩の迂回札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The roadside detour signs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.hatsuse.1
+    npcId: "npc.luminous.hatsuse"
+    textJa: "外域取引の初瀬です。交換用の医療容器の件でしたら、ここでお聞きします。"
+    textEn: "I'm Hatsuse, with Outland trade. If this is about the medical containers for barter, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.hatsuse.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hatsuse.2
+    npcId: "npc.luminous.hatsuse"
+    textJa: "あ、来てくれたんだ。交換用の医療容器のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the medical containers for barter?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.hatsuse.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.hatsuse.3
+    npcId: "npc.luminous.hatsuse"
+    textJa: "物々交換の見本については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the barter samples next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.hatsuse.4
+    npcId: "npc.luminous.hatsuse"
+    textJa: "物々交換の見本の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the barter samples records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.hatsuse.5
+    npcId: "npc.luminous.hatsuse"
+    textJa: "物々交換の見本は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The barter samples still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.satsuki.1
+    npcId: "npc.luminous.satsuki"
+    textJa: "季節行事の皐月です。季節展示の小物の件でしたら、ここでお聞きします。"
+    textEn: "I'm Satsuki, with Seasonal events. If this is about the seasonal display pieces, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.satsuki.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.satsuki.2
+    npcId: "npc.luminous.satsuki"
+    textJa: "あ、来てくれたんだ。季節展示の小物のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the seasonal display pieces?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.satsuki.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.satsuki.3
+    npcId: "npc.luminous.satsuki"
+    textJa: "行事の案内札については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the event signs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.satsuki.4
+    npcId: "npc.luminous.satsuki"
+    textJa: "行事の案内札の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the event signs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.satsuki.5
+    npcId: "npc.luminous.satsuki"
+    textJa: "行事の案内札は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The event signs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.iori.1
+    npcId: "npc.luminous.iori"
+    textJa: "結界機材の点検の伊織です。携帯結界の警告灯の件でしたら、ここでお聞きします。"
+    textEn: "I'm Iori, with Barrier equipment. If this is about the portable barrier warning lights, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.iori.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.iori.2
+    npcId: "npc.luminous.iori"
+    textJa: "あ、来てくれたんだ。携帯結界の警告灯のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the portable barrier warning lights?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.iori.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.iori.3
+    npcId: "npc.luminous.iori"
+    textJa: "撤収用の留め具については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the pack-down fasteners next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.iori.4
+    npcId: "npc.luminous.iori"
+    textJa: "撤収用の留め具の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the pack-down fasteners records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.iori.5
+    npcId: "npc.luminous.iori"
+    textJa: "撤収用の留め具は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The pack-down fasteners still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.ruri.1
+    npcId: "npc.luminous.ruri"
+    textJa: "写真資料の瑠璃です。写真プリントの件でしたら、ここでお聞きします。"
+    textEn: "I'm Ruri, with Photo archives. If this is about the photo prints, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.ruri.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.ruri.2
+    npcId: "npc.luminous.ruri"
+    textJa: "あ、来てくれたんだ。写真プリントのこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the photo prints?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.ruri.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.ruri.3
+    npcId: "npc.luminous.ruri"
+    textJa: "撮影位置の記録については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the photo location notes next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.ruri.4
+    npcId: "npc.luminous.ruri"
+    textJa: "撮影位置の記録の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the photo location notes records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.ruri.5
+    npcId: "npc.luminous.ruri"
+    textJa: "撮影位置の記録は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The photo location notes still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"
+  - id: dialogue.luminous.niwa.1
+    npcId: "npc.luminous.niwa"
+    textJa: "貯蔵管理の丹羽です。冷蔵棚の点検表の件でしたら、ここでお聞きします。"
+    textEn: "I'm Niwa, with Stockroom care. If this is about the cold-storage checklists, I can help."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds:
+    - dialogue.luminous.niwa.5
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.niwa.2
+    npcId: "npc.luminous.niwa"
+    textJa: "あ、来てくれたんだ。冷蔵棚の点検表のこと、ちょっと聞いてくれる？"
+    textEn: "Oh, you made it. Got a minute to talk about the cold-storage checklists?"
+    minimumAffinity: 35
+    minimumTrust: 30
+    responseIds:
+    - dialogue.luminous.niwa.5
+    topicId: "greeting"
+    variantPriority: 35
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "近況を聞く"
+    choiceEn: "Ask how things are"
+  - id: dialogue.luminous.niwa.3
+    npcId: "npc.luminous.niwa"
+    textJa: "鮮度の記録については、次に顔を合わせたときに話しましょう。"
+    textEn: "Let's talk about the freshness logs next time we meet."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "greeting"
+    variantPriority: 0
+    channel: 2
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "連絡する"
+    choiceEn: "Send a message"
+  - id: dialogue.luminous.niwa.4
+    npcId: "npc.luminous.niwa"
+    textJa: "鮮度の記録の記録、そちらにも一部置いておくね。"
+    textEn: "I'll leave a copy of the freshness logs records with you."
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "handoff"
+    variantPriority: 0
+    channel: 3
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 1
+    choiceJa: ""
+    choiceEn: ""
+  - id: dialogue.luminous.niwa.5
+    npcId: "npc.luminous.niwa"
+    textJa: "鮮度の記録は確認待ちです。記録が揃ったら続きをお願いできますか？"
+    textEn: "The freshness logs still need checking. Could you follow up once the records are ready?"
+    minimumAffinity: 0
+    minimumTrust: 0
+    responseIds: []
+    topicId: "work"
+    variantPriority: 0
+    channel: 1
+    listenerNpcId: ""
+    allowWithoutPlayersNearby: 0
+    choiceJa: "担当の仕事を聞く"
+    choiceEn: "Ask about the work"

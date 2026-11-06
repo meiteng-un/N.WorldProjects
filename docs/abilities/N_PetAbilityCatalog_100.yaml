@@ -1,0 +1,2017 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06de61ec97b64cf8ae442b339fe39171, type: 3}
+  m_Name: N_PetAbilityCatalog_100
+  m_EditorClassIdentifier:
+  rollChance: 0
+  maximumAffixes: 1
+  entries:
+  - id: n.petability.walkspeed.1
+    evolutionTarget: n.petability.walkspeed.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな軽足"
+    nameEn: "Faint Lightfoot"
+    descriptionJa: "移動速度を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases movement speed by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 0
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.walkspeed.2
+    evolutionTarget: n.petability.walkspeed.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな軽足"
+    nameEn: "Gentle Lightfoot"
+    descriptionJa: "移動速度を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases movement speed by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 0
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.walkspeed.3
+    evolutionTarget: n.petability.walkspeed.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな軽足"
+    nameEn: "Distinct Lightfoot"
+    descriptionJa: "移動速度を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases movement speed by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 0
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.walkspeed.4
+    evolutionTarget: n.petability.walkspeed.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い軽足"
+    nameEn: "Deep Lightfoot"
+    descriptionJa: "移動速度を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases movement speed by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 0
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.walkspeed.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な軽足"
+    nameEn: "Rare Lightfoot"
+    descriptionJa: "移動速度を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases movement speed by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 0
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.affectiongain.1
+    evolutionTarget: n.petability.affectiongain.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな人懐こさ"
+    nameEn: "Faint Sociability"
+    descriptionJa: "直接交流による懐き獲得量を基準値から2%増加させる仮定義。直接の交流のみ対象。自動給餌では懐きは増えない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases affection gained through direct interaction by 2% of its base value. Direct interaction only; automatic feeding grants no affection. Definition only; effect application and rolls are not connected."
+    category: "bond"
+    effect: 1
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.affectiongain.2
+    evolutionTarget: n.petability.affectiongain.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな人懐こさ"
+    nameEn: "Gentle Sociability"
+    descriptionJa: "直接交流による懐き獲得量を基準値から4%増加させる仮定義。直接の交流のみ対象。自動給餌では懐きは増えない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases affection gained through direct interaction by 4% of its base value. Direct interaction only; automatic feeding grants no affection. Definition only; effect application and rolls are not connected."
+    category: "bond"
+    effect: 1
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.affectiongain.3
+    evolutionTarget: n.petability.affectiongain.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな人懐こさ"
+    nameEn: "Distinct Sociability"
+    descriptionJa: "直接交流による懐き獲得量を基準値から6%増加させる仮定義。直接の交流のみ対象。自動給餌では懐きは増えない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases affection gained through direct interaction by 6% of its base value. Direct interaction only; automatic feeding grants no affection. Definition only; effect application and rolls are not connected."
+    category: "bond"
+    effect: 1
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.affectiongain.4
+    evolutionTarget: n.petability.affectiongain.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い人懐こさ"
+    nameEn: "Deep Sociability"
+    descriptionJa: "直接交流による懐き獲得量を基準値から8%増加させる仮定義。直接の交流のみ対象。自動給餌では懐きは増えない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases affection gained through direct interaction by 8% of its base value. Direct interaction only; automatic feeding grants no affection. Definition only; effect application and rolls are not connected."
+    category: "bond"
+    effect: 1
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.affectiongain.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な人懐こさ"
+    nameEn: "Rare Sociability"
+    descriptionJa: "直接交流による懐き獲得量を基準値から10%増加させる仮定義。直接の交流のみ対象。自動給餌では懐きは増えない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases affection gained through direct interaction by 10% of its base value. Direct interaction only; automatic feeding grants no affection. Definition only; effect application and rolls are not connected."
+    category: "bond"
+    effect: 1
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.hungerconsumption.1
+    evolutionTarget: n.petability.hungerconsumption.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな倹しい食欲"
+    nameEn: "Faint Frugal Appetite"
+    descriptionJa: "空腹の進行速度を基準値から2%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces hunger progression by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 2
+    additiveRatio: -0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.hungerconsumption.2
+    evolutionTarget: n.petability.hungerconsumption.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな倹しい食欲"
+    nameEn: "Gentle Frugal Appetite"
+    descriptionJa: "空腹の進行速度を基準値から4%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces hunger progression by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 2
+    additiveRatio: -0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.hungerconsumption.3
+    evolutionTarget: n.petability.hungerconsumption.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな倹しい食欲"
+    nameEn: "Distinct Frugal Appetite"
+    descriptionJa: "空腹の進行速度を基準値から6%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces hunger progression by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 2
+    additiveRatio: -0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.hungerconsumption.4
+    evolutionTarget: n.petability.hungerconsumption.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い倹しい食欲"
+    nameEn: "Deep Frugal Appetite"
+    descriptionJa: "空腹の進行速度を基準値から8%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces hunger progression by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 2
+    additiveRatio: -0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.hungerconsumption.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な倹しい食欲"
+    nameEn: "Rare Frugal Appetite"
+    descriptionJa: "空腹の進行速度を基準値から10%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces hunger progression by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 2
+    additiveRatio: -0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.thirstconsumption.1
+    evolutionTarget: n.petability.thirstconsumption.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな節水体質"
+    nameEn: "Faint Water Saver"
+    descriptionJa: "渇きの進行速度を基準値から2%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces thirst progression by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 3
+    additiveRatio: -0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.thirstconsumption.2
+    evolutionTarget: n.petability.thirstconsumption.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな節水体質"
+    nameEn: "Gentle Water Saver"
+    descriptionJa: "渇きの進行速度を基準値から4%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces thirst progression by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 3
+    additiveRatio: -0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.thirstconsumption.3
+    evolutionTarget: n.petability.thirstconsumption.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな節水体質"
+    nameEn: "Distinct Water Saver"
+    descriptionJa: "渇きの進行速度を基準値から6%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces thirst progression by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 3
+    additiveRatio: -0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.thirstconsumption.4
+    evolutionTarget: n.petability.thirstconsumption.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い節水体質"
+    nameEn: "Deep Water Saver"
+    descriptionJa: "渇きの進行速度を基準値から8%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces thirst progression by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 3
+    additiveRatio: -0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.thirstconsumption.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な節水体質"
+    nameEn: "Rare Water Saver"
+    descriptionJa: "渇きの進行速度を基準値から10%減少させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: reduces thirst progression by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "metabolism"
+    effect: 3
+    additiveRatio: -0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.diseaseresistance.1
+    evolutionTarget: n.petability.diseaseresistance.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな丈夫な体"
+    nameEn: "Faint Hardiness"
+    descriptionJa: "病気への抵抗倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases disease resistance by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 4
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.diseaseresistance.2
+    evolutionTarget: n.petability.diseaseresistance.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな丈夫な体"
+    nameEn: "Gentle Hardiness"
+    descriptionJa: "病気への抵抗倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases disease resistance by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 4
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.diseaseresistance.3
+    evolutionTarget: n.petability.diseaseresistance.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな丈夫な体"
+    nameEn: "Distinct Hardiness"
+    descriptionJa: "病気への抵抗倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases disease resistance by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 4
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.diseaseresistance.4
+    evolutionTarget: n.petability.diseaseresistance.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い丈夫な体"
+    nameEn: "Deep Hardiness"
+    descriptionJa: "病気への抵抗倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases disease resistance by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 4
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.diseaseresistance.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な丈夫な体"
+    nameEn: "Rare Hardiness"
+    descriptionJa: "病気への抵抗倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases disease resistance by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 4
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.lifespan.1
+    evolutionTarget: n.petability.lifespan.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな長命の芽"
+    nameEn: "Faint Longevity"
+    descriptionJa: "寿命倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases lifespan multiplier by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 5
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.lifespan.2
+    evolutionTarget: n.petability.lifespan.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな長命の芽"
+    nameEn: "Gentle Longevity"
+    descriptionJa: "寿命倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases lifespan multiplier by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 5
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.lifespan.3
+    evolutionTarget: n.petability.lifespan.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな長命の芽"
+    nameEn: "Distinct Longevity"
+    descriptionJa: "寿命倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases lifespan multiplier by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 5
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.lifespan.4
+    evolutionTarget: n.petability.lifespan.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い長命の芽"
+    nameEn: "Deep Longevity"
+    descriptionJa: "寿命倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases lifespan multiplier by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 5
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.lifespan.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な長命の芽"
+    nameEn: "Rare Longevity"
+    descriptionJa: "寿命倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases lifespan multiplier by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 5
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.breedingsuccess.1
+    evolutionTarget: n.petability.breedingsuccess.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな生命の実り"
+    nameEn: "Faint Fertility"
+    descriptionJa: "繁殖成功率の倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases breeding success multiplier by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 6
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.breedingsuccess.2
+    evolutionTarget: n.petability.breedingsuccess.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな生命の実り"
+    nameEn: "Gentle Fertility"
+    descriptionJa: "繁殖成功率の倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases breeding success multiplier by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 6
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.breedingsuccess.3
+    evolutionTarget: n.petability.breedingsuccess.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな生命の実り"
+    nameEn: "Distinct Fertility"
+    descriptionJa: "繁殖成功率の倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases breeding success multiplier by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 6
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.breedingsuccess.4
+    evolutionTarget: n.petability.breedingsuccess.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い生命の実り"
+    nameEn: "Deep Fertility"
+    descriptionJa: "繁殖成功率の倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases breeding success multiplier by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 6
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.breedingsuccess.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な生命の実り"
+    nameEn: "Rare Fertility"
+    descriptionJa: "繁殖成功率の倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases breeding success multiplier by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 6
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.offspringhealth.1
+    evolutionTarget: n.petability.offspringhealth.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな健やかな子"
+    nameEn: "Faint Healthy Offspring"
+    descriptionJa: "子の初期健康倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases offspring initial health multiplier by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 7
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.offspringhealth.2
+    evolutionTarget: n.petability.offspringhealth.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな健やかな子"
+    nameEn: "Gentle Healthy Offspring"
+    descriptionJa: "子の初期健康倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases offspring initial health multiplier by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 7
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.offspringhealth.3
+    evolutionTarget: n.petability.offspringhealth.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな健やかな子"
+    nameEn: "Distinct Healthy Offspring"
+    descriptionJa: "子の初期健康倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases offspring initial health multiplier by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 7
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.offspringhealth.4
+    evolutionTarget: n.petability.offspringhealth.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い健やかな子"
+    nameEn: "Deep Healthy Offspring"
+    descriptionJa: "子の初期健康倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases offspring initial health multiplier by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 7
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.offspringhealth.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な健やかな子"
+    nameEn: "Rare Healthy Offspring"
+    descriptionJa: "子の初期健康倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases offspring initial health multiplier by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 7
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequantity.1
+    evolutionTarget: n.petability.producequantity.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな豊かな恵み"
+    nameEn: "Faint Abundance"
+    descriptionJa: "飼育生産物の収量を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quantity by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 8
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequantity.2
+    evolutionTarget: n.petability.producequantity.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな豊かな恵み"
+    nameEn: "Gentle Abundance"
+    descriptionJa: "飼育生産物の収量を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quantity by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 8
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequantity.3
+    evolutionTarget: n.petability.producequantity.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな豊かな恵み"
+    nameEn: "Distinct Abundance"
+    descriptionJa: "飼育生産物の収量を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quantity by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 8
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequantity.4
+    evolutionTarget: n.petability.producequantity.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い豊かな恵み"
+    nameEn: "Deep Abundance"
+    descriptionJa: "飼育生産物の収量を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quantity by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 8
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequantity.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な豊かな恵み"
+    nameEn: "Rare Abundance"
+    descriptionJa: "飼育生産物の収量を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quantity by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 8
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequality.1
+    evolutionTarget: n.petability.producequality.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな上質な恵み"
+    nameEn: "Faint Fine Produce"
+    descriptionJa: "飼育生産物の品質評価を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quality by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 9
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequality.2
+    evolutionTarget: n.petability.producequality.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな上質な恵み"
+    nameEn: "Gentle Fine Produce"
+    descriptionJa: "飼育生産物の品質評価を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quality by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 9
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequality.3
+    evolutionTarget: n.petability.producequality.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな上質な恵み"
+    nameEn: "Distinct Fine Produce"
+    descriptionJa: "飼育生産物の品質評価を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quality by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 9
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequality.4
+    evolutionTarget: n.petability.producequality.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い上質な恵み"
+    nameEn: "Deep Fine Produce"
+    descriptionJa: "飼育生産物の品質評価を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quality by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 9
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.producequality.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な上質な恵み"
+    nameEn: "Rare Fine Produce"
+    descriptionJa: "飼育生産物の品質評価を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases husbandry produce quality by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "produce"
+    effect: 9
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.trainingexperience.1
+    evolutionTarget: n.petability.trainingexperience.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな物覚え"
+    nameEn: "Faint Quick Learner"
+    descriptionJa: "訓練の成功経験値を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases successful training experience by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "training"
+    effect: 10
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.trainingexperience.2
+    evolutionTarget: n.petability.trainingexperience.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな物覚え"
+    nameEn: "Gentle Quick Learner"
+    descriptionJa: "訓練の成功経験値を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases successful training experience by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "training"
+    effect: 10
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.trainingexperience.3
+    evolutionTarget: n.petability.trainingexperience.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな物覚え"
+    nameEn: "Distinct Quick Learner"
+    descriptionJa: "訓練の成功経験値を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases successful training experience by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "training"
+    effect: 10
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.trainingexperience.4
+    evolutionTarget: n.petability.trainingexperience.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い物覚え"
+    nameEn: "Deep Quick Learner"
+    descriptionJa: "訓練の成功経験値を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases successful training experience by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "training"
+    effect: 10
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.trainingexperience.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な物覚え"
+    nameEn: "Rare Quick Learner"
+    descriptionJa: "訓練の成功経験値を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases successful training experience by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "training"
+    effect: 10
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stressrecovery.1
+    evolutionTarget: n.petability.stressrecovery.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな穏やかな心"
+    nameEn: "Faint Calm Heart"
+    descriptionJa: "ストレス回復速度を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases stress recovery rate by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "temperament"
+    effect: 11
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stressrecovery.2
+    evolutionTarget: n.petability.stressrecovery.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな穏やかな心"
+    nameEn: "Gentle Calm Heart"
+    descriptionJa: "ストレス回復速度を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases stress recovery rate by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "temperament"
+    effect: 11
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stressrecovery.3
+    evolutionTarget: n.petability.stressrecovery.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな穏やかな心"
+    nameEn: "Distinct Calm Heart"
+    descriptionJa: "ストレス回復速度を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases stress recovery rate by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "temperament"
+    effect: 11
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stressrecovery.4
+    evolutionTarget: n.petability.stressrecovery.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い穏やかな心"
+    nameEn: "Deep Calm Heart"
+    descriptionJa: "ストレス回復速度を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases stress recovery rate by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "temperament"
+    effect: 11
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stressrecovery.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な穏やかな心"
+    nameEn: "Rare Calm Heart"
+    descriptionJa: "ストレス回復速度を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases stress recovery rate by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "temperament"
+    effect: 11
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.coldresistance.1
+    evolutionTarget: n.petability.coldresistance.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな冬毛の加護"
+    nameEn: "Faint Winter Coat"
+    descriptionJa: "寒さへの抵抗倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases cold resistance by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 12
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.coldresistance.2
+    evolutionTarget: n.petability.coldresistance.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな冬毛の加護"
+    nameEn: "Gentle Winter Coat"
+    descriptionJa: "寒さへの抵抗倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases cold resistance by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 12
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.coldresistance.3
+    evolutionTarget: n.petability.coldresistance.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな冬毛の加護"
+    nameEn: "Distinct Winter Coat"
+    descriptionJa: "寒さへの抵抗倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases cold resistance by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 12
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.coldresistance.4
+    evolutionTarget: n.petability.coldresistance.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い冬毛の加護"
+    nameEn: "Deep Winter Coat"
+    descriptionJa: "寒さへの抵抗倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases cold resistance by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 12
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.coldresistance.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な冬毛の加護"
+    nameEn: "Rare Winter Coat"
+    descriptionJa: "寒さへの抵抗倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases cold resistance by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 12
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.heatresistance.1
+    evolutionTarget: n.petability.heatresistance.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな夏風の体"
+    nameEn: "Faint Summer Body"
+    descriptionJa: "暑さへの抵抗倍率を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases heat resistance by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 13
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.heatresistance.2
+    evolutionTarget: n.petability.heatresistance.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな夏風の体"
+    nameEn: "Gentle Summer Body"
+    descriptionJa: "暑さへの抵抗倍率を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases heat resistance by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 13
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.heatresistance.3
+    evolutionTarget: n.petability.heatresistance.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな夏風の体"
+    nameEn: "Distinct Summer Body"
+    descriptionJa: "暑さへの抵抗倍率を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases heat resistance by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 13
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.heatresistance.4
+    evolutionTarget: n.petability.heatresistance.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い夏風の体"
+    nameEn: "Deep Summer Body"
+    descriptionJa: "暑さへの抵抗倍率を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases heat resistance by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 13
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.heatresistance.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な夏風の体"
+    nameEn: "Rare Summer Body"
+    descriptionJa: "暑さへの抵抗倍率を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases heat resistance by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "climate"
+    effect: 13
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.injuryrecovery.1
+    evolutionTarget: n.petability.injuryrecovery.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな癒える力"
+    nameEn: "Faint Mending"
+    descriptionJa: "負傷からの回復速度を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases injury recovery rate by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 14
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.injuryrecovery.2
+    evolutionTarget: n.petability.injuryrecovery.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな癒える力"
+    nameEn: "Gentle Mending"
+    descriptionJa: "負傷からの回復速度を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases injury recovery rate by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 14
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.injuryrecovery.3
+    evolutionTarget: n.petability.injuryrecovery.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな癒える力"
+    nameEn: "Distinct Mending"
+    descriptionJa: "負傷からの回復速度を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases injury recovery rate by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 14
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.injuryrecovery.4
+    evolutionTarget: n.petability.injuryrecovery.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い癒える力"
+    nameEn: "Deep Mending"
+    descriptionJa: "負傷からの回復速度を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases injury recovery rate by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 14
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.injuryrecovery.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な癒える力"
+    nameEn: "Rare Mending"
+    descriptionJa: "負傷からの回復速度を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases injury recovery rate by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "health"
+    effect: 14
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stamina.1
+    evolutionTarget: n.petability.stamina.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな底力"
+    nameEn: "Faint Endurance"
+    descriptionJa: "持久力の上限を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases maximum stamina by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 15
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stamina.2
+    evolutionTarget: n.petability.stamina.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな底力"
+    nameEn: "Gentle Endurance"
+    descriptionJa: "持久力の上限を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases maximum stamina by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 15
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stamina.3
+    evolutionTarget: n.petability.stamina.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな底力"
+    nameEn: "Distinct Endurance"
+    descriptionJa: "持久力の上限を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases maximum stamina by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 15
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stamina.4
+    evolutionTarget: n.petability.stamina.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い底力"
+    nameEn: "Deep Endurance"
+    descriptionJa: "持久力の上限を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases maximum stamina by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 15
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.stamina.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な底力"
+    nameEn: "Rare Endurance"
+    descriptionJa: "持久力の上限を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases maximum stamina by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "mobility"
+    effect: 15
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.perception.1
+    evolutionTarget: n.petability.perception.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな鋭い感覚"
+    nameEn: "Faint Keen Senses"
+    descriptionJa: "対応する感知判定の有効範囲を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported detection range by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "senses"
+    effect: 16
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.perception.2
+    evolutionTarget: n.petability.perception.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな鋭い感覚"
+    nameEn: "Gentle Keen Senses"
+    descriptionJa: "対応する感知判定の有効範囲を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported detection range by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "senses"
+    effect: 16
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.perception.3
+    evolutionTarget: n.petability.perception.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな鋭い感覚"
+    nameEn: "Distinct Keen Senses"
+    descriptionJa: "対応する感知判定の有効範囲を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported detection range by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "senses"
+    effect: 16
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.perception.4
+    evolutionTarget: n.petability.perception.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い鋭い感覚"
+    nameEn: "Deep Keen Senses"
+    descriptionJa: "対応する感知判定の有効範囲を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported detection range by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "senses"
+    effect: 16
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.perception.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な鋭い感覚"
+    nameEn: "Rare Keen Senses"
+    descriptionJa: "対応する感知判定の有効範囲を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported detection range by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "senses"
+    effect: 16
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.gatheringyield.1
+    evolutionTarget: n.petability.gatheringyield.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな採集の相棒"
+    nameEn: "Faint Gathering Companion"
+    descriptionJa: "対応する採集補助の収量を基準値から2%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported gathering assistance yield by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "assistance"
+    effect: 17
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.gatheringyield.2
+    evolutionTarget: n.petability.gatheringyield.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな採集の相棒"
+    nameEn: "Gentle Gathering Companion"
+    descriptionJa: "対応する採集補助の収量を基準値から4%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported gathering assistance yield by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "assistance"
+    effect: 17
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.gatheringyield.3
+    evolutionTarget: n.petability.gatheringyield.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな採集の相棒"
+    nameEn: "Distinct Gathering Companion"
+    descriptionJa: "対応する採集補助の収量を基準値から6%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported gathering assistance yield by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "assistance"
+    effect: 17
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.gatheringyield.4
+    evolutionTarget: n.petability.gatheringyield.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い採集の相棒"
+    nameEn: "Deep Gathering Companion"
+    descriptionJa: "対応する採集補助の収量を基準値から8%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported gathering assistance yield by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "assistance"
+    effect: 17
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.gatheringyield.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な採集の相棒"
+    nameEn: "Rare Gathering Companion"
+    descriptionJa: "対応する採集補助の収量を基準値から10%増加させる仮定義。適用可能な種族・行動にのみ使用。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases supported gathering assistance yield by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "assistance"
+    effect: 17
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.inheritancechance.1
+    evolutionTarget: n.petability.inheritancechance.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな継がれる資質"
+    nameEn: "Faint Inherited Gift"
+    descriptionJa: "能力遺伝の判定倍率を基準値から2%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases ability inheritance multiplier by 2% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 18
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.inheritancechance.2
+    evolutionTarget: n.petability.inheritancechance.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな継がれる資質"
+    nameEn: "Gentle Inherited Gift"
+    descriptionJa: "能力遺伝の判定倍率を基準値から4%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases ability inheritance multiplier by 4% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 18
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.inheritancechance.3
+    evolutionTarget: n.petability.inheritancechance.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな継がれる資質"
+    nameEn: "Distinct Inherited Gift"
+    descriptionJa: "能力遺伝の判定倍率を基準値から6%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases ability inheritance multiplier by 6% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 18
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.inheritancechance.4
+    evolutionTarget: n.petability.inheritancechance.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い継がれる資質"
+    nameEn: "Deep Inherited Gift"
+    descriptionJa: "能力遺伝の判定倍率を基準値から8%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases ability inheritance multiplier by 8% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 18
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.inheritancechance.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な継がれる資質"
+    nameEn: "Rare Inherited Gift"
+    descriptionJa: "能力遺伝の判定倍率を基準値から10%増加させる仮定義。遺伝を保証せず、個別の遺伝確率は0〜100%に収める。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases ability inheritance multiplier by 10% of its base value. Use only for applicable species and actions. Definition only; effect application and rolls are not connected."
+    category: "breeding"
+    effect: 18
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.evolutionchance.1
+    evolutionTarget: n.petability.evolutionchance.2
+    evolutionMinimumLevel: 5
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "微かな変化の兆し"
+    nameEn: "Faint Evolution Spark"
+    descriptionJa: "条件充足後の進化抽選倍率を基準値から2%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases evolution roll multiplier after prerequisites by 2% of its base value. All evolution prerequisites remain necessary. Definition only; effect application and rolls are not connected."
+    category: "evolution"
+    effect: 19
+    additiveRatio: 0.02
+    selectionWeight: 40
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.evolutionchance.2
+    evolutionTarget: n.petability.evolutionchance.3
+    evolutionMinimumLevel: 10
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "穏やかな変化の兆し"
+    nameEn: "Gentle Evolution Spark"
+    descriptionJa: "条件充足後の進化抽選倍率を基準値から4%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases evolution roll multiplier after prerequisites by 4% of its base value. All evolution prerequisites remain necessary. Definition only; effect application and rolls are not connected."
+    category: "evolution"
+    effect: 19
+    additiveRatio: 0.04
+    selectionWeight: 28
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.evolutionchance.3
+    evolutionTarget: n.petability.evolutionchance.4
+    evolutionMinimumLevel: 15
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "確かな変化の兆し"
+    nameEn: "Distinct Evolution Spark"
+    descriptionJa: "条件充足後の進化抽選倍率を基準値から6%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases evolution roll multiplier after prerequisites by 6% of its base value. All evolution prerequisites remain necessary. Definition only; effect application and rolls are not connected."
+    category: "evolution"
+    effect: 19
+    additiveRatio: 0.06
+    selectionWeight: 18
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.evolutionchance.4
+    evolutionTarget: n.petability.evolutionchance.5
+    evolutionMinimumLevel: 20
+    evolutionMinimumUses: 0
+    evolutionConditionJa: "必要レベル・有効使用回数と個別の育成条件を満たす。能力の進化であり、生物の種族進化ではない。"
+    evolutionConditionEn: "Meet level, successful-use and individual training requirements. This evolves the ability, not the species."
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "深い変化の兆し"
+    nameEn: "Deep Evolution Spark"
+    descriptionJa: "条件充足後の進化抽選倍率を基準値から8%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases evolution roll multiplier after prerequisites by 8% of its base value. All evolution prerequisites remain necessary. Definition only; effect application and rolls are not connected."
+    category: "evolution"
+    effect: 19
+    additiveRatio: 0.08
+    selectionWeight: 10
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0
+  - id: n.petability.evolutionchance.5
+    evolutionTarget: 
+    evolutionMinimumLevel: 1
+    evolutionMinimumUses: 0
+    evolutionConditionJa: ""
+    evolutionConditionEn: ""
+    abilityCategory: 1
+    activation: 0
+    rarity: 0
+    nameJa: "希少な変化の兆し"
+    nameEn: "Rare Evolution Spark"
+    descriptionJa: "条件充足後の進化抽選倍率を基準値から10%増加させる仮定義。進化に必要な薬・環境等の条件は省略しない。現段階では定義のみで、効果適用・抽選は未接続。"
+    descriptionEn: "Prototype: increases evolution roll multiplier after prerequisites by 10% of its base value. All evolution prerequisites remain necessary. Definition only; effect application and rolls are not connected."
+    category: "evolution"
+    effect: 19
+    additiveRatio: 0.1
+    selectionWeight: 4
+    eligibilityTags: []
+    inheritanceChance: 0.1
+    runtimeConnected: 0

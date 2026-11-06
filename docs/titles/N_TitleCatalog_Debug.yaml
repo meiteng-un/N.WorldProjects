@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a321da87880e78946996f1e72e4ee787, type: 3}
+  m_Name: N_TitleCatalog_Debug
+  m_EditorClassIdentifier: 
+  titles:
+  - id: debug.alpha
+    displayName: "\u691C\u67FB\u7528\u79F0\u53F7A"
+    description: "\u30C7\u30D0\u30C3\u30B0\u5C02\u7528\u30FB\u672C\u756A\u52B9\u679C\u306A\u3057"
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions: []
+    revokeConditions: []
+    effects: []
+  - id: debug.beta
+    displayName: "\u691C\u67FB\u7528\u79F0\u53F7B"
+    description: "\u30C7\u30D0\u30C3\u30B0\u5C02\u7528\u30FB\u672C\u756A\u52B9\u679C\u306A\u3057"
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions: []
+    revokeConditions: []
+    effects: []

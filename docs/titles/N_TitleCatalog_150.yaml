@@ -1,0 +1,3573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a321da87880e78946996f1e72e4ee787, type: 3}
+  m_Name: N_TitleCatalog_150
+  m_EditorClassIdentifier: 
+  titles:
+  - id: n.title.stay.01
+    displayName: "\u3072\u3068\u606F\u306E\u6765\u8A2A\u8005"
+    description: "\u7D2F\u8A08\u6EDE\u57285\u6642\u9593\u4EE5\u4E0A\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Moment of Rest
+    descriptionEnglish: Spend at least 5 hours in this world. Offline time does not
+      count. Once earned, this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 300
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.stay.02
+    displayName: "\u30ED\u30D3\u30FC\u306E\u898B\u6163\u308C\u305F\u9854"
+    description: "\u7D2F\u8A08\u6EDE\u572850\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A10\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Familiar Face in the Lobby
+    descriptionEnglish: Spend at least 50 hours in this world. Visit at least 10
+      times. Offline time does not count. Once earned, this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 3000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.stay.03
+    displayName: "\u767E\u6642\u9593\u306E\u8DB3\u8DE1"
+    description: "\u7D2F\u8A08\u6EDE\u5728100\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A20\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +1.5\u3002"
+    displayNameEnglish: A Hundred Hours of Footprints
+    descriptionEnglish: 'Spend at least 100 hours in this world. Visit at least 20
+      times. Offline time does not count. Once earned, this title is normally retained.
+
+      Provisional
+      equipped effect: Max HP +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 6000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 1.5
+  - id: n.title.stay.04
+    displayName: "\u591C\u3092\u8D8A\u3059\u706F"
+    description: "\u7D2F\u8A08\u6EDE\u5728250\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A30\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +2\u3002"
+    displayNameEnglish: A Light Through the Night
+    descriptionEnglish: 'Spend at least 250 hours in this world. Visit at least 30
+      times. Offline time does not count. Once earned, this title is normally retained.
+
+      Provisional
+      equipped effect: Max HP +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 15000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 2
+  - id: n.title.stay.05
+    displayName: "\u30DB\u30C6\u30EB\u306E\u5E38\u9023"
+    description: "\u7D2F\u8A08\u6EDE\u5728500\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A50\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +2.5\u3002"
+    displayNameEnglish: A Hotel Regular
+    descriptionEnglish: 'Spend at least 500 hours in this world. Visit at least 50
+      times. Offline time does not count. Once earned, this title is normally retained.
+
+      Provisional
+      equipped effect: Max HP +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 30000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 2.5
+  - id: n.title.stay.06
+    displayName: "\u5343\u6642\u9593\u306E\u8DB3\u8DE1"
+    description: "\u7D2F\u8A08\u6EDE\u57281000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A100\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +3\u3002"
+    displayNameEnglish: A Thousand Hours of Footprints
+    descriptionEnglish: 'Spend at least 1,000 hours in this world. Visit at least
+      100 times. Offline time does not count. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max HP +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 60000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 3
+  - id: n.title.stay.07
+    displayName: "\u5E30\u308B\u5834\u6240\u3092\u77E5\u308B\u8005"
+    description: "\u7D2F\u8A08\u6EDE\u57282500\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A200\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +3.5\u3002"
+    displayNameEnglish: Knowing Where Home Is
+    descriptionEnglish: 'Spend at least 2,500 hours in this world. Visit at least
+      200 times. Offline time does not count. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max HP +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 150000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 200
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 3.5
+  - id: n.title.stay.08
+    displayName: "\u4E94\u5343\u6642\u9593\u306E\u661F\u898B"
+    description: "\u7D2F\u8A08\u6EDE\u57285000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A365\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +4\u3002"
+    displayNameEnglish: Five Thousand Hours Under the Stars
+    descriptionEnglish: 'Spend at least 5,000 hours in this world. Visit at least
+      365 times. Offline time does not count. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max HP +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 300000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 365
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 4
+  - id: n.title.stay.09
+    displayName: "\u9577\u3044\u65E5\u5E38\u306E\u540C\u4F34\u8005"
+    description: "\u7D2F\u8A08\u6EDE\u572810000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A730\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +4.5\u3002"
+    displayNameEnglish: A Companion Through the Years
+    descriptionEnglish: 'Spend at least 10,000 hours in this world. Visit at least
+      730 times. Offline time does not count. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max HP +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 600000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 730
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 4.5
+  - id: n.title.stay.10
+    displayName: "\u3053\u306E\u706F\u3068\u3068\u3082\u306B"
+    description: "\u7D2F\u8A08\u6EDE\u572820000\u6642\u9593\u4EE5\u4E0A\u3002\u6765\u8A2A1000\u56DE\u4EE5\u4E0A\u3082\u5FC5\u8981\u3002\u96E2\u8131\u4E2D\u306E\u6642\u9593\u306F\u542B\u307F\u307E\u305B\u3093\u3002\u7372\u5F97\u5F8C\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +5\u3002"
+    displayNameEnglish: Together with This Light
+    descriptionEnglish: 'Spend at least 20,000 hours in this world. Visit at least
+      1000 times. Offline time does not count. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max HP +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: totalStayMinutes
+      kind: 0
+      comparison: 0
+      number: 1200000
+      text: 
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 5
+  - id: n.title.visits.01
+    displayName: "\u6249\u3092\u958B\u3044\u305F\u4EBA"
+    description: "\u6765\u8A2A\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Through the Door
+    descriptionEnglish: Visit this world at least 1 times. Once earned, this title
+      is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.visits.02
+    displayName: "\u307E\u305F\u4F1A\u3044\u307E\u3057\u305F\u306D"
+    description: "\u6765\u8A2A\uFF1A3\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Good to See You Again
+    descriptionEnglish: Visit this world at least 3 times. Once earned, this title
+      is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 3
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.visits.03
+    displayName: "\u5341\u5EA6\u76EE\u306E\u5E30\u9084"
+    description: "\u6765\u8A2A\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +1.5\u3002"
+    displayNameEnglish: The Tenth Return
+    descriptionEnglish: 'Visit this world at least 10 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 1.5
+  - id: n.title.visits.04
+    displayName: "\u9854\u306A\u3058\u307F"
+    description: "\u6765\u8A2A\uFF1A25\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2\u3002"
+    displayNameEnglish: A Familiar Face
+    descriptionEnglish: 'Visit this world at least 25 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 25
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2
+  - id: n.title.visits.05
+    displayName: "\u4E94\u5341\u679A\u306E\u8DB3\u8DE1"
+    description: "\u6765\u8A2A\uFF1A50\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2.5\u3002"
+    displayNameEnglish: Fifty Sets of Footprints
+    descriptionEnglish: 'Visit this world at least 50 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2.5
+  - id: n.title.visits.06
+    displayName: "\u767E\u306E\u305F\u3060\u3044\u307E"
+    description: "\u6765\u8A2A\uFF1A100\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3\u3002"
+    displayNameEnglish: A Hundred Homecomings
+    descriptionEnglish: 'Visit this world at least 100 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3
+  - id: n.title.visits.07
+    displayName: "\u5E30\u8DEF\u306E\u9054\u4EBA"
+    description: "\u6765\u8A2A\uFF1A250\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3.5\u3002"
+    displayNameEnglish: A Seasoned Returner
+    descriptionEnglish: 'Visit this world at least 250 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3.5
+  - id: n.title.visits.08
+    displayName: "\u4E94\u767E\u56DE\u306E\u30CE\u30C3\u30AF"
+    description: "\u6765\u8A2A\uFF1A500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4\u3002"
+    displayNameEnglish: Five Hundred Knocks
+    descriptionEnglish: 'Visit this world at least 500 times. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Max stamina +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4
+  - id: n.title.visits.09
+    displayName: "\u5343\u5EA6\u306E\u5E30\u308A\u9053"
+    description: "\u6765\u8A2A\uFF1A1000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4.5\u3002"
+    displayNameEnglish: A Thousand Roads Home
+    descriptionEnglish: 'Visit this world at least 1,000 times. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max stamina
+      +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4.5
+  - id: n.title.visits.10
+    displayName: "\u7D42\u308F\u3089\u306A\u3044\u305F\u3060\u3044\u307E"
+    description: "\u6765\u8A2A\uFF1A2000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +5\u3002"
+    displayNameEnglish: Always Coming Home
+    descriptionEnglish: 'Visit this world at least 2,000 times. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max stamina
+      +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: visitCount
+      kind: 0
+      comparison: 0
+      number: 2000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 5
+  - id: n.title.wealth.01
+    displayName: "\u65C5\u306E\u5C0F\u92AD"
+    description: "\u6240\u6301\u91D1\uFF1A1000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Travel Money
+    descriptionEnglish: Hold at least 1,000 UdonChips. Once earned, this title is
+      normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.wealth.02
+    displayName: "\u5C11\u3057\u306E\u4F59\u88D5"
+    description: "\u6240\u6301\u91D1\uFF1A5000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Little Breathing Room
+    descriptionEnglish: Hold at least 5,000 UdonChips. Once earned, this title is
+      normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 5000
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.wealth.03
+    displayName: "\u4E00\u4E07\u679A\u306E\u5099\u3048"
+    description: "\u6240\u6301\u91D1\uFF1A10000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.006\u3002"
+    displayNameEnglish: Ten Thousand in Reserve
+    descriptionEnglish: 'Hold at least 10,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.006.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 10000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.006
+  - id: n.title.wealth.04
+    displayName: "\u84C4\u3048\u4E0A\u624B"
+    description: "\u6240\u6301\u91D1\uFF1A50000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.008\u3002"
+    displayNameEnglish: A Careful Saver
+    descriptionEnglish: 'Hold at least 50,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.008.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 50000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.008
+  - id: n.title.wealth.05
+    displayName: "\u5341\u4E07\u679A\u306E\u8CA1\u5E03"
+    description: "\u6240\u6301\u91D1\uFF1A100000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.01\u3002"
+    displayNameEnglish: A Six-Figure Wallet
+    descriptionEnglish: 'Hold at least 100,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.01.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 100000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.01
+  - id: n.title.wealth.06
+    displayName: "\u539A\u3044\u624B\u6301\u3061"
+    description: "\u6240\u6301\u91D1\uFF1A500000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.012\u3002"
+    displayNameEnglish: Deep Pockets
+    descriptionEnglish: 'Hold at least 500,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.012.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 500000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.012
+  - id: n.title.wealth.07
+    displayName: "\u767E\u4E07\u679A\u306E\u5099\u84C4"
+    description: "\u6240\u6301\u91D1\uFF1A1000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.014\u3002"
+    displayNameEnglish: A Million in Reserve
+    descriptionEnglish: 'Hold at least 1,000,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.014.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 1000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.014
+  - id: n.title.wealth.08
+    displayName: "\u5927\u53E3\u306E\u6765\u8A2A\u8005"
+    description: "\u6240\u6301\u91D1\uFF1A5000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.016\u3002"
+    displayNameEnglish: A Major Patron
+    descriptionEnglish: 'Hold at least 5,000,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.016.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 5000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.016
+  - id: n.title.wealth.09
+    displayName: "\u5343\u4E07\u306E\u4F59\u88D5"
+    description: "\u6240\u6301\u91D1\uFF1A10000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.018\u3002"
+    displayNameEnglish: Ten Million to Spare
+    descriptionEnglish: 'Hold at least 10,000,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.018.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 10000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.018
+  - id: n.title.wealth.10
+    displayName: "\u5104\u306E\u5099\u3048"
+    description: "\u6240\u6301\u91D1\uFF1A100000000UdonChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.02\u3002"
+    displayNameEnglish: A Hundred Million in Reserve
+    descriptionEnglish: 'Hold at least 100,000,000 UdonChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.02.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: bankBalance
+      kind: 0
+      comparison: 0
+      number: 100000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.02
+  - id: n.title.gamechips.01
+    displayName: "\u904A\u3073\u306E\u652F\u5EA6"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A100GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Ready to Play
+    descriptionEnglish: Hold at least 100 GameChips. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.gamechips.02
+    displayName: "\u5353\u306E\u5E38\u9023"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A500GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Regular at the Table
+    descriptionEnglish: Hold at least 500 GameChips. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.gamechips.03
+    displayName: "\u5343\u679A\u306E\u904A\u3073\u5FC3"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A1000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.006\u3002"
+    displayNameEnglish: A Thousand Chips of Fun
+    descriptionEnglish: 'Hold at least 1,000 GameChips. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.006.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.006
+  - id: n.title.gamechips.04
+    displayName: "\u904A\u622F\u5BA4\u306E\u9854"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A5000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.008\u3002"
+    displayNameEnglish: A Familiar Face in the Game Room
+    descriptionEnglish: 'Hold at least 5,000 GameChips. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.008.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 5000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.008
+  - id: n.title.gamechips.05
+    displayName: "\u4E07\u679A\u306E\u6301\u3061\u672D"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A10000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.01\u3002"
+    displayNameEnglish: Ten Thousand on Hand
+    descriptionEnglish: 'Hold at least 10,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.01.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 10000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.01
+  - id: n.title.gamechips.06
+    displayName: "\u8CD1\u308F\u3044\u306E\u62C5\u3044\u624B"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A50000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.012\u3002"
+    displayNameEnglish: Keeping the Games Alive
+    descriptionEnglish: 'Hold at least 50,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.012.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 50000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.012
+  - id: n.title.gamechips.07
+    displayName: "\u5341\u4E07\u679A\u306E\u4F59\u6687"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A100000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.014\u3002"
+    displayNameEnglish: A Hundred Thousand for Leisure
+    descriptionEnglish: 'Hold at least 100,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.014.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 100000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.014
+  - id: n.title.gamechips.08
+    displayName: "\u904A\u622F\u5834\u306E\u5927\u53E3"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A500000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.016\u3002"
+    displayNameEnglish: A High Roller
+    descriptionEnglish: 'Hold at least 500,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.016.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 500000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.016
+  - id: n.title.gamechips.09
+    displayName: "\u767E\u4E07\u679A\u306E\u904A\u3073\u5FC3"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A1000000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.018\u3002"
+    displayNameEnglish: A Million Reasons to Play
+    descriptionEnglish: 'Hold at least 1,000,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.018.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 1000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.018
+  - id: n.title.gamechips.10
+    displayName: "\u679C\u3066\u3057\u306A\u3044\u5A2F\u697D"
+    description: "\u5A2F\u697D\u901A\u8CA8\uFF1A10000000GameChips\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u5A2F\u697D\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.02\u3002"
+    displayNameEnglish: Leisure Without Limits
+    descriptionEnglish: 'Hold at least 10,000,000 GameChips. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: GameChip gain multiplier
+      +0.02.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: economy
+      variable: gameChips
+      kind: 0
+      comparison: 0
+      number: 10000000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 37
+      amount: 0.02
+  - id: n.title.exploration.01
+    displayName: "\u5916\u57DF\u3078\u306E\u4E00\u6B69"
+    description: "\u63A2\u7D22\uFF1A1\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: A Step into the Outlands
+    descriptionEnglish: Discover at least 1 locations. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.exploration.02
+    displayName: "\u9053\u306E\u5411\u3053\u3046\u5074"
+    description: "\u63A2\u7D22\uFF1A3\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: Beyond the Road
+    descriptionEnglish: Discover at least 3 locations. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 3
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.exploration.03
+    displayName: "\u5730\u56F3\u306E\u4F59\u767D"
+    description: "\u63A2\u7D22\uFF1A5\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +0.6\u3002"
+    displayNameEnglish: The Blank Edge of the Map
+    descriptionEnglish: 'Discover at least 5 locations. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +0.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 0.6
+  - id: n.title.exploration.04
+    displayName: "\u5EC3\u9053\u306E\u6848\u5185\u4EBA"
+    description: "\u63A2\u7D22\uFF1A10\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +0.8\u3002"
+    displayNameEnglish: A Guide to Forgotten Roads
+    descriptionEnglish: 'Discover at least 10 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +0.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 0.8
+  - id: n.title.exploration.05
+    displayName: "\u8857\u89D2\u306E\u8A18\u9332\u8005"
+    description: "\u63A2\u7D22\uFF1A20\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1\u3002"
+    displayNameEnglish: A Chronicler of Street Corners
+    descriptionEnglish: 'Discover at least 20 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1
+  - id: n.title.exploration.06
+    displayName: "\u8FC2\u56DE\u8DEF\u3092\u77E5\u308B\u8005"
+    description: "\u63A2\u7D22\uFF1A35\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.2\u3002"
+    displayNameEnglish: Knowing the Detours
+    descriptionEnglish: 'Discover at least 35 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 35
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.2
+  - id: n.title.exploration.07
+    displayName: "\u5931\u308F\u308C\u305F\u8857\u306E\u65C5\u4EBA"
+    description: "\u63A2\u7D22\uFF1A50\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.4\u3002"
+    displayNameEnglish: A Traveler of Lost Cities
+    descriptionEnglish: 'Discover at least 50 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.4
+  - id: n.title.exploration.08
+    displayName: "\u9060\u666F\u306E\u8E0F\u7834\u8005"
+    description: "\u63A2\u7D22\uFF1A80\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.6\u3002"
+    displayNameEnglish: Reaching the Far Horizon
+    descriptionEnglish: 'Discover at least 80 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 80
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.6
+  - id: n.title.exploration.09
+    displayName: "\u4E16\u754C\u306E\u7D99\u304E\u76EE\u3092\u6B69\u304F\u8005"
+    description: "\u63A2\u7D22\uFF1A120\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.8\u3002"
+    displayNameEnglish: Walking the Seams of the World
+    descriptionEnglish: 'Discover at least 120 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 120
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.8
+  - id: n.title.exploration.10
+    displayName: "\u672A\u77E5\u3092\u65E5\u5E38\u306B\u3059\u308B\u8005"
+    description: "\u63A2\u7D22\uFF1A200\u5730\u70B9\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +2\u3002"
+    displayNameEnglish: Making the Unknown Familiar
+    descriptionEnglish: 'Discover at least 200 locations. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: discoveredLocationCount
+      kind: 0
+      comparison: 0
+      number: 200
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 2
+  - id: n.title.fishing.01
+    displayName: "\u6700\u521D\u306E\u4E00\u5C3E"
+    description: "\u91E3\u308A\uFF1A1\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Catch
+    descriptionEnglish: Land at least 1 catches. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.fishing.02
+    displayName: "\u6C34\u8FBA\u306E\u5F85\u3061\u4EBA"
+    description: "\u91E3\u308A\uFF1A5\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Waiting by the Water
+    descriptionEnglish: Land at least 5 catches. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.fishing.03
+    displayName: "\u6D6E\u304D\u3092\u898B\u5B88\u308B\u8005"
+    description: "\u91E3\u308A\uFF1A20\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +1.5\u3002"
+    displayNameEnglish: Watching the Float
+    descriptionEnglish: 'Land at least 20 catches. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 1.5
+  - id: n.title.fishing.04
+    displayName: "\u7CF8\u5148\u306E\u5BFE\u8A71\u8005"
+    description: "\u91E3\u308A\uFF1A50\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2\u3002"
+    displayNameEnglish: A Conversation on the Line
+    descriptionEnglish: 'Land at least 50 catches. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2
+  - id: n.title.fishing.05
+    displayName: "\u767E\u5C3E\u306E\u91E3\u308A\u4EBA"
+    description: "\u91E3\u308A\uFF1A100\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2.5\u3002"
+    displayNameEnglish: A Hundred Fish
+    descriptionEnglish: 'Land at least 100 catches. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2.5
+  - id: n.title.fishing.06
+    displayName: "\u6CE2\u7D0B\u3092\u8AAD\u3080\u8005"
+    description: "\u91E3\u308A\uFF1A250\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3\u3002"
+    displayNameEnglish: Reading the Ripples
+    descriptionEnglish: 'Land at least 250 catches. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3
+  - id: n.title.fishing.07
+    displayName: "\u6C34\u8FBA\u306E\u719F\u7DF4\u8005"
+    description: "\u91E3\u308A\uFF1A500\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3.5\u3002"
+    displayNameEnglish: A Veteran of the Waterside
+    descriptionEnglish: 'Land at least 500 catches. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3.5
+  - id: n.title.fishing.08
+    displayName: "\u5343\u5C3E\u306E\u91E3\u884C\u8A18"
+    description: "\u91E3\u308A\uFF1A1000\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4\u3002"
+    displayNameEnglish: A Thousand Catches
+    descriptionEnglish: 'Land at least 1,000 catches. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4
+  - id: n.title.fishing.09
+    displayName: "\u6D41\u308C\u3092\u77E5\u308B\u624B"
+    description: "\u91E3\u308A\uFF1A2500\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4.5\u3002"
+    displayNameEnglish: Hands That Know the Current
+    descriptionEnglish: 'Land at least 2,500 catches. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4.5
+  - id: n.title.fishing.10
+    displayName: "\u7CF8\u306E\u5148\u306B\u4E16\u754C\u3092\u898B\u308B\u8005"
+    description: "\u91E3\u308A\uFF1A5000\u5339\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +5\u3002"
+    displayNameEnglish: A World at the End of the Line
+    descriptionEnglish: 'Land at least 5,000 catches. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: landedCatchCount
+      kind: 0
+      comparison: 0
+      number: 5000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 5
+  - id: n.title.cooking.01
+    displayName: "\u306F\u3058\u3081\u3066\u306E\u4E00\u76BF"
+    description: "\u6599\u7406\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Plate
+    descriptionEnglish: Successfully prepare at least 1 dishes. Once earned, this
+      title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.cooking.02
+    displayName: "\u6E6F\u6C17\u306E\u5411\u3053\u3046"
+    description: "\u6599\u7406\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Beyond the Steam
+    descriptionEnglish: Successfully prepare at least 5 dishes. Once earned, this
+      title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.cooking.03
+    displayName: "\u53F0\u6240\u306E\u52A9\u3063\u4EBA"
+    description: "\u6599\u7406\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +1.5\u3002"
+    displayNameEnglish: A Helping Hand in the Kitchen
+    descriptionEnglish: 'Successfully prepare at least 15 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 15
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 1.5
+  - id: n.title.cooking.04
+    displayName: "\u5473\u3092\u899A\u3048\u308B\u624B"
+    description: "\u6599\u7406\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +2\u3002"
+    displayNameEnglish: Hands That Learn Flavor
+    descriptionEnglish: 'Successfully prepare at least 30 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 2
+  - id: n.title.cooking.05
+    displayName: "\u65E5\u3005\u306E\u307E\u304B\u306A\u3044"
+    description: "\u6599\u7406\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +2.5\u3002"
+    displayNameEnglish: The Daily Meal
+    descriptionEnglish: 'Successfully prepare at least 60 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 2.5
+  - id: n.title.cooking.06
+    displayName: "\u767E\u76BF\u306E\u6E29\u3082\u308A"
+    description: "\u6599\u7406\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +3\u3002"
+    displayNameEnglish: A Hundred Plates of Warmth
+    descriptionEnglish: 'Successfully prepare at least 100 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 3
+  - id: n.title.cooking.07
+    displayName: "\u98DF\u5353\u3092\u652F\u3048\u308B\u8005"
+    description: "\u6599\u7406\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +3.5\u3002"
+    displayNameEnglish: Keeping the Table Set
+    descriptionEnglish: 'Successfully prepare at least 250 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 3.5
+  - id: n.title.cooking.08
+    displayName: "\u9999\u308A\u306E\u6848\u5185\u4EBA"
+    description: "\u6599\u7406\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +4\u3002"
+    displayNameEnglish: A Guide to Good Aromas
+    descriptionEnglish: 'Successfully prepare at least 500 dishes. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Max HP +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 4
+  - id: n.title.cooking.09
+    displayName: "\u5343\u76BF\u306E\u3082\u3066\u306A\u3057"
+    description: "\u6599\u7406\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +4.5\u3002"
+    displayNameEnglish: A Thousand Plates of Hospitality
+    descriptionEnglish: 'Successfully prepare at least 1,000 dishes. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max HP
+      +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 4.5
+  - id: n.title.cooking.10
+    displayName: "\u7D42\u672B\u306E\u98DF\u5353\u3092\u5F69\u308B\u8005"
+    description: "\u6599\u7406\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927HP
+      +5\u3002"
+    displayNameEnglish: Bringing Flavor to the End of the World
+    descriptionEnglish: 'Successfully prepare at least 2,500 dishes. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max HP
+      +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCookingCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 14
+      amount: 5
+  - id: n.title.alchemy.01
+    displayName: "\u5C0F\u74F6\u306E\u306F\u3058\u307E\u308A"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Vial
+    descriptionEnglish: Successfully produce at least 1 alchemical preparations.
+      Once earned, this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.alchemy.02
+    displayName: "\u8ABF\u5408\u306E\u898B\u7FD2\u3044"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: An Apprentice Mixer
+    descriptionEnglish: Successfully produce at least 5 alchemical preparations.
+      Once earned, this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.alchemy.03
+    displayName: "\u85AC\u8349\u3092\u8B58\u308B\u8005"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +1.5\u3002"
+    displayNameEnglish: Knowing the Herbs
+    descriptionEnglish: 'Successfully produce at least 15 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 15
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 1.5
+  - id: n.title.alchemy.04
+    displayName: "\u62BD\u51FA\u306E\u624B\u307B\u3069\u304D"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2\u3002"
+    displayNameEnglish: Learning Extraction
+    descriptionEnglish: 'Successfully produce at least 30 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2
+  - id: n.title.alchemy.05
+    displayName: "\u8A66\u85AC\u68DA\u306E\u4F4F\u4EBA"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2.5\u3002"
+    displayNameEnglish: At Home Among Reagents
+    descriptionEnglish: 'Successfully produce at least 60 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2.5
+  - id: n.title.alchemy.06
+    displayName: "\u767E\u74F6\u306E\u8A18\u9332"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3\u3002"
+    displayNameEnglish: A Hundred Bottles on Record
+    descriptionEnglish: 'Successfully produce at least 100 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3
+  - id: n.title.alchemy.07
+    displayName: "\u8ABF\u5408\u5BA4\u306E\u983C\u308A"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3.5\u3002"
+    displayNameEnglish: A Reliable Hand in the Laboratory
+    descriptionEnglish: 'Successfully produce at least 250 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3.5
+  - id: n.title.alchemy.08
+    displayName: "\u7D20\u6750\u306E\u58F0\u3092\u8074\u304F\u8005"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4\u3002"
+    displayNameEnglish: Listening to the Ingredients
+    descriptionEnglish: 'Successfully produce at least 500 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4
+  - id: n.title.alchemy.09
+    displayName: "\u5343\u74F6\u306E\u63A2\u7A76"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4.5\u3002"
+    displayNameEnglish: A Thousand Bottles of Inquiry
+    descriptionEnglish: 'Successfully produce at least 1,000 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4.5
+  - id: n.title.alchemy.10
+    displayName: "\u4E0D\u53EF\u601D\u8B70\u3092\u8ABF\u3048\u308B\u8005"
+    description: "\u932C\u91D1\u30FB\u85AC\u5B66\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +5\u3002"
+    displayNameEnglish: Bringing Order to the Uncanny
+    descriptionEnglish: 'Successfully produce at least 2,500 alchemical preparations.
+      Once earned, this title is normally retained.
+
+      Provisional equipped effect:
+      Max MP +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulAlchemyCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 5
+  - id: n.title.craft.01
+    displayName: "\u6700\u521D\u306E\u624B\u4ED5\u4E8B"
+    description: "\u88FD\u4F5C\uFF1A1\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Handcrafted Piece
+    descriptionEnglish: Successfully craft at least 1 items. Once earned, this title
+      is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.craft.02
+    displayName: "\u4F5C\u696D\u53F0\u306E\u96A3\u4EBA"
+    description: "\u88FD\u4F5C\uFF1A5\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Neighbor at the Workbench
+    descriptionEnglish: Successfully craft at least 5 items. Once earned, this title
+      is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.craft.03
+    displayName: "\u9053\u5177\u3092\u751F\u3080\u624B"
+    description: "\u88FD\u4F5C\uFF1A15\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +0.6\u3002"
+    displayNameEnglish: Hands That Make Tools
+    descriptionEnglish: 'Successfully craft at least 15 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +0.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 15
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 0.6
+  - id: n.title.craft.04
+    displayName: "\u7D44\u307F\u7ACB\u3066\u4E0A\u624B"
+    description: "\u88FD\u4F5C\uFF1A30\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +0.8\u3002"
+    displayNameEnglish: A Skilled Assembler
+    descriptionEnglish: 'Successfully craft at least 30 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +0.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 0.8
+  - id: n.title.craft.05
+    displayName: "\u66AE\u3089\u3057\u306E\u4F5C\u308A\u624B"
+    description: "\u88FD\u4F5C\uFF1A60\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +1\u3002"
+    displayNameEnglish: Making Everyday Life
+    descriptionEnglish: 'Successfully craft at least 60 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +1.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 1
+  - id: n.title.craft.06
+    displayName: "\u767E\u54C1\u306E\u624B\u4ED5\u4E8B"
+    description: "\u88FD\u4F5C\uFF1A100\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +1.2\u3002"
+    displayNameEnglish: A Hundred Handcrafted Pieces
+    descriptionEnglish: 'Successfully craft at least 100 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +1.2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 1.2
+  - id: n.title.craft.07
+    displayName: "\u5DE5\u623F\u306E\u62C5\u3044\u624B"
+    description: "\u88FD\u4F5C\uFF1A250\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +1.4\u3002"
+    displayNameEnglish: Keeping the Workshop Alive
+    descriptionEnglish: 'Successfully craft at least 250 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +1.4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 1.4
+  - id: n.title.craft.08
+    displayName: "\u7CBE\u5DE7\u3092\u91CD\u306D\u308B\u8005"
+    description: "\u88FD\u4F5C\uFF1A500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +1.6\u3002"
+    displayNameEnglish: Refining the Details
+    descriptionEnglish: 'Successfully craft at least 500 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +1.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 1.6
+  - id: n.title.craft.09
+    displayName: "\u5343\u54C1\u306E\u7A4D\u307F\u91CD\u306D"
+    description: "\u88FD\u4F5C\uFF1A1000\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +1.8\u3002"
+    displayNameEnglish: A Thousand Pieces of Work
+    descriptionEnglish: 'Successfully craft at least 1,000 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +1.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 1.8
+  - id: n.title.craft.10
+    displayName: "\u7D42\u672B\u3092\u7D44\u307F\u76F4\u3059\u8005"
+    description: "\u88FD\u4F5C\uFF1A2500\u54C1\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u653B\u6483
+      +2\u3002"
+    displayNameEnglish: Rebuilding After the End
+    descriptionEnglish: 'Successfully craft at least 2,500 items. Once earned, this
+      title is normally retained.
+
+      Provisional equipped effect: Attack +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: successfulCraftCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 19
+      amount: 2
+  - id: n.title.trade.01
+    displayName: "\u306F\u3058\u3081\u3066\u306E\u53D6\u5F15"
+    description: "\u53D6\u5F15\uFF1A1\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Trade
+    descriptionEnglish: Complete at least 1 trades. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.trade.02
+    displayName: "\u58F2\u5E97\u306E\u9854\u306A\u3058\u307F"
+    description: "\u53D6\u5F15\uFF1A5\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Familiar Face at the Shop
+    descriptionEnglish: Complete at least 5 trades. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.trade.03
+    displayName: "\u4EA4\u63DB\u306E\u5FC3\u5F97"
+    description: "\u53D6\u5F15\uFF1A15\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.006\u3002"
+    displayNameEnglish: Learning the Exchange
+    descriptionEnglish: 'Complete at least 15 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.006.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 15
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.006
+  - id: n.title.trade.04
+    displayName: "\u5546\u8AC7\u306E\u805E\u304D\u624B"
+    description: "\u53D6\u5F15\uFF1A30\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.008\u3002"
+    displayNameEnglish: A Good Listener at the Counter
+    descriptionEnglish: 'Complete at least 30 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.008.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.008
+  - id: n.title.trade.05
+    displayName: "\u884C\u304D\u4EA4\u3046\u54C1\u3005"
+    description: "\u53D6\u5F15\uFF1A60\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.01\u3002"
+    displayNameEnglish: Goods on the Move
+    descriptionEnglish: 'Complete at least 60 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.01.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.01
+  - id: n.title.trade.06
+    displayName: "\u767E\u306E\u53D7\u3051\u6E21\u3057"
+    description: "\u53D6\u5F15\uFF1A100\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.012\u3002"
+    displayNameEnglish: A Hundred Handovers
+    descriptionEnglish: 'Complete at least 100 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.012.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.012
+  - id: n.title.trade.07
+    displayName: "\u54C1\u3092\u898B\u308B\u773C"
+    description: "\u53D6\u5F15\uFF1A250\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.014\u3002"
+    displayNameEnglish: An Eye for Goods
+    descriptionEnglish: 'Complete at least 250 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.014.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.014
+  - id: n.title.trade.08
+    displayName: "\u53D6\u5F15\u306E\u6A4B\u6E21\u3057"
+    description: "\u53D6\u5F15\uFF1A500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.016\u3002"
+    displayNameEnglish: A Bridge Between Traders
+    descriptionEnglish: 'Complete at least 500 trades. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.016.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.016
+  - id: n.title.trade.09
+    displayName: "\u5343\u306E\u5546\u8AC7"
+    description: "\u53D6\u5F15\uFF1A1000\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.018\u3002"
+    displayNameEnglish: A Thousand Deals
+    descriptionEnglish: 'Complete at least 1,000 trades. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.018.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.018
+  - id: n.title.trade.10
+    displayName: "\u6D41\u901A\u3092\u3064\u306A\u3050\u8005"
+    description: "\u53D6\u5F15\uFF1A2500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u901A\u8CA8\u7372\u5F97\u500D\u7387
+      +0.02\u3002"
+    displayNameEnglish: Keeping Goods in Circulation
+    descriptionEnglish: 'Complete at least 2,500 trades. Once earned, this title
+      is normally retained.
+
+      Provisional equipped effect: Currency gain multiplier
+      +0.02.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: completedTradeCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 35
+      amount: 0.02
+  - id: n.title.farming.01
+    displayName: "\u5C0F\u3055\u306A\u521D\u53CE\u7A6B"
+    description: "\u8FB2\u696D\uFF1A1\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: A Small First Harvest
+    descriptionEnglish: Harvest at least 1 crops. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.farming.02
+    displayName: "\u571F\u306B\u89E6\u308C\u308B\u624B"
+    description: "\u8FB2\u696D\uFF1A10\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Hands in the Soil
+    descriptionEnglish: Harvest at least 10 crops. Once earned, this title is normally
+      retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.farming.03
+    displayName: "\u7551\u306E\u898B\u5B88\u308A\u4EBA"
+    description: "\u8FB2\u696D\uFF1A30\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +1.5\u3002"
+    displayNameEnglish: A Watcher of the Fields
+    descriptionEnglish: 'Harvest at least 30 crops. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 1.5
+  - id: n.title.farming.04
+    displayName: "\u82BD\u5439\u304D\u306E\u76F8\u68D2"
+    description: "\u8FB2\u696D\uFF1A60\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2\u3002"
+    displayNameEnglish: A Partner to New Growth
+    descriptionEnglish: 'Harvest at least 60 crops. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2
+  - id: n.title.farming.05
+    displayName: "\u767E\u306E\u5B9F\u308A"
+    description: "\u8FB2\u696D\uFF1A100\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +2.5\u3002"
+    displayNameEnglish: A Hundred Fruits of Labor
+    descriptionEnglish: 'Harvest at least 100 crops. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 2.5
+  - id: n.title.farming.06
+    displayName: "\u5B63\u7BC0\u3092\u80B2\u3066\u308B\u8005"
+    description: "\u8FB2\u696D\uFF1A250\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3\u3002"
+    displayNameEnglish: Growing with the Seasons
+    descriptionEnglish: 'Harvest at least 250 crops. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3
+  - id: n.title.farming.07
+    displayName: "\u8C4A\u7A63\u306E\u624B\u5165\u308C"
+    description: "\u8FB2\u696D\uFF1A500\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +3.5\u3002"
+    displayNameEnglish: Tending Abundance
+    descriptionEnglish: 'Harvest at least 500 crops. Once earned, this title is normally
+      retained.
+
+      Provisional equipped effect: Max stamina +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 3.5
+  - id: n.title.farming.08
+    displayName: "\u5343\u306E\u53CE\u7A6B"
+    description: "\u8FB2\u696D\uFF1A1000\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4\u3002"
+    displayNameEnglish: A Thousand Harvested Crops
+    descriptionEnglish: 'Harvest at least 1,000 crops. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4
+  - id: n.title.farming.09
+    displayName: "\u7DD1\u3092\u5B88\u308B\u62C5\u3044\u624B"
+    description: "\u8FB2\u696D\uFF1A2500\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +4.5\u3002"
+    displayNameEnglish: A Steward of Green Life
+    descriptionEnglish: 'Harvest at least 2,500 crops. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 4.5
+  - id: n.title.farming.10
+    displayName: "\u8352\u5EC3\u306B\u5B9F\u308A\u3092\u706F\u3059\u8005"
+    description: "\u8FB2\u696D\uFF1A5000\u500B\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927\u30B9\u30BF\u30DF\u30CA
+      +5\u3002"
+    displayNameEnglish: A Harvest Amid the Ruins
+    descriptionEnglish: 'Harvest at least 5,000 crops. Once earned, this title is
+      normally retained.
+
+      Provisional equipped effect: Max stamina +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: harvestedCropCount
+      kind: 0
+      comparison: 0
+      number: 5000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 18
+      amount: 5
+  - id: n.title.pets.01
+    displayName: "\u306F\u3058\u3081\u3066\u306E\u304A\u4E16\u8A71"
+    description: "\u98FC\u80B2\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: The First Act of Care
+    descriptionEnglish: Personally care for animals at least 1 times. Once earned,
+      this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.pets.02
+    displayName: "\u5C0F\u3055\u306A\u53CB\u306E\u96A3"
+    description: "\u98FC\u80B2\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002"
+    displayNameEnglish: Beside a Small Friend
+    descriptionEnglish: Personally care for animals at least 10 times. Once earned,
+      this title is normally retained.
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.pets.03
+    displayName: "\u990C\u76BF\u306E\u7D04\u675F"
+    description: "\u98FC\u80B2\uFF1A30\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +1.5\u3002"
+    displayNameEnglish: A Promise at the Feeding Bowl
+    descriptionEnglish: 'Personally care for animals at least 30 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 1.5
+  - id: n.title.pets.04
+    displayName: "\u904A\u3073\u6642\u9593\u306E\u76F8\u68D2"
+    description: "\u98FC\u80B2\uFF1A60\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2\u3002"
+    displayNameEnglish: A Playtime Companion
+    descriptionEnglish: 'Personally care for animals at least 60 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 60
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2
+  - id: n.title.pets.05
+    displayName: "\u767E\u306E\u6C17\u9063\u3044"
+    description: "\u98FC\u80B2\uFF1A100\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2.5\u3002"
+    displayNameEnglish: A Hundred Kind Gestures
+    descriptionEnglish: 'Personally care for animals at least 100 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2.5
+  - id: n.title.pets.06
+    displayName: "\u306C\u304F\u3082\u308A\u306E\u5C45\u5834\u6240"
+    description: "\u98FC\u80B2\uFF1A250\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3\u3002"
+    displayNameEnglish: A Place of Warmth
+    descriptionEnglish: 'Personally care for animals at least 250 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 250
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3
+  - id: n.title.pets.07
+    displayName: "\u547D\u3092\u898B\u5B88\u308B\u624B"
+    description: "\u98FC\u80B2\uFF1A500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3.5\u3002"
+    displayNameEnglish: Hands That Watch Over Life
+    descriptionEnglish: 'Personally care for animals at least 500 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3.5
+  - id: n.title.pets.08
+    displayName: "\u5343\u306E\u3044\u305F\u308F\u308A"
+    description: "\u98FC\u80B2\uFF1A1000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4\u3002"
+    displayNameEnglish: A Thousand Acts of Care
+    descriptionEnglish: 'Personally care for animals at least 1,000 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 1000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4
+  - id: n.title.pets.09
+    displayName: "\u65E5\u3005\u3092\u5BC4\u308A\u6DFB\u3046\u8005"
+    description: "\u98FC\u80B2\uFF1A2500\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4.5\u3002"
+    displayNameEnglish: Sharing the Everyday
+    descriptionEnglish: 'Personally care for animals at least 2,500 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 2500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4.5
+  - id: n.title.pets.10
+    displayName: "\u5C0F\u3055\u306A\u547D\u306E\u5927\u304D\u306A\u5473\u65B9"
+    description: "\u98FC\u80B2\uFF1A5000\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +5\u3002"
+    displayNameEnglish: A Great Friend to Small Lives
+    descriptionEnglish: 'Personally care for animals at least 5,000 times. Once earned,
+      this title is normally retained.
+
+      Provisional equipped effect: Max MP
+      +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $self
+      variable: manualCareCount
+      kind: 0
+      comparison: 0
+      number: 5000
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 5
+  - id: n.title.social.01
+    displayName: "\u4EA4\u308F\u3057\u305F\u9023\u7D61\u5148"
+    description: "\u4EA4\u6D41\uFF1A1\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: The First Contact
+    descriptionEnglish: Register at least 1 friends. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.social.02
+    displayName: "\u4E8C\u3064\u306E\u7E01"
+    description: "\u4EA4\u6D41\uFF1A2\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: Two Connections
+    descriptionEnglish: Register at least 2 friends. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 2
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.social.03
+    displayName: "\u5C0F\u3055\u306A\u3064\u306A\u304C\u308A"
+    description: "\u4EA4\u6D41\uFF1A3\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +1.5\u3002"
+    displayNameEnglish: A Small Circle
+    descriptionEnglish: 'Register at least 3 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 3
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 1.5
+  - id: n.title.social.04
+    displayName: "\u8AC7\u8A71\u306E\u8F2A"
+    description: "\u4EA4\u6D41\uFF1A5\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2\u3002"
+    displayNameEnglish: A Circle of Conversation
+    descriptionEnglish: 'Register at least 5 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2
+  - id: n.title.social.05
+    displayName: "\u9854\u306E\u898B\u3048\u308B\u4EF2\u9593"
+    description: "\u4EA4\u6D41\uFF1A8\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2.5\u3002"
+    displayNameEnglish: Friends with Familiar Faces
+    descriptionEnglish: 'Register at least 8 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 8
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2.5
+  - id: n.title.social.06
+    displayName: "\u9023\u7D61\u5E33\u306E\u8CD1\u308F\u3044"
+    description: "\u4EA4\u6D41\uFF1A12\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3\u3002"
+    displayNameEnglish: A Lively Contact List
+    descriptionEnglish: 'Register at least 12 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 12
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3
+  - id: n.title.social.07
+    displayName: "\u5E83\u304C\u308B\u4EA4\u53CB"
+    description: "\u4EA4\u6D41\uFF1A20\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3.5\u3002"
+    displayNameEnglish: An Expanding Circle
+    descriptionEnglish: 'Register at least 20 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3.5
+  - id: n.title.social.08
+    displayName: "\u30DB\u30C6\u30EB\u306E\u3064\u306A\u304E\u5F79"
+    description: "\u4EA4\u6D41\uFF1A30\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4\u3002"
+    displayNameEnglish: Bringing the Hotel Together
+    descriptionEnglish: 'Register at least 30 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 30
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4
+  - id: n.title.social.09
+    displayName: "\u4E94\u5341\u306E\u7E01"
+    description: "\u4EA4\u6D41\uFF1A50\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4.5\u3002"
+    displayNameEnglish: Fifty Connections
+    descriptionEnglish: 'Register at least 50 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4.5
+  - id: n.title.social.10
+    displayName: "\u7D42\u672B\u306B\u7E01\u3092\u7D50\u3076\u8005"
+    description: "\u4EA4\u6D41\uFF1A80\u4EBA\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +5\u3002"
+    displayNameEnglish: Forging Bonds After the End
+    descriptionEnglish: 'Register at least 80 friends. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: registeredFriendCount
+      kind: 0
+      comparison: 0
+      number: 80
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 5
+  - id: n.title.knowledge.01
+    displayName: "\u6700\u521D\u306E\u8A18\u9332"
+    description: "\u8A18\u9332\uFF1A1\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: The First Record
+    descriptionEnglish: Archive at least 1 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.knowledge.02
+    displayName: "\u30E1\u30E2\u3092\u62FE\u3046\u4EBA"
+    description: "\u8A18\u9332\uFF1A3\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: A Collector of Notes
+    descriptionEnglish: Archive at least 3 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 3
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.knowledge.03
+    displayName: "\u5341\u7BC7\u306E\u624B\u304C\u304B\u308A"
+    description: "\u8A18\u9332\uFF1A10\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +1.5\u3002"
+    displayNameEnglish: Ten Pieces of Evidence
+    descriptionEnglish: 'Archive at least 10 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +1.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 1.5
+  - id: n.title.knowledge.04
+    displayName: "\u8A18\u9332\u306E\u8AAD\u307F\u624B"
+    description: "\u8A18\u9332\uFF1A20\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2\u3002"
+    displayNameEnglish: A Reader of Records
+    descriptionEnglish: 'Archive at least 20 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2
+  - id: n.title.knowledge.05
+    displayName: "\u8CC7\u6599\u3092\u305F\u3069\u308B\u8005"
+    description: "\u8A18\u9332\uFF1A35\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +2.5\u3002"
+    displayNameEnglish: Following the Documents
+    descriptionEnglish: 'Archive at least 35 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +2.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 35
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 2.5
+  - id: n.title.knowledge.06
+    displayName: "\u5C0F\u3055\u306A\u8CC7\u6599\u5EAB"
+    description: "\u8A18\u9332\uFF1A50\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3\u3002"
+    displayNameEnglish: A Small Archive
+    descriptionEnglish: 'Archive at least 50 documents. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +3.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3
+  - id: n.title.knowledge.07
+    displayName: "\u767E\u7BC7\u306E\u77E5\u8B58"
+    description: "\u8A18\u9332\uFF1A100\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +3.5\u3002"
+    displayNameEnglish: A Hundred Pieces of Knowledge
+    descriptionEnglish: 'Archive at least 100 documents. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +3.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 100
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 3.5
+  - id: n.title.knowledge.08
+    displayName: "\u8A18\u9332\u3092\u7DE8\u3080\u8005"
+    description: "\u8A18\u9332\uFF1A200\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4\u3002"
+    displayNameEnglish: Weaving the Records Together
+    descriptionEnglish: 'Archive at least 200 documents. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 200
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4
+  - id: n.title.knowledge.09
+    displayName: "\u5FD8\u5374\u306B\u6297\u3046\u66F8\u67B6"
+    description: "\u8A18\u9332\uFF1A350\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +4.5\u3002"
+    displayNameEnglish: A Library Against Oblivion
+    descriptionEnglish: 'Archive at least 350 documents. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +4.5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 350
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 4.5
+  - id: n.title.knowledge.10
+    displayName: "\u4E16\u754C\u3092\u8AAD\u307F\u89E3\u304F\u96A3\u4EBA"
+    description: "\u8A18\u9332\uFF1A500\u4EF6\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u6700\u5927MP
+      +5\u3002"
+    displayNameEnglish: A Neighbor Who Reads the World
+    descriptionEnglish: 'Archive at least 500 documents. Once earned, this title
+      is normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Max MP +5.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: archivedDocumentCount
+      kind: 0
+      comparison: 0
+      number: 500
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 16
+      amount: 5
+  - id: n.title.camp.01
+    displayName: "\u306F\u3058\u3081\u3066\u306E\u91CE\u55B6"
+    description: "\u91CE\u55B6\uFF1A1\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: The First Camp
+    descriptionEnglish: Complete at least 1 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 1
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.camp.02
+    displayName: "\u711A\u304D\u706B\u306E\u96A3"
+    description: "\u91CE\u55B6\uFF1A3\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002"
+    displayNameEnglish: Beside the Campfire
+    descriptionEnglish: Complete at least 3 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 3
+      text: 
+    revokeConditions: []
+    effects: []
+  - id: n.title.camp.03
+    displayName: "\u4E94\u591C\u306E\u8A2D\u55B6"
+    description: "\u91CE\u55B6\uFF1A5\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +0.6\u3002"
+    displayNameEnglish: Five Camps Made
+    descriptionEnglish: 'Complete at least 5 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +0.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 5
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 0.6
+  - id: n.title.camp.04
+    displayName: "\u5916\u57DF\u306E\u4F11\u307F\u51E6"
+    description: "\u91CE\u55B6\uFF1A10\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +0.8\u3002"
+    displayNameEnglish: A Resting Place in the Outlands
+    descriptionEnglish: 'Complete at least 10 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +0.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 10
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 0.8
+  - id: n.title.camp.05
+    displayName: "\u7D50\u754C\u306E\u5185\u306E\u5B89\u3089\u304E"
+    description: "\u91CE\u55B6\uFF1A20\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1\u3002"
+    displayNameEnglish: Peace Within the Barrier
+    descriptionEnglish: 'Complete at least 20 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 20
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1
+  - id: n.title.camp.06
+    displayName: "\u64A4\u53CE\u4E0A\u624B"
+    description: "\u91CE\u55B6\uFF1A35\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.2\u3002"
+    displayNameEnglish: A Clean Pack-Up
+    descriptionEnglish: 'Complete at least 35 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 35
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.2
+  - id: n.title.camp.07
+    displayName: "\u661F\u660E\u304B\u308A\u306E\u5E38\u9023"
+    description: "\u91CE\u55B6\uFF1A50\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.4\u3002"
+    displayNameEnglish: A Regular Under Starlight
+    descriptionEnglish: 'Complete at least 50 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.4.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 50
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.4
+  - id: n.title.camp.08
+    displayName: "\u8352\u91CE\u306E\u5BBF\u3065\u304F\u308A"
+    description: "\u91CE\u55B6\uFF1A80\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.6\u3002"
+    displayNameEnglish: Making Shelter in the Wasteland
+    descriptionEnglish: 'Complete at least 80 camps. Once earned, this title is normally
+      retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.6.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 80
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.6
+  - id: n.title.camp.09
+    displayName: "\u65C5\u306E\u4EEE\u4F4F\u307E\u3044"
+    description: "\u91CE\u55B6\uFF1A120\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +1.8\u3002"
+    displayNameEnglish: A Home Along the Road
+    descriptionEnglish: 'Complete at least 120 camps. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +1.8.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 120
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 1.8
+  - id: n.title.camp.10
+    displayName: "\u5371\u3046\u3044\u4E16\u754C\u306E\u7A4F\u3084\u304B\u306A\u591C"
+    description: "\u91CE\u55B6\uFF1A200\u56DE\u4EE5\u4E0A\u3002\u4E00\u5EA6\u7372\u5F97\u3057\u305F\u79F0\u53F7\u306F\u901A\u5E38\u5931\u308F\u308C\u307E\u305B\u3093\u3002\u3010\u63A5\u7D9A\u5F85\u3061\u3011\u5C02\u7528\u5B9F\u7E3E\u30AB\u30A6\u30F3\u30BF\u30FC\u306E\u63A5\u7D9A\u5F8C\u306B\u81EA\u52D5\u5224\u5B9A\u3057\u307E\u3059\u3002\n\u88C5\u7740\u52B9\u679C\uFF08\u4EEE\uFF09\uFF1A\u9632\u5FA1
+      +2\u3002"
+    displayNameEnglish: A Quiet Night in a Perilous World
+    descriptionEnglish: 'Complete at least 200 camps. Once earned, this title is
+      normally retained. [Awaiting connection to the activity counter.]
+
+      Provisional
+      equipped effect: Defense +2.'
+    allowReacquisition: 1
+    grantAny: 0
+    revokeAny: 0
+    grantConditions:
+    - sourceKey: $pending
+      variable: completedCampCount
+      kind: 0
+      comparison: 0
+      number: 200
+      text: 
+    revokeConditions: []
+    effects:
+    - mode: 1
+      target: 20
+      amount: 2
