@@ -2,7 +2,7 @@
 
 目的別に、N.Worldsの設計・実装・検証で参照できる公開URLを整理します。
 
-- Last reviewed: 2026-10-12
+- Last reviewed: 2026-11-21
 - Rule: すべてのURLに、何の参照・参考かを一言添える
 - Scope: 参考・比較用。導入やコード流用は各参照メモとライセンス確認を経て別途判断する
 
@@ -15,6 +15,12 @@
 - [VRChat World作成の公式基準] [VRChat Creator Docs](https://github.com/vrchat-community/creator-docs) — SDK、Udon、Worldの公式仕様・制約を確認する。
 - [Udon GraphのPlayModeとBuild & Testの違い] [Creator Docs: Udon Graph](https://github.com/vrchat-community/creator-docs/blob/main/Docs/docs/worlds/udon/graph/index.md) — Editor内テストとVRChat実行テストを分ける参考。
 - [新規VRChat Worldの初期構成] [VRChat Community template-world](https://github.com/vrchat-community/template-world) — UdonSharp付きWorldプロジェクトの最小構成を確認する。ライセンスはVRChat SDK利用条件に従う。
+
+## Agent Skills・Unity連携（2026-11-21）
+
+- [Unity公式のUnity開発Skill索引] [Unity-Technologies/unity-agent-plugin](https://github.com/Unity-Technologies/unity-agent-plugin) — Unity開発用の`using-unity` Skillと分野別参照の索引。CodexへSkill本体を導入済み。Unity Editor用プラグイン本体は未導入で、VRChat/Udonの制約は別途確認する。
+- [UdonSharpとWorld SDKのSkill群] [niaka3dayo/agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon) — UdonSharpの制約・同期・World構成の参考。`unity-vrc-udon-sharp`と`unity-vrc-world-sdk-3`をCodexへ導入済み。検証hookは未実行。記載するSDK 3.10.6と現プロジェクトの版差に注意。
+- [Codex向けUdon開発Skill集] [sechiro/VRCUdonSkills-for-Codex](https://github.com/sechiro/VRCUdonSkills-for-Codex) — 再利用モジュール、同期、Persistence、UI、重いRuntime、Unity MCPなどの設計参考。公開`skills/`配下の12件をCodexへ導入済み。プロジェクトへのコード・設定の自動適用は行わない。
 
 ## World作成・Editor支援
 
@@ -83,7 +89,7 @@ YouTubeは、チャンネル、公開日、該当タイムスタンプ、説明�
 
 ### UdonSharp用Skills
 
-- [UdonSharpのVRChat Worldギミック作成Skillsの参考] [niaka3dayo/agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon) — 公開ページ確認済み。UdonSharp生成を支援するSkills・rules・validation hooksの比較候補。個別SKILL.md・スクリプト・ライセンス・既存Naturlin規則との衝突は未確認。未インストール。
+- [UdonSharpのVRChat Worldギミック作成Skillsの参考] [niaka3dayo/agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon) — 公開ページ確認済み。UdonSharp生成を支援するSkills・rules・validation hooksの比較候補。個別Skillの採用時は現プロジェクトのSDK版とNaturlin規則を照合する。上記2件は2026-11-21に導入済み。
 
 ### 確認・反映の順序
 
